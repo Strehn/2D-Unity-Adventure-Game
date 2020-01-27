@@ -1,2 +1,2 @@
-# CS-383-Test
-Practice Repositiory
+# CS-383-Project
+Group Repositiory
