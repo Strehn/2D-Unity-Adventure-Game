@@ -1,0 +1,10 @@
+﻿How to implement player controls:
+
+Menus
+* need to constantly be looking for user input for player to press menu key
+
+Object
+- Player
+    * need to set up boundaries
+    * need to add in controls to WSAD
+    * 
