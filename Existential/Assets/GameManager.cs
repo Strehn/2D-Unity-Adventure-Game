@@ -7,6 +7,10 @@ public class GameManager : MonoBehaviour
     //Sydney
     public static Vector2 bottomLeft;
     public static Vector2 topRight;
+    
+    // Isabel 
+    public Player MainCharacter;
+
 
     // Start is called before the first frame update
     void Start()
