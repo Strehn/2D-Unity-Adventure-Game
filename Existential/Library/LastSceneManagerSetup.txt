@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/BeginScene.unity
+- path: Assets/2-Tori/Inventory Menu.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
