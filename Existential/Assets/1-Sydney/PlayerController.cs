@@ -17,10 +17,10 @@ public class CompletePlayerController : MonoBehaviour{
     // This is where physics calculation happens
     void FixedUpdate(){
         //Store the current horizontal input in the float moveHorizontal.
-        float moveHorizontal = Input.GetAxis ("PlayerRL");  // Isabel
+        float moveHorizontal = Input.GetAxis ("Horizontal");  // Isabel
 
         //Store the current vertical input in the float moveVertical.
-        float moveVertical = Input.GetAxis ("PlayerUD");  // Isabel
+        float moveVertical = Input.GetAxis ("Vertical");  // Isabel
 
         //Use the two store floats to create a new Vector2 variable movement.
         Vector2 movement = new Vector2 (moveHorizontal, moveVertical);
