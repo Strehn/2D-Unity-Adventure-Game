@@ -1,10 +1,5 @@
-﻿How to implement player controls:
+How to implement player controls:
 
-Menus
-* need to constantly be looking for user input for player to press menu key
+PlayerController: 
 
-Object
-- Player
-    * need to set up boundaries
-    * need to add in controls to WSAD
-    * 
+Needs to be attached as a script component to the player game object
