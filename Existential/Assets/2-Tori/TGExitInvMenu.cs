@@ -2,30 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
-public class InventoryDisplay : MonoBehaviour
+public class TGExitInvMenu : MonoBehaviour
 {
-    public int inventory = 0;
-    public Text inventoryText;
     // Start is called before the first frame update
     void Start()
     {
-    
+        
     }
 
     // Update is called once per frame
     public void Update()
     {
-        inventoryText.text = "INVENTORY : " + inventory;
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            inventory++;
+            // TODO: change depending what level they came from
+            SceneManager.LoadScene(3);
         }
-    }
-
-    public void additem()
-    {
-        inventory++;
-        this.Update();
+        
     }
 }
