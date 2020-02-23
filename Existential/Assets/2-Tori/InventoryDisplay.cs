@@ -10,7 +10,9 @@ public class InventoryDisplay : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-    
+        GameObject gameObjectInv = GameObject.Find("InventoryTotal");
+        inventoryText = gameObjectInv.GetComponent<Text>();
+
     }
 
     // Update is called once per frame
