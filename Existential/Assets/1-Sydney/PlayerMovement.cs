@@ -24,8 +24,6 @@ public class PlayerMovement : MonoBehaviour
 
     public void Init(bool isMainCharacter)
 	{
-		isRight = isMainCharacter;
-
 	 	Vector2 pos = Vector2.zero;
 
 		input = "PlayerMovement";
