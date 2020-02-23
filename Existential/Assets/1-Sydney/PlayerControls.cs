@@ -4,15 +4,33 @@ using UnityEngine;
 
 public class PlayerControls : MonoBehaviour
 {
+    public static Vector2 bottomLeft;
+    public static Vector2 topRight;
+
+
     // Start is called before the first frame update
     void Start()
     {
-        //Dont think I need anything here
+        // Convert screen's pixel coordinate into game's coordinate 
+       bottomLeft = Camera.main.ScreenToWorldPoint (new Vector2(0,0));
+       topRight = Camera.main.ScreenToWorldPoint (new Vector2(Screen.width, Screen.height));
     }
 
     // Update is called once per frame
     void Update()
     {
+	// ----- PLAYER MOVEMENT -----
+	// if Input.GetKey("w")){
+	//PlayerMovement
+
+	// if Input.GetKey("s")){
+	//PlayerMovement
+
+	// if Input.GetKey("a")){
+	//PlayerMovement
+
+	// if Input.GetKey("d")){
+	//PlayerMovement
 
 	//Call Scripts
 		//PlayerMovement
