@@ -5,20 +5,17 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     //Sydney
-    //Here is where objects will be declared
-    //Examples:
-
-    //public Character maincharacter;
-    
+    public static Vector2 bottomLeft;
+    public static Vector2 topRight;
 
     // Start is called before the first frame update
     void Start()
     {
-        //Sydney
-   	//Here is where objects will be instantiated
-    	//Examples:
+	//Sydney
+        // Convert screen's pixel coordinate into game's coordinate 
+       bottomLeft = Camera.main.ScreenToWorldPoint (new Vector2(0,0));
+       topRight = Camera.main.ScreenToWorldPoint (new Vector2(Screen.width, Screen.height));
 
-	//Instantiate (object);
     }
 
     // Update is called once per frame
