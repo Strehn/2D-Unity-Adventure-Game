@@ -8,20 +8,24 @@ public class InventoryDisplay : MonoBehaviour
     public int inventory = 0;
     public Text inventoryText;
     public Camera cam;
-    bool ishit = false;
+    public List<GameObject> inventoryList;
+   
     // Start is called before the first frame update
     void Start()
     {
         GameObject gameObjectInv = GameObject.Find("InventoryTotal");
         inventoryText = gameObjectInv.GetComponent<Text>();
         cam = GetComponent<Camera>();
+        // TODO: link drop item button from inv menu to this 
+        // so that objects reappear when dropped
+        GameObject.Find("apple").SetActive(true);
+        GameObject.Find("axe").SetActive(true);
     }
 
     // Update is called once per frame
     public void Update()
     {
-        
-        inventoryText.text = "INVENTORY : " + inventory;
+        inventoryText.text = "INVENTORY : " + inventoryList.Count;
         RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
         if (Input.GetKeyDown(KeyCode.Space))
         {
@@ -30,13 +34,60 @@ public class InventoryDisplay : MonoBehaviour
         if (hit.collider != null)
         {
             Debug.Log("Target Position: " + hit.collider.gameObject.transform.position);
-            
-            ishit = true;
-            Debug.Log(hit.collider.gameObject);
-            hit.collider.gameObject.SetActive(false);
-            inventory++;
+            if(hit.collider.gameObject == GameObject.Find("apple"))
+            {
+                Debug.Log(hit.collider.gameObject);
+                hit.collider.gameObject.SetActive(false);
+                inventory++;
+            }
+            if (hit.collider.gameObject == GameObject.Find("apple"))
+            {
+                Debug.Log(hit.collider.gameObject);
+                hit.collider.gameObject.SetActive(false);
+                inventory = inventory + 1;
+                Debug.Log("updated inv" + inventory);
+                inventoryList.Add(hit.collider.gameObject);
+            }
+            if (hit.collider.gameObject == GameObject.Find("axe"))
+            {
+                Debug.Log(hit.collider.gameObject);
+                hit.collider.gameObject.SetActive(false);
+                inventory = inventory + 1;
+                Debug.Log("updated inv" + inventory);
+                inventoryList.Add(hit.collider.gameObject);
+            }
+
         }
         
     }
+/*
+    public void FixedUpdate()
+    {
+        inventoryText.text = "INVENTORY : " + inventory;
+        RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
+        if (hit.collider != null)
+        {
+            Debug.Log("Target Position: " + hit.collider.gameObject.transform.position);
+            if (hit.collider.gameObject == GameObject.Find("apple"))
+            {
+                Debug.Log(hit.collider.gameObject);
+                hit.collider.gameObject.SetActive(false);
+                inventory = inventory+1;
+                Debug.Log("updated inv" + inventory);
+                inventoryList.Add(hit.collider.gameObject);
+            }
+            if (hit.collider.gameObject == GameObject.Find("axe"))
+            {
+                Debug.Log(hit.collider.gameObject);
+                hit.collider.gameObject.SetActive(false);
+                inventory = inventory + 1;
+                Debug.Log("updated inv" + inventory);
+                inventoryList.Add(hit.collider.gameObject);
+            }
+
+        }
+
+    }
+    */
 
 }
