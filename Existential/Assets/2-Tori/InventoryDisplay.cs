@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class InventoryDisplay : MonoBehaviour
 {
-    public int inventory = 0;
+    //public int inventory = 0;
     public Text inventoryText;
     public Camera cam;
     public List<GameObject> inventoryList;
@@ -26,11 +26,8 @@ public class InventoryDisplay : MonoBehaviour
     public void Update()
     {
         inventoryText.text = "INVENTORY : " + inventoryList.Count;
+        Debug.Log(inventoryList.Count);
         RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            inventory++;
-        }
         if (hit.collider != null)
         {
             Debug.Log("Target Position: " + hit.collider.gameObject.transform.position);
@@ -38,56 +35,23 @@ public class InventoryDisplay : MonoBehaviour
             {
                 Debug.Log(hit.collider.gameObject);
                 hit.collider.gameObject.SetActive(false);
-                inventory++;
+                inventoryList.Add(hit.collider.gameObject);
             }
             if (hit.collider.gameObject == GameObject.Find("apple"))
             {
                 Debug.Log(hit.collider.gameObject);
                 hit.collider.gameObject.SetActive(false);
-                inventory = inventory + 1;
-                Debug.Log("updated inv" + inventory);
                 inventoryList.Add(hit.collider.gameObject);
             }
             if (hit.collider.gameObject == GameObject.Find("axe"))
             {
                 Debug.Log(hit.collider.gameObject);
                 hit.collider.gameObject.SetActive(false);
-                inventory = inventory + 1;
-                Debug.Log("updated inv" + inventory);
                 inventoryList.Add(hit.collider.gameObject);
             }
 
         }
         
     }
-/*
-    public void FixedUpdate()
-    {
-        inventoryText.text = "INVENTORY : " + inventory;
-        RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
-        if (hit.collider != null)
-        {
-            Debug.Log("Target Position: " + hit.collider.gameObject.transform.position);
-            if (hit.collider.gameObject == GameObject.Find("apple"))
-            {
-                Debug.Log(hit.collider.gameObject);
-                hit.collider.gameObject.SetActive(false);
-                inventory = inventory+1;
-                Debug.Log("updated inv" + inventory);
-                inventoryList.Add(hit.collider.gameObject);
-            }
-            if (hit.collider.gameObject == GameObject.Find("axe"))
-            {
-                Debug.Log(hit.collider.gameObject);
-                hit.collider.gameObject.SetActive(false);
-                inventory = inventory + 1;
-                Debug.Log("updated inv" + inventory);
-                inventoryList.Add(hit.collider.gameObject);
-            }
-
-        }
-
-    }
-    */
 
 }
