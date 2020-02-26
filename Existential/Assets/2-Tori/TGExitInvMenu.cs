@@ -18,8 +18,11 @@ public class TGExitInvMenu : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             // TODO: change depending what level they came from
-            SceneManager.LoadScene(3);
+            SceneManager.LoadScene(1);
         }
-        
+        if (Input.GetKey("escape")){
+            Application.Quit();
+        }
+  
     }
 }

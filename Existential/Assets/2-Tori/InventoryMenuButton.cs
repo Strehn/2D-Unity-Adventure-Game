@@ -8,8 +8,9 @@ public class InventoryMenuButton : MonoBehaviour
     public void OnMouseDown()
     {
         Debug.Log("Going to inventory screen");
-        SceneManager.LoadScene(1);
-        // Will add scene later SceneManager.LoadScene();
+        SceneManager.LoadScene(2);
     }
+
+
 
 }

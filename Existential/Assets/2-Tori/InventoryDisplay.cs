@@ -28,8 +28,9 @@ public class InventoryDisplay : MonoBehaviour
     // Update is called once per frame
     public void Update()
     {
-        
-        
+         if (Input.GetKey("escape")){
+            Application.Quit();
+        }
         inventoryText.text = "INVENTORY : " + inventoryList.Count;
         RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
         if (hit.collider != null)
