@@ -2,11 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+
+    This is the script for main character. It allows the player to move the main    
+    character. It needs to be attached to the main character sprite. 
+
+*/
+
 public class CompletePlayerController : MonoBehaviour{
-    public float speed;                //variable to store the player's movement speed.
+    //variable to store the player's movement speed.
+    public float speed;                
 
-    private Rigidbody2D rb2d;        //required to use 2D Physics.
-
+    //required to use 2D Physics.
+    private Rigidbody2D rb2d;    
+   
     // Use this for initialization
     void Start(){
         //Get and store a reference to the Rigidbody2D component so that we can access it.
