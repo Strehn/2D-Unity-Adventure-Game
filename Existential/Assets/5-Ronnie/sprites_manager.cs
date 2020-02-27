@@ -2,13 +2,23 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class sprites_manager : MonoBehaviour
-{
+public class sprites_manager : MonoBehaviour {
+    //water game objects, create an array of water objects
     public GameObject[] waters;
     public GameObject water;
+
+    //water sprites
+    public Sprite water1;
+    public Sprite water2;
+
+    //determine time to swap out sprites
+    private float time;
+    private bool timer;
+
     // Start is called before the first frame update
-    void Start()
-    {
+    void Start() {
+        time = Time.time + 1f;
+        timer = false;
         waters = new GameObject[11];
         //bottom level water tiles
         waters[0] = Instantiate(water, new Vector3(-4.5f, -4.5f, 0.0f), transform.rotation) as GameObject;
@@ -31,8 +41,27 @@ public class sprites_manager : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-
+    void Update() {
+        if(!timer) {
+            for(int i = 0; i < 11; i++) {
+                this.waters[i].GetComponent<SpriteRenderer>().sprite = water2;
+            }
+            if(Time.time >= time)
+            {
+                timer = true;
+                time += 1f;
+            }
+        }
+        else {
+            for (int i = 0; i < 11; i++) {
+                this.waters[i].GetComponent<SpriteRenderer>().sprite = water1;
+            }
+            if(Time.time >= time)
+            {
+                timer = false;
+                time += 1f;
+            }
+        }
+        
     }
 }
