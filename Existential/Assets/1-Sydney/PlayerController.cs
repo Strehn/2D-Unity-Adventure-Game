@@ -9,7 +9,7 @@ using UnityEngine;
 
 */
 
-public class CompletePlayerController : MonoBehaviour{
+public class PlayerController : MonoBehaviour{
     //variable to store the player's movement speed.
     public float speed;                
 
