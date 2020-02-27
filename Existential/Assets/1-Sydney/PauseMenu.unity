@@ -389,7 +389,7 @@ GameObject:
   - component: {fileID: 499497282}
   - component: {fileID: 499497281}
   m_Layer: 5
-  m_Name: OptionsButton
+  m_Name: GoToMainMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -458,9 +458,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 11500000, guid: 75decaaeb3f574f9dbd9d00138da535e, type: 3}
+        m_MethodName: 
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -527,7 +527,7 @@ GameObject:
   - component: {fileID: 532127141}
   - component: {fileID: 532127142}
   m_Layer: 5
-  m_Name: MainMenu
+  m_Name: PauseMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -652,7 +652,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 11500000, guid: a8fbd982c017f428dbfebdf1f108c322, type: 3}
         m_MethodName: 
         m_Mode: 1
         m_Arguments:
@@ -1252,7 +1252,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Options
+  m_Text: Main Menu
 --- !u!222 &1752095189
 CanvasRenderer:
   m_ObjectHideFlags: 0
