@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/3-Sam/MainMenu.unity
+- path: Assets/Scenes/BeginScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
