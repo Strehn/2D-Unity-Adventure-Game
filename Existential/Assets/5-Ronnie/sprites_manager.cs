@@ -1,4 +1,8 @@
-﻿using System.Collections;
+﻿/* Ronnie Keating
+ * Instantiate every object and animation script
+ * Studio BlueBox
+ */
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,6 +10,12 @@ public class sprites_manager : MonoBehaviour {
     //water game objects, create an array of water objects
     public GameObject[] waters;
     public GameObject water;
+
+    //border objects
+    public GameObject RightX;
+    public GameObject LeftX;
+    public GameObject TopY;
+    public GameObject BottomY;
 
     //water sprites
     public Sprite water1;
@@ -27,7 +37,6 @@ public class sprites_manager : MonoBehaviour {
         waters[3] = Instantiate(water, new Vector3(-3.3f, -4.5f, 0.0f), transform.rotation);
         waters[4] = Instantiate(water, new Vector3(-2.9f, -4.5f, 0.0f), transform.rotation);
 
-
         //Second level water tiles
         waters[5] = Instantiate(water, new Vector3(-4.5f, -4.1f, 0.0f), transform.rotation);
         waters[6] = Instantiate(water, new Vector3(-4.1f, -4.1f, 0.0f), transform.rotation);
@@ -37,6 +46,11 @@ public class sprites_manager : MonoBehaviour {
         //Top level water tiles
         waters[9] = Instantiate(water, new Vector3(-4.5f, -3.7f, 0.0f), transform.rotation);
         waters[10] = Instantiate(water, new Vector3(-4.1f, -3.7f, 0.0f), transform.rotation);
+
+        Instantiate(RightX);
+        Instantiate(LeftX);
+        Instantiate(TopY);
+        Instantiate(BottomY);
 
     }
 
