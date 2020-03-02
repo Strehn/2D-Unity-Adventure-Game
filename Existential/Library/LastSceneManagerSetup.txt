@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/1-Sydney/SydneyScene.unity
+- path: Assets/Scenes/BeginScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
