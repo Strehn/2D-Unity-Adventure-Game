@@ -23,6 +23,7 @@ public class InventoryDisplay : MonoBehaviour
         // so that objects reappear when dropped
         GameObject.Find("apple").SetActive(true);
         GameObject.Find("axe").SetActive(true);
+        GameObject.Find("axe1").SetActive(true);
     }
 
     // Update is called once per frame
@@ -45,6 +46,13 @@ public class InventoryDisplay : MonoBehaviour
                 
             }
             if (hit.collider.gameObject == GameObject.Find("axe"))
+            {
+                Debug.Log(hit.collider.gameObject);
+                hit.collider.gameObject.SetActive(false);
+                inventoryList.Add(hit.collider.gameObject);
+                StartCoroutine(ShowTextPopup(hit.collider.gameObject, 2));
+            }
+            if (hit.collider.gameObject == GameObject.Find("axe1"))
             {
                 Debug.Log(hit.collider.gameObject);
                 hit.collider.gameObject.SetActive(false);
