@@ -31,7 +31,7 @@ public class sprites_manager : MonoBehaviour {
         timer = false;
         waters = new GameObject[11];
         //bottom level water tiles
-        waters[0] = Instantiate(water, new Vector3(-4.5f, -4.5f, 0.0f), transform.rotation) as GameObject;
+        waters[0] = Instantiate(water, new Vector3(-4.5f, -4.5f, 0.0f), transform.rotation);
         waters[1] = Instantiate(water, new Vector3(-4.1f, -4.5f, 0.0f), transform.rotation);
         waters[2] = Instantiate(water, new Vector3(-3.7f, -4.5f, 0.0f), transform.rotation);
         waters[3] = Instantiate(water, new Vector3(-3.3f, -4.5f, 0.0f), transform.rotation);
