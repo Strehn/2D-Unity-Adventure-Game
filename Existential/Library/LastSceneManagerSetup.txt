@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/2-Tori/ToriScene.unity
+=======
+- path: Assets/1-Sydney/Scenes/SydneyScene.unity
+>>>>>>> 2e75b957439919a4c6d0ecf69c53477efc936067
   isLoaded: 1
   isActive: 1
   isSubScene: 0
