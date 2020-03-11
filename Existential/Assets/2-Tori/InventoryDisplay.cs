@@ -1,10 +1,35 @@
-﻿using System.Collections;
+﻿// WILL BE DEPRECATED
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class InventoryDisplay : MonoBehaviour
 {
+    public Inventory inventory;
+    public Camera cam;
+
+    public void Start(){
+        cam = GetComponent<Camera>();
+    }
+
+    public void Update(){
+        RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
+        //IInventoryItem item = hit.collider.GetComponent<IInventoryItem>();
+        // IInventoryItem item = hit.collider.GetComponent<IInventoryItem>();
+        if(hit.collider != null)
+        {
+            IInventoryItem item = hit.collider.GetComponent<IInventoryItem>();
+            if(item != null)
+            {
+                inventory.AddItem(item);
+            }
+        }
+    
+    }
+
+    /*
     public Text inventoryText;
     public Text itemPickupText;
     public Camera cam;
@@ -71,5 +96,6 @@ public class InventoryDisplay : MonoBehaviour
         yield return new WaitForSeconds(delay);
         itemPickupText.enabled = false;
     }
-
+    */
 }
+
