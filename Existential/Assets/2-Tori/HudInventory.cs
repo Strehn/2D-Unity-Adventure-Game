@@ -10,15 +10,16 @@ public class HudInventory : MonoBehaviour
 
     // Start is called before the first frame update
     void Start(){
-        Inventory.ItemAdded += Inventory_ItemAdded;
+        //Inventory.ItemAdded += Inventory_ItemAdded;
     }
 
     private void Inventory_ItemAdded(object sender, InventoryEventArgs e){
         Transform inventoryPanel = transform.Find("Invenory");
-        foreach(Transform slot in inventoryPanel)
+        //Debug.Log(inventoryPanel.GetComponent<Transform>());
+        foreach(Transform itemSlot in inventoryPanel)
         {
-            Image image = slot.GetChild(0).GetComponent<Image>();
-
+            //Image image = itemSlot.GetChild(0).GetComponent<Image>();
+            Image image = itemSlot.GetComponent<Image>();
             if (!image.enabled)
             {
                 image.enabled = true;
@@ -29,6 +30,6 @@ public class HudInventory : MonoBehaviour
     }
     // Update is called once per frame
     void Update(){
-        
+        Inventory.ItemAdded += Inventory_ItemAdded;
     }
 }

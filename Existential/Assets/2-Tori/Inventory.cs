@@ -13,7 +13,7 @@ public class Inventory : MonoBehaviour
     public void AddItem(IInventoryItem item)
     {
         if(inventoryList.Count < MAXITEMS){
-            Collider collider = (item as MonoBehaviour).GetComponent<Collider>();
+            Collider2D collider = (item as MonoBehaviour).GetComponent<Collider2D>();
             if (collider.enabled){
                 collider.enabled = false;
                 inventoryList.Add(item);
