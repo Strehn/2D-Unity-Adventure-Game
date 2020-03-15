@@ -457,10 +457,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3310f23263c368d4296b18e55ff9578f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inventoryText: {fileID: 1700353438}
-  itemPickupText: {fileID: 0}
+  inventory: {fileID: 0}
   cam: {fileID: 127976349}
-  inventoryList: []
 --- !u!222 &141301216
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -654,7 +652,7 @@ GameObject:
   - component: {fileID: 231760523}
   m_Layer: 0
   m_Name: Ground
-  m_TagString: Untagged
+  m_TagString: grass
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15395,16 +15393,6 @@ MonoBehaviour:
   moveLeft: 276
   moveRight: 275
   controller: {fileID: 0}
-  town: []
-  wood: []
-  snow:
-  - {fileID: 8300000, guid: b81f6da568b9444b69d5a194a437514f, type: 3}
-  - {fileID: 8300000, guid: cb281dec75c09408c875251ab8855659, type: 3}
-  - {fileID: 8300000, guid: 8d5095b7a6abd452aa1bd1fcaf050b35, type: 3}
-  - {fileID: 8300000, guid: 8c496466577a248b7890344b844c61b9, type: 3}
-  - {fileID: 8300000, guid: 6742e330061fa44b885befe791906ac9, type: 3}
-  forest: []
-  grass: []
 --- !u!82 &1301290776
 AudioSource:
   m_ObjectHideFlags: 0
@@ -15419,7 +15407,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0

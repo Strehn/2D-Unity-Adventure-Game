@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - MainPlayer
+  - rock
+  - grass
   layers:
   - Default
   - TransparentFX
