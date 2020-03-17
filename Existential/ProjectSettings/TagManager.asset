@@ -9,6 +9,7 @@ TagManager:
   - grass
   - InjurePlayer
   - Ground
+  - interObject
   layers:
   - Default
   - TransparentFX
@@ -49,9 +50,15 @@ TagManager:
   - name: Ground
     uniqueID: 3749795833
     locked: 0
-  - name: Border
-    uniqueID: 2275722853
-    locked: 0
   - name: Player
     uniqueID: 490622489
+    locked: 0
+  - name: NPC
+    uniqueID: 3683853089
+    locked: 0
+  - name: Arch
+    uniqueID: 976212667
+    locked: 0
+  - name: Border
+    uniqueID: 2275722853
     locked: 0
