@@ -43,7 +43,13 @@ public class PlayerController2D : MonoBehaviour
             rb.velocity = new Vector2(0, rb.velocity.y);
         }
 
-        if (Input.GetKey("up") && isGround)
+
+        if(Input.GetKey("up") && rb.position.x >= 91.5 && rb.position.x <= 92.5)
+        {
+            //temp respawn to beginning of level, will add more.
+            transform.position = new Vector2(-8, -1);
+        }
+        else if (Input.GetKey("up") && isGround)
         {
             rb.velocity = new Vector2(rb.velocity.x, 9.5f);
         }
