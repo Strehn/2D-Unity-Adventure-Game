@@ -43,4 +43,9 @@ public class PauseMenuScript : MonoBehaviour
     {
         SceneManager.LoadScene(scenename);
     }
+
+    public void SaveGame()
+    {
+
+    }
 }
