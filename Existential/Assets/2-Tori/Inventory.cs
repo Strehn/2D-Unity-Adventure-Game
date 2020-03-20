@@ -25,7 +25,6 @@ public class Inventory : MonoBehaviour
             }
         }
     }
-
 }
 
 

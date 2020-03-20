@@ -16,6 +16,23 @@ public class PlayerInteract : MonoBehaviour{
                 // Tell the object to give its message
                 currentInterObjScript.Talk();
             }
+            // To do: Figure out how to use gameObjects with inventory as-is
+            // Check if it can be opened
+            /* if(currentInterObjScript.openable){
+                // check to see if the object is locked first
+                if(currentInterObjScript.locked){
+                    // Try to unlock the object, check to see if we have the object needed
+                    // Check inventory for item needed
+                    if(Inventory.AddItem(currentInterObjScript.itemNeeded)){
+                        // Found the item needed, unlock the door
+                        currentInterObjScript.locked = false;
+                        Debug.Log(currentInterObj.name + " Was unlocked");
+                    }
+                    else{
+                        Debug.Log(currentInterObj.name + " was not unlocked");
+                    }
+                }
+            }*/
         }
     }
 
