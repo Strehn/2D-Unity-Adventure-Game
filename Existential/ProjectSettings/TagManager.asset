@@ -10,6 +10,7 @@ TagManager:
   - InjurePlayer
   - Ground
   - interObject
+  - Button
   layers:
   - Default
   - TransparentFX

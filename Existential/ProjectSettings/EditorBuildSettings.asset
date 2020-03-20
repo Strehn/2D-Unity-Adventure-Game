@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/__DELETED_GUID_Trash/c70f58826e7b1f04d9c4ea27276ac705
+    path: 
     guid: c70f58826e7b1f04d9c4ea27276ac705
   - enabled: 1
     path: Assets/3-Sam/MainMenu.unity
@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/2-Tori/Test.unity
     guid: f331cbdab77534c0eb4d4d9fde501316
+  - enabled: 1
+    path: Assets/4-Isabel/Scenes/Isabel Level.unity
+    guid: 1789ee5bdc7ed4c66a0cfcbfdd14bf9c
+  - enabled: 1
+    path: Assets/4-Isabel/Scenes/BCMode.unity
+    guid: 7194005401ba4482cb4d178c721e1be7
   m_configObjects: {}
