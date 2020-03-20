@@ -13,10 +13,8 @@ public class LevelStuff : MonoBehaviour{
 
     void Start(){
         screenBounds = Camera.main.ScreenToWorldPoint(new Vector3(Screen.width, Screen.height, Camera.main.transform.position.z));
-        spawnInventoryItem();
-    }
+        Instantiate(Chalice, new Vector3(0, -6.18f, 0), Quaternion.identity);
 
-    private void spawnInventoryItem(){
         int inventoryNumber = UnityEngine.Random.Range(1, 4);  // Generate a random inventory item to spawn on screen
         Debug.Log(inventoryNumber);
 
@@ -24,23 +22,23 @@ public class LevelStuff : MonoBehaviour{
             // drop inventoryObject 1 on scene (belonging to Dia1)
             GameObject i = Instantiate(Chalice) as GameObject;
             i.SetActive(true);
-            i.transform.position = new Vector2(0, -6);
+            i.transform.position = new Vector2(0, -6.18f);
 
         }
         else if(inventoryNumber == 2){
             // drop inventoryObject 2 on scene (belonging to Dia2)
             GameObject i = Instantiate(Necklace) as GameObject;
             i.SetActive(true);
-            i.transform.position = new Vector2(0, -6);
+            i.transform.position = new Vector2(0, -6.18f);
 
         }
         else if(inventoryNumber == 3){
             // drop inventoryObject 3 on scene (belonging to Dia3)
             GameObject i = Instantiate(Vase) as GameObject;
             i.SetActive(true);
-            i.transform.position = new Vector2(0, -6);
+            i.transform.position = new Vector2(0, -6.18f);
 
         }
-        
+
     }
 }
