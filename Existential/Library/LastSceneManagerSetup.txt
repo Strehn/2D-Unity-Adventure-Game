@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/4-Isabel/Scenes/Isabel Level.unity
+=======
+- path: Assets/3-Sam/SamScene.unity
+>>>>>>> 2d33539dd4b4f3b7fcad10092d63c712e3b02d7a
   isLoaded: 1
   isActive: 1
   isSubScene: 0
