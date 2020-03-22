@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/1-Sydney/Scenes/DayTime_DemoScene.unity
+- path: Assets/1-Sydney/Scenes/SydneyForestScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
