@@ -14,10 +14,6 @@ Cmd: preprocess
   insize=10559 outsize=3882 ok=1
 Cmd: preprocess
   insize=7773 outsize=2674 ok=1
-Cmd: preprocessCompute
-  insize=1953 outsize=1957 ok=1
-Cmd: translateComputeKernel
-  api=14 insize=1151 outsize=1413 ok=1
 Cmd: preprocess
   insize=10548 outsize=3873 ok=1
 Cmd: preprocess
