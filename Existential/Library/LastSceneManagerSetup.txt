@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/3-Sam/SamScene.unity
+- path: Assets/1-Sydney/Scenes/DayTime_DemoScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
