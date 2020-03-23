@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/4-Isabel/Scenes/BCMode.unity
     guid: 7194005401ba4482cb4d178c721e1be7
+  - enabled: 1
+    path: Assets/1-Sydney/Scenes/SydneyForestScene.unity
+    guid: 97916283be85c4f4bb92aaf18c0ad88c
   m_configObjects: {}
