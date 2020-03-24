@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 7}
-  m_MinSize: {x: 875, y: 521}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -40,9 +40,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 876
-    width: 1532
-    height: 431
+    y: 652
+    width: 803
+    height: 655
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 15}
@@ -69,12 +69,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1532
+    width: 803
     height: 1307
   m_MinSize: {x: 201, y: 442}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 85
+  controlID: 36
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -91,9 +91,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 812
-    width: 486
-    height: 495
+    y: 587
+    width: 1215
+    height: 720
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
   m_ActualView: {fileID: 19}
@@ -119,14 +119,14 @@ MonoBehaviour:
   - {fileID: 4}
   m_Position:
     serializedVersion: 2
-    x: 1532
+    x: 803
     y: 0
-    width: 486
+    width: 1215
     height: 1307
-  m_MinSize: {x: 232, y: 471}
-  m_MaxSize: {x: 10002, y: 14021}
+  m_MinSize: {x: 232, y: 392}
+  m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 18
+  controlID: 124
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -137,23 +137,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: SceneHierarchyWindow
+  m_Name: TestRunnerWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 486
-    height: 812
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 16}
+    width: 1215
+    height: 587
+  m_MinSize: {x: 102, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 16}
   - {fileID: 14}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -242,10 +242,10 @@ MonoBehaviour:
     y: 30
     width: 2560
     height: 1307
-  m_MinSize: {x: 709, y: 471}
-  m_MaxSize: {x: 18004, y: 14021}
+  m_MinSize: {x: 709, y: 442}
+  m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 83
+  controlID: 122
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -267,10 +267,10 @@ MonoBehaviour:
     y: 0
     width: 2018
     height: 1307
-  m_MinSize: {x: 433, y: 471}
-  m_MaxSize: {x: 14003, y: 14021}
+  m_MinSize: {x: 433, y: 442}
+  m_MaxSize: {x: 14003, y: 14042}
   vertical: 0
-  controlID: 84
+  controlID: 123
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -288,8 +288,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1532
-    height: 876
+    width: 803
+    height: 652
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 17}
@@ -344,22 +344,22 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1532
+    x: 803
     y: 73
-    width: 484
-    height: 791
+    width: 1213
+    height: 566
   m_ViewDataDictionary: {fileID: 0}
   m_Spl:
-    ID: 355
+    ID: 285
     splitterInitialOffset: 0
     currentActiveSplitter: -1
-    realSizes: 1d020000b4000000
+    realSizes: 740100007c000000
     relativeSizes:
     - 0.75
     - 0.25
     minSizes: 2000000020000000
     maxSizes: 0000000000000000
-    lastTotalSize: 721
+    lastTotalSize: 496
     splitSize: 6
     xOffset: 0
   m_TestTypeToolbarIndex: 0
@@ -370,9 +370,9 @@ MonoBehaviour:
       uniqueId: '[Existential][suite]'
       name: Existential
       fullName: Existential
-      resultStatus: 1
-      duration: 0.2424511
-      messages: 
+      resultStatus: 2
+      duration: 0.187981
+      messages: One or more child tests had errors
       output: 
       stacktrace: 
       notRunnable: 0
@@ -386,9 +386,9 @@ MonoBehaviour:
       uniqueId: '[C:/Users/sam/Unity/CS-383-Project/Existential/Library/ScriptAssemblies/PlayMode.dll][suite]'
       name: PlayMode.dll
       fullName: C:/Users/sam/Unity/CS-383-Project/Existential/Library/ScriptAssemblies/PlayMode.dll
-      resultStatus: 1
-      duration: 0.1539218
-      messages: 
+      resultStatus: 2
+      duration: 0.1090425
+      messages: One or more child tests had errors
       output: 
       stacktrace: 
       notRunnable: 0
@@ -402,9 +402,9 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/[Tests][suite]
       name: Tests
       fullName: Tests
-      resultStatus: 1
-      duration: 0.1172727
-      messages: 
+      resultStatus: 2
+      duration: 0.0852792
+      messages: One or more child tests had errors
       output: 
       stacktrace: 
       notRunnable: 0
@@ -418,9 +418,9 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Tests/[PlayMode][Tests.PlayModeScript][suite]
       name: PlayModeScript
       fullName: Tests.PlayModeScript
-      resultStatus: 1
-      duration: 0.0816856
-      messages: 
+      resultStatus: 2
+      duration: 0.0541585
+      messages: One or more child tests had errors
       output: 
       stacktrace: 
       notRunnable: 0
@@ -430,29 +430,39 @@ MonoBehaviour:
       categories: []
       parentId: 1005
       parentUniqueId: PlayMode.dll/[Tests][suite]
-    - id: 1010
-      uniqueId: PlayMode.dll/Tests/PlayModeScript/[PlayMode][Tests.PlayModeScript.Test1]
-      name: Test1
-      fullName: Tests.PlayModeScript.Test1
-      resultStatus: 1
-      duration: 0.0383618
-      messages: 
+    - id: 1009
+      uniqueId: PlayMode.dll/Tests/PlayModeScript/[PlayMode][Tests.PlayModeScript.Check_For_Main_Character_In_Scene_Test]
+      name: Check_For_Main_Character_In_Scene_Test
+      fullName: Tests.PlayModeScript.Check_For_Main_Character_In_Scene_Test
+      resultStatus: 2
+      duration: 0.0192808
+      messages: "  Main Character not found in scene index 1.\r\n  Expected: not
+        null\r\n  But was:  null\r\n"
       output: 
-      stacktrace: 
+      stacktrace: 'at Tests.PlayModeScript.Check_For_Main_Character_In_Scene_Test
+        () [0x0002e] in C:\Users\sam\Unity\CS-383-Project\Existential\Assets\3-Sam\Tests\PlayMode\PlayModeScript.cs:24
+
+'
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
       isSuite: 0
       categories:
       - Uncategorized
-      parentId: 1009
+      parentId: 1008
       parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.PlayModeScript][suite]
-    m_ResultText: PlayModeScript (0.082s)
-    m_ResultStacktrace: 
+    m_ResultText: "Check_For_Main_Character_In_Scene_Test (0.019s)\n---\nMain Character
+      not found in scene index 1.\r\n  Expected: not null\r\n  But was:  null\n---\nat
+      Tests.PlayModeScript.Check_For_Main_Character_In_Scene_Test () [0x0002e] in
+      C:\\Users\\sam\\Unity\\CS-383-Project\\Existential\\Assets\\3-Sam\\Tests\\PlayMode\\PlayModeScript.cs:24"
+    m_ResultStacktrace: 'at Tests.PlayModeScript.Check_For_Main_Character_In_Scene_Test
+      () [0x0002e] in C:\Users\sam\Unity\CS-383-Project\Existential\Assets\3-Sam\Tests\PlayMode\PlayModeScript.cs:24
+
+'
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 944a9d84
-      m_LastClickedID: -2070066540
+      m_SelectedIDs: 69f446b6
+      m_LastClickedID: -1236863895
       m_ExpandedIDs: 944a9d842a5f8ecc551bf9d87c95c7e345d21e3f8359db415b363e7cffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -487,8 +497,8 @@ MonoBehaviour:
       name: Existential
       fullName: Existential
       resultStatus: 0
-      duration: 0
-      messages: 
+      duration: 0.1195839
+      messages: One or more child tests had errors
       output: 
       stacktrace: 
       notRunnable: 0
@@ -503,8 +513,8 @@ MonoBehaviour:
       name: Tests.dll
       fullName: C:/Users/sam/Unity/CS-383-Project/Existential/Library/ScriptAssemblies/Tests.dll
       resultStatus: 0
-      duration: 0
-      messages: 
+      duration: 0.0281316
+      messages: One or more child tests had errors
       output: 
       stacktrace: 
       notRunnable: 0
@@ -519,8 +529,8 @@ MonoBehaviour:
       name: Tests
       fullName: Tests
       resultStatus: 0
-      duration: 0
-      messages: 
+      duration: 0.0205529
+      messages: One or more child tests had errors
       output: 
       stacktrace: 
       notRunnable: 0
@@ -535,8 +545,8 @@ MonoBehaviour:
       name: EditModeScript
       fullName: Tests.EditModeScript
       resultStatus: 0
-      duration: 0
-      messages: 
+      duration: 0.0089034
+      messages: One or more child tests had errors
       output: 
       stacktrace: 
       notRunnable: 0
@@ -547,14 +557,28 @@ MonoBehaviour:
       parentId: 1005
       parentUniqueId: Tests.dll/[Tests][suite]
     - id: 1002
-      uniqueId: Tests.dll/Tests/EditModeScript/[Tests][Tests.EditModeScript.EditModeScriptSimplePasses]
-      name: EditModeScriptSimplePasses
-      fullName: Tests.EditModeScript.EditModeScriptSimplePasses
+      uniqueId: Tests.dll/Tests/EditModeScript/[Tests][Tests.EditModeScript.Check_For_Main_Character_In_Scene_Test]
+      name: Check_For_Main_Character_In_Scene_Test
+      fullName: Tests.EditModeScript.Check_For_Main_Character_In_Scene_Test
       resultStatus: 0
-      duration: 0
-      messages: 
+      duration: 0.0006242
+      messages: 'System.InvalidOperationException : This can only be used during
+        play mode, please use EditorSceneManager.OpenScene() instead.'
       output: 
-      stacktrace: 
+      stacktrace: "  at (wrapper managed-to-native) UnityEngine.SceneManagement.SceneManager.LoadSceneAsyncNameIndexInternal_Injected(string,int,UnityEngine.SceneManagement.LoadSceneParameters&,bool)\r\n 
+        at UnityEngine.SceneManagement.SceneManager.LoadSceneAsyncNameIndexInternal
+        (System.String sceneName, System.Int32 sceneBuildIndex, UnityEngine.SceneManagement.LoadSceneParameters
+        parameters, System.Boolean mustCompleteNextFrame) [0x00000] in <58a34b0a618d424bb5fc18bb9bcdac20>:0
+        \r\n  at UnityEngine.SceneManagement.SceneManager.LoadScene (System.Int32
+        sceneBuildIndex, UnityEngine.SceneManagement.LoadSceneParameters parameters)
+        [0x00001] in <58a34b0a618d424bb5fc18bb9bcdac20>:0 \r\n  at UnityEngine.SceneManagement.SceneManager.LoadScene
+        (System.Int32 sceneBuildIndex) [0x00009] in <58a34b0a618d424bb5fc18bb9bcdac20>:0
+        \r\n  at Tests.EditModeScript.Check_For_Main_Character_In_Scene_Test () [0x00006]
+        in C:\\Users\\sam\\Unity\\CS-383-Project\\Existential\\Assets\\3-Sam\\Tests\\EditMode\\EditModeScript.cs:19
+        \r\n  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)\r\n 
+        at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x00032] in <437ba245d8404784b9fbab9b439ac908>:0 "
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -563,29 +587,38 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1001
       parentUniqueId: Tests.dll/Tests/[Tests][Tests.EditModeScript][suite]
-    - id: 1003
-      uniqueId: Tests.dll/Tests/EditModeScript/[Tests][Tests.EditModeScript.EditModeScriptWithEnumeratorPasses]
-      name: EditModeScriptWithEnumeratorPasses
-      fullName: Tests.EditModeScript.EditModeScriptWithEnumeratorPasses
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: Tests.dll/Tests/[Tests][Tests.EditModeScript][suite]
-    m_ResultText: 
-    m_ResultStacktrace: 
+    m_ResultText: "Check_For_Main_Character_In_Scene_Test (0.001s)\n---\nSystem.InvalidOperationException
+      : This can only be used during play mode, please use EditorSceneManager.OpenScene()
+      instead.\n---\nat (wrapper managed-to-native) UnityEngine.SceneManagement.SceneManager.LoadSceneAsyncNameIndexInternal_Injected(string,int,UnityEngine.SceneManagement.LoadSceneParameters&,bool)\r\n 
+      at UnityEngine.SceneManagement.SceneManager.LoadSceneAsyncNameIndexInternal
+      (System.String sceneName, System.Int32 sceneBuildIndex, UnityEngine.SceneManagement.LoadSceneParameters
+      parameters, System.Boolean mustCompleteNextFrame) [0x00000] in <58a34b0a618d424bb5fc18bb9bcdac20>:0
+      \r\n  at UnityEngine.SceneManagement.SceneManager.LoadScene (System.Int32 sceneBuildIndex,
+      UnityEngine.SceneManagement.LoadSceneParameters parameters) [0x00001] in <58a34b0a618d424bb5fc18bb9bcdac20>:0
+      \r\n  at UnityEngine.SceneManagement.SceneManager.LoadScene (System.Int32 sceneBuildIndex)
+      [0x00009] in <58a34b0a618d424bb5fc18bb9bcdac20>:0 \r\n  at Tests.EditModeScript.Check_For_Main_Character_In_Scene_Test
+      () [0x00006] in C:\\Users\\sam\\Unity\\CS-383-Project\\Existential\\Assets\\3-Sam\\Tests\\EditMode\\EditModeScript.cs:19
+      \r\n  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)\r\n 
+      at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags
+      invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo
+      culture) [0x00032] in <437ba245d8404784b9fbab9b439ac908>:0"
+    m_ResultStacktrace: "  at (wrapper managed-to-native) UnityEngine.SceneManagement.SceneManager.LoadSceneAsyncNameIndexInternal_Injected(string,int,UnityEngine.SceneManagement.LoadSceneParameters&,bool)\r\n 
+      at UnityEngine.SceneManagement.SceneManager.LoadSceneAsyncNameIndexInternal
+      (System.String sceneName, System.Int32 sceneBuildIndex, UnityEngine.SceneManagement.LoadSceneParameters
+      parameters, System.Boolean mustCompleteNextFrame) [0x00000] in <58a34b0a618d424bb5fc18bb9bcdac20>:0
+      \r\n  at UnityEngine.SceneManagement.SceneManager.LoadScene (System.Int32 sceneBuildIndex,
+      UnityEngine.SceneManagement.LoadSceneParameters parameters) [0x00001] in <58a34b0a618d424bb5fc18bb9bcdac20>:0
+      \r\n  at UnityEngine.SceneManagement.SceneManager.LoadScene (System.Int32 sceneBuildIndex)
+      [0x00009] in <58a34b0a618d424bb5fc18bb9bcdac20>:0 \r\n  at Tests.EditModeScript.Check_For_Main_Character_In_Scene_Test
+      () [0x00006] in C:\\Users\\sam\\Unity\\CS-383-Project\\Existential\\Assets\\3-Sam\\Tests\\EditMode\\EditModeScript.cs:19
+      \r\n  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)\r\n 
+      at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags
+      invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo
+      culture) [0x00032] in <437ba245d8404784b9fbab9b439ac908>:0 "
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
+      m_SelectedIDs: e9b550d3
+      m_LastClickedID: -749685271
       m_ExpandedIDs: dc7a55827c95c7e38359db415b363e7cffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -634,9 +667,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 949
-    width: 1531
-    height: 410
+    y: 725
+    width: 802
+    height: 634
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewsNames: []
   m_SerializedViewsValues: []
@@ -644,7 +677,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1531, y: 389}
+  m_TargetSize: {x: 802, y: 613}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -658,10 +691,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -765.5
-    m_HBaseRangeMax: 765.5
-    m_VBaseRangeMin: -194.5
-    m_VBaseRangeMax: 194.5
+    m_HBaseRangeMin: -401
+    m_HBaseRangeMax: 401
+    m_VBaseRangeMin: -306.5
+    m_VBaseRangeMax: 306.5
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -679,23 +712,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 1531
-      height: 389
+      width: 802
+      height: 613
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 765.5, y: 194.5}
+    m_Translation: {x: 401, y: 306.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -765.5
-      y: -194.5
-      width: 1531
-      height: 389
+      x: -401
+      y: -306.5
+      width: 802
+      height: 613
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1531, y: 410}
+  m_LastWindowPixelSize: {x: 802, y: 634}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 00000000000000000000
@@ -722,28 +755,28 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1532
+    x: 803
     y: 73
-    width: 484
-    height: 791
+    width: 1213
+    height: 566
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 12da0000
-      m_LastClickedID: 55826
-      m_ExpandedIDs: fea7feff0aa8feff14a8feff2aa8feff60a9feffa2a9feffd4a9feff06aafeffd2aafeffe4aafeff0aacfeffaeacfeffc4acfeff4aadfeff16aefeff18aefeff2eaefeffacaefeff4aaffeff60affeff2eb0feffa8b0feffbeb0feff44b1feff1ab2feff30b2feffaeb2feff46b6feffeab9feff00bafeff92bafeff9ebdfeff
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: cacfffffe0cfffffc8d0ffff3ed1ffff54d1ffff3cd2ffffcad2fffff4d2ffff7ed3ffff86d4fffff2d4ffff54d5ffffb6d5ffff66d6ffff82d6ffff50d8ffff6cd8ffff2cd9ffff40daffffb6dbffffd2dbffff50ddffff72ddffff28deffff76dffffff4e0ffff10e1ffff08e3ffff24e3ffffbce4ffffd8e4fffff8eefffffaeeffff5eefffff7aefffff94f1ffffd6f1fffff2f1ffff8af2ffffccf2ffffe8f2ffffaaf3ffffc6f3ffffd4f4ffffb0f5ffff8ef6ffffcaf7ffff12f9ffff6afbffff6e050100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: itemSlot
-        m_OriginalName: itemSlot
+        m_Name: CM vcam1
+        m_OriginalName: CM vcam1
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -88092
+        m_UserData: 39606
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 0
@@ -779,8 +812,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 1531
-    height: 855
+    width: 802
+    height: 631
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: eb2d10987e78a4189bdeddd16bab8d71
@@ -792,9 +825,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.6559942, y: -1.4966503, z: 4.234375}
+    m_Target: {x: -31.952894, y: -3.1040378, z: -10.098944}
     speed: 2
-    m_Value: {x: 0.6559942, y: -1.4966503, z: 4.234375}
+    m_Value: {x: -31.952894, y: -3.1040378, z: -10.098944}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -844,9 +877,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 19.959106
+    m_Target: 22.99
     speed: 2
-    m_Value: 19.959106
+    m_Value: 22.99
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -918,10 +951,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1532
-    y: 885
-    width: 484
-    height: 474
+    x: 803
+    y: 660
+    width: 1213
+    height: 699
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -935,8 +968,7 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SkipHidden: 0
     m_SearchArea: 1
-    m_Folders:
-    - Assets/2-Tori/Scripts
+    m_Folders: []
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
@@ -948,7 +980,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 90890000
     m_LastClickedID: 35216
-    m_ExpandedIDs: 00000000608f0000628f0000648f0000668f0000688f00006a8f00006c8f00006e8f0000708f0000728f0000748f0000768f0000788f00007a8f00007c8f00007e8f0000808f0000828f0000848f0000868f0000
+    m_ExpandedIDs: 000000001a3800001c3800001e38000020380000223800002438000026380000283800002a3800002c3800002e38000030380000323800003438000036380000383800003a3800003c3800003e3800004038000042380000443800004638000048380000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -976,7 +1008,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000608f0000628f0000648f0000668f0000688f00006a8f00006e8f0000708f0000728f0000748f0000768f0000788f00007a8f00007c8f00007e8f0000808f0000828f0000868f0000b48f0000b88f000062940000789400006c95000072950000
+    m_ExpandedIDs: ffffffff000000001a3800001c3800001e380000203800002238000024380000283800002a3800002c3800002e38000030380000323800003438000036380000383800003a380000483800008c3800008e380000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1053,10 +1085,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1530
-    y: 942
-    width: 481
-    height: 409
+    x: 952
+    y: 885
+    width: 1064
+    height: 474
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &21
 MonoBehaviour:

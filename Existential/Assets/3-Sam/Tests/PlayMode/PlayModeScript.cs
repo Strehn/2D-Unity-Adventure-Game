@@ -10,19 +10,17 @@ namespace Tests
 {
     public class PlayModeScript
     {
-        
-        [UnityTest]
-        public IEnumerator Max_Inventory_Size()
+        [Test]
+        public void Check_For_Main_Character_In_Scene_Test()
         {
-            SetUpScene("ToriScene");
+            var MC = GameObject.Find("MainCharacter");
 
-            yield return null;
+            for (int i = 1; i < 8; i++)
+            {
+                SceneManager.LoadScene(i);
+                string FailOutput = "Main Character not found in scene index " + i + ".";
+                Assert.IsNotNull(MC, FailOutput);
+            }
         }
-
-        public void SetUpScene(string scenename)
-        {
-            SceneManager.LoadScene(scenename);
-        }
-
     }
 }
