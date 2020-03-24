@@ -37,6 +37,10 @@ public class SoundScript : MonoBehaviour
     void Update()
     {
         GameObject ground = GameObject.Find("/Grid/Ground");
+        if (ground == null)
+        {
+            ground = GameObject.Find("/Grid/Tilemap");
+        }
         if (Input.GetKey(moveUp) || Input.GetKey(moveDown) || Input.GetKey(moveLeft) || Input.GetKey(moveRight))
         {
             if (ground.CompareTag("grass"))
@@ -45,7 +49,7 @@ public class SoundScript : MonoBehaviour
             }
             if (ground.CompareTag("rock"))
             {
-                Debug.Log("rock");
+                //Debug.Log("rock");
                 WalkOnRock();
             }
       
@@ -90,7 +94,7 @@ public class SoundScript : MonoBehaviour
         else
         {
             //Debug.Log("audio stop");
-            GetComponent<AudioSource>().Stop();
+            MyAudioSource.Stop();
         }
     }
 
