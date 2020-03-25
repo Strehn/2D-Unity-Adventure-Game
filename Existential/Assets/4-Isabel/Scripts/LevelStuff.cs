@@ -33,29 +33,6 @@ public class LevelStuff : MonoBehaviour{
             i.SetActive(true);
             i.transform.position = new Vector2(0, -6.18f);
         }
-        /* For Sam testing purposes:
-        else{
-            // drop random object on screen? This would initiate an error because in my scene I do 
-            // not have another gameObject and the number should be between 1-3 - so this could be a boundary test.
-
-            GameObject i = Instantiate(newObject) as GameObject;
-            i.SetActive(true);
-            i.transform.position = new Vector2(0, -6.18f);
-        }
-        */
-    }
-
-    void Update(){
-        /* For Sam testing purposes:
-            GameObject i = Instantiate(Chalice) as GameObject;
-            i.SetActive(true);
-            i.transform.position = new Vector2(0, -6.18f);
-        */
     }
 }
 
-/* For Sam: 
-    Boundary: Instantiating an object that doesn't exist
-    Boundary: Testing which speed it takes for the player to be able to run off screen through tilemap boundary
-    Stress: Instantiating too many objects on screen - the commented code in the update function
-*/

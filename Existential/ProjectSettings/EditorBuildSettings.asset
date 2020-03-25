@@ -17,7 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/4-Isabel/Scenes/Isabel Level.unity
     guid: 1789ee5bdc7ed4c66a0cfcbfdd14bf9c
-  - enabled: 0
+  - enabled: 1
     path: Assets/4-Isabel/Scenes/BCMode.unity
     guid: 7194005401ba4482cb4d178c721e1be7
   - enabled: 1
