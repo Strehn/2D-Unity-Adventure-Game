@@ -39,18 +39,18 @@ public class LevelSelectScript : MonoBehaviour {
     }
     public void PlayLevel3() {
 
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(4);
     }
     public void PlayLevel4() {
 
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene(5);
     }
     public void PlayLevel5() {
 
-        SceneManager.LoadScene(5);
+        SceneManager.LoadScene(6);
     }
     public void PlayLevel6() {
 
-        SceneManager.LoadScene(6);
+        SceneManager.LoadScene(7);
     }
 }
