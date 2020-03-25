@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/4-Isabel/Scenes/Isabel Level.unity
+- path: Assets/6-Taegan/Scenes/TaeganScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

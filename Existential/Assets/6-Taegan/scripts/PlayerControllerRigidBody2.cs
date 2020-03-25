@@ -32,16 +32,18 @@ public class PlayerControllerRigidBody2 : MonoBehaviour
         Vector2 moveInput = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical")); // Get input from Horizontal and Vertical Axes
         moveVelocity = moveInput.normalized * speed;  // Move according to speed
 
+
+
+        //if (active == false) //If the player shouldnt be moving set the velocity to 0
+        //{
+        //    rb.velocity = new Vector2(0, 0);
+        //}
+
         // If the player is not moving set active to false
         if (rb.velocity == new Vector2(0, 0))
         {
             active = false;
         }
-        else if (active == false) //If the player shouldnt be moving set the velocity to 0
-        {
-            rb.velocity = new Vector2(0, 0);
-        }
-
 
         // if the player is in front of a door way, transfer him to the next cave
         // from ice cave to fog cave

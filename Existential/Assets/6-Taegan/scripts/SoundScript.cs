@@ -19,7 +19,7 @@ public class SoundScript : MonoBehaviour
     private AudioClip house;
     private AudioClip rock;
     private AudioClip graveyard;
-
+    private GameObject ground;
     AudioSource MyAudioSource; //Audio Source to apply the sounds to
 
 
@@ -42,11 +42,21 @@ public class SoundScript : MonoBehaviour
     {
 
         // Finds the object named ground and grabs the tag associated with it
-        GameObject ground = GameObject.Find("/Grid/Ground");
-        if (ground == null)
+        //GameObject ground = GameObject.Find("/Grid/Ground");
+        //if (ground == null)
+        //{
+        //    //If no object named ground try tilemap
+        //    ground = GameObject.Find("/Grid/Tilemap");
+        //}
+   
+        foreach (GameObject obj in Object.FindObjectsOfType(typeof(GameObject)))
         {
-            //If no object named ground try tilemap
-            ground = GameObject.Find("/Grid/Tilemap");
+            if (obj.tag == "rock" || obj.tag == "snow" || obj.tag == "wood" || obj.tag == "town" || obj.tag == "forest" || obj.tag == "grass" || obj.tag == "house" || obj.tag == "graveyard")
+            {
+                ground = obj;
+                break;
+            }
+            
         }
 
         if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow))
