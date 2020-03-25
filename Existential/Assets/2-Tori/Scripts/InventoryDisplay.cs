@@ -1,5 +1,10 @@
-﻿// WILL BE DEPRECATED
-
+﻿
+/***********************
+   WILL BE DEPRECATED
+Implemented by Victoria Gehring
+This script handles the addition of new inventory items
+via 2D colliders
+***********************/
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

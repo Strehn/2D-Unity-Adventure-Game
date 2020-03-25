@@ -1,9 +1,15 @@
-﻿using System.Collections;
+﻿/***********************
+Implemented by Victoria Gehring
+This script creates an inventory item of type flower
+It consists of the image attached to the game object
+It's name is "Flower" 
+***********************/
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FlowerInvItem : MonoBehaviour, IInventoryItem
-{
+public class FlowerInvItem : MonoBehaviour, IInventoryItem{
     public string Name{
         get{
             return "Flower";
