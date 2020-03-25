@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.TestTools;
+using UnityEditor;
 
 namespace Tests{
     public class StressTestIH{
         // Written by Isabel - used code from Team Lead 3's presentation
         // Stress test to instantiate a bunch of inventory objects
-        [Test]
+        [UnityTest]
         public IEnumerator StressTest(){
             var T = 1/Time.deltaTime;
             SetupScene();
@@ -22,7 +23,9 @@ namespace Tests{
                 yield return new WaitForSeconds(1);
                 if (T < 15){
                     Debug.Log((i+1) * 100);
-                    if (i < 10) Assert.Fail();
+                    if (i < 10){
+                        Assert.Fail();
+                    }
                     yield break;
                 }  
             }
@@ -30,8 +33,6 @@ namespace Tests{
 
         void SetupScene(){
             MonoBehaviour.Instantiate(Resources.Load<GameObject>("Prefabs/Chalice"));
-            MonoBehaviour.Instantiate(Resources.Load<GameObject>("Prefabs/Canvas"));
-            MonoBehaviour.Instantiate(Resources.Load<GameObject>("Prefabs/LevelTilemap"));
         }
     }
 }
