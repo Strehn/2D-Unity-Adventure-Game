@@ -1,40 +1,52 @@
-﻿// Created by Sam - updated by Isabel to fit coding standards and to use
+﻿// Created by Sam Spalding
 
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class PauseMenuScript : MonoBehaviour{
-    public static bool GameIsPaused = false;
+public class PauseMenuScript : MonoBehaviour {
+
+    public static bool gameIsPaused = false;
     public GameObject pauseMenuUI;
 
     // Update is called once per frame
-    void Update(){
+    void Update() {
 
-        if (Input.GetKeyDown(KeyCode.Escape)){
-            if (GameIsPaused){
+        // If player hits Escape key...
+        if (Input.GetKeyDown(KeyCode.Escape)) {
+
+            // ...when game is in the pause menu, then it will resume
+            if (gameIsPaused) {
+
                 Resume();
             }
-            else{
+            // ...when game is playing in the scene, then it will bring up the pause menu
+            else {
+
                 Pause();
             }
         }
     }
 
-    public void Resume(){
-        pauseMenuUI.SetActive(false);
-        Time.timeScale = 1f;
-        GameIsPaused = false;
-    }
+    // Function to pause time of game and bring up pause menu to screen
+    public void Pause() {  
 
-    public void Pause(){  // Changed to public for now by Isabel
         pauseMenuUI.SetActive(true);
-        Time.timeScale = 0f;
-        GameIsPaused = true;
+        Time.timeScale = 0f; // Stop time from moving in-game
+        gameIsPaused = true;
     }
 
-    public void LoadMenu(string scenename){
-        SceneManager.LoadScene(scenename);
+    // Function to resume playing the game
+    public void Resume() {
+
+        pauseMenuUI.SetActive(false);
+        Time.timeScale = 1f; // Resume time in-game
+        gameIsPaused = false;
+    }
+
+    public void LoadMainMenu() {
+
+        SceneManager.LoadScene("MainMenu");
     }
 }
