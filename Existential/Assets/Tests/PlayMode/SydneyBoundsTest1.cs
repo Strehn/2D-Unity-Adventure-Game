@@ -11,7 +11,7 @@ using UnityEngine.TestTools;
 public class SydneyBoundsTest1 : MonoBehaviour
 {
     [UnityTest]
-    public IEnumerator Bunny_Speed()
+    public IEnumerator Bunny_BoundsTest()
     {
         //Move the bunnies super fast
         int currentSpeed = 80;
