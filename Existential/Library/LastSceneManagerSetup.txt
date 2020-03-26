@@ -1,1 +1,9 @@
+<<<<<<< HEAD
 sceneSetups: []
+=======
+sceneSetups:
+- path: Assets/1-Sydney/Scenes/SydneyForestScene.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
+>>>>>>> dc8206acda275c22b042faece7a8d27b9627f3cf
