@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/5-Ronnie/RonnieScene.unity
+=======
+- path: Assets/3-Sam/Scenes/MainMenu.unity
+>>>>>>> 430a3a4ba2974043539018ab21532f0039f3c65c
   isLoaded: 1
   isActive: 1
   isSubScene: 0
