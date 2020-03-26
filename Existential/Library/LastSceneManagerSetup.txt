@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/6-Taegan/Scenes/TaeganScene.unity
+- path: Assets/5-Ronnie/RonnieScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
