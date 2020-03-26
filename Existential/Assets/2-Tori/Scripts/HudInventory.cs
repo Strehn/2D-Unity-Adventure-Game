@@ -17,6 +17,7 @@ public class HudInventory : MonoBehaviour{
     void Start(){
         // TODO: disable all inventory images when dropped
         Inventory.ItemAdded += Inventory_ItemAdded;
+        Inventory.ItemDropped -= Inventory_ItemDropped;
     }
 
     private void Inventory_ItemAdded(object sender, InventoryEventArgs e){
@@ -34,7 +35,26 @@ public class HudInventory : MonoBehaviour{
             }
         }
     }
-    
+
+    private void Inventory_ItemDropped(object sender, InventoryEventArgs e)
+    {
+        Transform inventoryPanel = transform.Find("Inventory");
+        Debug.Log(inventoryPanel.GetComponent<GameObject>());
+        foreach (Transform itemSlot in inventoryPanel)
+        {
+            Image image = itemSlot.GetChild(0).GetComponent<Image>();
+            Debug.Log(image);
+            //Image image = itemSlot.GetComponent<Image>();
+            if (image.enabled)
+            {
+                Debug.Log(image);
+                image.enabled = false;
+                //image.sprite = e.Item.Image;
+                break;
+            }
+        }
+    }
+
     // Update is called once per frame
     void Update(){
         //Inventory.ItemAdded += Inventory_ItemAdded;

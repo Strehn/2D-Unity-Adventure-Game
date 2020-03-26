@@ -14,6 +14,7 @@ public class Inventory : MonoBehaviour{
     public Camera cam;
     private List<IInventoryItem> inventoryList = new List<IInventoryItem>();
     public event EventHandler<InventoryEventArgs> ItemAdded;
+    public event EventHandler<InventoryEventArgs> ItemDropped;
   
     public void AddItem(IInventoryItem item){
         if(inventoryList.Count < MAXITEMS){
@@ -29,6 +30,18 @@ public class Inventory : MonoBehaviour{
             }
         }
     }
+
+    public void DropItem(IInventoryItem item)
+    {
+        inventoryList.Remove(item);
+        item.OnDrop();
+
+        if (ItemDropped != null)
+        {
+            ItemDropped(this, new InventoryEventArgs(item));
+        }
+    }
+
 }
 
 
