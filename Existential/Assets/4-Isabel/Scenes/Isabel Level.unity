@@ -2593,6 +2593,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1013632775202624086, guid: 04b7510f670841647b62d6f2015e8180,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1013632775202624086, guid: 04b7510f670841647b62d6f2015e8180,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1013632775202624086, guid: 04b7510f670841647b62d6f2015e8180,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1013632775202624086, guid: 04b7510f670841647b62d6f2015e8180,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2396850505798207380, guid: 04b7510f670841647b62d6f2015e8180,
         type: 3}
       propertyPath: m_AnchorMin.y
@@ -2878,6 +2898,26 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2396850507837479807, guid: 04b7510f670841647b62d6f2015e8180,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8953791753894177804, guid: 04b7510f670841647b62d6f2015e8180,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8953791753894177804, guid: 04b7510f670841647b62d6f2015e8180,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8953791753894177804, guid: 04b7510f670841647b62d6f2015e8180,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8953791753894177804, guid: 04b7510f670841647b62d6f2015e8180,
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
@@ -3964,6 +4004,12 @@ PrefabInstance:
       objectReference: {fileID: 3901781210948569674}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81b157bfcd31d4a3ab7d68c3647d1ec7, type: 3}
+--- !u!1 &2671986627907867452 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2915969925700508917, guid: 81b157bfcd31d4a3ab7d68c3647d1ec7,
+    type: 3}
+  m_PrefabInstance: {fileID: 2671986627907867451}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3901781210948569673
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3971,11 +4017,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3901781209989205526, guid: fa761f8100d184fa9b82cb7e3e65011d,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 3901781210948569674}
     - target: {fileID: 3901781209989205546, guid: fa761f8100d184fa9b82cb7e3e65011d,
         type: 3}
       propertyPath: Chalice
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2671986627907867452}
     - target: {fileID: 3901781209989205546, guid: fa761f8100d184fa9b82cb7e3e65011d,
         type: 3}
       propertyPath: Necklace

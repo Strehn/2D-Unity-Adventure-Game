@@ -16,6 +16,7 @@ namespace Tests{
             for (int i = 0; i < 100; i++){
                 T = 1/Time.deltaTime;
                 for (int j = 0; j < 100; j++){
+                    // Inventory item made by me
                     MonoBehaviour.Instantiate(Resources.Load<GameObject>("Prefabs/Chalice"));
                 }
                 T = 1 / Time.deltaTime;
@@ -31,8 +32,11 @@ namespace Tests{
             }
         }
 
-        void SetupScene(){
+        void SetupScene(){           
+            // My level
             MonoBehaviour.Instantiate(Resources.Load<GameObject>("Prefabs/Chalice"));
+            // A Camera
+            MonoBehaviour.Instantiate(Resources.Load<GameObject>("Prefabs/Camera"));
         }
     }
 }
