@@ -5,6 +5,7 @@ Implemented by Victoria Gehring
 This script handles the addition of new inventory items
 via 2D colliders
 ***********************/
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -14,7 +15,7 @@ public class InventoryDisplay : MonoBehaviour
 {
     public Inventory inventory;
     public Camera cam;
-
+    
     public void Start(){
         cam = GetComponent<Camera>();
     }
@@ -23,17 +24,24 @@ public class InventoryDisplay : MonoBehaviour
         RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
         //IInventoryItem item = hit.collider.GetComponent<IInventoryItem>();
         // IInventoryItem item = hit.collider.GetComponent<IInventoryItem>();
-        if(hit.collider != null)
-        {
+        if(hit.collider != null){
             IInventoryItem item = hit.collider.GetComponent<IInventoryItem>();
-            if(item != null)
-            {
+            if(item != null){
                 inventory.AddItem(item);
             }
         }
     
     }
-
+    /*
+    public void Drop()
+    {
+        IInventoryItem item = hit.collider.GetComponent<IInventoryItem>();
+        if (item != null)
+        {
+            inventory.DropItem(item);
+        }
+    }
+    */
     /*
     public Text inventoryText;
     public Text itemPickupText;

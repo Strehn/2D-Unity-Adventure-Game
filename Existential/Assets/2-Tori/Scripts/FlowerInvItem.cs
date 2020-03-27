@@ -26,6 +26,11 @@ public class FlowerInvItem : MonoBehaviour, IInventoryItem{
     public void OnPickup(){
         gameObject.SetActive(false);
     }
+
+    public void OnDrop()
+    {
+        gameObject.SetActive(true);
+    }
     // Start is called before the first frame update
     void Start(){
         
