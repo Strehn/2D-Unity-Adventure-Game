@@ -32,13 +32,16 @@ public class InventoryDisplay : MonoBehaviour
         }
     
     }
-
+    /*
     public void Drop()
     {
-        GameObject image = GetComponent<GameObject>();
-        image.SetActive(true);
+        IInventoryItem item = hit.collider.GetComponent<IInventoryItem>();
+        if (item != null)
+        {
+            inventory.DropItem(item);
+        }
     }
-    
+    */
     /*
     public Text inventoryText;
     public Text itemPickupText;

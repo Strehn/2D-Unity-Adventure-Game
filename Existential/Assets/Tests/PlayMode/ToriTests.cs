@@ -23,6 +23,7 @@ namespace Tests
         [Test]
         public void ToriTestsSimplePasses()
         {
+            SetupScene();
             // Use the Assert class to test conditions
             
         }
@@ -32,9 +33,29 @@ namespace Tests
         [UnityTest]
         public IEnumerator ToriTestsWithEnumeratorPasses()
         {
+            Debug.Log("testing");
             // Use the Assert class to test conditions.
             // Use yield to skip a frame.
             yield return null;
+        }
+
+        void SetupScene()
+        {
+            //Prefab with the Inventory Hud
+            MonoBehaviour.Instantiate(Resources.Load<GameObject>("Prefabs/HUDINV"));
+            
+            //Prefab with the Grid of the game
+            MonoBehaviour.Instantiate(Resources.Load<GameObject>("Prefabs/ToriSceneGrid"));
+           
+            //Prefab with the flower inventory object
+            MonoBehaviour.Instantiate(Resources.Load<GameObject>("Prefabs/pinkFlower"));
+
+            //Prefab with the Inventory
+            MonoBehaviour.Instantiate(Resources.Load<GameObject>("Prefabs/InventoryManager"));
+
+            //Prefab with the MainCharacter
+            MonoBehaviour.Instantiate(Resources.Load<GameObject>("Prefabs/MainCharacter"));
+            
         }
     }
 }
