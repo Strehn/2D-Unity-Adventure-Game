@@ -1,6 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+/*
+
+    This is the script for the player triggering doors opening and closing.
+
+*/
 public class Tile : MonoBehaviour 
 {
 	#region Member Variables

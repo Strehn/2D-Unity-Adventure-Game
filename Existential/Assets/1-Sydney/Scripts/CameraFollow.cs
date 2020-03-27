@@ -1,6 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+/*
+
+    This is the script for camera movement to follow the player as they move.
+*/
 public class CameraFollow : MonoBehaviour 
 {
 

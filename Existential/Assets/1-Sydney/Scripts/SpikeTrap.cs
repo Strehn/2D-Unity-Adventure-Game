@@ -1,6 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+/*
+
+    This is the script for if I want to add a spike trap to kill the player.
+    It would make them respawn at the beginning.
+*/
 public class SpikeTrap : MonoBehaviour 
 {
 	#region Member Variables

@@ -2,6 +2,11 @@
 using System.Collections;
 using System.Collections.Generic;
 
+/*
+
+    This is the script for the player triggering on and off.
+
+*/
 public class Trigger : MonoBehaviour 
 {
 	#region Member Variables

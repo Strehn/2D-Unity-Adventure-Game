@@ -1,6 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+/*
+
+    This is the script for playermovement in my scene.
+
+*/
 public class PlayerMovement : MonoBehaviour 
 {
 	#region Member Variables

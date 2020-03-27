@@ -1,6 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+/*
+
+    This is the script to animate the doors on my level. Lets them open and close
+
+*/
 public class Door : MonoBehaviour 
 {
 	#region Member Variables

@@ -1,6 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+/*
+
+    This is the script to animate the collectables required to talk to my main NPC.
+*/
 public class CollectableBounce : MonoBehaviour 
 {
 	#region Member Variables

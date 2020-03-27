@@ -1,6 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+/*
+    This is the script to switch to Dr. BC mode in my level.
+*/
 public class MenuButtons : MonoBehaviour 
 {
 	void OnGUI()

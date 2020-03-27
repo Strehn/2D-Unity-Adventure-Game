@@ -1,6 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+/*
+
+    This is the script to fade the camera in as my scene opens.
+
+*/
 public class FadeScript : MonoBehaviour
 {
 	#region Member Variables

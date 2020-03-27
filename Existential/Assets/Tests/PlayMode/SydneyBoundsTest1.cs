@@ -5,7 +5,7 @@ using UnityEngine.TestTools;
 
 /* Sydney Petrehn
  * Bounds Test Using a bunny
- * Spawn Buny to see if it goes out of bounds
+ * Spawn Bunny to see if it goes out of bounds and what speed it goes out of bounds
  */
 
 public class SydneyBoundsTest1 : MonoBehaviour
