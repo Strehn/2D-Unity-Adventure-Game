@@ -14,17 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Children:
   - {fileID: 3}
-  - {fileID: 16}
+  - {fileID: 17}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 30
     width: 2560
     height: 1307
-  m_MinSize: {x: 707, y: 471}
-  m_MaxSize: {x: 18002, y: 14021}
+  m_MinSize: {x: 708, y: 471}
+  m_MaxSize: {x: 18003, y: 14021}
   vertical: 0
-  controlID: 62536
+  controlID: 55853
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -47,9 +47,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 725
-    width: 1317
-    height: 634
+    y: 694
+    width: 1411
+    height: 665
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewsNames: []
   m_SerializedViewsValues: []
@@ -57,7 +57,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1090, y: 613}
+  m_TargetSize: {x: 2560, y: 1440}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -65,16 +65,16 @@ MonoBehaviour:
   m_VSyncEnabled: 0
   m_Gizmos: 0
   m_Stats: 0
-  m_SelectedSizes: 05000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_SelectedSizes: 09000000000000000000000000000000000000000000000000000000000000000000000000000000
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -545
-    m_HBaseRangeMax: 545
-    m_VBaseRangeMin: -306.5
-    m_VBaseRangeMax: 306.5
+    m_HBaseRangeMin: -1280
+    m_HBaseRangeMax: 1280
+    m_VBaseRangeMin: -720
+    m_VBaseRangeMax: 720
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -92,23 +92,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 1317
-      height: 613
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 658.5, y: 306.5}
+      width: 1411
+      height: 644
+    m_Scale: {x: 0.44722223, y: 0.44722223}
+    m_Translation: {x: 705.5, y: 322}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -658.5
-      y: -306.5
-      width: 1317
-      height: 613
+      x: -1577.5155
+      y: -720
+      width: 3155.031
+      height: 1440
     m_MinimalGUI: 1
-  m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1317, y: 634}
+  m_defaultScale: 0.44722223
+  m_LastWindowPixelSize: {x: 1411, y: 665}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -128,17 +128,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Children:
   - {fileID: 4}
-  - {fileID: 9}
+  - {fileID: 10}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1926
+    width: 2018
     height: 1307
-  m_MinSize: {x: 431, y: 471}
-  m_MaxSize: {x: 14001, y: 14021}
+  m_MinSize: {x: 433, y: 471}
+  m_MaxSize: {x: 14003, y: 14021}
   vertical: 0
-  controlID: 62486
+  controlID: 55854
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -153,17 +153,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Children:
   - {fileID: 5}
-  - {fileID: 8}
+  - {fileID: 9}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1318
+    width: 1412
     height: 1307
-  m_MinSize: {x: 201, y: 442}
-  m_MaxSize: {x: 4001, y: 8042}
+  m_MinSize: {x: 201, y: 421}
+  m_MaxSize: {x: 4001, y: 8021}
   vertical: 1
-  controlID: 62465
+  controlID: 55833
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -181,16 +181,17 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1318
-    height: 652
+    width: 1412
+    height: 621
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 6}
   - {fileID: 7}
+  - {fileID: 8}
   m_Selected: 0
-  m_LastSelected: 0
+  m_LastSelected: 2
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -214,8 +215,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 1317
-    height: 631
+    width: 1411
+    height: 600
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: eb2d10987e78a4189bdeddd16bab8d71
@@ -227,9 +228,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -8.252458, y: -0.0840057, z: -245.72162}
+    m_Target: {x: 1330.5265, y: 353.4841, z: -322.38727}
     speed: 2
-    m_Value: {x: -8.252458, y: -0.0840057, z: -245.72162}
+    m_Value: {x: 1330.5265, y: 353.4841, z: -322.38727}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -279,9 +280,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 10.454469
+    m_Target: 2760.8584
     speed: 2
-    m_Value: 10.454469
+    m_Value: 2760.8584
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -341,6 +342,70 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
+  m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Animator
+    m_Image: {fileID: 663490763026382308, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 73
+    width: 1382
+    height: 686
+  m_ViewDataDictionary: {fileID: 0}
+  m_ViewTransforms:
+    m_KeySerializationHelper:
+    - {fileID: 4270093929406627283, guid: 28bf3dc23d78beb46a6d8f8bd6f734fd, type: 2}
+    m_ValueSerializationHelper:
+    - e00: 0.9824176
+      e01: 0
+      e02: 0
+      e03: -34.12088
+      e10: 0
+      e11: 0.9824176
+      e12: 0
+      e13: 250.30989
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  m_PreviewAnimator: {fileID: 0}
+  m_AnimatorController: {fileID: 9100000, guid: 28bf3dc23d78beb46a6d8f8bd6f734fd,
+    type: 2}
+  m_BreadCrumbs:
+  - m_Target: {fileID: 4270093929406627283, guid: 28bf3dc23d78beb46a6d8f8bd6f734fd,
+      type: 2}
+    m_ScrollPosition: {x: 0, y: 0}
+  stateMachineGraph: {fileID: 0}
+  stateMachineGraphGUI: {fileID: 0}
+  blendTreeGraph: {fileID: 0}
+  blendTreeGraphGUI: {fileID: 0}
+  m_AutoLiveLink: 1
+  m_MiniTool: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_CurrentEditor: 1
+  m_LayerEditor:
+    m_SelectedLayerIndex: 0
+--- !u!114 &9
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: GameView
   m_EditorClassIdentifier: 
@@ -348,17 +413,17 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 652
-    width: 1318
-    height: 655
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+    y: 621
+    width: 1412
+    height: 686
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 2}
   m_Panes:
   - {fileID: 2}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &9
+--- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -371,19 +436,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 10}
+  - {fileID: 11}
   - {fileID: 13}
   m_Position:
     serializedVersion: 2
-    x: 1318
+    x: 1412
     y: 0
-    width: 608
+    width: 606
     height: 1307
-  m_MinSize: {x: 230, y: 471}
-  m_MaxSize: {x: 10000, y: 14021}
+  m_MinSize: {x: 232, y: 471}
+  m_MaxSize: {x: 10002, y: 14021}
   vertical: 1
-  controlID: 62487
---- !u!114 &10
+  controlID: 55855
+--- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -400,17 +465,16 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 608
+    width: 606
     height: 587
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 11}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 12}
   m_Panes:
-  - {fileID: 11}
   - {fileID: 12}
   m_Selected: 0
-  m_LastSelected: 1
---- !u!114 &11
+  m_LastSelected: 0
+--- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -431,9 +495,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1318
+    x: 1412
     y: 73
-    width: 606
+    width: 604
     height: 566
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
@@ -441,7 +505,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: b605ffff0007ffffe00dffffdc10ffff8c13ffffa016ffff6c18ffff7219ffff681affff5a1bffffd41fffff9820ffff9221ffffee25ffff5826ffff6426ffff8626ffff462afffff62bffff0830ffff1430ffff1630ffffbe35ffff2036ffff8236ffff3037ffff3e37ffff0238ffff1439ffff7e3affff9a3dffffa63fffffb23fffffd43fffff404bffff3c5bffff085cffff3663ffff0e92ffff2292ffff2893ffff3693ffffe893ffff0895ffff0e95ffff8895ffff0296ffff0696ffff1ad3ffffa2d3ffff62faffffd0faffff6afbffffa23f0000589c00008c9c0000ca9c0000029d0000309d0000f8cb00009edb0000aadf00003ee3000014e40000cae7000050e800007219010038200100b83e010042420100e0420100da440100784501009a48010038490100be4e01005c4f0100
+      m_ExpandedIDs: e4adfdfff8adfdff4aaffdff06b0fdff46b1fdffdabdfdffe0bdfdff7cbffdff80bffdff8abffdff0c11feff2011feff7212feff2e13feff6e14feff0221feff0821feffa422feffa822feffb222feff143afeff323afeff583afeff5e3cfeff3a9bfeffd69ffeffe2a6feffaea8feffaccffeff56e100001a0401003804010086040100da040100902a0100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -457,7 +521,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 10}
+        m_ClientGUIView: {fileID: 11}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -465,322 +529,6 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 00790c222b21d43e4924e6494a766c11
---- !u!114 &12
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 13401, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Test Runner
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 1318
-    y: 73
-    width: 606
-    height: 566
-  m_ViewDataDictionary: {fileID: 0}
-  m_Spl:
-    ID: 61238
-    splitterInitialOffset: 0
-    currentActiveSplitter: -1
-    realSizes: 740100007c000000
-    relativeSizes:
-    - 0.75
-    - 0.25
-    minSizes: 2000000020000000
-    maxSizes: 0000000000000000
-    lastTotalSize: 496
-    splitSize: 6
-    xOffset: 0
-  m_TestTypeToolbarIndex: 0
-  m_PlayModeTestListGUI:
-    m_Window: {fileID: 12}
-    newResultList:
-    - id: 1003
-      uniqueId: '[Existential][suite]'
-      name: Existential
-      fullName: Existential
-      resultStatus: 0
-      duration: 0.187981
-      messages: One or more child tests had errors
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 
-      parentUniqueId: 
-    - id: 1004
-      uniqueId: '[C:/Users/sam/Unity/CS-383-Project/Existential/Library/ScriptAssemblies/PlayMode.dll][suite]'
-      name: PlayMode.dll
-      fullName: C:/Users/sam/Unity/CS-383-Project/Existential/Library/ScriptAssemblies/PlayMode.dll
-      resultStatus: 0
-      duration: 0.1090425
-      messages: One or more child tests had errors
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1000
-      parentUniqueId: '[Existential][suite]'
-    - id: 1005
-      uniqueId: PlayMode.dll/[Tests][suite]
-      name: Tests
-      fullName: Tests
-      resultStatus: 0
-      duration: 0.0852792
-      messages: One or more child tests had errors
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1004
-      parentUniqueId: '[C:/Users/sam/Unity/CS-383-Project/Existential/Library/ScriptAssemblies/PlayMode.dll][suite]'
-    - id: 1001
-      uniqueId: PlayMode.dll/Tests/[PlayMode][Tests.PlayModeScript][suite]
-      name: PlayModeScript
-      fullName: Tests.PlayModeScript
-      resultStatus: 0
-      duration: 0.0541585
-      messages: One or more child tests had errors
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1005
-      parentUniqueId: PlayMode.dll/[Tests][suite]
-    - id: 1002
-      uniqueId: PlayMode.dll/Tests/PlayModeScript/[PlayMode][Tests.PlayModeScript.checkForMainCharacterInScene]
-      name: checkForMainCharacterInScene
-      fullName: Tests.PlayModeScript.checkForMainCharacterInScene
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.PlayModeScript][suite]
-    m_ResultText: 'Existential (0.188s)
-
-      ---
-
-      One or more child tests
-      had errors'
-    m_ResultStacktrace: 
-    m_TestListState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 7c95c7e3
-      m_LastClickedID: -473459332
-      m_ExpandedIDs: 944a9d842a5f8ecc551bf9d87c95c7e345d21e3f8359db415b363e7cffffff7f
-      m_RenameOverlay:
-        m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
-        m_EditFieldRect:
-          serializedVersion: 2
-          x: 0
-          y: 0
-          width: 0
-          height: 0
-        m_UserData: 0
-        m_IsWaitingForDelay: 0
-        m_IsRenaming: 0
-        m_OriginalEventType: 11
-        m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
-      m_SearchString: 
-    m_TestRunnerUIFilter:
-      PassedHidden: 0
-      FailedHidden: 0
-      NotRunHidden: 0
-      m_SearchString: 
-      selectedCategoryMask: 0
-      availableCategories:
-      - Uncategorized
-  m_EditModeTestListGUI:
-    m_Window: {fileID: 12}
-    newResultList:
-    - id: 1000
-      uniqueId: '[Existential][suite]'
-      name: Existential
-      fullName: Existential
-      resultStatus: 0
-      duration: 0.1195839
-      messages: One or more child tests had errors
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 
-      parentUniqueId: 
-    - id: 1004
-      uniqueId: '[C:/Users/sam/Unity/CS-383-Project/Existential/Library/ScriptAssemblies/Tests.dll][suite]'
-      name: Tests.dll
-      fullName: C:/Users/sam/Unity/CS-383-Project/Existential/Library/ScriptAssemblies/Tests.dll
-      resultStatus: 0
-      duration: 0.0281316
-      messages: One or more child tests had errors
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1000
-      parentUniqueId: '[Existential][suite]'
-    - id: 1005
-      uniqueId: Tests.dll/[Tests][suite]
-      name: Tests
-      fullName: Tests
-      resultStatus: 0
-      duration: 0.0205529
-      messages: One or more child tests had errors
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1004
-      parentUniqueId: '[C:/Users/sam/Unity/CS-383-Project/Existential/Library/ScriptAssemblies/Tests.dll][suite]'
-    - id: 1001
-      uniqueId: Tests.dll/Tests/[Tests][Tests.EditModeScript][suite]
-      name: EditModeScript
-      fullName: Tests.EditModeScript
-      resultStatus: 0
-      duration: 0.0089034
-      messages: One or more child tests had errors
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1005
-      parentUniqueId: Tests.dll/[Tests][suite]
-    - id: 1002
-      uniqueId: Tests.dll/Tests/EditModeScript/[Tests][Tests.EditModeScript.Check_For_Main_Character_In_Scene_Test]
-      name: Check_For_Main_Character_In_Scene_Test
-      fullName: Tests.EditModeScript.Check_For_Main_Character_In_Scene_Test
-      resultStatus: 0
-      duration: 0.0006242
-      messages: 'System.InvalidOperationException : This can only be used during
-        play mode, please use EditorSceneManager.OpenScene() instead.'
-      output: 
-      stacktrace: "  at (wrapper managed-to-native) UnityEngine.SceneManagement.SceneManager.LoadSceneAsyncNameIndexInternal_Injected(string,int,UnityEngine.SceneManagement.LoadSceneParameters&,bool)\r\n 
-        at UnityEngine.SceneManagement.SceneManager.LoadSceneAsyncNameIndexInternal
-        (System.String sceneName, System.Int32 sceneBuildIndex, UnityEngine.SceneManagement.LoadSceneParameters
-        parameters, System.Boolean mustCompleteNextFrame) [0x00000] in <58a34b0a618d424bb5fc18bb9bcdac20>:0
-        \r\n  at UnityEngine.SceneManagement.SceneManager.LoadScene (System.Int32
-        sceneBuildIndex, UnityEngine.SceneManagement.LoadSceneParameters parameters)
-        [0x00001] in <58a34b0a618d424bb5fc18bb9bcdac20>:0 \r\n  at UnityEngine.SceneManagement.SceneManager.LoadScene
-        (System.Int32 sceneBuildIndex) [0x00009] in <58a34b0a618d424bb5fc18bb9bcdac20>:0
-        \r\n  at Tests.EditModeScript.Check_For_Main_Character_In_Scene_Test () [0x00006]
-        in C:\\Users\\sam\\Unity\\CS-383-Project\\Existential\\Assets\\3-Sam\\Tests\\EditMode\\EditModeScript.cs:19
-        \r\n  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)\r\n 
-        at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags
-        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
-        System.Globalization.CultureInfo culture) [0x00032] in <437ba245d8404784b9fbab9b439ac908>:0 "
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: Tests.dll/Tests/[Tests][Tests.EditModeScript][suite]
-    m_ResultText: "Check_For_Main_Character_In_Scene_Test (0.001s)\n---\nSystem.InvalidOperationException
-      : This can only be used during play mode, please use EditorSceneManager.OpenScene()
-      instead.\n---\nat (wrapper managed-to-native) UnityEngine.SceneManagement.SceneManager.LoadSceneAsyncNameIndexInternal_Injected(string,int,UnityEngine.SceneManagement.LoadSceneParameters&,bool)\r\n 
-      at UnityEngine.SceneManagement.SceneManager.LoadSceneAsyncNameIndexInternal
-      (System.String sceneName, System.Int32 sceneBuildIndex, UnityEngine.SceneManagement.LoadSceneParameters
-      parameters, System.Boolean mustCompleteNextFrame) [0x00000] in <58a34b0a618d424bb5fc18bb9bcdac20>:0
-      \r\n  at UnityEngine.SceneManagement.SceneManager.LoadScene (System.Int32 sceneBuildIndex,
-      UnityEngine.SceneManagement.LoadSceneParameters parameters) [0x00001] in <58a34b0a618d424bb5fc18bb9bcdac20>:0
-      \r\n  at UnityEngine.SceneManagement.SceneManager.LoadScene (System.Int32 sceneBuildIndex)
-      [0x00009] in <58a34b0a618d424bb5fc18bb9bcdac20>:0 \r\n  at Tests.EditModeScript.Check_For_Main_Character_In_Scene_Test
-      () [0x00006] in C:\\Users\\sam\\Unity\\CS-383-Project\\Existential\\Assets\\3-Sam\\Tests\\EditMode\\EditModeScript.cs:19
-      \r\n  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)\r\n 
-      at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags
-      invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo
-      culture) [0x00032] in <437ba245d8404784b9fbab9b439ac908>:0"
-    m_ResultStacktrace: "  at (wrapper managed-to-native) UnityEngine.SceneManagement.SceneManager.LoadSceneAsyncNameIndexInternal_Injected(string,int,UnityEngine.SceneManagement.LoadSceneParameters&,bool)\r\n 
-      at UnityEngine.SceneManagement.SceneManager.LoadSceneAsyncNameIndexInternal
-      (System.String sceneName, System.Int32 sceneBuildIndex, UnityEngine.SceneManagement.LoadSceneParameters
-      parameters, System.Boolean mustCompleteNextFrame) [0x00000] in <58a34b0a618d424bb5fc18bb9bcdac20>:0
-      \r\n  at UnityEngine.SceneManagement.SceneManager.LoadScene (System.Int32 sceneBuildIndex,
-      UnityEngine.SceneManagement.LoadSceneParameters parameters) [0x00001] in <58a34b0a618d424bb5fc18bb9bcdac20>:0
-      \r\n  at UnityEngine.SceneManagement.SceneManager.LoadScene (System.Int32 sceneBuildIndex)
-      [0x00009] in <58a34b0a618d424bb5fc18bb9bcdac20>:0 \r\n  at Tests.EditModeScript.Check_For_Main_Character_In_Scene_Test
-      () [0x00006] in C:\\Users\\sam\\Unity\\CS-383-Project\\Existential\\Assets\\3-Sam\\Tests\\EditMode\\EditModeScript.cs:19
-      \r\n  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)\r\n 
-      at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags
-      invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo
-      culture) [0x00032] in <437ba245d8404784b9fbab9b439ac908>:0 "
-    m_TestListState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: e9b550d3
-      m_LastClickedID: -749685271
-      m_ExpandedIDs: dc7a55827c95c7e38359db415b363e7cffffff7f
-      m_RenameOverlay:
-        m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
-        m_EditFieldRect:
-          serializedVersion: 2
-          x: 0
-          y: 0
-          width: 0
-          height: 0
-        m_UserData: 0
-        m_IsWaitingForDelay: 0
-        m_IsRenaming: 0
-        m_OriginalEventType: 11
-        m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
-      m_SearchString: 
-    m_TestRunnerUIFilter:
-      PassedHidden: 0
-      FailedHidden: 0
-      NotRunHidden: 0
-      m_SearchString: 
-      selectedCategoryMask: 0
-      availableCategories:
-      - Uncategorized
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -798,7 +546,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 587
-    width: 608
+    width: 606
     height: 720
   m_MinSize: {x: 230, y: 250}
   m_MaxSize: {x: 10000, y: 10000}
@@ -806,8 +554,9 @@ MonoBehaviour:
   m_Panes:
   - {fileID: 14}
   - {fileID: 15}
+  - {fileID: 16}
   m_Selected: 0
-  m_LastSelected: 1
+  m_LastSelected: 2
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -829,9 +578,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1318
+    x: 1412
     y: 660
-    width: 606
+    width: 604
     height: 699
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
@@ -847,10 +596,11 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/3-Sam/Prefabs
+    - Assets/3-Sam/Scripts
   m_ViewMode: 0
   m_StartGridSize: 64
-  m_LastFolders: []
+  m_LastFolders:
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\sam\Unity\CS-383-Project\Existential
   m_LockTracker:
@@ -859,7 +609,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 90890000
     m_LastClickedID: 35216
-    m_ExpandedIDs: ffffffff00000000023700000437000006370000083700000a3700000c3700000e37000010370000123700001437000016370000183700001a3700001c3700001e37000020370000223700004e37000050370000523700006237000014720000
+    m_ExpandedIDs: ffffffff000000000c99000022990000cc9e0000ce9e0000d09e0000d29e0000d49e0000d69e0000d89e0000da9e0000dc9e0000de9e0000e09e0000e29e0000e49e0000e69e0000e89e0000ee9e0000f09e0000f69e0000729f00007e9f0000829f00000cd6000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -887,21 +637,21 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000023700000437000006370000083700000a3700000c3700000e37000010370000123700001437000016370000183700001a3700001c3700001e37000020370000223700004e3700005037000052370000623700006437000014720000
+    m_ExpandedIDs: ffffffff000000000c99000022990000cc9e0000ce9e0000d09e0000d29e0000d49e0000d69e0000d89e0000da9e0000dc9e0000de9e0000e09e0000e29e0000e49e0000e69e0000e89e0000ee9e0000f09e0000f69e0000729f00007e9f0000829f00000cd6000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: PauseCanvas
-      m_OriginalName: PauseCanvas
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 15844
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 13}
     m_SearchString: 
@@ -964,12 +714,41 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1318
+    x: 1412
     y: 660
-    width: 606
+    width: 604
     height: 699
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &16
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12071, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Animation
+    m_Image: {fileID: 1561878555887300916, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1412
+    y: 660
+    width: 604
+    height: 699
+  m_ViewDataDictionary: {fileID: 0}
+  m_LockTracker:
+    m_IsLocked: 0
+  m_LastSelectedObjectID: 76582
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -984,18 +763,18 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1926
+    x: 2018
     y: 0
-    width: 634
+    width: 542
     height: 1307
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 17}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 18}
   m_Panes:
-  - {fileID: 17}
+  - {fileID: 18}
   m_Selected: 0
   m_LastSelected: 1
---- !u!114 &17
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1016,9 +795,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1926
+    x: 2018
     y: 73
-    width: 633
+    width: 541
     height: 1286
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0

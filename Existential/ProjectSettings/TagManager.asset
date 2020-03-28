@@ -12,6 +12,8 @@ TagManager:
   - interObject
   - Button
   - prefab
+  - LargeTile
+  - LevelChanger
   layers:
   - Default
   - TransparentFX
