@@ -13,18 +13,18 @@ namespace Tests{
         public IEnumerator StressTest(){
             var T = 1/Time.deltaTime;
             SetupScene();
-            for (int i = 0; i < 100; i++){
+            for (int i = 0; i < 10; i++){
                 T = 1/Time.deltaTime;
-                for (int j = 0; j < 100; j++){
+                for (int j = 0; j < 10; j++){
                     // Inventory item made by me
                     MonoBehaviour.Instantiate(Resources.Load<GameObject>("Prefabs/Chalice"));
                 }
                 T = 1 / Time.deltaTime;
                 Debug.Log(T);
-                yield return new WaitForSeconds(1);
+                yield return new WaitForSeconds(3);
                 if (T < 15){
                     Debug.Log((i+1) * 100);
-                    if (i < 10){
+                    if (i < 5){
                         Assert.Fail();
                     }
                     yield break;
@@ -32,11 +32,13 @@ namespace Tests{
             }
         }
 
-        void SetupScene(){           
-            // My level
-            MonoBehaviour.Instantiate(Resources.Load<GameObject>("Prefabs/Chalice"));
+        void SetupScene(){   
             // A Camera
-            MonoBehaviour.Instantiate(Resources.Load<GameObject>("Prefabs/Camera"));
+            MonoBehaviour.Instantiate(Resources.Load<GameObject>("Prefabs/MainCharacter"));
+            // My level
+            MonoBehaviour.Instantiate(Resources.Load<GameObject>("Prefabs/levelTilemap"));        
+            // My inventory object
+            MonoBehaviour.Instantiate(Resources.Load<GameObject>("Prefabs/Chalice"));
         }
     }
 }
