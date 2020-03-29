@@ -13,7 +13,7 @@ namespace Tests{
         public IEnumerator StressTest(){
             var T = 1/Time.deltaTime;
             SetupScene();
-            for (int i = 0; i < 10; i++){
+            for (int i = 0; i < 10; i++){  // Execute 100 times
                 T = 1/Time.deltaTime;
                 for (int j = 0; j < 10; j++){
                     // Inventory item made by me
@@ -21,7 +21,7 @@ namespace Tests{
                 }
                 T = 1 / Time.deltaTime;
                 Debug.Log(T);
-                yield return new WaitForSeconds(3);
+                yield return new WaitForSeconds(1);  // Wait for 1 second
                 if (T < 15){
                     Debug.Log((i+1) * 100);
                     if (i < 5){
@@ -33,7 +33,7 @@ namespace Tests{
         }
 
         void SetupScene(){   
-            // A Camera
+            // Main character and camera
             MonoBehaviour.Instantiate(Resources.Load<GameObject>("Prefabs/MainCharacter"));
             // My level
             MonoBehaviour.Instantiate(Resources.Load<GameObject>("Prefabs/levelTilemap"));        
