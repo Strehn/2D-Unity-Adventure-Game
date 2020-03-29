@@ -34,7 +34,7 @@ public class Inventory : MonoBehaviour{
     public void RemoveItem(IInventoryItem item){
         if (inventoryList.Contains(item)){
             inventoryList.Remove(item);
-            item.OnDrop();
+            //item.OnDrop();
 
             Collider collider = (item as MonoBehaviour).GetComponent<Collider>();
             if(collider != null){

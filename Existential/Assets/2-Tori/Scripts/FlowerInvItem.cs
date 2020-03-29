@@ -27,14 +27,14 @@ public class FlowerInvItem : MonoBehaviour, IInventoryItem{
         gameObject.SetActive(false);
     }
 
-    public void OnDrop()
-    {
+    public void OnDrop(){
         RaycastHit hit = new RaycastHit();
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-        if(Physics.Raycast(ray, out hit, 1000))
-        {
+        if(Physics.Raycast(ray, out hit, 1000)){
+            Debug.Log("game object = ");
+            Debug.Log(gameObject);
             gameObject.SetActive(true);
-            //gameObject.transform.position = hit.point;
+            gameObject.transform.position = hit.point;
         }
         
     }
