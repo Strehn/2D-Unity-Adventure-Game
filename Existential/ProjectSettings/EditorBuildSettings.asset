@@ -30,6 +30,6 @@ EditorBuildSettings:
     path: Assets/6-Taegan/Scenes/TaeganScene.unity
     guid: 162e19d2ceef24ca6a7ca4a1f552e732
   - enabled: 1
-    path: Assets/5-Ronnie/RonnieScene.unity
+    path: Assets/5-Ronnie/Scenes/RonnieScene.unity
     guid: 4ab21ffd15e9f4780adbbb1aba24e333
   m_configObjects: {}
