@@ -14,7 +14,7 @@ public class Inventory : MonoBehaviour{
     public Camera cam;
     private List<IInventoryItem> inventoryList = new List<IInventoryItem>();
     public event EventHandler<InventoryEventArgs> ItemAdded;
-    public event EventHandler<InventoryEventArgs> ItemDropped;
+    public event EventHandler<InventoryEventArgs> ItemRemoved;
   
     public void AddItem(IInventoryItem item){
         if(inventoryList.Count < MAXITEMS){
@@ -22,8 +22,8 @@ public class Inventory : MonoBehaviour{
             if (collider.enabled){
                 collider.enabled = false;
                 inventoryList.Add(item);
+                Debug.Log("Add Item");
                 item.OnPickup();
-
                 if(ItemAdded != null){
                     ItemAdded(this, new InventoryEventArgs(item));
                 }
@@ -31,14 +31,20 @@ public class Inventory : MonoBehaviour{
         }
     }
 
-    public void DropItem(IInventoryItem item)
-    {
-        inventoryList.Remove(item);
-        item.OnDrop();
+    public void RemoveItem(IInventoryItem item){
+        if (inventoryList.Contains(item)){
+            inventoryList.Remove(item);
+            item.OnDrop();
 
-        if (ItemDropped != null)
-        {
-            ItemDropped(this, new InventoryEventArgs(item));
+            Collider collider = (item as MonoBehaviour).GetComponent<Collider>();
+            if(collider != null){
+                collider.enabled = true;
+            }
+
+            if(ItemRemoved != null){
+                ItemRemoved(this, new InventoryEventArgs(item));
+            }
+
         }
     }
 
