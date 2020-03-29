@@ -14,6 +14,7 @@ TagManager:
   - prefab
   - LargeTile
   - LevelChanger
+  - Arch
   layers:
   - Default
   - TransparentFX
@@ -24,7 +25,7 @@ TagManager:
   - 
   - 
   - Ground
-  - 
+  - Arch
   - 
   - 
   - 
@@ -57,12 +58,12 @@ TagManager:
   - name: NPC
     uniqueID: 3683853089
     locked: 0
+  - name: Player
+    uniqueID: 490622489
+    locked: 0
   - name: Arch
     uniqueID: 976212667
     locked: 0
   - name: Border
     uniqueID: 2275722853
-    locked: 0
-  - name: Player
-    uniqueID: 490622489
     locked: 0
