@@ -32,11 +32,11 @@ public class Inventory : MonoBehaviour{
     }
 
     public void RemoveItem(IInventoryItem item){
-        if (inventoryList.Contains(item)){
+        if(inventoryList.Contains(item)){
             inventoryList.Remove(item);
-            //item.OnDrop();
+            item.OnDrop();
 
-            Collider collider = (item as MonoBehaviour).GetComponent<Collider>();
+            Collider2D collider = (item as MonoBehaviour).GetComponent<Collider2D>();
             if(collider != null){
                 collider.enabled = true;
             }
