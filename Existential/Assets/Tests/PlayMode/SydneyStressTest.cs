@@ -34,7 +34,7 @@ public class SydneyStressTest : MonoBehaviour
         //Instantiate a ton of bunnies
         for (i = 0; i < 100; i++)
         {
-            //SpawnBunny
+            //SpawnBunny multiple times
             MonoBehaviour.Instantiate(Resources.Load<GameObject>("Prefabs/SpawnedBunny"));
 
         }

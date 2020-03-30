@@ -4,17 +4,15 @@ using UnityEngine;
 using UnityEngine.TestTools;
 
 /* Sydney Petrehn
- * Bounds Test Using a bunny
+ * Bounds Test Using a bunny on a boarder of trees.
  * Spawn Bunny to see if it goes out of bounds and what speed it goes out of bounds
  */
 
-public class SydneyBoundsTest1 : MonoBehaviour
-{
+public class SydneyBoundsTest1 : MonoBehaviour{
     [UnityTest]
-    public IEnumerator Bunny_BoundsTest()
-    {
+    public IEnumerator Bunny_BoundsTest(){
         //Move the bunnies super fast
-        int currentSpeed = 80;
+        int currentSpeed = 10;
         // spawn location
         Vector2 StartLocation = new Vector2(2, 1);
         //Instantiates the Objects
@@ -28,8 +26,7 @@ public class SydneyBoundsTest1 : MonoBehaviour
         Rigidbody2D rb = SpawnedBunny.GetComponent<Rigidbody2D>();
 
         //Runs the test for a total of 10 runs, if it does not break the wall, the test passes
-        for (int i = 0; i < 10; i++)
-        {
+        for (int i = 0; i < 10; i++){
             //Function to give the Bunny velocity and reset if it hits the wall
             Bunny_Move(currentSpeed, StartLocation, SpawnedBunny, rb);
 
@@ -39,13 +36,11 @@ public class SydneyBoundsTest1 : MonoBehaviour
             //Function to check if the bunny is out of bounds
             bool returnedValue = Check_Position(SpawnedBunny);
 
-            if (returnedValue == false)
-            {
+            if (returnedValue == false){
                 currentSpeed += 1;
                 Debug.Log("Adding Speed - Current Speed: " + currentSpeed);
             }
-            else
-            {
+            else{
                 Debug.Log("Asserting False - Final Speed: " + currentSpeed);
                 Assert.Fail();
             }
@@ -55,21 +50,15 @@ public class SydneyBoundsTest1 : MonoBehaviour
     }
 
     //Function to setup the scene
-    void SetupScene()
-    {
-        //Prefab with the Camera
-        MonoBehaviour.Instantiate(Resources.Load<GameObject>("Prefabs/SPCanvas"));
-
-        //Prefab with the Forest
-        MonoBehaviour.Instantiate(Resources.Load<GameObject>("Prefabs/ForestTile"));
+    void SetupScene(){
+        //Prefab with everything needed for bunny bounds tests
+        MonoBehaviour.Instantiate(Resources.Load<GameObject>("Prefabs/SPForestTestingCanvas"));
     }
 
     //Function to give the Bunny Velocity and reset the Bunny
-    void Bunny_Move(int currentSpeed, Vector2 StartLocation, GameObject SpawnedBunny, Rigidbody2D rb)
-    {
+    void Bunny_Move(int currentSpeed, Vector2 StartLocation, GameObject SpawnedBunny, Rigidbody2D rb){
         //Debug.Log("Moving Bunny");
-        if (SpawnedBunny.transform.position.x > 1f && SpawnedBunny.transform.position.x < 100f)
-        {
+        if (SpawnedBunny.transform.position.x > 1f && SpawnedBunny.transform.position.x < 100f){
             //Debug.Log("Resetting Bunny");
             SpawnedBunny.transform.position = StartLocation;
         }
@@ -77,14 +66,11 @@ public class SydneyBoundsTest1 : MonoBehaviour
     }
 
     //Function to check if the Bunny is past the wall
-    bool Check_Position(GameObject SpawnedBunny)
-    {
-        if (SpawnedBunny.transform.position.x > 100)
-        {
+    bool Check_Position(GameObject SpawnedBunny){
+        if (SpawnedBunny.transform.position.x > 100){
             return true;
         }
-        else
-        {
+        else{
             return false;
         }
     }

@@ -2,17 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SydneyBoundsTest2 : MonoBehaviour
-{
+/* Sydney Petrehn
+ * Bounds Test Using a tree on a boarder of bunnies
+ * Spawn Tree to see if it goes out of bounds after 5 seconds.
+ */
+
+public class SydneyBoundsTest2 : MonoBehaviour{
     // Start is called before the first frame update
-    void Start()
-    {
+    void Start() {
         
     }
 
     // Update is called once per frame
-    void Update()
-    {
+    void Update(){
         
     }
 }
