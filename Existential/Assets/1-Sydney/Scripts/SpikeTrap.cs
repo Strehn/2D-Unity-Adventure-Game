@@ -2,12 +2,10 @@
 using System.Collections;
 
 /*
-
     This is the script for if I want to add a spike trap to kill the player.
     It would make them respawn at the beginning.
 */
-public class SpikeTrap : MonoBehaviour 
-{
+public class SpikeTrap : MonoBehaviour {
 	#region Member Variables
 	/// <summary>
 	/// The sprite representing the trap
@@ -33,8 +31,7 @@ public class SpikeTrap : MonoBehaviour
 	/// A toggle for turning this tiles functionality on or off
 	/// </summary>
 	// 
-	public enum TOGGLE
-	{
+	public enum TOGGLE{
 		ON = 0,
 		OFF = 1,
 	}
@@ -46,31 +43,26 @@ public class SpikeTrap : MonoBehaviour
 	public float TrapTime = 2.0f;
 	#endregion
 
-	void Start () 
-	{
+	void Start () {
 		// use the initial inspector setting to determine the starting phase of this object
 		sprite = gameObject.GetComponent<SpriteRenderer>();
 		
-		if(Toggle == TOGGLE.OFF)
-		{
+		if(Toggle == TOGGLE.OFF){
 			sprite.sprite = OffSprite;
 			gameObject.GetComponent<Collider2D>().enabled = false;
 		}
-		else if(Toggle == TOGGLE.ON)
-		{
+		else if(Toggle == TOGGLE.ON){
 			sprite.sprite = OnSprite;
 			gameObject.GetComponent<Collider2D>().enabled = true;
 		}
 	}
 
-	void Update()
-	{
+	void Update(){
 		// Update the timer with the elapsed time
 		Timer += Time.deltaTime;
 
 		// Check if the timer has finished
-		if(Timer > TrapTime)
-		{
+		if(Timer > TrapTime){
 			Timer = 0.0f;
 			ToggleObject();
 		}
@@ -79,10 +71,8 @@ public class SpikeTrap : MonoBehaviour
 	/// <summary>
 	/// Used to toggle between object states 
 	/// </summary>
-	public void ToggleObject()
-	{
-		if(Toggle == TOGGLE.OFF)
-		{
+	public void ToggleObject(){
+		if(Toggle == TOGGLE.OFF){
 			// turn it on
 			Toggle = TOGGLE.ON;
 			
@@ -90,8 +80,7 @@ public class SpikeTrap : MonoBehaviour
 			sprite.sprite = OnSprite;
 			gameObject.GetComponent<Collider2D>().enabled = true;
 		}
-		else if(Toggle == TOGGLE.ON)
-		{
+		else if(Toggle == TOGGLE.ON){
 			// turn it off
 			Toggle = TOGGLE.OFF;
 			
