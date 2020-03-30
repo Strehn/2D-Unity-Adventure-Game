@@ -11,12 +11,12 @@ namespace Tests{
         [UnityTest]
         public IEnumerator InstantiateNonExistentObject(){
             SetupScene();
-                if (GameObject.Find("newObject")){  // if we find the object in the scene, we pass
-                    Assert.Pass();
+                if (GameObject.Find("newObject")){  // if we find the object in the scene, we fail - this should  not happen
+                    Assert.Fail();
                     yield break;
                 }
                 else{
-                    Assert.Fail();  // otherwise, we fail
+                    Assert.Pass();  // otherwise, we pass
                     yield break;
                 }
         }

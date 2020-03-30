@@ -27,10 +27,10 @@ namespace Tests{
                 }
                 else{
                     Debug.Log("Final Speed: " + defaultSpeed);
-                    Assert.Fail();
+                    Assert.Pass();  // The test will pass if we break the boundary in the timeframe
                 }
             }
-            Assert.Pass();
+            Assert.Fail();  // The test will fail if we do not break the boundary in the right timeframe
             yield break;
         }
 
