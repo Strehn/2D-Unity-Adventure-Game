@@ -3,14 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /*
-
     This is the script for any environmental sprites. It allows the sprites
     to move randomly.
-
 */
 
-public class spriteMovement : MonoBehaviour
-{
+public class spriteMovement : MonoBehaviour{
     // check for movement and apply it to player object
     public float speed;                //Floating point variable to store the sprite's movement speed.
 
@@ -41,8 +38,7 @@ public class spriteMovement : MonoBehaviour
         //Randomly choose direction
         ChooseDirection();
 
-        if (walkZone != null)
-        {
+        if (walkZone != null){
             //Set area to wander
             minWalkPoint = walkZone.bounds.min;
             maxWalkPoint = walkZone.bounds.max;
@@ -53,18 +49,15 @@ public class spriteMovement : MonoBehaviour
     // update is called once per frame
     void Update(){
         //vary between walking and waiting
-        if(isWalking)
-        {
+        if(isWalking){
             walkCounter -= Time.deltaTime;
 
 
-            switch(WalkDirection)
-            {
+            switch(WalkDirection){
                 case 0:
                     //move upward
                     rb2d.velocity = new Vector2(0, speed);
-                    if(hasWalkZone && transform.position.y > maxWalkPoint.y)
-                    {
+                    if(hasWalkZone && transform.position.y > maxWalkPoint.y){
                         isWalking = false;
                         waitCounter = waitTime;
                     }
@@ -73,8 +66,7 @@ public class spriteMovement : MonoBehaviour
                 case 1:
                     // move right
                     rb2d.velocity = new Vector2(speed, 0);
-                    if (hasWalkZone && transform.position.x > maxWalkPoint.x)
-                    {
+                    if (hasWalkZone && transform.position.x > maxWalkPoint.x){
                         isWalking = false;
                         waitCounter = waitTime;
                     }
@@ -83,8 +75,7 @@ public class spriteMovement : MonoBehaviour
                 case 2:
                     // move down
                     rb2d.velocity = new Vector2(0, -speed);
-                    if (hasWalkZone && transform.position.y < minWalkPoint.y)
-                    {
+                    if (hasWalkZone && transform.position.y < minWalkPoint.y){
                         isWalking = false;
                         waitCounter = waitTime;
                     }
@@ -92,22 +83,19 @@ public class spriteMovement : MonoBehaviour
                 case 3:
                     // move left
                     rb2d.velocity = new Vector2(-speed, 0);
-                    if (hasWalkZone && transform.position.x < minWalkPoint.x)
-                    {
+                    if (hasWalkZone && transform.position.x < minWalkPoint.x){
                         isWalking = false;
                         waitCounter = waitTime;
                     }
                     break;
             }
 
-            if (walkCounter < 0)
-            {
+            if (walkCounter < 0){
                 isWalking = false;
                 waitCounter = waitTime;
             }
         }
-        else
-        {
+        else{
             waitCounter -= Time.deltaTime;
 
             rb2d.velocity = Vector2.zero;
