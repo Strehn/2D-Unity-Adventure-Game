@@ -9,11 +9,9 @@ using UnityEngine.TestTools;
  * Used the team lead 3 presentation for reference and teammates for help
  */
 
-public class SydneyStressTest : MonoBehaviour
-{
+public class SydneyStressTest : MonoBehaviour{
     [UnityTest]
-    public IEnumerator Bunny_StressTest()
-    {
+    public IEnumerator Bunny_StressTest(){
         // Amount of Bunnies
         int i = 0;
         // spawn location
@@ -32,8 +30,7 @@ public class SydneyStressTest : MonoBehaviour
         var StartTime = 1 / Time.deltaTime;
 
         //Instantiate a ton of bunnies
-        for (i = 0; i < 100; i++)
-        {
+        for (i = 0; i < 100; i++){
             //SpawnBunny multiple times
             MonoBehaviour.Instantiate(Resources.Load<GameObject>("Prefabs/SpawnedBunny"));
 
@@ -50,9 +47,12 @@ public class SydneyStressTest : MonoBehaviour
         //Let the test run for 3 secconds
         yield return new WaitForSeconds(3);
 
+
+        // Do Frames per second here instead
+        //
+        //
         // See how it affected the game time
-        if (TTime < 10)
-        {
+        if (TTime < 10){
             Debug.Log((i + 1) * 100);
             if (i < 100)
             {
@@ -61,15 +61,14 @@ public class SydneyStressTest : MonoBehaviour
             Assert.Pass();
             yield break;
         }
+        //
+        //
 
         //Function to setup the scene
-        void SetupScene()
-        {
-            //Prefab with the Camera
+        void SetupScene(){
+            //Prefab with the Bunny and Canvas for testing
             MonoBehaviour.Instantiate(Resources.Load<GameObject>("Prefabs/SPCanvas"));
 
-            //Prefab with the Forest
-            MonoBehaviour.Instantiate(Resources.Load<GameObject>("Prefabs/ForestTile"));
         }
     }
 }

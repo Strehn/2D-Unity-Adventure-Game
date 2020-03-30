@@ -6,6 +6,9 @@ using UnityEngine.TestTools;
 /* Sydney Petrehn
  * Bounds Test Using a bunny on a boarder of trees.
  * Spawn Bunny to see if it goes out of bounds and what speed it goes out of bounds
+ * The point of this test is to see if a npc that is moving can go through a
+ * boundary whereas my other boundary test is to test if a boundary that is moving can go
+ * through a stationary npc.
  */
 
 public class SydneyBoundsTest1 : MonoBehaviour{
