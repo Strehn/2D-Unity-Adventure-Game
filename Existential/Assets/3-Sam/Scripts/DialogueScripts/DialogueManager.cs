@@ -11,16 +11,21 @@ public class DialogueManager : MonoBehaviour
     public Animator animator;
 
     private Queue<string> sentences;
+    private PlayerControllerRigidBody thePlayer;
 
     // Start is called before the first frame update
     void Start()
     {
         sentences = new Queue<string>();
+        thePlayer = FindObjectOfType<PlayerControllerRigidBody>();
     }
 
     public void StartDialogue(Dialogue dialogue)
     {
         animator.SetBool("isOpen", true);
+
+        thePlayer.canMove = false;
+
         nameText.text = dialogue.name;
 
         sentences.Clear();
@@ -59,5 +64,6 @@ public class DialogueManager : MonoBehaviour
     public void EndDialogue()
     {
         animator.SetBool("isOpen", false);
+        thePlayer.canMove = true;
     }
 }

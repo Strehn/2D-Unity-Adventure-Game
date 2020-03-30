@@ -4,16 +4,17 @@ using UnityEngine;
 
 // Isabel
 
-// Sam added a canMove bool to make it so player cannot if a condition is met (i.e. Player talking with NPC and dialogue box pops up)
+// Sam added a canMove bool to make it so player cannot mover if a condition is met (i.e. Player talking with NPC and dialogue box pops up)
 
-public class PlayerControllerRigidBody : MonoBehaviour{
+public class PlayerControllerRigidBody : MonoBehaviour {
     public float speed;  // Variable for speed movement (should be about 2)
     private Rigidbody2D rb;  // Rigidbody2D for 2D character movement
     private Vector2 moveVelocity;  // Vector for how fast the player will move on screen
 
     public bool canMove; // Sam - Boolean to dictate whether player can move the main character or not
 
-    void Start(){
+    void Start() {
+
         rb = GetComponent<Rigidbody2D>();  // Get the Rigidbody2D from the character components 
 
         canMove = true; // Sam - Set so that player can move to start
