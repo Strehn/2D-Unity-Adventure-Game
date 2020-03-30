@@ -15,48 +15,47 @@ public class HudInventory : MonoBehaviour{
 
     // Start is called before the first frame update
     void Start(){
-        // TODO: disable all inventory images when dropped
         Inventory.ItemAdded += Inventory_ItemAdded;
-        Inventory.ItemDropped -= Inventory_ItemDropped;
+        Inventory.ItemRemoved += Inventory_ItemRemoved;
     }
 
     private void Inventory_ItemAdded(object sender, InventoryEventArgs e){
         Transform inventoryPanel = transform.Find("Inventory");
-        Debug.Log(inventoryPanel.GetComponent<GameObject>());
+        
         foreach(Transform itemSlot in inventoryPanel){
-            Image image = itemSlot.GetChild(0).GetComponent<Image>();
-            Debug.Log(image);
-            //Image image = itemSlot.GetComponent<Image>();
-            if (!image.enabled){
-                Debug.Log(image);
+
+            Transform imageTransform = itemSlot.GetChild(0);
+            Image image = imageTransform.GetComponent<Image>();
+            ItemDragHandler itemDragHandler = imageTransform.GetComponent<ItemDragHandler>();
+            
+            if (!image.enabled){ 
                 image.enabled = true;
                 image.sprite = e.Item.Image;
+                itemDragHandler.Item = e.Item;
+                Debug.Log(e.Item);
                 break;
             }
         }
     }
 
-    private void Inventory_ItemDropped(object sender, InventoryEventArgs e)
-    {
+    private void Inventory_ItemRemoved(object sender, InventoryEventArgs e){
         Transform inventoryPanel = transform.Find("Inventory");
-        Debug.Log(inventoryPanel.GetComponent<GameObject>());
-        foreach (Transform itemSlot in inventoryPanel)
-        {
-            Image image = itemSlot.GetChild(0).GetComponent<Image>();
-            Debug.Log(image);
-            //Image image = itemSlot.GetComponent<Image>();
-            if (image.enabled)
-            {
-                Debug.Log(image);
+        foreach (Transform itemSlot in inventoryPanel){
+            Transform imageTransform = itemSlot.GetChild(0);
+            Image image = imageTransform.GetComponent<Image>();
+            ItemDragHandler itemDragHandler = imageTransform.GetComponent<ItemDragHandler>();
+            Debug.Log("item drag handler item");
+            Debug.Log(itemDragHandler.Item);
+            Debug.Log("e.item");
+            Debug.Log(e.Item);
+            if (itemDragHandler.Item.Equals(e.Item)){
                 image.enabled = false;
-                //image.sprite = e.Item.Image;
+                image.sprite = null;
+                itemDragHandler.Item = null;
                 break;
             }
+           
         }
     }
 
-    // Update is called once per frame
-    void Update(){
-        //Inventory.ItemAdded += Inventory_ItemAdded;
-    }
 }

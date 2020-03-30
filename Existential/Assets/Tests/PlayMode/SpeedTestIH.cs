@@ -10,37 +10,43 @@ namespace Tests{
         // Boundary test to see which speed the main character breaks the boundary
         [UnityTest]
         public IEnumerator SpeedTest(){
-            SetupScene();
-            int defaultSpeed = 100;
-            int MAX = 20;
-            GameObject MainCharacter_1 = GameObject.Find("MainCharacter");
+            int defaultSpeed = 100; // Typically, the player will only be at speed 2 - but for testing I will amp it up to 100
+            SetupScene(); // Sets the scene with my level and the Main Character
 
-            for (int i = 0; i < MAX; i++){
-                defaultSpeed = 100;
-                MovePos(defaultSpeed, MainCharacter_1);
-                yield return new WaitForSeconds(1);
+            GameObject MC = GameObject.Find("MainCharacter(Clone)");  // Find the main character in the scene
+            Rigidbody2D rb = MC.GetComponent<Rigidbody2D>();  // Find the MC's rigidbody
 
-                if (MainCharacter_1.GetComponent<Transform>().position.y < 14){
-                    Debug.Log("New speed: " + i * 10);
-                    defaultSpeed = defaultSpeed + 10;  // Add 10 to the speed each time
+            // Run test 10 times
+            for(int i = 0; i < 10; i++){
+                MovePos(defaultSpeed, MC, rb);  // Moves the player
+                yield return new WaitForSeconds(1);  // Run for 1 second, try again
+
+                if(MC.transform.position.y < 14){
+                    Debug.Log("Current Speed: " + defaultSpeed);
+                    defaultSpeed += 15;  // Add 15 to the defaultSpeed
                 }
                 else{
-                    Assert.Fail();  // Test fails, player breaks boundary
-                    yield break;
-                }   
+                    Debug.Log("Final Speed: " + defaultSpeed);
+                    Assert.Fail();
+                }
             }
-            Assert.Pass();  // Pass the test if the player doesn't go through the boundary
+            Assert.Pass();
             yield break;
         }
-        void MovePos(int defaultSpeed, GameObject character){
-            character.transform.position = new Vector2(0, -2);
-        }
 
+        // Instantiates the scene objects (only 2 needed)
         void SetupScene(){
-            // Main character
+            // Main character and camera
             MonoBehaviour.Instantiate(Resources.Load<GameObject>("Prefabs/MainCharacter"));
             // My level
-            MonoBehaviour.Instantiate(Resources.Load<GameObject>("Prefabs/levelTilemap")); 
+            MonoBehaviour.Instantiate(Resources.Load<GameObject>("Prefabs/levelTilemap"));
+        }
+
+        // Moves the character on the screen
+        void MovePos(int defaultSpeed, GameObject Player, Rigidbody2D rb){
+            rb.velocity = new Vector2(defaultSpeed, 0);
+            Vector2 move = rb.transform.up * defaultSpeed;
+            rb.transform.Translate(move * Time.fixedDeltaTime);
         }
     }
 }
