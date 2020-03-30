@@ -16,22 +16,16 @@ namespace Tests
     * [Stress] - spawn inventory items in same spot until system overload
     * 
     *
-    * After conducting the test, the player breaks past the wall on ice
-    * at a speed of 164.
     */
     public class ToriTests
     {
-       // Test scene setup
+        // Test scene setup
         [Test]
         public void ToriTestsSimplePasses()
         {
             SetupScene();
-            // Use the Assert class to test conditions
-            
         }
 
-        // A UnityTest behaves like a coroutine in Play Mode. In Edit Mode you can use
-        // `yield return null;` to skip a frame.
         // Test slots in inventory
         [UnityTest]
         public IEnumerator ToriTestsItemSlots()
@@ -103,8 +97,6 @@ namespace Tests
                 if (fps < 10)
                 {
                     var timeFinish = timeBegin % 60;
-                    Debug.Log("The creation of Fog objects per seccond is now greater than the FPS!");
-                    Debug.Log("Was able to create " + count + " fog objects before FPS < 20 in " + timeFinish + " seconds");
                     Assert.Fail();
                 }
                 yield return new WaitForSeconds(0.1f);
