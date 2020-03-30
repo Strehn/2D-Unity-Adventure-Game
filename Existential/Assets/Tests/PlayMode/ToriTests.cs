@@ -58,18 +58,17 @@ namespace Tests
         public IEnumerator ToriTestsMaxPickUp()
         {
             SetupScene();
-            Debug.Log("testing");
-            GameObject pinkFlower = GameObject.Find("pinkFlower");
             GameObject HUDINV = GameObject.Find("HUDINV");
-            Transform invPanel = HUDINV.GetComponent<Transform>();
-            int expectedSlots = 8;
-            int actualSlots = 0;
-            foreach (Transform slot in invPanel)
+            GameObject flower = MonoBehaviour.Instantiate(Resources.Load<GameObject>("Prefabs/pinkFlower"));
+            //GameObject invPanel = HUDINV.GetComponent<Inventory>();
+            //int maxItems = invPanel.GetComponent<Inventory>().MAXITEMS;
+            /*
+            for (int i = 0; i < maxItems; i++)
             {
-                if (slot.GetChild(0) != null) ;
-                actualSlots++;
+                //invPanel.GetComponent<Inventory>().AddItem(flower);
             }
-            Assert.AreEqual(expectedSlots, actualSlots);
+            //Assert.AreEqual(maxItems, invPanel.GetComponent<Inventory>().inventoryList.Count);
+            */
             yield break;
 
         }
@@ -89,6 +88,7 @@ namespace Tests
             for (int i = 0; i < 100; i++)
             {
                 spawnItem(itemLocation);
+                GameObject flower = MonoBehaviour.Instantiate(Resources.Load<GameObject>("Prefabs/pinkFlower"));
 
                 count++;
                 timeBegin += Time.deltaTime;
