@@ -44,6 +44,8 @@ public class HudInventory : MonoBehaviour{
             Transform imageTransform = itemSlot.GetChild(0);
             Image image = imageTransform.GetComponent<Image>();
             ItemDragHandler itemDragHandler = imageTransform.GetComponent<ItemDragHandler>();
+            Debug.Log("item drag handler item");
+            Debug.Log(itemDragHandler.Item);
             Debug.Log("e.item");
             Debug.Log(e.Item);
             if (itemDragHandler.Item.Equals(e.Item)){
