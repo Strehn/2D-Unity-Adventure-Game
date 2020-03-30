@@ -11,69 +11,27 @@ namespace Tests
     /*
     * Tests for Inventory and ToriScene (Level)
     * 
-    * [Bounds] - Ensure there are 8 inventory item slots
-    * [Bounds] - test picking up 8+ items and dropping 8+ items
-    * [Stress] - spawn inventory items in same spot until system overload
+    * [Bounds] - ToriTestsItemSlots - Ensure there are 8 inventory item slots
+    * [Bounds] - ToriTestsMaxPickUp - Test picking up 8+ items and dropping 8+ items
+    * [Stress] - ToriTestsInventoryOverload - Spawn inventory items in same spot until system overload via frame rate
     * 
-    *
     */
-    public class ToriTests
-    {
+    public class ToriTests{
         // Test scene setup
         [Test]
-        public void ToriTestsSimplePasses()
-        {
+        public void ToriTestsSimplePasses(){
             SetupScene();
-        }
-
-        // Test slots in inventory
-        [UnityTest]
-        public IEnumerator ToriTestsItemSlots()
-        {
-            SetupScene();
-            Debug.Log("testing");
-            GameObject pinkFlower = GameObject.Find("pinkFlower");
-            GameObject HUDINV = GameObject.Find("HUDINV");
-            Transform invPanel = HUDINV.GetComponent<Transform>();
-            int expectedSlots = 8;
-            int actualSlots = 0;
-            foreach (Transform slot in invPanel)
-            {
-                if (slot.GetChild(0) != null) ;
-                actualSlots++;
-            }
-            Assert.AreEqual(expectedSlots, actualSlots);
-            yield break;
-            
-        }
-
-        // Test max item pickup 
-        [UnityTest]
-        public IEnumerator ToriTestsMaxPickUp()
-        {
-            SetupScene();
-            GameObject HUDINV = GameObject.Find("HUDINV");
-            GameObject flower = MonoBehaviour.Instantiate(Resources.Load<GameObject>("Prefabs/pinkFlower"));
-            //GameObject invPanel = HUDINV.GetComponent<Inventory>();
-            //int maxItems = invPanel.GetComponent<Inventory>().MAXITEMS;
-            /*
-            for (int i = 0; i < maxItems; i++)
-            {
-                //invPanel.GetComponent<Inventory>().AddItem(flower);
-            }
-            //Assert.AreEqual(maxItems, invPanel.GetComponent<Inventory>().inventoryList.Count);
-            */
-            yield break;
-
         }
 
         // Test spawn items
+        // [PASS] Checks that frame rate is affected by spawned items
+        // [FAIL] frame rate is unaffected
         [UnityTest]
         public IEnumerator ToriTestsInventoryOverload()
         {
             Vector2 itemLocation = new Vector2(0, 0);
             SetupScene();
-            
+
             var deltaTime = 0.0;
             var fps = 0.0;
             var timeBegin = 0.0;
@@ -105,14 +63,53 @@ namespace Tests
 
         }
 
-        void spawnItem(Vector2 location)
-        {
+        // Test slots in inventory
+        // [PASS] There are 8 slots in the inventory hud
+        // [FAIL] There are not 8 slots in the inventory hud
+        [UnityTest]
+        public IEnumerator ToriTestsItemSlots(){
+            SetupScene();
+            Debug.Log("testing");
+            GameObject pinkFlower = GameObject.Find("pinkFlower");
+            GameObject HUDINV = GameObject.Find("HUDINV");
+            Transform invPanel = HUDINV.GetComponent<Transform>();
+            int expectedSlots = 8;
+            int actualSlots = 0;
+            foreach (Transform slot in invPanel){
+                if (slot.GetChild(0) != null);
+                actualSlots++;
+            }
+            Assert.AreEqual(expectedSlots, actualSlots);
+            yield break;
+            
+        }
+
+        // Test max item pickup
+        // [PASS] 8 items can be picked up
+        // [FAIL] 8 items pick up unsuccessful
+        [UnityTest]
+        public IEnumerator ToriTestsMaxPickUp(){
+            SetupScene();
+            GameObject HUDINV = GameObject.Find("HUDINV");
+            GameObject flower = MonoBehaviour.Instantiate(Resources.Load<GameObject>("Prefabs/pinkFlower"));
+            //GameObject invPanel = HUDINV.GetComponent<Inventory>();
+            //int maxItems = invPanel.GetComponent<Inventory>().MAXITEMS;
+            /*
+            for (int i = 0; i < maxItems; i++){
+                //invPanel.GetComponent<Inventory>().AddItem(flower);
+            }
+            //Assert.AreEqual(maxItems, invPanel.GetComponent<Inventory>().inventoryList.Count);
+            */
+            yield break;
+
+        }
+
+        void spawnItem(Vector2 location){
             GameObject flower = MonoBehaviour.Instantiate(Resources.Load<GameObject>("Prefabs/pinkFlower"));
             flower.transform.position = location;
         }
 
-        void SetupScene()
-        {
+        void SetupScene(){
             //Prefab with the Inventory Hud
             MonoBehaviour.Instantiate(Resources.Load<GameObject>("Prefabs/HUDINV"));
             

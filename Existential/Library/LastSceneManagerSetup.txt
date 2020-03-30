@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
 - path: Assets/2-Tori/Scenes/ToriScene.unity
-=======
-- path: Assets/3-Sam/Scenes/SamScene.unity
->>>>>>> ddaa138a1c06f6e3782361e0bbb598bdfda9bd61
   isLoaded: 1
   isActive: 1
   isSubScene: 0
