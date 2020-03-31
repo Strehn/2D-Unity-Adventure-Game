@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 sceneSetups:
 - path: Assets/3-Sam/Scenes/MainMenu.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
+=======
+sceneSetups: []
+>>>>>>> 5b3e92b2b5f0001e53e1c6f32c557f57a4ee1b45
