@@ -60,38 +60,40 @@ namespace Tests{
         // [FAIL] The Bunny goes through the boundary of trees.
         [UnityTest]
         public IEnumerator Bunny_BoundsTest(){
+            //Test the speed the bunny is able to break through the boundary
             //Move the bunnies super fast
-            int currentSpeed = 10;
-            // spawn location
-            Vector2 StartLocation = new Vector2(2, 1);
+            int maxSpeed = 100;
+            //Begin Speed
+            int beginSpeed = 10;
+            //increment to increase speed
+            int speedAdd = 10;
             //Instantiates the Objects
             SetupScene();
-            // Duplicates my forest scene
-            GameObject Forest = GameObject.Find("Forest(Clone)");
-            // Puts the camera in  Inital Position to see whats happening
-            Forest.transform.position = StartLocation;
-            // Make sure bunny is spawned
-            GameObject SpawnedBunny = GameObject.Find("SpawnedBunny");
-            Rigidbody2D rb = SpawnedBunny.GetComponent<Rigidbody2D>();
+            //Find the bunny in the Forest Test Scene and Get it's rigidbody
+            GameObject bunny = GameObject.Find("SpawnedBunny(Clone)");
+            //This lets me grab onto the object and move it against the wall
+            Rigidbody2D rb = bunny.GetComponent<Rigidbody2D>();
+            // Get start location of the bunny
+            Vector2 StartLocation = (12.92, 9.81);
 
-            //Runs the test for a total of 10 runs, if it does not break the wall, the test passes
-            for (int i = 0; i < 10; i++){
-                //Function to give the Bunny velocity and reset if it hits the wall
-                Bunny_Move(currentSpeed, StartLocation, SpawnedBunny, rb);
+            //Run test 10 times incrimenting the speed every time
+                for (int i = 0; i < 10; i++){
+                    //Function to give the Bunny velocity and reset if it hits the wall
+                     Bunny_Move(beginSpeed, StartLocation, bunny, rb);
 
-                //Let the test run for 3 secconds
-                yield return new WaitForSeconds(3);
+                     //Let the test run for 1 secconds
+                     yield return new WaitForSeconds(1);
 
-                //Function to check if the bunny is out of bounds
-                bool returnedValue = Check_Position(SpawnedBunny);
-
-                if (returnedValue == false){
-                    currentSpeed += 1;
-                    Debug.Log("Adding Speed - Current Speed: " + currentSpeed);
+                    //See if the bunny is out of bounds
+                    //The bounds are 0-26 so if it is less than 0 or above 26 it is out of bounds
+                    if (bunny.transform.position.x < 26 && bunny.transform.position.x > 0){ //in boundary
+                    Debug.Log("Current Speed: " + beginSpeed);
+                    //add the speed incriment
+                    beginSpeed += speedAdd;  
                 }
-                else{
-                    Debug.Log("Asserting False - Final Speed: " + currentSpeed);
-                    Assert.Fail();
+                else{ //broke boundary
+                    Debug.Log("[FAIL] Final Speed: " + beginSpeed);
+                    Assert.Fail();  
                 }
             }
             Assert.Pass();
@@ -144,7 +146,7 @@ namespace Tests{
         //Function to give the Bunny Velocity and reset the Bunny
         void Bunny_Move(int currentSpeed, Vector2 StartLocation, GameObject SpawnedBunny, Rigidbody2D rb){
             //Debug.Log("Moving Bunny");
-            if (SpawnedBunny.transform.position.x > 1f && SpawnedBunny.transform.position.x < 100f)
+            if (SpawnedBunny.transform.position.x < 26 && SpawnedBunny.transform.position.x > 0)
             {
                 //Debug.Log("Resetting Bunny");
                 SpawnedBunny.transform.position = StartLocation;
@@ -160,7 +162,8 @@ namespace Tests{
 
         //Function to check if the Bunny is past the wall
         bool Check_Position(GameObject SpawnedBunny){
-            if (SpawnedBunny.transform.position.x > 100){
+            if (SpawnedBunny.transform.position.x < 26 && SpawnedBunny.transform.position.x > 0)
+            {
                 return true;
             }
             else{
