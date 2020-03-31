@@ -10,8 +10,8 @@ namespace Tests {
          * 
          * This Unity Test checks to see if a tag is set on an object within each
          * scene. This tag is critical to the sound of the player walking working
-         * within the game.After conducting the test, the test passes if scenes
-         * are returned that do not have the tag on atleast 1 object.
+         * within the game. After conducting the test, the test passes if scenes
+         * are returned that do not have the tag on at least 1 object.
          */
 
         [Test]
