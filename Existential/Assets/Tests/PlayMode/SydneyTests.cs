@@ -20,19 +20,12 @@ namespace Tests
         [UnityTest]
         public IEnumerator Bunny_StressTest()
         {
-            // Amount of Bunnies
+            // Amount of Bunnies to spawn / spawned
             int i = 0;
             // spawn location
             Vector2 StartLocation = new Vector2(2, 1);
             //Instantiates the Objects
             SetupScene();
-            // Duplicates my forest scene
-            GameObject Forest = GameObject.Find("Forest(Clone)");
-            // Puts the camera in  Inital Position to see whats happening
-            Forest.transform.position = StartLocation;
-            // Make sure bunny is spawned
-            GameObject SpawnedBunny = GameObject.Find("SpawnedBunny");
-            Rigidbody2D rb = SpawnedBunny.GetComponent<Rigidbody2D>();
 
             //Track time it is taking
             var StartTime = 1 / Time.deltaTime;
@@ -159,7 +152,14 @@ namespace Tests
         void SetupScene()
         {
             //Prefab with everything needed for This bounds test
-            MonoBehaviour.Instantiate(Resources.Load<GameObject>("Prefabs/SPForestTestingCanvas"));
+            MonoBehaviour.Instantiate(Resources.Load<GameObject>("Prefabs/TestingForestTileMap"));
+        }
+
+        //Function to setup the scene for Tree Moving
+        void SetupSceneTree()
+        {
+            //Prefab with everything needed for This bounds test
+            MonoBehaviour.Instantiate(Resources.Load<GameObject>("Prefabs/TestingBunnyTileMap"));
         }
 
         //Function to give the Bunny Velocity and reset the Bunny
