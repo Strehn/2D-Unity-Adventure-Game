@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 /*
@@ -7,14 +6,12 @@ using UnityEngine;
 * Triggers a boolean value if the player is on ice, and error corrects if the player is not
 * TW
 */
-public class iceMove : MonoBehaviour
-{
+public class iceMove : MonoBehaviour {
     public bool activeButton = false; //boolean to set if the player is on ice
     public bool timer = false;
 
     //If the player enters the ice area
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
+    private void OnTriggerEnter2D(Collider2D collision) {
         if (collision.tag == "Player") {
             activeButton = true;
             timer = false; // set timer to unavailable
@@ -23,24 +20,19 @@ public class iceMove : MonoBehaviour
     }
 
     //If the player exits the ice area
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if (timer == true) //if player has been on the ice and moving onto ground
-        {
+    private void OnTriggerExit2D(Collider2D collision) {
+        if (timer == true) { //if player has been on the ice and moving onto ground
+
             activeButton = false;
             timer = false;
-        }
-        
+        }  
     }
 
     //function to count time before calling the on trigger exit
-    private IEnumerator Countdown()
-    {
-        float duration = 0.1f; // wait 0.1 seconds before exit can be called. 
-                             
+    private IEnumerator Countdown() {
+        float duration = 0.1f; // wait 0.1 seconds before exit can be called.                      
         float normalizedTime = 0;
-        while (normalizedTime <= 1f)
-        {
+        while (normalizedTime <= 1f) {
             normalizedTime += Time.deltaTime / duration;
             yield return null;
         }

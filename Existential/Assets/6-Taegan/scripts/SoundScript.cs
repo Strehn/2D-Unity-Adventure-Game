@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 
 /*
@@ -8,8 +6,7 @@ using UnityEngine;
 * Triggers Sound for the main player
 * TW
 */
-public class SoundScript : MonoBehaviour
-{
+public class SoundScript : MonoBehaviour {
     // private audio clips to store the sounds of different foosteps
     private AudioClip town;
     private AudioClip wood;
@@ -24,8 +21,7 @@ public class SoundScript : MonoBehaviour
 
 
     // Start is called before the first frame update
-    void Start()
-    {
+    void Start() {
         snow = (AudioClip) Resources.Load("PB - Footstep SFX/Footstep SFX/Snow_Jogging");
         wood = (AudioClip)Resources.Load("PB - Footstep SFX/Footstep SFX/Gravel_Jogging");
         town = (AudioClip)Resources.Load("PB - Footstep SFX/Footstep SFX/Dirt_Jogging");
@@ -38,8 +34,7 @@ public class SoundScript : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
+    void Update() {
 
         // Finds the object named ground and grabs the tag associated with it
         //GameObject ground = GameObject.Find("/Grid/Ground");
@@ -49,63 +44,51 @@ public class SoundScript : MonoBehaviour
         //    ground = GameObject.Find("/Grid/Tilemap");
         //}
    
-        foreach (GameObject obj in Object.FindObjectsOfType(typeof(GameObject)))
-        {
-            if (obj.tag == "rock" || obj.tag == "snow" || obj.tag == "wood" || obj.tag == "town" || obj.tag == "forest" || obj.tag == "grass" || obj.tag == "house" || obj.tag == "graveyard")
-            {
+        foreach (GameObject obj in Object.FindObjectsOfType(typeof(GameObject))) {
+            if (obj.tag == "rock" || obj.tag == "snow" || obj.tag == "wood" || obj.tag == "town" || obj.tag == "forest" || obj.tag == "grass" || obj.tag == "house" || obj.tag == "graveyard") {
                 ground = obj;
                 break;
             }
             
         }
 
-        if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow))
-        {
-            try
-            {
+        if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow)) {
+            try {
                 //On movement, play grass sound if player is on grass
-                if (ground.CompareTag("grass"))
-                {
+                if (ground.CompareTag("grass")) {
                     WalkOnGrass();
                 }
 
                 //On movement, play rock sound if player is on rock
-                if (ground.CompareTag("rock"))
-                {
+                if (ground.CompareTag("rock")) {
 
                     WalkOnRock();
                 }
             }
-            catch
-            {
+            catch {
                 Debug.Log("Cant find Ground Tag!");
             }
         }
-        else
-        {
+        else {
             //If player is not moving, stop audio
             MyAudioSource.Stop();
         }
     }
 
     //Set clip to grass and play it from MyAudioSource
-    void WalkOnGrass()
-    {
+    void WalkOnGrass() {
         MyAudioSource.clip = grass;
         MyAudioSource.volume = 0.5f;
-        if (!MyAudioSource.isPlaying)
-        {
+        if (!MyAudioSource.isPlaying) {
             MyAudioSource.Play();
         };
     }
     //Set clip to rock and play it from MyAudioSource
-    void WalkOnRock()
-    {
+    void WalkOnRock() {
         MyAudioSource.clip = rock;
         MyAudioSource.pitch = 1.5f;
         MyAudioSource.volume = 0.5f;
-        if (!MyAudioSource.isPlaying)
-        {
+        if (!MyAudioSource.isPlaying) {
             MyAudioSource.Play();
         } 
     }

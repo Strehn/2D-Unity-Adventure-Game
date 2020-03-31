@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 /*
  * instantiateFog.cs
@@ -11,11 +9,8 @@ public class instantiateFog : MonoBehaviour
 {
     public GameObject fog; // an asset that covers the screen in a fog
 
-
-
     // Start is called before the first frame update
     void Start() {
-        try{
             // creates a new fog object of a set size across the screen
             // This covers a whole section of the cave system
             Instantiate(fog, new Vector2(0, 0), transform.rotation);
@@ -28,15 +23,6 @@ public class instantiateFog : MonoBehaviour
             Instantiate(fog, new Vector2(35, -50), transform.rotation);
             Instantiate(fog, new Vector2(37, -39), transform.rotation);
             Instantiate(fog, new Vector2(36, -29), transform.rotation);
-        }
-        catch{
-            //code that is needed for coding standards, unused
-        }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
+            Instantiate(fog, new Vector2(12.6f, -40.9f), transform.rotation);
     }
 }
