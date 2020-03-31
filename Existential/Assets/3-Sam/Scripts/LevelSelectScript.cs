@@ -30,27 +30,27 @@ public class LevelSelectScript : MonoBehaviour {
 
     public void PlayLevel1() {
 
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("SamScene");
     }
 
     public void PlayLevel2() {
 
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene("Isabel Level");
     }
     public void PlayLevel3() {
 
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene("SydneyForestScene");
     }
     public void PlayLevel4() {
 
-        SceneManager.LoadScene(5);
+        SceneManager.LoadScene("ToriScene");
     }
     public void PlayLevel5() {
 
-        SceneManager.LoadScene(6);
+        SceneManager.LoadScene("TaeganScene");
     }
     public void PlayLevel6() {
 
-        SceneManager.LoadScene(7);
+        SceneManager.LoadScene("RonnieScene");
     }
 }
