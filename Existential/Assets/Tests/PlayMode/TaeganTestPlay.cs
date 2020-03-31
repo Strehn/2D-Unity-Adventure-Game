@@ -126,10 +126,10 @@ namespace Tests {
                 Debug.Log("Frames: " + fps);
 
                 // If frames drop below 10, stop the test
-                if (fps < 10) {
+                if (fps < 15) {
                     var timeFinish = timeBegin % 60;
                     Debug.Log("The creation of Fog objects per seccond is now greater than the FPS!");
-                    Debug.Log("Was able to create " + count + " fog objects before FPS < 20 in " + timeFinish + " seconds");
+                    Debug.Log("Was able to create " + count + " fog objects before FPS < 15 in " + timeFinish + " seconds");
                     Assert.Pass();
                 }
 
