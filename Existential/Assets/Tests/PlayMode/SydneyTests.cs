@@ -43,14 +43,14 @@ namespace Tests{
                 fps = 1.0 / deltaTime;
                 Debug.Log("Frames: " + fps);
 
-                // If frames drop below 10, stop the test
+                // If frames drop below 10, stop the test and pass
                 if (fps < 10){
                     var timeFinish = timeBegin % 60;
-                    Assert.Fail();
+                    Assert.Pass();
                 }
                 yield return new WaitForSeconds(0.1f);
             }
-            Assert.Pass();
+            Assert.Fail(); //Frames didn't drop
         }
 
 
