@@ -1,9 +1,1 @@
-sceneSetups:
-<<<<<<< HEAD
-- path: Assets/3-Sam/Scenes/SamScene.unity
-=======
-- path: Assets/1-Sydney/Scenes/SydneyTestingScene.unity
->>>>>>> 276ae74354e4529365df323650eccb67c3f7c621
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
+sceneSetups: []

@@ -30,7 +30,7 @@ namespace Tests{
 
             //Begin Stress Testing
             //Instantiate a ton of bunnies
-            for (int i = 0; i < 200; i++){
+            for (int i = 0; i < 300; i++){
                 //Spawn a new Bunny
                 Spawner(SpawnLocation);
                 count++;
@@ -47,11 +47,11 @@ namespace Tests{
                 // If frames drop below 10, stop the test and pass
                 if (fps < 10){
                     var timeFinish = timeBegin % 60;
-                    Assert.Fail();
+                    Assert.Pass();
                 }
                 yield return new WaitForSeconds(0.1f);
             }
-            Assert.Pass(); //Frames didn't drop
+            Assert.Fail(); //Frames didn't drop
         }
 
 
@@ -90,10 +90,10 @@ namespace Tests{
                 }
                 else{ //broke boundary
                     Debug.Log("[FAIL] Final Speed: " + beginSpeed);
-                    Assert.Pass();  
+                    Assert.Fail();  
                 }
             }
-            Assert.Fail();
+            Assert.Pass();
             yield break;
         }
 
@@ -111,7 +111,7 @@ namespace Tests{
             //Instantiates the Objects
             SetupSceneTree();
             //Find the movingtree in the Forest Test Scene and Get it's rigidbody
-            GameObject movingTree = GameObject.Find("movingTree");
+            GameObject movingTree = GameObject.Find("MovingTree");
             //This lets me grab onto the object and move it against the wall
             Rigidbody2D rb = movingTree.GetComponent<Rigidbody2D>();
 
