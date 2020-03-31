@@ -54,7 +54,6 @@ namespace Tests{
         }
 
 
-
         // Bounds Test 1
         // [PASS] The Bunny is does not go through the boundary of trees.
         // [FAIL] The Bunny goes through the boundary of trees.
@@ -62,7 +61,6 @@ namespace Tests{
         public IEnumerator Bunny_BoundsTest(){
             //Test the speed the bunny is able to break through the boundary
             //Move the bunnies super fast
-            int maxSpeed = 100;
             //Begin Speed
             int beginSpeed = 10;
             //increment to increase speed
@@ -73,20 +71,18 @@ namespace Tests{
             GameObject bunny = GameObject.Find("SpawnedBunny(Clone)");
             //This lets me grab onto the object and move it against the wall
             Rigidbody2D rb = bunny.GetComponent<Rigidbody2D>();
-            // Get start location of the bunny
-            Vector2 StartLocation = (12.92, 9.81);
 
             //Run test 10 times incrimenting the speed every time
                 for (int i = 0; i < 10; i++){
-                    //Function to give the Bunny velocity and reset if it hits the wall
-                     Bunny_Move(beginSpeed, StartLocation, bunny, rb);
+                     //Function to give the Bunny velocity and reset if it hits the wall
+                     moveObject(beginSpeed, rb);
 
                      //Let the test run for 1 secconds
                      yield return new WaitForSeconds(1);
 
                     //See if the bunny is out of bounds
                     //The bounds are 0-26 so if it is less than 0 or above 26 it is out of bounds
-                    if (bunny.transform.position.x < 26 && bunny.transform.position.x > 0){ //in boundary
+                    if (bunny.transform.position.y < 26 && bunny.transform.position.y > 0){ //in boundary
                     Debug.Log("Current Speed: " + beginSpeed);
                     //add the speed incriment
                     beginSpeed += speedAdd;  
@@ -105,27 +101,39 @@ namespace Tests{
         // [FAIL] The tree goes though the boundary of bunnies.
         [UnityTest]
         public IEnumerator treeMoving_BoundsTest(){
-            //Move the tree speedy fast
-            int currentSpeed = 80;
-            //Dont move the bunnies
-            int bunnySpeed = 0;
-            //spawn location
-            Vector2 StartLocation = new Vector2(2, 1);
+            //Test the speed the tree is able to break through the boundary
+            //Move the tree super fast
+            //Begin Speed
+            int beginSpeed = 10;
+            //increment to increase speed
+            int speedAdd = 10;
             //Instantiates the Objects
-            SetupScene();
-            // Duplicates my forest scene
-            GameObject Forest = GameObject.Find("Forest(Clone)");
-            // Puts the camera in  Inital Position to see whats happening
-            Forest.transform.position = StartLocation;
-            // Make sure bunny is spawned
-            GameObject SpawnedBunny = GameObject.Find("SpawnedBunny");
-            Rigidbody2D rb = SpawnedBunny.GetComponent<Rigidbody2D>();
+            SetupSceneTree();
+            //Find the movingtree in the Forest Test Scene and Get it's rigidbody
+            GameObject movingTree = GameObject.Find("movingTree(Clone)");
+            //This lets me grab onto the object and move it against the wall
+            Rigidbody2D rb = movingTree.GetComponent<Rigidbody2D>();
 
+            //Run test 10 times incrimenting the speed every time
+            for (int i = 0; i < 10; i++){
+                //Function to give the Bunny velocity and reset if it hits the wall
+                moveObject(beginSpeed, rb);
 
-            // Test to see if tree boundary can go through a bunny npc
-            // if it doesnt work then fail.
+                //Let the test run for 1 secconds
+                yield return new WaitForSeconds(1);
 
-            // If works the. pass
+                //See if the bunny is out of bounds
+                //The bounds are 0-26 so if it is less than 0 or above 26 it is out of bounds
+                if (movingTree.transform.position.y < 14 && movingTree.transform.position.y > 12){ //in boundary
+                    Debug.Log("Current Speed: " + beginSpeed);
+                    //add the speed incriment
+                    beginSpeed += speedAdd;
+                }
+                else{ //broke boundary
+                    Debug.Log("[FAIL] Final Speed: " + beginSpeed);
+                    Assert.Fail();
+                }
+            }
             Assert.Pass();
             yield break;
         }
@@ -143,32 +151,18 @@ namespace Tests{
             MonoBehaviour.Instantiate(Resources.Load<GameObject>("Prefabs/TestingBunnyTileMap"));
         }
 
-        //Function to give the Bunny Velocity and reset the Bunny
-        void Bunny_Move(int currentSpeed, Vector2 StartLocation, GameObject SpawnedBunny, Rigidbody2D rb){
-            //Debug.Log("Moving Bunny");
-            if (SpawnedBunny.transform.position.x < 26 && SpawnedBunny.transform.position.x > 0)
-            {
-                //Debug.Log("Resetting Bunny");
-                SpawnedBunny.transform.position = StartLocation;
-            }
-            rb.velocity = new Vector2(currentSpeed, 0);
-        }
-
         //Functin to spawn bunnies
         void Spawner(Vector2 SpawnLocation){
             GameObject bunny = MonoBehaviour.Instantiate(Resources.Load<GameObject>("Prefabs/SpawnedBunny"));
             bunny.transform.position = SpawnLocation;
         }
 
-        //Function to check if the Bunny is past the wall
-        bool Check_Position(GameObject SpawnedBunny){
-            if (SpawnedBunny.transform.position.x < 26 && SpawnedBunny.transform.position.x > 0)
-            {
-                return true;
-            }
-            else{
-                return false;
-            }
+        // Moves the object on the screen
+        void moveObject(int defaultSpeed, Rigidbody2D rb)
+        {
+            rb.velocity = new Vector2(defaultSpeed, 0);
+            Vector2 move = rb.transform.up * defaultSpeed;
+            rb.transform.Translate(move * Time.fixedDeltaTime);
         }
     }
 }
