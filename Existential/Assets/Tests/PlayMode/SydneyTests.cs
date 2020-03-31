@@ -68,7 +68,7 @@ namespace Tests{
             //Instantiates the Objects
             SetupScene();
             //Find the bunny in the Forest Test Scene and Get it's rigidbody
-            GameObject bunny = GameObject.Find("SpawnedBunny(Clone)");
+            GameObject bunny = GameObject.Find("SpawnedBunny");
             //This lets me grab onto the object and move it against the wall
             Rigidbody2D rb = bunny.GetComponent<Rigidbody2D>();
 
@@ -110,7 +110,7 @@ namespace Tests{
             //Instantiates the Objects
             SetupSceneTree();
             //Find the movingtree in the Forest Test Scene and Get it's rigidbody
-            GameObject movingTree = GameObject.Find("movingTree(Clone)");
+            GameObject movingTree = GameObject.Find("movingTree");
             //This lets me grab onto the object and move it against the wall
             Rigidbody2D rb = movingTree.GetComponent<Rigidbody2D>();
 
