@@ -3,7 +3,7 @@ using System.Collections;
 
 /*
 
-    This is the script to make sure the environment doesn't change when the player walks on it.
+    //This is the script to make sure the environment doesn't change when the player walks on it.
 
 
 public class Tile : MonoBehaviour{
@@ -44,4 +44,5 @@ public class Tile : MonoBehaviour{
 		}
 	}
 }
+
 */
