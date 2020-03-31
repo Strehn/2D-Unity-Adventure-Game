@@ -30,7 +30,7 @@ namespace Tests{
 
             //Begin Stress Testing
             //Instantiate a ton of bunnies
-            for (int i = 0; i < 100; i++){
+            for (int i = 0; i < 200; i++){
                 //Spawn a new Bunny
                 Spawner(SpawnLocation);
                 count++;
@@ -42,15 +42,16 @@ namespace Tests{
                 deltaTime /= 2.0;
                 fps = 1.0 / deltaTime;
                 Debug.Log("Frames: " + fps);
+                Debug.Log("Number of Bunnies: " + count);
 
                 // If frames drop below 10, stop the test and pass
                 if (fps < 10){
                     var timeFinish = timeBegin % 60;
-                    Assert.Pass();
+                    Assert.Fail();
                 }
                 yield return new WaitForSeconds(0.1f);
             }
-            Assert.Fail(); //Frames didn't drop
+            Assert.Pass(); //Frames didn't drop
         }
 
 
@@ -89,10 +90,10 @@ namespace Tests{
                 }
                 else{ //broke boundary
                     Debug.Log("[FAIL] Final Speed: " + beginSpeed);
-                    Assert.Fail();  
+                    Assert.Pass();  
                 }
             }
-            Assert.Pass();
+            Assert.Fail();
             yield break;
         }
 
@@ -131,10 +132,10 @@ namespace Tests{
                 }
                 else{ //broke boundary
                     Debug.Log("[FAIL] Final Speed: " + beginSpeed);
-                    Assert.Fail();
+                    Assert.Pass();
                 }
             }
-            Assert.Pass();
+            Assert.Fail();
             yield break;
         }
 
