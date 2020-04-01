@@ -1,4 +1,17 @@
-﻿using System.Collections;
+﻿/*
+    Isabel's Test Cases
+    This script defines each test case
+    Boundary 1: Look for an object in the scene that has not been instantiated
+        Pass: We do not find the object
+        Fail: We find the object that shouldn't be there
+    Boundary 2: Determine which speed it takes the player before it breaks the tilemap boundary
+        Pass: The player breaks the boundary in the proper amount of time (~10 seconds)
+        Fail: The player does not break the boundary in the testing time 
+    Stress 1: Determine which frame rate the test will end at based on how many objects are spawned in the testing frame
+        Pass: Above 5 fps when time ends
+        Fail: Below 5 fps when time ends
+*/
+using System.Collections;
 using System.Collections.Generic;
 using NUnit.Framework;
 using UnityEngine;

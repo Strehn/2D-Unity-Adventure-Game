@@ -45,10 +45,10 @@ MonoBehaviour:
     y: 30
     width: 1280
     height: 736
-  m_MinSize: {x: 503, y: 492}
-  m_MaxSize: {x: 14001, y: 14042}
+  m_MinSize: {x: 504, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 139
+  controlID: 118
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -323,7 +323,7 @@ MonoBehaviour:
       name: Existential
       fullName: Existential
       resultStatus: 1
-      duration: 18.753588
+      duration: 0.2655061
       messages: 
       output: 
       stacktrace: 
@@ -339,7 +339,7 @@ MonoBehaviour:
       name: PlayMode.dll
       fullName: /Users/isabelhinkle/Desktop/CS-383-Project/Existential/Library/ScriptAssemblies/PlayMode.dll
       resultStatus: 1
-      duration: 18.693848
+      duration: 0.212602
       messages: 
       output: 
       stacktrace: 
@@ -355,7 +355,7 @@ MonoBehaviour:
       name: Tests
       fullName: Tests
       resultStatus: 1
-      duration: 18.669481
+      duration: 0.1775317
       messages: 
       output: 
       stacktrace: 
@@ -366,12 +366,12 @@ MonoBehaviour:
       categories: []
       parentId: 1106
       parentUniqueId: '[/Users/taeganwilliams/Documents/GitHub/CS-383-Project/Existential/Library/ScriptAssemblies/PlayMode.dll][suite]'
-    - id: 1082
-      uniqueId: PlayMode.dll/Tests/[PlayMode][Tests.BadInstantiateIH][suite]
-      name: BadInstantiateIH
-      fullName: Tests.BadInstantiateIH
+    - id: 1001
+      uniqueId: PlayMode.dll/Tests/[PlayMode][Tests.IsabelTests][suite]
+      name: IsabelTests
+      fullName: Tests.IsabelTests
       resultStatus: 1
-      duration: 0.16598
+      duration: 0.1571101
       messages: 
       output: 
       stacktrace: 
@@ -380,18 +380,20 @@ MonoBehaviour:
       description: 
       isSuite: 1
       categories: []
-      parentId: 1107
+      parentId: 1030
       parentUniqueId: PlayMode.dll/[Tests][suite]
-    - id: 1083
-      uniqueId: PlayMode.dll/Tests/BadInstantiateIH/[PlayMode][Tests.BadInstantiateIH.FindNonExistentObject]
+    - id: 1002
+      uniqueId: PlayMode.dll/Tests/IsabelTests/[PlayMode][Tests.IsabelTests.FindNonExistentObject]
       name: FindNonExistentObject
-      fullName: Tests.BadInstantiateIH.FindNonExistentObject
+      fullName: Tests.IsabelTests.FindNonExistentObject
       resultStatus: 1
-      duration: 0.1258825
+      duration: 0.1266989
       messages: 
-      output: 
-      stacktrace: 'at Tests.BadInstantiateIH+<FindNonExistentObject>d__0.MoveNext
-        () [0x00041] in /Users/isabelhinkle/Desktop/CS-383-Project/Existential/Assets/Tests/PlayMode/BadInstantiateIH.cs:20
+      output: 'Passed - we did not find newObject in the scene.
+
+'
+      stacktrace: 'at Tests.IsabelTests+<FindNonExistentObject>d__0.MoveNext () [0x00057]
+        in /Users/isabelhinkle/Desktop/CS-383-Project/Existential/Assets/Tests/PlayMode/IsabelTests.cs:21
 
         at
         UnityEngine.TestTools.TestEnumerator+<Execute>d__5.MoveNext () [0x0004c]
@@ -404,13 +406,47 @@ MonoBehaviour:
       isSuite: 0
       categories:
       - Uncategorized
-      parentId: 1082
-      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.BadInstantiateIH][suite]
+      parentId: 1001
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.IsabelTests][suite]
+    - id: 1003
+      uniqueId: PlayMode.dll/Tests/IsabelTests/[PlayMode][Tests.IsabelTests.SpeedTest]
+      name: SpeedTest
+      fullName: Tests.IsabelTests.SpeedTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.IsabelTests][suite]
+    - id: 1004
+      uniqueId: PlayMode.dll/Tests/IsabelTests/[PlayMode][Tests.IsabelTests.StressTest]
+      name: StressTest
+      fullName: Tests.IsabelTests.StressTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.IsabelTests][suite]
     - id: 1084
       uniqueId: PlayMode.dll/Tests/[PlayMode][Tests.RonnieTest][suite]
       name: RonnieTest
       fullName: Tests.RonnieTest
-      resultStatus: 1
+      resultStatus: 0
       duration: 24.605993
       messages: 
       output: 
@@ -426,7 +462,7 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Tests/RonnieTest/[PlayMode][Tests.RonnieTest.BoundaryTest1]
       name: BoundaryTest1
       fullName: Tests.RonnieTest.BoundaryTest1
-      resultStatus: 1
+      resultStatus: 0
       duration: 25.780901
       messages: 
       output: "Particle instantiated and destroyed in less than .5 seconds at speed
@@ -444,7 +480,7 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Tests/RonnieTest/[PlayMode][Tests.RonnieTest.BoundaryTest2]
       name: BoundaryTest2
       fullName: Tests.RonnieTest.BoundaryTest2
-      resultStatus: 1
+      resultStatus: 0
       duration: 7.139291
       messages: 
       output: '-7.96
@@ -496,7 +532,7 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Tests/RonnieTest/[PlayMode][Tests.RonnieTest.StressTest]
       name: StressTest
       fullName: Tests.RonnieTest.StressTest
-      resultStatus: 1
+      resultStatus: 0
       duration: 24.562067
       messages: 
       output: '143.3535
@@ -568,7 +604,7 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Tests/[PlayMode][Tests.SamTest][suite]
       name: SamTest
       fullName: Tests.SamTest
-      resultStatus: 1
+      resultStatus: 0
       duration: 18.657005
       messages: 
       output: 
@@ -584,7 +620,7 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Tests/SamTest/[PlayMode][Tests.SamTest.CheckForMyPrefabsInSceneTest]
       name: CheckForMyPrefabsInSceneTest
       fullName: Tests.SamTest.CheckForMyPrefabsInSceneTest
-      resultStatus: 1
+      resultStatus: 0
       duration: 3.1117706
       messages: 
       output: 'SamScene is open and active
@@ -656,7 +692,7 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Tests/SamTest/[PlayMode][Tests.SamTest.LevelSelectorTest]
       name: LevelSelectorTest
       fullName: Tests.SamTest.LevelSelectorTest
-      resultStatus: 1
+      resultStatus: 0
       duration: 13.6302395
       messages: 
       output: 'Current Scene: SamScene
@@ -697,7 +733,7 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Tests/SamTest/[PlayMode][Tests.SamTest.SpawnDialogueCanvasTest]
       name: SpawnDialogueCanvasTest
       fullName: Tests.SamTest.SpawnDialogueCanvasTest
-      resultStatus: 1
+      resultStatus: 0
       duration: 18.597046
       messages: 
       output: '139.5269
@@ -748,125 +784,11 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1007
       parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.SamTest][suite]
-    - id: 1090
-      uniqueId: PlayMode.dll/Tests/[PlayMode][Tests.SpeedTestIH][suite]
-      name: SpeedTestIH
-      fullName: Tests.SpeedTestIH
-      resultStatus: 1
-      duration: 9.296037
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1107
-      parentUniqueId: PlayMode.dll/[Tests][suite]
-    - id: 1091
-      uniqueId: PlayMode.dll/Tests/SpeedTestIH/[PlayMode][Tests.SpeedTestIH.SpeedTest]
-      name: SpeedTest
-      fullName: Tests.SpeedTestIH.SpeedTest
-      resultStatus: 1
-      duration: 9.2553
-      messages: 
-      output: 'Current Speed: 100
-
-        Current Speed: 115
-
-        Current Speed:
-        130
-
-        Current Speed: 145
-
-        Current Speed: 160
-
-        Current
-        Speed: 175
-
-        Current Speed: 190
-
-        Current Speed: 205
-
-        Final
-        Speed: 220
-
-'
-      stacktrace: 'at Tests.SpeedTestIH+<SpeedTest>d__0.MoveNext () [0x0010d] in
-        /Users/isabelhinkle/Desktop/CS-383-Project/Existential/Assets/Tests/PlayMode/SpeedTestIH.cs:30
-
-        at
-        UnityEngine.TestTools.TestEnumerator+<Execute>d__5.MoveNext () [0x0004c]
-        in /Users/isabelhinkle/Desktop/CS-383-Project/Existential/Library/PackageCache/com.unity.test-framework@1.1.11/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:31
-
-'
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1090
-      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.SpeedTestIH][suite]
-    - id: 1092
-      uniqueId: PlayMode.dll/Tests/[PlayMode][Tests.StressTestIH][suite]
-      name: StressTestIH
-      fullName: Tests.StressTestIH
-      resultStatus: 1
-      duration: 10.286849
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1107
-      parentUniqueId: PlayMode.dll/[Tests][suite]
-    - id: 1093
-      uniqueId: PlayMode.dll/Tests/StressTestIH/[PlayMode][Tests.StressTestIH.StressTest]
-      name: StressTest
-      fullName: Tests.StressTestIH.StressTest
-      resultStatus: 1
-      duration: 10.237398
-      messages: 
-      output: '135.2002
-
-        142.2174
-
-        130.034
-
-        76.06367
-
-        61.02599
-
-        69.05026
-
-        62.80997
-
-        40.30437
-
-        91.06819
-
-        60.10223
-
-'
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1092
-      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.StressTestIH][suite]
     - id: 1094
       uniqueId: PlayMode.dll/Tests/[PlayMode][Tests.SydneyTests][suite]
       name: SydneyTests
       fullName: Tests.SydneyTests
-      resultStatus: 1
+      resultStatus: 0
       duration: 1.1189001
       messages: 
       output: 
@@ -882,7 +804,7 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Tests/SydneyTests/[PlayMode][Tests.SydneyTests.Bunny_BoundsTest]
       name: Bunny_BoundsTest
       fullName: Tests.SydneyTests.Bunny_BoundsTest
-      resultStatus: 1
+      resultStatus: 0
       duration: 10.163336
       messages: 
       output: 'Current Speed: 10
@@ -929,7 +851,7 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Tests/SydneyTests/[PlayMode][Tests.SydneyTests.Bunny_StressTest]
       name: Bunny_StressTest
       fullName: Tests.SydneyTests.Bunny_StressTest
-      resultStatus: 1
+      resultStatus: 0
       duration: 23.409948
       messages: 
       output: 'Frames: 260.511004323363
@@ -1941,7 +1863,7 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Tests/SydneyTests/[PlayMode][Tests.SydneyTests.treeMoving_BoundsTest]
       name: treeMoving_BoundsTest
       fullName: Tests.SydneyTests.treeMoving_BoundsTest
-      resultStatus: 1
+      resultStatus: 0
       duration: 1.0804093
       messages: 
       output: '[FAIL] Final Speed: 10
@@ -2017,7 +1939,7 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ToriTests][suite]
       name: ToriTests
       fullName: Tests.ToriTests
-      resultStatus: 2
+      resultStatus: 0
       duration: 0.9256141
       messages: One or more child tests had errors
       output: 
@@ -2033,7 +1955,7 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Tests/ToriTests/[PlayMode][Tests.ToriTests.ToriTestsInventoryOverload]
       name: ToriTestsInventoryOverload
       fullName: Tests.ToriTests.ToriTestsInventoryOverload
-      resultStatus: 2
+      resultStatus: 0
       duration: 0.8816349
       messages: 
       output: 'Frames: 263.8931781773
@@ -2108,53 +2030,14 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1101
       parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ToriTests][suite]
-    m_ResultText: 'SpawnDialogueCanvasTest (18.597s)
-
-      ---
-
-      139.5269
-
-      48.39862
-
-      47.97232
-
-      62.47554
-
-      61.45363
-
-      62.96297
-
-      41.03601
-
-      40.99843
-
-      42.0293
-
-      30.92831
-
-      35.13569
-
-      31.2845
-
-      28.27035
-
-      19.42603
-
-      21.96548
-
-      20.98861
-
-      20.73691
-
-      14.74668
-
-      1800'
+    m_ResultText: "BoundaryTest1 (25.781s)\n---\nParticle instantiated and destroyed
+      in less than .5 seconds at speed of: \n-1187.01"
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: a2b5eaae
-      m_LastClickedID: -1360349790
-      m_ExpandedIDs: 33fcf89c0e8a96a07c95c7e3e68b8bee5371fdf26521a7fa411e8cfc45d21e3fc3180c5ac240ad6168e20b652a415c6da98bee76ffffff7f
+      m_SelectedIDs: c8774d70
+      m_LastClickedID: 1884125128
+      m_ExpandedIDs: 33fcf89c0e8a96a0095273df7c95c7e3e68b8bee5371fdf26521a7fa411e8cfc45d21e3fc3180c5ac240ad6168e20b652a415c6da98bee76ffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -2474,20 +2357,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Tests/PlayMode
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Tests/PlayMode
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/isabelhinkle/Desktop/CS-383-Project/Existential
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: ac380000
-    m_LastClickedID: 14508
-    m_ExpandedIDs: 00000000a6380000a8380000aa380000ac380000ae380000b0380000b2380000b4380000b6380000b8380000ba380000bc380000be380000c0380000c2380000c4380000c6380000c8380000ca380000cc380000ce380000d0380000d2380000d4380000d6380000d8380000da380000dc380000de380000e0380000e2380000e438000000ca9a3b
+    scrollPos: {x: 0, y: 214}
+    m_SelectedIDs: 12390000
+    m_LastClickedID: 14610
+    m_ExpandedIDs: 00000000de370000e0370000e2370000e4370000e6370000e8370000ea370000ec370000ee370000f0370000f2370000f4370000f6370000f8370000fa370000fc370000fe37000000380000023800000438000006380000083800000a3800000c3800000e38000010380000123800001438000016380000183800001a3800001c3800000e39000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2515,7 +2398,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a6380000a8380000aa380000ac380000ae380000b0380000b2380000b4380000b6380000b8380000ba380000bc380000be380000c0380000c2380000c4380000c6380000c8380000ca380000cc380000ce380000d0380000d2380000d4380000d6380000d8380000da380000dc380000de380000e0380000e2380000e4380000
+    m_ExpandedIDs: 00000000de370000e0370000e2370000e4370000e6370000e8370000ea370000ec370000ee370000f0370000f2370000f4370000f6370000f8370000fa370000fc370000fe37000000380000023800000438000006380000083800000a3800000c3800000e38000010380000123800001438000016380000183800001a3800001c380000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2542,7 +2425,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -2595,7 +2478,7 @@ MonoBehaviour:
     x: 878
     y: 75
     width: 401
-    height: 718
+    height: 715
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
   m_ObjectsLockedBeforeSerialization: []
@@ -2640,7 +2523,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: eef1faff0cf2faffd687fdff1088fdff2e88fdff1c96fdff4e96fdff6c96fdff1a9efdff4c9efdff6a9efdff9abaffffccbaffffeabaffff96bcffffc8bcffffe6bcffff7ebeffffb0beffffcebeffff02c1ffff34c1ffff52c1ffff02c8ffff34c8ffff52c8ffff7cc9ffffaec9ffffccc9fffff6caffff28cbffff46cbffff76d8ffffa8d8ffffc6d8ffffc4effffffeefffff1ef0ffff56faffff08fbffff
+      m_ExpandedIDs: 5ef4ffff7cf4ffffb4f5ffffb8f7ffffd8f7ffff42f9ffff6afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
