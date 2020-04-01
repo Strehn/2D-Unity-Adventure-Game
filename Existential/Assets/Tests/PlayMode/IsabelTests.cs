@@ -12,10 +12,12 @@ namespace Tests{
         public IEnumerator FindNonExistentObject(){
             SetupScene();
                 if (GameObject.Find("newObject")){  // if we find the object in the scene, we fail - this should  not happen
+                    Debug.Log("Failed - we did find newObject in the scene.");
                     Assert.Fail();
                     yield break;
                 }
                 else{
+                    Debug.Log("Passed - we did not find newObject in the scene.");
                     Assert.Pass();  // otherwise, we pass
                     yield break;
                 }
