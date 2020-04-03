@@ -1,5 +1,0 @@
-How to implement player controls:
-
-PlayerController: 
-
-Needs to be attached as a script component to the player game object
