@@ -32,7 +32,7 @@ public class HudInventory : MonoBehaviour{
                 image.enabled = true;
                 image.sprite = e.Item.Image;
                 itemDragHandler.Item = e.Item;
-                Debug.Log(e.Item);
+                Debug.Log("[HUD] adding " + e.Item);
                 break;
             }
         }
@@ -40,21 +40,32 @@ public class HudInventory : MonoBehaviour{
 
     private void Inventory_ItemRemoved(object sender, InventoryEventArgs e){
         Transform inventoryPanel = transform.Find("Inventory");
+        bool foundslot = false;
         foreach (Transform itemSlot in inventoryPanel){
             Transform imageTransform = itemSlot.GetChild(0);
             Image image = imageTransform.GetComponent<Image>();
             ItemDragHandler itemDragHandler = imageTransform.GetComponent<ItemDragHandler>();
-            Debug.Log("item drag handler item");
-            Debug.Log(itemDragHandler.Item);
-            Debug.Log("e.item");
-            Debug.Log(e.Item);
-            if (itemDragHandler.Item.Equals(e.Item)){
+            Debug.Log("[HUD] item drag handler item" + itemDragHandler.Item);
+            Debug.Log("[HUD] e.item" + e.Item);
+            Debug.Log("[HUD] itemslot " + itemSlot);
+            /*if (itemDragHandler.Item.Equals(e.Item)){
                 image.enabled = false;
                 image.sprite = null;
                 itemDragHandler.Item = null;
                 break;
             }
-           
+            */
+            if (itemDragHandler.Item != null && itemDragHandler.Item.Equals(e.Item)){
+                image.enabled = false;
+                image.sprite = null;
+                itemDragHandler.Item = null;
+                foundslot = true;
+                break;
+            }
+            if (foundslot)
+            {
+                break;
+            }
         }
     }
 
