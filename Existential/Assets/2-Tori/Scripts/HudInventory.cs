@@ -45,16 +45,9 @@ public class HudInventory : MonoBehaviour{
             Transform imageTransform = itemSlot.GetChild(0);
             Image image = imageTransform.GetComponent<Image>();
             ItemDragHandler itemDragHandler = imageTransform.GetComponent<ItemDragHandler>();
-            Debug.Log("[HUD] item drag handler item" + itemDragHandler.Item);
-            Debug.Log("[HUD] e.item" + e.Item);
-            Debug.Log("[HUD] itemslot " + itemSlot);
-            /*if (itemDragHandler.Item.Equals(e.Item)){
-                image.enabled = false;
-                image.sprite = null;
-                itemDragHandler.Item = null;
-                break;
-            }
-            */
+            // Debug.Log("[HUD] item drag handler item" + itemDragHandler.Item);
+            // Debug.Log("[HUD] e.item" + e.Item);
+            // Debug.Log("[HUD] itemslot " + itemSlot);
             if (itemDragHandler.Item != null && itemDragHandler.Item.Equals(e.Item)){
                 image.enabled = false;
                 image.sprite = null;
@@ -62,8 +55,7 @@ public class HudInventory : MonoBehaviour{
                 foundslot = true;
                 break;
             }
-            if (foundslot)
-            {
+            if (foundslot){
                 break;
             }
         }

@@ -27,7 +27,7 @@ public class InventoryDisplay : MonoBehaviour
         if(hit.collider != null){
             IInventoryItem item = hit.collider.GetComponent<IInventoryItem>();
             if(item != null){
-                Debug.Log("[InventoryDisplay] adding item");
+                // Debug.Log("[InventoryDisplay] adding item");
                 inventory.AddItem(item);
             }
         }

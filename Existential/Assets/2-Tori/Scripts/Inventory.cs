@@ -17,20 +17,19 @@ public class Inventory : MonoBehaviour{
     public event EventHandler<InventoryEventArgs> ItemAdded;
     public event EventHandler<InventoryEventArgs> ItemRemoved;
 
-    public void Start()
-    {
+    public void Start(){
         Debug.Log("inventory");
     }
   
     public void AddItem(IInventoryItem item){
-        Debug.Log(inventoryList);
-        Debug.Log(inventoryList.Count);
+        // Debug.Log(inventoryList);
+        // Debug.Log(inventoryList.Count);
         if(inventoryList.Count < MAXITEMS){
             Collider2D collider = (item as MonoBehaviour).GetComponent<Collider2D>();
             if (collider.enabled){
                 collider.enabled = false;
                 inventoryList.Add(item);
-                Debug.Log("[Inventory] Add Item");
+                // Debug.Log("[Inventory] Add Item");
                 item.OnPickup();
                 if(ItemAdded != null){
                     ItemAdded(this, new InventoryEventArgs(item));
@@ -42,19 +41,16 @@ public class Inventory : MonoBehaviour{
     public void RemoveItem(IInventoryItem item){
         Debug.Log("[Inventory] Item being removed:" + item);
         if(inventoryList.Contains(item)){
-            //inventoryList.Remove(item);
-            Debug.Log("[Inventory] List contains item");
+            // Debug.Log("[Inventory] List contains item");
             bool retval = inventoryList.Remove(item);
-            Debug.Log(retval);
-            // item.OnDrop();
-
+            // Debug.Log(retval);
             Collider2D collider = (item as MonoBehaviour).GetComponent<Collider2D>();
             if(collider != null){
                 collider.enabled = true;
             }
 
             if(ItemRemoved != null){
-                Debug.Log("[Inventory] Sending this: " + this + "and this item: " + item);
+                // Debug.Log("[Inventory] Sending this: " + this + "and this item: " + item);
                 ItemRemoved(this, new InventoryEventArgs(item));
             }
             item.OnDrop();

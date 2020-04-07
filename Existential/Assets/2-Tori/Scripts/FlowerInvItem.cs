@@ -28,7 +28,7 @@ public class FlowerInvItem : MonoBehaviour, IInventoryItem{
     }
 
     public void OnDrop(){
-        Debug.Log("[FlowerInvItem] ON DROP");
+        // Debug.Log("[FlowerInvItem] ON DROP");
         /* DEPRECATED
         RaycastHit hit = new RaycastHit();
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
