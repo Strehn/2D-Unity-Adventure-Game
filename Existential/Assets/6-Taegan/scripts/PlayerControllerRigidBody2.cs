@@ -28,11 +28,11 @@ public class PlayerControllerRigidBody2 : MonoBehaviour {
         moveVelocity = moveInput.normalized * speed;  // Move according to speed
 
 
-        // Causes Problems with test
-        //if (active == false)
-        //{
-        //    rb.velocity == new Vector2(0, 0);
-        //}
+        // Causes Problems with test. Stops the player if not on the ice.
+        if (active == false)
+        {
+            rb.velocity = new Vector2(0, 0);
+        }
 
 
         // If the player is not moving set active to false
@@ -42,13 +42,44 @@ public class PlayerControllerRigidBody2 : MonoBehaviour {
 
         // if the player is in front of a door way, transfer him to the next cave
         // from ice cave to fog cave
-        if (rb.position.x >= 192.2f && rb.position.x <= 193.8 && rb.position.y >= 3.1f) {
+        if (rb.position.x >= 144 && rb.position.x <= 148 && rb.position.y <= -7) {
+            
+            
             transform.position = new Vector2(46, -28);
         }
 
         // from fog cave to ice cave
         else if (rb.position.x >= 46 && rb.position.x <= 48 && rb.position.y >= -26) {
-            transform.position = new Vector2(192.6f, 2f);
+            Debug.Log("transporting player");
+            transform.position = new Vector2(147, -6.3f);
+        }
+
+        // from fog cave to entrance
+        else if (rb.position.x >= 4.1f && rb.position.x <= 4.8f && rb.position.y >= 2)
+        {
+            Debug.Log("transporting player");
+            transform.position = new Vector2(-74, -82);
+        }
+
+        // from fog cave to entrance
+        else if (rb.position.x >= -74.5f && rb.position.x <= -73.5f && rb.position.y <= -84)
+        {
+            Debug.Log("transporting player");
+            transform.position = new Vector2(4.4f, 1);
+        }
+
+        // from ice cave to end
+        else if (rb.position.x >= 234 && rb.position.x <= 235 && rb.position.y >= -25)
+        {
+            Debug.Log("transporting player");
+            transform.position = new Vector2(69, -240);
+        }
+
+        // from end to ice cave
+        else if (rb.position.x >= 68 && rb.position.x <= 71f && rb.position.y <= -242)
+        {
+            Debug.Log("transporting player");
+            transform.position = new Vector2(234.5f,-26);
         }
     }
 
