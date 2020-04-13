@@ -17,9 +17,11 @@ public class PlayerControllerRigidBody2 : MonoBehaviour {
     public bool timer = false; // timer for movment of player
     public Vector2 pastPosition; // stores previous velocity incase player gets stuck
     bool activeButton = false;
+    public bool canMove; // Sam - Boolean to dictate whether player can move the main character or not
     // Start is called before the first frame update
     void Start() {
-        rb = GetComponent<Rigidbody2D>();  // Get the Rigidbody2D from the character components 
+        rb = GetComponent<Rigidbody2D>();  // Get the Rigidbody2D from the character components
+        canMove = true; // Sam - Set so that player can move to start
     }
 
     // Update is called once per frame
@@ -34,6 +36,12 @@ public class PlayerControllerRigidBody2 : MonoBehaviour {
             rb.velocity = new Vector2(0, 0);
         }
 
+        // Sam - if, in another script, canMove has been set to false, then player may not move (Used in DialogueManager script to keep player from moving while tlaking with an NPC)
+        if (!canMove)
+        {
+            rb.velocity = Vector2.zero;
+            return;
+        }
 
         // If the player is not moving set active to false
         if (rb.velocity == new Vector2(0, 0)) {
@@ -121,6 +129,14 @@ public class PlayerControllerRigidBody2 : MonoBehaviour {
             }
         }
         else {
+
+            if (!canMove)
+            {
+                rb.velocity = Vector2.zero;
+                return;
+            }
+
+
             // code to make the player move normally
             active = false;
             rb.MovePosition(rb.position + moveVelocity * Time.fixedDeltaTime);
