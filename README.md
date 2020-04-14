@@ -1,5 +1,6 @@
 # CS-383-Project
 Group Repositiory
+<<<<<<< HEAD
 
 <html>
 <body>
@@ -8,6 +9,16 @@ Group Repositiory
 </h3>Existential brings to light the uncomfortable concept of life after death and the process of grief. In today’s society, we avoid confronting the topic of death because we often associate death with tragedy and sadness. While these feelings are completely acceptable, Existential aims to highlight grief and provide depth into the process of acceptance. Death is natural and a fundamental end to life, and we would like to provide a different perspective on life and death.</h3>
 
 
+=======
+</br>
+<i>Existential was built in Unity 2019.3.5f1</i>
+
+<html>
+<body>
+<h1>Description</h1>
+</h3>Existential brings to light the uncomfortable concept of life after death and the process of grief. In today’s society, we avoid confronting the topic of death because we often associate death with tragedy and sadness. While these feelings are completely acceptable, Existential aims to highlight grief and provide depth into the process of acceptance. Death is natural and a fundamental end to life, and we would like to provide a different perspective on life and death.</h3>
+
+>>>>>>> b77e86f8944f39d77adc50035f725d5f03ea0367
 <h1>To Configure / Build the game.</h1>
 
 <h3>If you can run .exe,.app,.apk files </h3>
@@ -41,7 +52,11 @@ Group Repositiory
 
 <h1>Controls</h1>
 <h2>Android / IOS</h2>
+<<<<<<< HEAD
 <i> To move the player, tilt the phone.</i>
+=======
+<i> To move the player,tilt the phone.</i>
+>>>>>>> b77e86f8944f39d77adc50035f725d5f03ea0367
 </br> 
 <i> Click the on screen “interact” button to interact with characters and game objects.</i>
 
