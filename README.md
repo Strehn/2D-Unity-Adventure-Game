@@ -9,13 +9,13 @@ Group Repositiory
 
 <h1>Controls</h1>
 <h2>Android / IOS</h2>
-<h3>To move the player,<div style="color:red"> tilt the phone</div>.</h3>
-<h3>Click the on screen<div style="color:red"> “interact” button</div>to interact with characters and game objects.</h3>
+<h3><i> To move the player,tilt the phone.</i></h3>
+<h3 ><i> Click the on screen “interact” button to interact with characters and game objects.</i></h3>
 
 <h2>Computer</h2>
-<h3>Press the<div style="color:red">F key</div>to interact with other Players.</h3>
-<h3>Press the <div style="color:red">arrow keys</div> to move the main character.</h3>
-<h3>Press the <div style="color:red">space key</div> to continue conversation with a character.</h3>
-<h3>Use <div style="color:red">the mouse</div> to interact with items on the screen.</h3>
+<h3><i>Press the F key to interact with other Players.</i></h3>
+<h3><i>Press the arrow keys to move the main character.</i></h3>
+<h3><i>Press the space key to continue conversation with a character.</i></h3>
+<h3><i>Use the mouse to interact with items on the screen.</i></h3>
 </body>
 </html>
