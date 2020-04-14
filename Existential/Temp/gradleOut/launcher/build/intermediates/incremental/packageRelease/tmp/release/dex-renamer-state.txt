@@ -1,0 +1,4 @@
+#Tue Apr 14 01:11:58 PDT 2020
+base.0=/Users/taeganwilliams/Documents/GitHub/CS-383-Project/Existential/Temp/gradleOut/launcher/build/intermediates/transforms/dexMerger/release/0
+path.0=classes.dex
+renamed.0=classes.dex
