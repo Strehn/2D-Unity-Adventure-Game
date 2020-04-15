@@ -8,10 +8,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using UnityEngine.SceneManagement;
 
 public class Inventory : MonoBehaviour{
     public const int MAXITEMS = 8;
     public Camera cam;
+    public GameObject mainChar;
     // This is private so that it is only instantiated once (no conflicting inventories)
     private List<IInventoryItem> inventoryList = new List<IInventoryItem>();
     public event EventHandler<InventoryEventArgs> ItemAdded;
@@ -57,6 +59,26 @@ public class Inventory : MonoBehaviour{
             inventoryList.Remove(item);
             
         }
+    }
+
+    // Handles scene transitions for Meadow Level to Cave
+    public void Update(){
+        Scene scene;
+        Transform transform = mainChar.GetComponent<Transform>();
+        Vector2 position = transform.position;
+        scene = SceneManager.GetActiveScene();
+        if( scene.buildIndex == 4){
+            if (position.x >= 42 && position.y >= 7 && inventoryList.Count == 8){
+                SceneManager.LoadScene(7);
+            }
+        }
+        if (scene.buildIndex == 7){
+            if (position.x >= 4.5 && position.y >= -5){
+                SceneManager.LoadScene(5);
+            }
+        }
+       
+       
     }
 
 }

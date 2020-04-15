@@ -21,23 +21,46 @@ public class BCModeToriLevel : MonoBehaviour{
         for(i = 1; i < 9; i++){
             string arrow;
             arrow = string.Format("thiswaybc ({0})", i);
-            // Debug.Log("arrow is: " + arrow);
+             Debug.Log("arrow is: " + arrow);
             GameObject hintArrow = GameObject.Find(arrow);
-            // Debug.Log("hintArrow is: " + hintArrow);
+             Debug.Log("hintArrow is: " + hintArrow);
             SpriteRenderer spriteArrow = hintArrow.GetComponent<SpriteRenderer>();
             spriteArrow.enabled = true;
             //hintArrow.SetActive(true);
         }
-        Instantiate(flowerPrefab1, new Vector3(45, 3, 90), Quaternion.identity);
-        Instantiate(flowerPrefab2, new Vector3(45, 3, 90), Quaternion.identity);
-        Instantiate(flowerPrefab3, new Vector3(0, 0, 0), Quaternion.identity);
-        Instantiate(flowerPrefab4, new Vector3(i * 2.0F, 0, 0), Quaternion.identity);
-        Instantiate(flowerPrefab5, new Vector3(i * 2.0F, 0, 0), Quaternion.identity);
-        Instantiate(flowerPrefab6, new Vector3(i * 2.0F, 0, 0), Quaternion.identity);
-        Instantiate(flowerPrefab7, new Vector3(i * 2.0F, 0, 0), Quaternion.identity);
-        Instantiate(flowerPrefab8, new Vector3(i * 2.0F, 0, 0), Quaternion.identity);
-        Instantiate(flowerPrefab9, new Vector3(i * 2.0F, 0, 0), Quaternion.identity);
-        Instantiate(flowerPrefab10, new Vector3(i * 2.0F, 0, 0), Quaternion.identity);
+
+        GameObject bcFlower1 = Instantiate(flowerPrefab1) as GameObject;
+        bcFlower1.SetActive(true);
+        bcFlower1.transform.position = new Vector2(5, 4f);
+
+        GameObject bcFlower2 = Instantiate(flowerPrefab2) as GameObject;
+        bcFlower2.SetActive(true);
+        bcFlower2.transform.position = new Vector2(5, 6f);
+
+        GameObject bcFlower3 = Instantiate(flowerPrefab3) as GameObject;
+        bcFlower3.SetActive(true);
+        bcFlower3.transform.position = new Vector2(4, 6f);
+
+        GameObject bcFlower4 = Instantiate(flowerPrefab4) as GameObject;
+        bcFlower4.SetActive(true);
+        bcFlower4.transform.position = new Vector2(4, 3f);
+
+        GameObject bcFlower5 = Instantiate(flowerPrefab5) as GameObject;
+        bcFlower5.SetActive(true);
+        bcFlower5.transform.position = new Vector2(4, 5f);
+
+        GameObject bcFlower6 = Instantiate(flowerPrefab6) as GameObject;
+        bcFlower6.SetActive(true);
+        bcFlower6.transform.position = new Vector2(6, 3f);
+
+        GameObject bcFlower7 = Instantiate(flowerPrefab7) as GameObject;
+        bcFlower7.SetActive(true);
+        bcFlower7.transform.position = new Vector2(6, 5f);
+
+        GameObject bcFlower8 = Instantiate(flowerPrefab7) as GameObject;
+        bcFlower8.SetActive(true);
+        bcFlower8.transform.position = new Vector2(6, 4f);
+        
         GameObject popUpHint = GameObject.Find("PopUpHint");
         StartCoroutine(ShowPathPopup(popUpHint));
 
