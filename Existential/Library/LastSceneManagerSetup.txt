@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/2-Tori/Scenes/QueensMemorial.unity
+=======
+- path: Assets/4-Isabel/Scenes/Isabel Level.unity
+>>>>>>> 5137c123caa35411b5152c797b564747734087d7
   isLoaded: 1
   isActive: 1
   isSubScene: 0

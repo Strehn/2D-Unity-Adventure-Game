@@ -1,5 +1,7 @@
-﻿// Created by Isabel
-// Inspo: https://www.youtube.com/watch?v=E7gmylDS1C4
+﻿/* Created by Isabel
+ * Inspo: https://www.youtube.com/watch?v=E7gmylDS1C4
+ * Script to spawn 1 of 3 inventory objects on screen based on a random number between 1-3
+ */
 
 using System.Collections;
 using System.Collections.Generic;

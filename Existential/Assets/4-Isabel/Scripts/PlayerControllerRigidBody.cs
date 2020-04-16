@@ -1,10 +1,10 @@
-﻿using System.Collections;
+﻿/* Created  by Isabel Hinkle, modified by Sam
+ * Takes in a player rigidbody 2D and controls movement of player on screen based on key input
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-// Isabel
-
-// Sam added a canMove bool to make it so player cannot mover if a condition is met (i.e. Player talking with NPC and dialogue box pops up)
 
 public class PlayerControllerRigidBody : MonoBehaviour {
     public float speed;  // Variable for speed movement (should be about 2)
