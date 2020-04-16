@@ -23,7 +23,7 @@ public class FlowerInvItem : MonoBehaviour, IInventoryItem{
         }
     }
 
-    public void OnPickup(){
+    public virtual void OnPickup(){
         gameObject.SetActive(false);
     }
 
