@@ -69,12 +69,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
+<<<<<<< HEAD
+    width: 2236
+    height: 1291
+  m_MinSize: {x: 881, y: 492}
+  m_MaxSize: {x: 16006, y: 14042}
+  vertical: 0
+  controlID: 151
+=======
     width: 1347
     height: 742
   m_MinSize: {x: 881, y: 492}
   m_MaxSize: {x: 16006, y: 14042}
   vertical: 0
   controlID: 102
+>>>>>>> 5137c123caa35411b5152c797b564747734087d7
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -92,8 +101,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1071
     y: 0
+<<<<<<< HEAD
+    width: 456
+    height: 1291
+=======
     width: 276
     height: 742
+>>>>>>> 5137c123caa35411b5152c797b564747734087d7
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 15}
@@ -143,9 +157,15 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
+    y: 780
+    width: 1780
+    height: 511
+=======
     y: 448
     width: 1071
     height: 294
+>>>>>>> 5137c123caa35411b5152c797b564747734087d7
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 14}
@@ -240,12 +260,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
+    width: 1780
+    height: 1291
+  m_MinSize: {x: 605, y: 492}
+  m_MaxSize: {x: 12005, y: 14042}
+  vertical: 1
+  controlID: 152
+=======
     width: 1071
     height: 742
   m_MinSize: {x: 605, y: 492}
   m_MaxSize: {x: 12005, y: 14042}
   vertical: 1
   controlID: 103
+>>>>>>> 5137c123caa35411b5152c797b564747734087d7
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -271,7 +300,11 @@ MonoBehaviour:
   m_MinSize: {x: 605, y: 221}
   m_MaxSize: {x: 12005, y: 4021}
   vertical: 0
+<<<<<<< HEAD
+  controlID: 153
+=======
   controlID: 104
+>>>>>>> 5137c123caa35411b5152c797b564747734087d7
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -364,20 +397,35 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
+    - Assets/2-Tori/Scenes
+  m_ViewMode: 1
+  m_StartGridSize: 64
+  m_LastFolders:
+  - Assets/2-Tori/Scenes
+=======
     - Assets/4-Isabel/Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
   - Assets/4-Isabel/Scenes
+>>>>>>> 5137c123caa35411b5152c797b564747734087d7
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/isabelhinkle/Desktop/CS-383-Project/Existential
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
+    scrollPos: {x: 0, y: 58}
+    m_SelectedIDs: 72870000
+    m_LastClickedID: 34674
+    m_ExpandedIDs: 0000000064350000fe360000703b00000c3d0000963f00007e410000ca440000f44900003c540000ea550000ac5b0000285f0000006500004c65000028690000d46f000028700000a0740000b88c000066910000509a00009c9b0000f2a5000056ae000078b000006cb2000090b8000092b8000094b8000096b8000098b800009ab800009cb8000000ca9a3b
+=======
     scrollPos: {x: 0, y: 279}
     m_SelectedIDs: b23b0100
     m_LastClickedID: 80818
     m_ExpandedIDs: 00000000e279000042820000a2a20000403a0100563a01009a3a0100a83a0100fe3a0100723b0100f63b0100083c0100623c01009a3c01001c3d0100603d0100fc3d01001a3e0100ce3f01002e4001008c400100ac400100e44001000641010042410100584101005a4401005c4401005e4401006044010062440100644401006644010000ca9a3b
+>>>>>>> 5137c123caa35411b5152c797b564747734087d7
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -405,7 +453,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
+    m_ExpandedIDs: 0000000064350000fe360000703b00000c3d0000963f0000ca440000f44900003c540000ea550000ac5b0000285f0000006500004c65000028690000d46f000028700000a0740000b88c000066910000509a00009c9b0000f2a5000056ae000078b000006cb2000090b8000092b8000094b8000096b8000098b800009ab800009cb80000
+=======
     m_ExpandedIDs: 00000000e279000042820000a2a20000403a0100563a01009a3a0100a83a0100fe3a0100723b0100f63b0100083c0100623c01009a3c01001c3d0100603d0100fc3d01001a3e0100ce3f01002e4001008c400100ac400100e44001000641010042410100584101005a4401005c4401005e44010060440100624401006444010066440100
+>>>>>>> 5137c123caa35411b5152c797b564747734087d7
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -528,6 +580,15 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: b4aaffffe4adfffffaafffff30b0ffff3ab0ffff52b0ffff5ab0ffff1ab1ffff26b1ffff7eb1ffffbeb2ffffd8b2ffff18b5ffff92b7ffffecbaffff32c0fffff4c2ffffdac8ffff88cbffff90cbffff96d2ffff9ad2ffffaad2ffffead3fffff4d6ffff5adaffff1ce3ffffc4e7ffffcee7ffffe6e7ffffaee8ffff9cebffffb4ebffffbcebffff0ef4ffff84f6ffff6afbffff54ce0000fce000000a030100
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: Text
+        m_OriginalName: Text
+=======
       m_SelectedIDs: 1ae4fdff
       m_LastClickedID: -138214
       m_ExpandedIDs: 46e4fdff00e5fdff4ee9fdff76ecfdffeaeffdff28f4fdffeef7fdff9cfafdff52fffdff1210feffb213feff9c18feff461cfeffb823feff7227feff0231feffbc31fefffe34feff9e3cfeff1e43feffb8810100
@@ -535,13 +596,18 @@ MonoBehaviour:
         m_UserAcceptedRename: 0
         m_Name: specialUnlockFlower
         m_OriginalName: specialUnlockFlower
+>>>>>>> 5137c123caa35411b5152c797b564747734087d7
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
+<<<<<<< HEAD
+        m_UserData: -5298
+=======
         m_UserData: 99252
+>>>>>>> 5137c123caa35411b5152c797b564747734087d7
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 0
@@ -590,9 +656,15 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
+    m_Target: {x: -2.9724476, y: -1.7203792, z: -11.849609}
+    speed: 2
+    m_Value: {x: -2.9724476, y: -1.7203792, z: -11.849609}
+=======
     m_Target: {x: 0.0113949515, y: -0.021426406, z: -0.0011937148}
     speed: 2
     m_Value: {x: 0.0113949515, y: -0.021426406, z: -0.0011937148}
+>>>>>>> 5137c123caa35411b5152c797b564747734087d7
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -642,9 +714,15 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
+<<<<<<< HEAD
+    m_Target: 12.152263
+    speed: 2
+    m_Value: 12.724882
+=======
     m_Target: 1.7162142
     speed: 2
     m_Value: 1.7162142
+>>>>>>> 5137c123caa35411b5152c797b564747734087d7
   m_Ortho:
     m_Target: 1
     speed: 2
