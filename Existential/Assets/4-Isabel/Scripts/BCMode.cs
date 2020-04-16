@@ -1,4 +1,6 @@
-﻿// Created by Sam Spalding, edited by Isabel Hinkle for level
+﻿/* Created by Sam Spalding, edited by Isabel Hinkle for level
+ * Script to display canvas of "BC Mode" if the B key is pressed
+ */
 
 using System.Collections;
 using System.Collections.Generic;
@@ -15,7 +17,7 @@ public class BCMode : MonoBehaviour {
 
         // If player hits B key...
         if (Input.GetKeyDown(KeyCode.B)) {
-            Debug.Log("B key was pressed");
+            // Debug.Log("B key was pressed");
 
             // ...when game is in the pause menu, then it will resume
             if (gameIsPaused) {

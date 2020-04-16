@@ -1,4 +1,7 @@
-﻿// Created by Isabel
+﻿/* Created by Isabel
+ * Simple script to move to the next scene
+ * DEPRECATED
+ */
 
 using System.Collections;
 using System.Collections.Generic;
