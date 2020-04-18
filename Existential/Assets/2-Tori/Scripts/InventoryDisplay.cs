@@ -1,9 +1,8 @@
 ﻿
 /***********************
-   WILL BE DEPRECATED
 Implemented by Victoria Gehring
 This script handles the addition of new inventory items
-via 2D colliders
+by checking the mouse position is over an inventory item
 ***********************/
 
 using System.Collections;

@@ -1,4 +1,11 @@
-﻿using System.Collections;
+﻿/***********************
+Implemented by Victoria Gehring
+This script tells what item is being dragged
+so that the inventory scripts have an item 
+reference for removal purposes
+***********************/
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;

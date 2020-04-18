@@ -41,7 +41,7 @@ public class Inventory : MonoBehaviour{
     }
 
     public void RemoveItem(IInventoryItem item){
-        Debug.Log("[Inventory] Item being removed:" + item);
+        // Debug.Log("[Inventory] Item being removed:" + item);
         if(inventoryList.Contains(item)){
             // Debug.Log("[Inventory] List contains item");
             bool retval = inventoryList.Remove(item);
