@@ -1,4 +1,11 @@
-﻿using System.Collections;
+﻿/***********************
+Implemented by Victoria Gehring
+This script notices when an item has been dragged
+out of the inventory and starts the RemoveItem and
+OnDrop functions
+***********************/
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
