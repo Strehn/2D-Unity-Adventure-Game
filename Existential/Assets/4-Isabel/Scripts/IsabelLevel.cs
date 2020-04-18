@@ -13,9 +13,12 @@ public class IsabelLevel : MonoBehaviour{
     public GameObject Necklace;
     public GameObject Vase;
     public GameObject mainCharacter;
+    //public bool giftedItemBool;
+    //GiftInvItem GII;
 
     void Start(){
         int inventoryNumber = UnityEngine.Random.Range(1, 4);  // Generate a random inventory item to spawn on screen
+        //giftedItemBool = GII.giftedItem;
         // Debug.Log(inventoryNumber); testing purposes
 
         if(inventoryNumber == 1){
@@ -36,6 +39,35 @@ public class IsabelLevel : MonoBehaviour{
             i.SetActive(true);
             i.transform.position = new Vector2(0, -6.18f);
         }
+        
+    }
+
+    // Function copied from Tori to change scenes based on position
+    public void Update(){
+        Scene scene;
+        Transform transform = mainCharacter.GetComponent<Transform>();
+        Vector2 position = transform.position;
+        scene = SceneManager.GetActiveScene();
+
+        if(scene.buildIndex == 2){
+            if((position.x <= 25 && position.x >= 24) && (position.y <= 7 && position.y >= 6.7)){  // Check if we ever make it to the right position
+                Debug.Log("You are in the right spot to move forward..");
+                //SceneManager.LoadScene(3);
+
+                if(GameObject.FindWithTag("IsabelLevel") == false){  // Check that the item was picked up
+                    Debug.Log("Moving on to next level.");
+                    SceneManager.LoadScene(3);  // For now, move on to next scene if in the right position
+
+                    /*if(giftedItem == true){ TODO: figure out how to access giftedItem from this script
+                        // then move scenes here
+                    }*/
+                }
+                else{
+                    Debug.Log("You need to return the correct object to the spirit in order to advance.");
+                }
+            }   
+        }
+
     }
 
 }
