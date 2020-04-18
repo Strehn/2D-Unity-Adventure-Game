@@ -13,6 +13,7 @@ public class IsabelLevel : MonoBehaviour{
     public GameObject Necklace;
     public GameObject Vase;
     public GameObject mainCharacter;
+    bool isGiftable = false;
 
     void Start(){
         int inventoryNumber = UnityEngine.Random.Range(1, 4);  // Generate a random inventory item to spawn on screen
@@ -23,18 +24,21 @@ public class IsabelLevel : MonoBehaviour{
             GameObject i = Instantiate(Chalice) as GameObject;
             i.SetActive(true);
             i.transform.position = new Vector2(0, -6.18f);
+            isGiftable = true;
         }
         else if(inventoryNumber == 2){
             // drop inventoryObject 2 on scene (belonging to Dia2)
             GameObject i = Instantiate(Necklace) as GameObject;
             i.SetActive(true);
             i.transform.position = new Vector2(0, -6.18f);
+            isGiftable = true;
         }
         else if(inventoryNumber == 3){
             // drop inventoryObject 3 on scene (belonging to Dia3)
             GameObject i = Instantiate(Vase) as GameObject;
             i.SetActive(true);
             i.transform.position = new Vector2(0, -6.18f);
+            isGiftable = true;
         }
     }
 

@@ -7,20 +7,30 @@ using UnityEngine.UI;
 
 public class GiftTrigger : MonoBehaviour{
 
-    public PlayerControllerRigidBody mainCharacter;
-    public GameObject NPC1;
-    public GameObject NPC2;
-    public GameObject NPC3;
-    public Button giftButton;
+    public GameObject giftButton;
 
-    void Start(){
-        mainCharacter = FindObjectOfType<PlayerControllerRigidBody>();
+    private bool npcCollision = false;
+
+     void Update(){
+        if(npcCollision == true){
+            giftButton.SetActive(true);
+        }
+        else{
+            giftButton.SetActive(false);
+        }
     }
 
-    public void OnTriggerEnter(Collider other ){
-        if(other.gameObject.tag == "interObject"){
+    public void OnTriggerEnter2D(Collider2D npcColl){
+        if(npcColl.tag == "interObject"){
             Debug.Log("Ran into NPC");
-            giftButton.gameObject.SetActive(true);
+            npcCollision = true;
+        }
+    }
+
+    public void OnTriggerExit2D(Collider2D npcColl){
+        if (npcColl.tag == "interObject"){
+            Debug.Log("Moving away from NPC");
+            npcCollision = false;
         }
     }
 }

@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/2-Tori/Scenes/ToriScene.unity
-=======
 - path: Assets/4-Isabel/Scenes/Isabel Level.unity
->>>>>>> d026253a43bba24f469a1138d981edb573d1719a
   isLoaded: 1
   isActive: 1
   isSubScene: 0
