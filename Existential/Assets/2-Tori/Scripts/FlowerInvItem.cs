@@ -27,7 +27,7 @@ public class FlowerInvItem : MonoBehaviour, IInventoryItem{
         gameObject.SetActive(false);
     }
 
-    public void OnDrop(){
+    public virtual void OnDrop(){
         // Debug.Log("[FlowerInvItem] ON DROP");
         /* DEPRECATED
         RaycastHit hit = new RaycastHit();
@@ -40,7 +40,6 @@ public class FlowerInvItem : MonoBehaviour, IInventoryItem{
         }
         */
         gameObject.SetActive(true);
-
     }
 
 }
