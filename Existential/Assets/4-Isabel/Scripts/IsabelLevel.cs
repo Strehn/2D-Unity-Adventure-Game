@@ -13,8 +13,6 @@ public class IsabelLevel : MonoBehaviour{
     public GameObject Necklace;
     public GameObject Vase;
     public GameObject mainCharacter;
-    //public bool giftedItemBool;
-    //GiftInvItem GII;
 
     void Start(){
         int inventoryNumber = UnityEngine.Random.Range(1, 4);  // Generate a random inventory item to spawn on screen
@@ -54,7 +52,7 @@ public class IsabelLevel : MonoBehaviour{
                 Debug.Log("You are in the right spot to move forward..");
                 //SceneManager.LoadScene(3);
 
-                if(GameObject.FindWithTag("IsabelLevel") == false){  // Check that the item was picked up
+                if(GameObject.FindWithTag("key") == false){  // Check that the key was picked up
                     Debug.Log("Moving on to next level.");
                     SceneManager.LoadScene(3);  // For now, move on to next scene if in the right position
 

@@ -1,5 +1,4 @@
 ﻿/* Script created by Isabel Hinkle to trigger a gift exchange when two characters collide
-   WILL BE DEPRECATED
  */
 using System.Collections;
 using System.Collections.Generic;
