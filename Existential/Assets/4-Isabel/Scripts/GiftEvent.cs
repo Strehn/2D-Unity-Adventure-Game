@@ -10,31 +10,33 @@ using UnityEngine.SceneManagement;
 
 public class GiftEvent : MonoBehaviour{
     public GameObject Key;
-    public bool chalice;
-    public bool necklace;
-    public bool vase;
     public bool invItemPresent;
 
     public void Start(){
-        chalice = GameObject.Find("Chalice(Clone)").GetComponent<GiftInvItem>().giftedItem;
-        necklace = GameObject.Find("Necklace(Clone)").GetComponent<GiftInvItem>().giftedItem;
-        vase = GameObject.Find("Vase(Clone)").GetComponent<GiftInvItem>().giftedItem;
+        invItemPresent = false;
+    }
 
-        // This section checks to make sure we only set invItemPresent to true if there is only one object that isn't false
-        if((chalice == true) && (necklace == false) && (vase == false)){
+    public void Update(){
+        // This section checks to make sure we only set invItemPresent to true if there is only one object that is found
+        if( GameObject.Find("Chalice(Clone)") ){
             invItemPresent = true;
         }
-        else if((chalice == false) && (necklace == true) && (vase == false)){
+        else if( GameObject.Find("Necklace(Clone)") ){
             invItemPresent = true;
         }
-        else if((chalice == false) && (necklace == false) && (vase != true)){
+        else if( GameObject.Find("Vase(Clone)") ){
             invItemPresent = true;
+        }
+        else{
+            invItemPresent = false;
         }
     }
 
     // Function to instantiate one key based on a bool value
     public void InstantiateKey(){
-        if(invItemPresent == true){
+        Debug.Log("Thank you for the gift. There is a key waiting for you to get to the next level.");
+
+        if(invItemPresent == true){  // invItemPresent can only be true or false, so this is where singleton is executed
             GameObject i = Instantiate(Key) as GameObject;
             i.SetActive(true);
             i.transform.position = new Vector2(14, 5.5f);
