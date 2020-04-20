@@ -8,5 +8,7 @@ public class GiftInvItem : FlowerInvItem{
 
     public override void OnDrop(){
         giftedItem = true;
+        gameObject.SetActive(true);
+        gameObject.GetComponent<SpriteRenderer>().enabled = false;
     }
 }
