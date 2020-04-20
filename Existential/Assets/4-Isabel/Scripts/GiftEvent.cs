@@ -34,9 +34,8 @@ public class GiftEvent : MonoBehaviour{
 
     // Function to instantiate one key based on a bool value
     public void InstantiateKey(){
-        Debug.Log("Thank you for the gift. There is a key waiting for you to get to the next level.");
-
         if(invItemPresent == true){  // invItemPresent can only be true or false, so this is where singleton is executed
+            Debug.Log("Thank you for the gift. There is a key waiting for you to get to the next level.");
             GameObject i = Instantiate(Key) as GameObject;
             i.SetActive(true);
             i.transform.position = new Vector2(14, 5.5f);
