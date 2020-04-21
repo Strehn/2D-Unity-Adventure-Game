@@ -44,6 +44,10 @@ public class IsabelLevel : MonoBehaviour{
     public virtual void Update(){
         Debug.Log("Welcome to level 2. The main character's name is nothing. She literally doesn't have a name. ");
     }
+    // This function is utilized in the static binding for the parent/child class
+    public void SaySomething(){
+        Debug.Log("This is the static type of the parent class. ");
+    }
 
 
 }
