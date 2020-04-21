@@ -40,33 +40,11 @@ public class IsabelLevel : MonoBehaviour{
         
     }
 
-    // Function copied from Tori to change scenes based on position
-    public void Update(){
-        Scene scene;
-        Transform transform = mainCharacter.GetComponent<Transform>();
-        Vector2 position = transform.position;
-        scene = SceneManager.GetActiveScene();
-
-        if(scene.buildIndex == 2){
-            if((position.x <= 25 && position.x >= 24) && (position.y <= 7 && position.y >= 6.7)){  // Check if we ever make it to the right position
-                Debug.Log("You are in the right spot to move forward..");
-                //SceneManager.LoadScene(3);
-
-                if(GameObject.FindWithTag("key") == false){  // Check that the key was picked up
-                    Debug.Log("Moving on to next level.");
-                    SceneManager.LoadScene(3);  // For now, move on to next scene if in the right position
-
-                    /*if(giftedItem == true){ TODO: figure out how to access giftedItem from this script
-                        // then move scenes here
-                    }*/
-                }
-                else{
-                    Debug.Log("You need to return the correct object to the spirit in order to advance.");
-                }
-            }   
-        }
-
+    // This function is utilized in the dynamic binding for the child class
+    public virtual void Update(){
+        Debug.Log("Welcome to level 2. The main character's name is nothing. She literally doesn't have a name. ");
     }
+
 
 }
 

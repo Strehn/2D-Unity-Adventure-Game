@@ -75,9 +75,9 @@ namespace Tests{
                 T = 1 / Time.deltaTime;
                 Debug.Log(T);
                 yield return new WaitForSeconds(1);  // Wait for 1 second
-                if (T < 15){
+                if (T < 15){  // After 100 runs check the frame rate
                     Debug.Log((i+1) * 100);
-                    if (i < 5){
+                    if (i < 5){  // Below 5 fps - fails
                         Assert.Fail();
                     }
                     yield break;
