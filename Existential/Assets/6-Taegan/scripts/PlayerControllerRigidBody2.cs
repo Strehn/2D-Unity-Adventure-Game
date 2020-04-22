@@ -18,14 +18,18 @@ public class PlayerControllerRigidBody2 : MonoBehaviour {
     public Vector2 pastPosition; // stores previous velocity incase player gets stuck
     bool activeButton = false;
     public bool canMove; // Sam - Boolean to dictate whether player can move the main character or not
+    GameObject Snow;
+
     // Start is called before the first frame update
     void Start() {
         rb = GetComponent<Rigidbody2D>();  // Get the Rigidbody2D from the character components
         canMove = true; // Sam - Set so that player can move to start
+        Snow = GameObject.Find("Grid"); // Snow Object
     }
 
     // Update is called once per frame
     void Update() {
+        GameObject[] SnowVariant = GameObject.FindGameObjectsWithTag("snowParticle"); // Snow Object
         Vector2 moveInput = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical")); // Get input from Horizontal and Vertical Axes
         moveVelocity = moveInput.normalized * speed;  // Move according to speed
 
@@ -65,29 +69,50 @@ public class PlayerControllerRigidBody2 : MonoBehaviour {
         // from fog cave to entrance
         else if (rb.position.x >= 4.1f && rb.position.x <= 4.8f && rb.position.y >= 2)
         {
-            Debug.Log("transporting player");
+            Debug.Log("transporting player true");
             transform.position = new Vector2(-74, -82);
+            Snow.GetComponent<SnowParticles>().enabled = true;
         }
 
-        // from fog cave to entrance
+        // from fog entrance to cave
         else if (rb.position.x >= -74.5f && rb.position.x <= -73.5f && rb.position.y <= -84)
         {
-            Debug.Log("transporting player");
+            Debug.Log("transporting player false");
             transform.position = new Vector2(4.4f, 1);
+            Snow.GetComponent<SnowParticles>().enabled = false;
+            int numOfObject = Snow.GetComponent<SnowParticles>().numOfObjects;
+            foreach(GameObject snowPiece in SnowVariant)
+            {
+                Destroy(snowPiece);
+            }     
         }
 
         // from ice cave to end
         else if (rb.position.x >= 234 && rb.position.x <= 235 && rb.position.y >= -25)
         {
-            Debug.Log("transporting player");
+            Debug.Log("transporting player true");
             transform.position = new Vector2(69, -240);
+            Snow.GetComponent<SnowParticles>().enabled = true;
         }
 
         // from end to ice cave
         else if (rb.position.x >= 68 && rb.position.x <= 71f && rb.position.y <= -242)
         {
-            Debug.Log("transporting player");
+            Debug.Log("transporting player false");
             transform.position = new Vector2(234.5f,-26);
+            Snow.GetComponent<SnowParticles>().enabled = false;
+            int numOfObject = Snow.GetComponent<SnowParticles>().numOfObjects;
+            for(int i = 0; i != numOfObject; i++)
+            {
+                Snow.GetComponent<SnowParticles>().objs[i] = null;
+                Snow.GetComponent<SnowParticles>().isAlive[i] = false;
+            }
+            foreach (GameObject snowPiece in SnowVariant)
+            {
+                Destroy(snowPiece);
+                Debug.Log("Destroyed1");
+            }
+
         }
         // from end to End Level
         else if (rb.position.x >= 69 && rb.position.x <= 71f && rb.position.y >= -204)

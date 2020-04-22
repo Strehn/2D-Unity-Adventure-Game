@@ -12,7 +12,7 @@ public class SnowParticles : MonoBehaviour {
     [SerializeField] public float bottomOfLevel;
     [SerializeField] public float topOfLevel;
     private int j;
-    private bool[] isAlive;
+    public bool[] isAlive;
 
     // Start is called before the first frame update
     void Start() {
