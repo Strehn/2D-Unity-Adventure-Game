@@ -16,25 +16,28 @@ public class SoundScript : MonoBehaviour {
     private AudioClip house;
     private AudioClip rock;
     private AudioClip graveyard;
+    private AudioClip castle;
     private GameObject ground;
- 
+
+
     AudioSource MyAudioSource; //Audio Source to apply the sounds to
 
     // Start is called before the first frame update
     void Start()
     {
         snow = (AudioClip)Resources.Load("PB - Footstep SFX/Footstep SFX/Snow_Jogging");
-        wood = (AudioClip)Resources.Load("PB - Footstep SFX/Footstep SFX/Gravel_Jogging");
+        wood = (AudioClip)Resources.Load("PB - Footstep SFX/Footstep SFX/NormalWood_Boots_Running");
         town = (AudioClip)Resources.Load("PB - Footstep SFX/Footstep SFX/Dirt_Jogging");
         forest = (AudioClip)Resources.Load("PB - Footstep SFX/Footstep SFX/Gravel_Jogging");
         grass = (AudioClip)Resources.Load("PB - Footstep SFX/Footstep SFX/Leaves_Rustling");
         house = (AudioClip)Resources.Load("PB - Footstep SFX/Footstep SFX/NormalWood_Barefeet_Running");
         graveyard = (AudioClip)Resources.Load("PB - Footstep SFX/Footstep SFX/Gravel_Jogging");
+        castle = (AudioClip)Resources.Load("PB - Footstep SFX/Footstep SFX/Concrete_Boots_Running");
         rock = (AudioClip)Resources.Load("PB - Footstep SFX/Footstep SFX/Gravel_Ice_Shoes_Walking");
         MyAudioSource = GetComponent<AudioSource>();
         foreach (GameObject obj in Object.FindObjectsOfType(typeof(GameObject)))
         {
-            if (obj.tag == "rock" || obj.tag == "snow" || obj.tag == "wood" || obj.tag == "town" || obj.tag == "forest" || obj.tag == "grass" || obj.tag == "house" || obj.tag == "graveyard")
+            if (obj.tag == "wood" || obj.tag == "castle" || obj.tag == "rock" || obj.tag == "snow" || obj.tag == "town" || obj.tag == "forest" || obj.tag == "grass" || obj.tag == "graveyard")
             {
                 ground = obj;
                 break;
@@ -70,6 +73,16 @@ public class SoundScript : MonoBehaviour {
                 else if (ground.CompareTag("forest"))
                 {
                     MyAudioSource.clip = forest;
+                }
+                //On movement, play forest sound if player is on Sidneys Level
+                else if (ground.CompareTag("castle"))
+                {
+                    MyAudioSource.clip = castle;
+                }
+                //On movement, play forest sound if player is on Sidneys Level
+                else if (ground.CompareTag("wood"))
+                {
+                    MyAudioSource.clip = wood;
                 }
             }
             catch {
