@@ -15,7 +15,6 @@ public class IsabelLevel : MonoBehaviour{
     public GameObject mainCharacter;
 
     void Start(){
-        
         SaySomething();
         WelcomeMessage();
         int inventoryNumber = UnityEngine.Random.Range(1, 4);  // Generate a random inventory item to spawn on screen
@@ -51,7 +50,5 @@ public class IsabelLevel : MonoBehaviour{
     public void SaySomething(){
         Debug.Log("Welcome to level 2! Created by Isabel Hinkle");
     }
-
-
 }
 
