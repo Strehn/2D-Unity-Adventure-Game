@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using UnityEngine;
 using System;
-
+using UnityEngine.SceneManagement;
 /*
  * playerControllerRigidBody2.cs
  * Allows the player to move within the cave system.
@@ -88,6 +88,12 @@ public class PlayerControllerRigidBody2 : MonoBehaviour {
         {
             Debug.Log("transporting player");
             transform.position = new Vector2(234.5f,-26);
+        }
+        // from end to End Level
+        else if (rb.position.x >= 69 && rb.position.x <= 71f && rb.position.y >= -204)
+        {
+            Debug.Log("transporting player");
+            SceneManager.LoadScene(6);
         }
     }
 
