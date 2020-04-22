@@ -9,10 +9,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class IsabelLevelStatic : IsabelLevel{
-    // This function is utilized in the dynamic binding of the child class
-    public override void Update(){
-        Debug.Log("Welcome to level 2. The main character's name is Estelle. ");
-
+    public void Update(){
         Scene scene;
         Transform transform = mainCharacter.GetComponent<Transform>();
         Vector2 position = transform.position;
@@ -35,6 +32,10 @@ public class IsabelLevelStatic : IsabelLevel{
 
     // This function is utilized in the static binding for the parent/child class
     public void SaySomething(){
-        Debug.Log("This is the static type of the child class. ");
+        Debug.Log("This is the static type of the child class. This message should not appear in the console!");
+    }
+    // This function is utilized in the dynamic binding of the child class
+    public override void WelcomeMessage(){
+        Debug.Log("In this level your objective is to return an object to the correct spirit.");
     }
 }

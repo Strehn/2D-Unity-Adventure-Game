@@ -15,6 +15,9 @@ public class IsabelLevel : MonoBehaviour{
     public GameObject mainCharacter;
 
     void Start(){
+        
+        SaySomething();
+        WelcomeMessage();
         int inventoryNumber = UnityEngine.Random.Range(1, 4);  // Generate a random inventory item to spawn on screen
         //giftedItemBool = GII.giftedItem;
         // Debug.Log(inventoryNumber); testing purposes
@@ -41,12 +44,12 @@ public class IsabelLevel : MonoBehaviour{
     }
 
     // This function is utilized in the dynamic binding for the child class
-    public virtual void Update(){
-        Debug.Log("Welcome to level 2. The main character's name is nothing. She literally doesn't have a name. ");
+    public virtual void WelcomeMessage(){
+        Debug.Log("Welcome to level 2! This function is utilized in dynamic binding and should not appear in the console!");
     }
     // This function is utilized in the static binding for the parent/child class
     public void SaySomething(){
-        Debug.Log("This is the static type of the parent class. ");
+        Debug.Log("Welcome to level 2! Created by Isabel Hinkle");
     }
 
 
