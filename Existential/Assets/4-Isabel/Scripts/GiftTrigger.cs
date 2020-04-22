@@ -8,10 +8,17 @@ using UnityEngine.UI;
 public class GiftTrigger : MonoBehaviour{
 
     public GameObject giftButton;
+    public int numNPCsInter = 0;
+    private bool npcCollision = false;  // for interaction
+    public bool npcCollision1 = false;  // for decorator
 
-    private bool npcCollision = false;
 
-     void Update(){
+    void Start(){
+        Debug.Log("You have collided with " + numNPCsInter + " NPC's.");
+    }
+
+    // Used to find out whether or not we are at an NPC and set the gift exchange button active
+    void Update(){
         if(npcCollision == true){
             giftButton.SetActive(true);
         }
@@ -20,17 +27,26 @@ public class GiftTrigger : MonoBehaviour{
         }
     }
 
+    // This function is used when entering an NPC collider
     public void OnTriggerEnter2D(Collider2D npcColl){
         if(npcColl.tag == "interObject"){
-            Debug.Log("Ran into NPC");
+            //Debug.Log("Ran into NPC");
             npcCollision = true;
+            npcCollision1 = true;
+            numNPCsInter += 1;
         }
     }
 
+    // This function is used when leaving an NPC collider
     public void OnTriggerExit2D(Collider2D npcColl){
         if (npcColl.tag == "interObject"){
-            Debug.Log("Moving away from NPC");
+            //Debug.Log("Moving away from NPC");
             npcCollision = false;
+            npcCollision1 = false;
         }
+    }
+    // This function helps implement decorator
+    public virtual int NPCInterTotal(){
+        return numNPCsInter;
     }
 }

@@ -37,5 +37,5 @@ public class IsabelLevelStatic : IsabelLevel{
     // This function is utilized in the dynamic binding of the child class
     public override void WelcomeMessage(){
         Debug.Log("In this level your objective is to return an object to the correct spirit.");
-    }
+    } 
 }
