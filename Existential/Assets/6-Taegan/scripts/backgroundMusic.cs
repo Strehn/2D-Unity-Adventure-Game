@@ -23,7 +23,7 @@ public class backgroundMusic : MonoBehaviour
         {
             song = (AudioClip)Resources.Load("Song#2");
         }
-        else if (y == 3)
+        else if (y == 3 || y == 8)
         {
             song = (AudioClip)Resources.Load("Song#2");
         }
@@ -35,7 +35,7 @@ public class backgroundMusic : MonoBehaviour
         {
             song = (AudioClip)Resources.Load("Song#6");
         }
-        else if (y == 6)
+        else if (y == 6 || y == 9)
         {
             song = (AudioClip)Resources.Load("DragonSong#5");
         }
