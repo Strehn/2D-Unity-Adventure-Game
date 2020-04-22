@@ -4,6 +4,31 @@ This script controls the inventory hud by managing the
 display on the game screen
 ***********************/
 
+/*
+ * HUDINV PREFAB DOCUMENTATION
+   Many games have a need for an inventory feature that is interactive and follows the player and camera.
+* Purpose 
+  In many Unity projects, an interactive inventory feature is needed. This provides a quick and easy way to get started.
+* Features 
+- Easily add items to the inventory by mousing over them 
+- Easily remove items by dragging and dropping them
+- 8 nice looking inventory slots that react to player actions
+- Ability to see inventory in real time throughout gameplay
+- Handles all inventory needs in a centralized location
+- Real time updates
+- Attached to the UI will follow the player and camera 
+- Easy to use, Plug n play 
+- Open Source code
+* Usage 
+- Import prefab into Assets/ under Prefabs/ folder
+- Prefab can be found in this project under Assets/2-Tori/Assets/Resources/Prefabs/ 
+* Remember 
+- Drag HUDINV.prefab in each scene 
+- Make sure to set camera and main character
+ * 
+ */
+
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

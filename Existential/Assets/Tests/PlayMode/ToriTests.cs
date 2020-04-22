@@ -59,7 +59,7 @@ namespace Tests
                 return false;
             }
         }
-
+        /*
         [UnityTest]
         public bool CheckInvScriptExists()
         {
@@ -75,7 +75,7 @@ namespace Tests
                 return false;
             }
         }
-
+        */
         // Test spawn items
         // [PASS] Frame rate is unaffected for many spawned items
         // [FAIL] frame rate is affected poorly by spawned items
