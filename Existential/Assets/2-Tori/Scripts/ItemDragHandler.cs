@@ -11,7 +11,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 
 public class ItemDragHandler : MonoBehaviour, IDragHandler, IEndDragHandler{
-
+    // Get instance of item being dragged 
     public IInventoryItem Item { get; set; }
 
     public void OnDrag(PointerEventData eventData){

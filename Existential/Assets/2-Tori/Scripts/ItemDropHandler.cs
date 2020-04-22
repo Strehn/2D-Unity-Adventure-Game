@@ -15,6 +15,7 @@ public class ItemDropHandler : MonoBehaviour, IDropHandler{
     public Inventory _Inventory;
     public Camera cam;
 
+    // If mouse leaves the inventory then get item reference and call remove item/drop item functions
     public void OnDrop(PointerEventData eventData){
         RectTransform invPanel = transform as RectTransform;
         if(!RectTransformUtility.RectangleContainsScreenPoint(invPanel, Input.mousePosition)){

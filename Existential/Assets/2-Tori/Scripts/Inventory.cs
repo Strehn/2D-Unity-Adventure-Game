@@ -11,17 +11,13 @@ using System;
 using UnityEngine.SceneManagement;
 
 public class Inventory : MonoBehaviour{
-    public const int MAXITEMS = 8;
+    static public int MAXITEMS = 8;
     public Camera cam;
     public GameObject mainChar;
-    // This is private so that it is only instantiated once (no conflicting inventories)
+    // This is private so that it cannot be modified elsewhere 
     private List<IInventoryItem> inventoryList = new List<IInventoryItem>();
     public event EventHandler<InventoryEventArgs> ItemAdded;
     public event EventHandler<InventoryEventArgs> ItemRemoved;
-
-    public void Start(){
-        Debug.Log("inventory");
-    }
   
     public void AddItem(IInventoryItem item){
         // Debug.Log(inventoryList);
@@ -33,6 +29,7 @@ public class Inventory : MonoBehaviour{
                 inventoryList.Add(item);
                 // Debug.Log("[Inventory] Add Item");
                 item.OnPickup();
+                // Tell Hud to add the item
                 if(ItemAdded != null){
                     ItemAdded(this, new InventoryEventArgs(item));
                 }
@@ -53,6 +50,7 @@ public class Inventory : MonoBehaviour{
 
             if(ItemRemoved != null){
                 // Debug.Log("[Inventory] Sending this: " + this + "and this item: " + item);
+                // Tell Hud to remove the item
                 ItemRemoved(this, new InventoryEventArgs(item));
             }
             item.OnDrop();
@@ -67,8 +65,8 @@ public class Inventory : MonoBehaviour{
         Transform transform = mainChar.GetComponent<Transform>();
         Vector2 position = transform.position;
         scene = SceneManager.GetActiveScene();
-        if( scene.buildIndex == 4){
-            if (position.x >= 42 && position.y >= 7 && inventoryList.Count == 8){
+        if(scene.buildIndex == 4){
+            if ((position.x > 42) && (position.y > 7) && (inventoryList.Count == 8)){
                 SceneManager.LoadScene(7);
             }
         }

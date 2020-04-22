@@ -1,7 +1,7 @@
 ﻿/***********************
 Implemented by Victoria Gehring
 This script is the interface for the inventory items
-Inventory items will have a Name, Image, and Pickup function
+Inventory items will have a Name, Image, Drop, and Pickup function
 It also creates the class InventoryEventArgs which will enable 
 items to be selected.
 ***********************/

@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
+using UnityEngine.UI;
 
 public class BCModeToriLevel : MonoBehaviour{
     public int delay = 5;
@@ -16,19 +18,18 @@ public class BCModeToriLevel : MonoBehaviour{
     public GameObject flowerPrefab10;
 
     public void ShowMeTheWay(){
-        // look for the image in the scene to show where all the flowers are
+        // Activate arrows that show path to success
         int i;
         for(i = 1; i < 9; i++){
             string arrow;
             arrow = string.Format("thiswaybc ({0})", i);
-             Debug.Log("arrow is: " + arrow);
+            // Debug.Log("arrow is: " + arrow);
             GameObject hintArrow = GameObject.Find(arrow);
-             Debug.Log("hintArrow is: " + hintArrow);
+            // Debug.Log("hintArrow is: " + hintArrow);
             SpriteRenderer spriteArrow = hintArrow.GetComponent<SpriteRenderer>();
             spriteArrow.enabled = true;
-            //hintArrow.SetActive(true);
         }
-
+        // Instantiate all the flowers needed for the level
         GameObject bcFlower1 = Instantiate(flowerPrefab1) as GameObject;
         bcFlower1.SetActive(true);
         bcFlower1.transform.position = new Vector2(5, 4f);
@@ -60,15 +61,16 @@ public class BCModeToriLevel : MonoBehaviour{
         GameObject bcFlower8 = Instantiate(flowerPrefab7) as GameObject;
         bcFlower8.SetActive(true);
         bcFlower8.transform.position = new Vector2(6, 4f);
-        
+        // Show popup hint
         GameObject popUpHint = GameObject.Find("PopUpHint");
         StartCoroutine(ShowPathPopup(popUpHint));
 
     }
 
     IEnumerator ShowPathPopup(GameObject gameobj){
-        gameobj.SetActive(true);
+        gameobj.GetComponent<Text>().enabled = true;
         yield return new WaitForSeconds(delay);
+        gameobj.GetComponent<Text>().enabled = false;
     }
    
 }

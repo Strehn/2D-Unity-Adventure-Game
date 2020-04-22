@@ -18,13 +18,12 @@ public class InventoryDisplay : MonoBehaviour
     public void Start(){
         cam = GetComponent<Camera>();
     }
-    
 
     public void Update(){
         RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
-        //RaycastHit2D hit = Physics2D.Raycast(cam.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
-        //IInventoryItem item = hit.collider.GetComponent<IInventoryItem>();
+        // [DEPRECATED] RaycastHit2D hit = Physics2D.Raycast(cam.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
         // IInventoryItem item = hit.collider.GetComponent<IInventoryItem>();
+        
         if (hit.collider != null){
             IInventoryItem item = hit.collider.GetComponent<IInventoryItem>();
             if(item != null){
@@ -35,6 +34,7 @@ public class InventoryDisplay : MonoBehaviour
     
     }
     /*
+    // [DEPRECATED] Used in minimum runnable code demo
     public void Drop()
     {
         IInventoryItem item = hit.collider.GetComponent<IInventoryItem>();

@@ -16,10 +16,10 @@ public class ToolInvItem : FlowerInvItem{
     public override void OnPickup(){
         GameObject unlockFlowerObj = Instantiate(unlockFlower) as GameObject;
         unlockFlowerObj.SetActive(true);
-        //unlockFlowerObj.transform.position = new Vector2(1, 1f);
-        Debug.Log("in tool item");
+        // unlockFlowerObj.transform.position = new Vector2(1, 1f);
+        // Debug.Log("[ToolInvItem]");
         shrink = true;
-        //shrinkItem();
+        // shrinkItem();
         gameObject.SetActive(false);
     }
     /*
