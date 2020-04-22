@@ -4,31 +4,39 @@ using UnityEngine;
 
 public class BCScript: MonoBehaviour
 {
-
+    public bool enabledArrows;
+    GameObject[] allArrows;
     // Grabbed Toris Function from BcModeToriLevel
+
+    public void Start()
+    {
+        enabledArrows = false;
+        allArrows = GameObject.FindGameObjectsWithTag("bcArrow");
+    }
+
+
     public void ShowMeTheWay2()
     {
-        //if (flag == 0)
-        //{
-        //    flag = 1;
-        //}
-        //else
-        //{
-        //    flag = 0;
-        //}
-             // look for the image in the scene to show where all the flowers are
-            int i;
-        for (i = 4; i < 35; i++)
+              
+        
+        if (enabledArrows == false)
         {
-            string arrow;
-            arrow = string.Format("thiswaybc ({0})", i);
-            Debug.Log("arrow is: " + arrow);
-            GameObject hintArrow = GameObject.Find(arrow);
-            Debug.Log("hintArrow is: " + hintArrow);
-            SpriteRenderer spriteArrow = hintArrow.GetComponent<SpriteRenderer>();
-            spriteArrow.enabled = true;
-            //hintArrow.SetActive(true);
+            foreach (GameObject arrow in allArrows)
+            {
+                arrow.SetActive(true);
+                enabledArrows = true;
+                Debug.Log("setActive");
+            }
         }
+        else
+        {
+            foreach (GameObject arrow in allArrows)
+            {
+                arrow.SetActive(false);
+                enabledArrows = false;
+                Debug.Log("TurnedOff");
+            }
+        }  
+      }
 
-    }
-}
+ }
