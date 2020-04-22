@@ -11,6 +11,7 @@ using UnityEngine.SceneManagement;
 public class GiftEvent : MonoBehaviour{
     public GameObject Key;
     public bool invItemPresent;
+    public bool onlyOneItem = false;
 
     public void Start(){
         invItemPresent = false;
@@ -20,12 +21,15 @@ public class GiftEvent : MonoBehaviour{
         // This section checks to make sure we only set invItemPresent to true if there is only one object that is found
         if( GameObject.Find("Chalice(Clone)") ){
             invItemPresent = true;
+            onlyOneItem = true;
         }
         else if( GameObject.Find("Necklace(Clone)") ){
             invItemPresent = true;
+            onlyOneItem = true;
         }
         else if( GameObject.Find("Vase(Clone)") ){
             invItemPresent = true;
+            onlyOneItem = true;
         }
         else{
             invItemPresent = false;
@@ -34,7 +38,7 @@ public class GiftEvent : MonoBehaviour{
 
     // Function to instantiate one key based on a bool value
     public void InstantiateKey(){
-        if(invItemPresent == true){  // invItemPresent can only be true or false, so this is where singleton is executed
+        if(invItemPresent && onlyOneItem){  // invItemPresent can only be true or false, so this is where singleton is executed
             Debug.Log("Thank you for the gift. There is a key waiting for you to get to the next level.");
             GameObject i = Instantiate(Key) as GameObject;
             i.SetActive(true);
