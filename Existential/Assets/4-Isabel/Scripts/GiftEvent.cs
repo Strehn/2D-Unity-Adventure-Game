@@ -17,6 +17,10 @@ public class GiftEvent : MonoBehaviour{
     public bool invItemPresent;
     public bool instantiateKey;
 
+    public void Start(){
+        instantiateKey = true;
+    }
+
     public void Update(){
         chalice = GameObject.Find("Chalice(Clone)");
         necklace = GameObject.Find("Necklace(Clone)");
