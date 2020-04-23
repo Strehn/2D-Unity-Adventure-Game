@@ -8,8 +8,8 @@
         Pass: The player breaks the boundary in the proper amount of time (~10 seconds)
         Fail: The player does not break the boundary in the testing time 
     Stress 1: Determine which frame rate the test will end at based on how many objects are spawned in the testing frame
-        Pass: Above 5 fps when time ends
-        Fail: Below 5 fps when time ends
+        Pass: Above 15 fps when time ends
+        Fail: Below 15 fps when time ends
 */
 using System.Collections;
 using System.Collections.Generic;
@@ -64,22 +64,22 @@ namespace Tests{
         // Stress test to instantiate a bunch of inventory objects on scene
         [UnityTest]
         public IEnumerator StressTest(){
-            var T = 1/Time.deltaTime;
+            var fps = 1/Time.deltaTime;
+            int count = 0;
             SetupScene();
             for (int i = 0; i < 10; i++){  // Execute 100 times
-                T = 1/Time.deltaTime;
+                fps = 1/Time.deltaTime;
                 for (int j = 0; j < 10; j++){
                     // Inventory item made by me
                     MonoBehaviour.Instantiate(Resources.Load<GameObject>("Prefabs/Chalice"));
+                    count++;
                 }
-                T = 1 / Time.deltaTime;
-                Debug.Log(T);
+                fps = 1 / Time.deltaTime;
+                Debug.Log("count: " + count);  // should be 100 unless fps is below 5
+                Debug.Log("fps: " + fps);
                 yield return new WaitForSeconds(1);  // Wait for 1 second
-                if (T < 15){  // After 100 runs check the frame rate
-                    Debug.Log((i+1) * 100);
-                    if (i < 5){  // Below 5 fps - fails
-                        Assert.Fail();
-                    }
+                if (fps < 15){  // Check fps for below 15
+                    Assert.Fail();
                     yield break;
                 }  
             }
