@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 /*
 
-    This is the script for the player triggering on and off.
+    This is the script for the player collecting the floating orbs and the doors.
 
 */
 public class Trigger : MonoBehaviour 
