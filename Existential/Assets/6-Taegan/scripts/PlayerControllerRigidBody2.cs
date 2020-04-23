@@ -71,7 +71,7 @@ public class PlayerControllerRigidBody2 : MonoBehaviour {
         {
             Debug.Log("transporting player true");
             transform.position = new Vector2(-74, -82);
-            Snow.GetComponent<SnowParticles>().enabled = true;
+            Snow.GetComponent<Particles>().enabled = true;
         }
 
         // from fog entrance to cave
@@ -79,8 +79,8 @@ public class PlayerControllerRigidBody2 : MonoBehaviour {
         {
             Debug.Log("transporting player false");
             transform.position = new Vector2(4.4f, 1);
-            Snow.GetComponent<SnowParticles>().enabled = false;
-            int numOfObject = Snow.GetComponent<SnowParticles>().numOfObjects;
+            Snow.GetComponent<Particles>().enabled = false;
+            int numOfObject = Snow.GetComponent<Particles>().numOfObjects;
             foreach(GameObject snowPiece in SnowVariant)
             {
                 Destroy(snowPiece);
@@ -92,7 +92,7 @@ public class PlayerControllerRigidBody2 : MonoBehaviour {
         {
             Debug.Log("transporting player true");
             transform.position = new Vector2(69, -240);
-            Snow.GetComponent<SnowParticles>().enabled = true;
+            Snow.GetComponent<Particles>().enabled = true;
         }
 
         // from end to ice cave
@@ -100,12 +100,12 @@ public class PlayerControllerRigidBody2 : MonoBehaviour {
         {
             Debug.Log("transporting player false");
             transform.position = new Vector2(234.5f,-26);
-            Snow.GetComponent<SnowParticles>().enabled = false;
-            int numOfObject = Snow.GetComponent<SnowParticles>().numOfObjects;
+            Snow.GetComponent<Particles>().enabled = false;
+            int numOfObject = Snow.GetComponent<Particles>().numOfObjects;
             for(int i = 0; i != numOfObject; i++)
             {
-                Snow.GetComponent<SnowParticles>().objs[i] = null;
-                Snow.GetComponent<SnowParticles>().isAlive[i] = false;
+                Snow.GetComponent<Particles>().objs[i] = null;
+                //Snow.GetComponent<Particles>().isAlive[i] = false;
             }
             foreach (GameObject snowPiece in SnowVariant)
             {

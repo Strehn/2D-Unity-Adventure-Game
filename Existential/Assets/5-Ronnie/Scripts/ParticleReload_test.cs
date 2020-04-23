@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ParticleReload_test : MonoBehaviour {
     private GameObject obj;
-    public float bottomOfLevel;
+    private float bottomOfLevel;
     // Start is called before the first frame update
     void Start() {
         obj = this.gameObject;
