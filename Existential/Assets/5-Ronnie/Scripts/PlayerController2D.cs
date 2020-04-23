@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController2D : MonoBehaviour {
     Rigidbody2D rb;
@@ -38,7 +39,8 @@ public class PlayerController2D : MonoBehaviour {
 
         if(Input.GetKey("up") && rb.position.x >= 91.5 && rb.position.x <= 92.5) {
             //temp respawn to beginning of level, will add more.
-            transform.position = new Vector2(-8, -1);
+            //transform.position = new Vector2(-8, -1);
+            SceneManager.LoadScene("EndScene");
         }
         else if (Input.GetKey("up") && isGround) {
             rb.velocity = new Vector2(rb.velocity.x, 9.5f);
