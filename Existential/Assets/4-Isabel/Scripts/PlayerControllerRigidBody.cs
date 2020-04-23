@@ -1,5 +1,6 @@
 ﻿/* Created  by Isabel Hinkle, modified by Sam
  * Takes in a player rigidbody 2D and controls movement of player on screen based on key input
+ * Based on the video by Blackthornprod: https://www.youtube.com/watch?v=CeXAiaQOzmY
  */
 
  /* Documentation for Main Character Prefab
