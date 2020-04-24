@@ -2,41 +2,37 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BCScript: MonoBehaviour
-{
+
+/*
+* BCScript.cs
+* A script to enable BC Arrows to better navigate the ice maze
+* TW
+*/
+public class BCScript: MonoBehaviour {
     public bool enabledArrows;
     GameObject[] allArrows;
-    // Grabbed Toris Function from BcModeToriLevel
 
-    public void Start()
-    {
-        enabledArrows = false;
+    //Start function, called once at the start
+    public void Start() {
+        enabledArrows = false; // initialize the boolean as false
         allArrows = GameObject.FindGameObjectsWithTag("bcArrow");
     }
 
 
-    public void ShowMeTheWay2()
-    {
-              
-        
-        if (enabledArrows == false)
-        {
-            foreach (GameObject arrow in allArrows)
-            {
+    //function is called when the BC Button is clicked. Enables and disables the BC Arrow Game Objects
+    public void ShowMeTheWay2() {   
+        if (enabledArrows == false) {
+
+            foreach (GameObject arrow in allArrows) {
                 arrow.SetActive(true);
                 enabledArrows = true;
-                Debug.Log("setActive");
             }
         }
-        else
-        {
-            foreach (GameObject arrow in allArrows)
-            {
+        else {
+            foreach (GameObject arrow in allArrows) {
                 arrow.SetActive(false);
                 enabledArrows = false;
-                Debug.Log("TurnedOff");
             }
         }  
-      }
-
+     }
  }
