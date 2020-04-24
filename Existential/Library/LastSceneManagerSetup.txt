@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/3-Sam/Scenes/SamScene.unity
-=======
-- path: Assets/1-Sydney/Scenes/SydneyForestScene.unity
->>>>>>> b500cadaddf848fc9dedb871bf738bcc1fac01fe
+- path: Assets/2-Tori/Scenes/ToriScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

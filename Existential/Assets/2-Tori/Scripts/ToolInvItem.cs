@@ -6,6 +6,8 @@ and spawns a large unlockable flower on pickup
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
+using UnityEngine.UI;
 
 public class ToolInvItem : FlowerInvItem{
 
@@ -14,6 +16,7 @@ public class ToolInvItem : FlowerInvItem{
     private IEnumerator coroutine;
 
     public override void OnPickup(){
+        StartCoroutine(ShowItemPopup());
         GameObject unlockFlowerObj = Instantiate(unlockFlower) as GameObject;
         unlockFlowerObj.SetActive(true);
         // unlockFlowerObj.transform.position = new Vector2(1, 1f);
@@ -21,7 +24,21 @@ public class ToolInvItem : FlowerInvItem{
         shrink = true;
         // shrinkItem();
         gameObject.SetActive(false);
+
     }
+
+    static IEnumerator ShowItemPopup(){
+        GameObject gameobj = GameObject.Find("toolInvItemText");
+        if (!gameobj.GetComponent<Text>().enabled){
+            gameobj.GetComponent<Text>().enabled = true;
+            yield return new WaitForSeconds(3);
+            gameobj.GetComponent<Text>().enabled = false;
+        }
+        else{
+            gameobj.GetComponent<Text>().enabled = false;
+        }
+    }
+
     /*
     public void shrinkItem(){
         GameObject unlockedItem = GameObject.Find("unlockflower_0(Clone)");
