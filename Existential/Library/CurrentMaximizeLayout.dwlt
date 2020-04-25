@@ -20,11 +20,11 @@ MonoBehaviour:
     x: 0
     y: 30
     width: 1440
-    height: 742
-  m_MinSize: {x: 880, y: 492}
-  m_MaxSize: {x: 16005, y: 14042}
+    height: 740
+  m_MinSize: {x: 881, y: 492}
+  m_MaxSize: {x: 16006, y: 14042}
   vertical: 0
-  controlID: 149
+  controlID: 2370
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -41,15 +41,15 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Game
-    m_Image: {fileID: 257045534191678443, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -2087823869225018852, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 665
-    y: 75
-    width: 481
-    height: 421
+    x: 2272
+    y: 143
+    width: 489
+    height: 427
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewsNames: []
   m_SerializedViewsValues: []
@@ -57,7 +57,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 962, y: 800}
+  m_TargetSize: {x: 489, y: 406}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -71,10 +71,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -240.5
-    m_HBaseRangeMax: 240.5
-    m_VBaseRangeMin: -200
-    m_VBaseRangeMax: 200
+    m_HBaseRangeMin: -244.5
+    m_HBaseRangeMax: 244.5
+    m_VBaseRangeMin: -203
+    m_VBaseRangeMax: 203
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -92,23 +92,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 481
-      height: 400
+      width: 489
+      height: 406
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 240.5, y: 200}
+    m_Translation: {x: 244.5, y: 203}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -240.5
-      y: -200
-      width: 481
-      height: 400
+      x: -244.5
+      y: -203
+      width: 489
+      height: 406
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 962, y: 842}
+  m_LastWindowPixelSize: {x: 489, y: 427}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 00000000000000000000
@@ -134,11 +134,11 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1148
-    height: 742
+    height: 740
   m_MinSize: {x: 605, y: 492}
   m_MaxSize: {x: 12005, y: 14042}
   vertical: 1
-  controlID: 106
+  controlID: 2321
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -160,11 +160,11 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1148
-    height: 442
+    height: 448
   m_MinSize: {x: 605, y: 221}
   m_MaxSize: {x: 12005, y: 4021}
   vertical: 0
-  controlID: 85
+  controlID: 2296
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -182,10 +182,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 236
-    height: 442
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+    width: 284
+    height: 448
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 6}
@@ -207,22 +207,22 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Hierarchy
-    m_Image: {fileID: -9000905672528348964, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -590624980919486359, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 75
-    width: 235
-    height: 421
+    x: 1615
+    y: 143
+    width: 283
+    height: 427
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 3242feff9242feff
+      m_ExpandedIDs: 02ddffff08f9ffff28fbffff94b60000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -245,7 +245,7 @@ MonoBehaviour:
     m_LockTracker:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
-  m_WindowGUID: 43bc081c55faaa94b9b16c0de3494e76
+  m_WindowGUID: 0d855a405c94143baa13ce4651569ce7
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -261,12 +261,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 236
+    x: 284
     y: 0
-    width: 429
-    height: 442
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+    width: 373
+    height: 448
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 8}
   m_Panes:
   - {fileID: 8}
@@ -289,18 +289,18 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Scene
-    m_Image: {fileID: -131512000283675692, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: 2318424515335265636, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 236
-    y: 75
-    width: 427
-    height: 421
+    x: 1899
+    y: 143
+    width: 371
+    height: 427
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
-  m_WindowGUID: d84f950ccc1ec9e4aac9bea00d645ffe
+  m_WindowGUID: 6cab33e32b9fe4ba5bd6f014969c12ef
   m_Gizmos: 1
   m_SceneIsLit: 1
   m_SceneLighting: 1
@@ -309,9 +309,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 3.4112434, y: 2.198013, z: -3.9593806}
+    m_Target: {x: 2.7942104, y: -15.005039, z: -25.351562}
     speed: 2
-    m_Value: {x: 3.4112434, y: 2.198013, z: -3.9593806}
+    m_Value: {x: 2.7942104, y: -15.005039, z: -25.351562}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -347,13 +347,13 @@ MonoBehaviour:
       m_Size: {x: 1, y: 1}
     zGrid:
       m_Fade:
-        m_Target: 1
+        m_Target: 0
         speed: 2
         m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
-    m_ShowGrid: 1
+    m_ShowGrid: 0
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
@@ -361,9 +361,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 20.35854
+    m_Target: 46.493748
     speed: 2
-    m_Value: 20.35854
+    m_Value: 46.493748
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -404,7 +404,7 @@ MonoBehaviour:
   m_MaxSize: {x: 2048, y: 2048}
   m_TitleContent:
     m_Text: Asset Store
-    m_Image: {fileID: -4391848389275900105, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: 357073275683767465, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
@@ -429,10 +429,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 665
+    x: 657
     y: 0
-    width: 483
-    height: 442
+    width: 491
+    height: 448
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 2}
@@ -456,11 +456,11 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 442
+    y: 448
     width: 1148
-    height: 300
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
+    height: 292
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
@@ -483,15 +483,15 @@ MonoBehaviour:
   m_MaxSize: {x: 10000, y: 10000}
   m_TitleContent:
     m_Text: Project
-    m_Image: {fileID: -2032128904892744680, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -7501376956915960154, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 517
+    x: 1615
+    y: 591
     width: 1147
-    height: 279
+    height: 271
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -506,20 +506,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/4-Isabel/Scripts
+    - Assets/3-Sam/Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/4-Isabel/Scripts
+  - Assets/3-Sam/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/isabelhinkle/Desktop/CS-383-Project/Existential
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 417}
-    m_SelectedIDs: 42410100
-    m_LastClickedID: 82242
-    m_ExpandedIDs: 00000000087a00006e820000cea200008a3a0100a03a0100e43a0100623b0100863b0100b83b0100bc3b0100183c0100523c0100ac3c0100d23c0100e63c0100683d0100ac3d0100463e0100483e0100663e01009e3f01001a4001007c400100da400100fa40010032410100544101007a41010086450100884501008a4501008c4501008e450100904501009245010000ca9a3b
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 36610000
+    m_LastClickedID: 24886
+    m_ExpandedIDs: 000000001e380000b4390000e0390000ba3d0000923f0000b83f000028400000f44300003c4c0000025e000036610000e4660000306b0000a0710000ea710000067400009e9b000030a7000020af000086af000010b100008eb100005ebb000060bb000062bb000064bb000066bb000068bb00006abb00006cbb00006ebb000070bb000072bb000074bb000076bb000078bb00007abb00007cbb000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -547,7 +547,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000087a00006e820000cea200008a3a0100a03a0100e43a0100623b0100b83b0100bc3b0100183c0100523c0100ac3c0100d23c0100e63c0100683d0100ac3d0100463e0100483e0100663e01009e3f01001a4001007c400100da400100fa4001003241010086450100884501008a4501008c4501008e4501009045010092450100
+    m_ExpandedIDs: 000000001e380000b4390000e0390000ba3d0000923f0000b83f0000284000003c4c0000025e000036610000e4660000306b0000a0710000ea710000067400009e9b000030a7000020af000086af000010b100008eb100005ebb000060bb000062bb000064bb000066bb000068bb00006abb00006cbb00006ebb000070bb000072bb000074bb000076bb000078bb00007abb00007cbb000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -572,10 +572,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c62300009a930000d4740000ec90000024bc0000
+    m_SelectedInstanceIDs: 904f0000
+    m_LastClickedInstanceID: 20368
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -591,7 +591,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 11}
+      m_ClientGUIView: {fileID: 0}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -602,7 +602,7 @@ MonoBehaviour:
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
-  m_DirectoriesAreaWidth: 177
+  m_DirectoriesAreaWidth: 208
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -619,15 +619,15 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Console
-    m_Image: {fileID: -3303252850963283158, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: 111653112392082826, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 517
+    x: 1615
+    y: 591
     width: 1147
-    height: 279
+    height: 271
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &14
 MonoBehaviour:
@@ -639,7 +639,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
+  m_Name: InspectorWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -647,14 +647,15 @@ MonoBehaviour:
     x: 1148
     y: 0
     width: 292
-    height: 742
+    height: 740
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
+  - {fileID: 16}
   m_Selected: 0
-  m_LastSelected: 0
+  m_LastSelected: 1
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -671,15 +672,15 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Inspector
-    m_Image: {fileID: 8356117983803934776, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -6905738622615590433, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1148
-    y: 75
+    x: 2763
+    y: 143
     width: 291
-    height: 721
+    height: 719
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
   m_ObjectsLockedBeforeSerialization: []
@@ -691,5 +692,762 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
-  m_LastInspectedObjectInstanceID: -1
+  m_LastInspectedObjectInstanceID: 20368
   m_LastVerticalScrollValue: 0
+--- !u!114 &16
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13401, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Test Runner
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1148
+    y: 75
+    width: 291
+    height: 719
+  m_ViewDataDictionary: {fileID: 0}
+  m_Spl:
+    ID: 197
+    splitterInitialOffset: 447
+    currentActiveSplitter: -1
+    realSizes: 7a0100000f010000
+    relativeSizes:
+    - 0.58243454
+    - 0.41756546
+    minSizes: 2000000020000000
+    maxSizes: 0000000000000000
+    lastTotalSize: 649
+    splitSize: 6
+    xOffset: 0
+  m_TestTypeToolbarIndex: 0
+  m_PlayModeTestListGUI:
+    m_Window: {fileID: 16}
+    newResultList:
+    - id: 1007
+      uniqueId: '[Existential][suite]'
+      name: Existential
+      fullName: Existential
+      resultStatus: 1
+      duration: 10.685212
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: 1033
+      uniqueId: '[/Users/isabelhinkle/Desktop/CS-383-Project/Existential/Library/ScriptAssemblies/PlayMode.dll][suite]'
+      name: PlayMode.dll
+      fullName: /Users/isabelhinkle/Desktop/CS-383-Project/Existential/Library/ScriptAssemblies/PlayMode.dll
+      resultStatus: 1
+      duration: 10.613086
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1007
+      parentUniqueId: '[Existential][suite]'
+    - id: 1034
+      uniqueId: PlayMode.dll/[Tests][suite]
+      name: Tests
+      fullName: Tests
+      resultStatus: 1
+      duration: 10.55777
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1033
+      parentUniqueId: '[/Users/isabelhinkle/Desktop/CS-383-Project/Existential/Library/ScriptAssemblies/PlayMode.dll][suite]'
+    - id: 1008
+      uniqueId: PlayMode.dll/Tests/[PlayMode][Tests.IsabelTests][suite]
+      name: IsabelTests
+      fullName: Tests.IsabelTests
+      resultStatus: 1
+      duration: 10.542146
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1034
+      parentUniqueId: PlayMode.dll/[Tests][suite]
+    - id: 1009
+      uniqueId: PlayMode.dll/Tests/IsabelTests/[PlayMode][Tests.IsabelTests.FindNonExistentObject]
+      name: FindNonExistentObject
+      fullName: Tests.IsabelTests.FindNonExistentObject
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1008
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.IsabelTests][suite]
+    - id: 1010
+      uniqueId: PlayMode.dll/Tests/IsabelTests/[PlayMode][Tests.IsabelTests.SpeedTest]
+      name: SpeedTest
+      fullName: Tests.IsabelTests.SpeedTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1008
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.IsabelTests][suite]
+    - id: 1011
+      uniqueId: PlayMode.dll/Tests/IsabelTests/[PlayMode][Tests.IsabelTests.StressTest]
+      name: StressTest
+      fullName: Tests.IsabelTests.StressTest
+      resultStatus: 1
+      duration: 10.482237
+      messages: 
+      output: 'count: 10
+
+        fps: 89.59736
+
+        Playing Song
+
+        Situation
+
+        count:
+        20
+
+        fps: 62.77899
+
+        count: 30
+
+        fps: 78.05896
+
+        count:
+        40
+
+        fps: 63.66484
+
+        count: 50
+
+        fps: 62.2548
+
+        count:
+        60
+
+        fps: 61.30545
+
+        count: 70
+
+        fps: 62.31991
+
+        count:
+        80
+
+        fps: 63.12719
+
+        count: 90
+
+        fps: 28.21261
+
+        count:
+        100
+
+        fps: 63.91832
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1008
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.IsabelTests][suite]
+    - id: 1012
+      uniqueId: PlayMode.dll/Tests/[PlayMode][Tests.RonnieTest][suite]
+      name: RonnieTest
+      fullName: Tests.RonnieTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1034
+      parentUniqueId: PlayMode.dll/[Tests][suite]
+    - id: 1014
+      uniqueId: PlayMode.dll/Tests/RonnieTest/[PlayMode][Tests.RonnieTest.BoundaryTest1]
+      name: BoundaryTest1
+      fullName: Tests.RonnieTest.BoundaryTest1
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1012
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.RonnieTest][suite]
+    - id: 1015
+      uniqueId: PlayMode.dll/Tests/RonnieTest/[PlayMode][Tests.RonnieTest.BoundaryTest2]
+      name: BoundaryTest2
+      fullName: Tests.RonnieTest.BoundaryTest2
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1012
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.RonnieTest][suite]
+    - id: 1013
+      uniqueId: PlayMode.dll/Tests/RonnieTest/[PlayMode][Tests.RonnieTest.StressTest]
+      name: StressTest
+      fullName: Tests.RonnieTest.StressTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1012
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.RonnieTest][suite]
+    - id: 1016
+      uniqueId: PlayMode.dll/Tests/[PlayMode][Tests.SamTest][suite]
+      name: SamTest
+      fullName: Tests.SamTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1034
+      parentUniqueId: PlayMode.dll/[Tests][suite]
+    - id: 1017
+      uniqueId: PlayMode.dll/Tests/SamTest/[PlayMode][Tests.SamTest.CheckForMyPrefabsInSceneTest]
+      name: CheckForMyPrefabsInSceneTest
+      fullName: Tests.SamTest.CheckForMyPrefabsInSceneTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1016
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.SamTest][suite]
+    - id: 1018
+      uniqueId: PlayMode.dll/Tests/SamTest/[PlayMode][Tests.SamTest.LevelSelectorTest]
+      name: LevelSelectorTest
+      fullName: Tests.SamTest.LevelSelectorTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1016
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.SamTest][suite]
+    - id: 1019
+      uniqueId: PlayMode.dll/Tests/SamTest/[PlayMode][Tests.SamTest.SpawnDialogueCanvasTest]
+      name: SpawnDialogueCanvasTest
+      fullName: Tests.SamTest.SpawnDialogueCanvasTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1016
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.SamTest][suite]
+    - id: 1020
+      uniqueId: PlayMode.dll/Tests/[PlayMode][Tests.SydneyTests][suite]
+      name: SydneyTests
+      fullName: Tests.SydneyTests
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1034
+      parentUniqueId: PlayMode.dll/[Tests][suite]
+    - id: 1022
+      uniqueId: PlayMode.dll/Tests/SydneyTests/[PlayMode][Tests.SydneyTests.Bunny_BoundsTest]
+      name: Bunny_BoundsTest
+      fullName: Tests.SydneyTests.Bunny_BoundsTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1020
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.SydneyTests][suite]
+    - id: 1021
+      uniqueId: PlayMode.dll/Tests/SydneyTests/[PlayMode][Tests.SydneyTests.Bunny_StressTest]
+      name: Bunny_StressTest
+      fullName: Tests.SydneyTests.Bunny_StressTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1020
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.SydneyTests][suite]
+    - id: 1023
+      uniqueId: PlayMode.dll/Tests/SydneyTests/[PlayMode][Tests.SydneyTests.treeMoving_BoundsTest]
+      name: treeMoving_BoundsTest
+      fullName: Tests.SydneyTests.treeMoving_BoundsTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1020
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.SydneyTests][suite]
+    - id: 1024
+      uniqueId: PlayMode.dll/Tests/[PlayMode][Tests.TaeganTest][suite]
+      name: TaeganTest
+      fullName: Tests.TaeganTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1034
+      parentUniqueId: PlayMode.dll/[Tests][suite]
+    - id: 1025
+      uniqueId: PlayMode.dll/Tests/TaeganTest/[PlayMode][Tests.TaeganTest.Check_Speed_Of_PlayerTW]
+      name: Check_Speed_Of_PlayerTW
+      fullName: Tests.TaeganTest.Check_Speed_Of_PlayerTW
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1024
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.TaeganTest][suite]
+    - id: 1026
+      uniqueId: PlayMode.dll/Tests/TaeganTest/[PlayMode][Tests.TaeganTest.Fog_Creation_FPS_TestTW]
+      name: Fog_Creation_FPS_TestTW
+      fullName: Tests.TaeganTest.Fog_Creation_FPS_TestTW
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1024
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.TaeganTest][suite]
+    - id: 1027
+      uniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ToriTests][suite]
+      name: ToriTests
+      fullName: Tests.ToriTests
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1034
+      parentUniqueId: PlayMode.dll/[Tests][suite]
+    - id: 1029
+      uniqueId: PlayMode.dll/Tests/ToriTests/[PlayMode][Tests.ToriTests.CheckHudExists]
+      name: CheckHudExists
+      fullName: Tests.ToriTests.CheckHudExists
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1027
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ToriTests][suite]
+    - id: 1030
+      uniqueId: PlayMode.dll/Tests/ToriTests/[PlayMode][Tests.ToriTests.CheckInvExists]
+      name: CheckInvExists
+      fullName: Tests.ToriTests.CheckInvExists
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1027
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ToriTests][suite]
+    - id: 1031
+      uniqueId: PlayMode.dll/Tests/ToriTests/[PlayMode][Tests.ToriTests.ToriTestsInventoryOverload]
+      name: ToriTestsInventoryOverload
+      fullName: Tests.ToriTests.ToriTestsInventoryOverload
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1027
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ToriTests][suite]
+    - id: 1032
+      uniqueId: PlayMode.dll/Tests/ToriTests/[PlayMode][Tests.ToriTests.ToriTestsItemSlots]
+      name: ToriTestsItemSlots
+      fullName: Tests.ToriTests.ToriTestsItemSlots
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1027
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ToriTests][suite]
+    - id: 1028
+      uniqueId: PlayMode.dll/Tests/ToriTests/[PlayMode][Tests.ToriTests.ToriTestsSimplePasses]
+      name: ToriTestsSimplePasses
+      fullName: Tests.ToriTests.ToriTestsSimplePasses
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1027
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ToriTests][suite]
+    m_ResultText: 'StressTest (10.482s)
+
+      ---
+
+      count: 10
+
+      fps: 89.59736
+
+      Playing
+      Song
+
+      Situation
+
+      count: 20
+
+      fps: 62.77899
+
+      count: 30
+
+      fps:
+      78.05896
+
+      count: 40
+
+      fps: 63.66484
+
+      count: 50
+
+      fps:
+      62.2548
+
+      count: 60
+
+      fps: 61.30545
+
+      count: 70
+
+      fps:
+      62.31991
+
+      count: 80
+
+      fps: 63.12719
+
+      count: 90
+
+      fps:
+      28.21261
+
+      count: 100
+
+      fps: 63.91832'
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: f31fc870
+      m_LastClickedID: 1892163571
+      m_ExpandedIDs: 33fcf89c095273df7c95c7e35371fdf26521a7fa411e8cfc45d21e3fc240ad61a98bee76ffffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories:
+      - Uncategorized
+  m_EditModeTestListGUI:
+    m_Window: {fileID: 16}
+    newResultList:
+    - id: 1000
+      uniqueId: '[Existential][suite]'
+      name: Existential
+      fullName: Existential
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: 1003
+      uniqueId: '[/Users/isabelhinkle/Desktop/CS-383-Project/Existential/Library/ScriptAssemblies/Tests.dll][suite]'
+      name: Tests.dll
+      fullName: /Users/isabelhinkle/Desktop/CS-383-Project/Existential/Library/ScriptAssemblies/Tests.dll
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: '[Existential][suite]'
+    - id: 1004
+      uniqueId: Tests.dll/[Tests][suite]
+      name: Tests
+      fullName: Tests
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1003
+      parentUniqueId: '[/Users/isabelhinkle/Desktop/CS-383-Project/Existential/Library/ScriptAssemblies/Tests.dll][suite]'
+    - id: 1001
+      uniqueId: Tests.dll/Tests/[Tests][Tests.TaeganTestTW][suite]
+      name: TaeganTestTW
+      fullName: Tests.TaeganTestTW
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1004
+      parentUniqueId: Tests.dll/[Tests][suite]
+    - id: 1002
+      uniqueId: Tests.dll/Tests/TaeganTestTW/[Tests][Tests.TaeganTestTW.Check_For_Ground_Tag]
+      name: Check_For_Ground_Tag
+      fullName: Tests.TaeganTestTW.Check_For_Ground_Tag
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.TaeganTestTW][suite]
+    m_ResultText: 
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 7c95c7e38359db4181233c424546a972ffffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories:
+      - Uncategorized
