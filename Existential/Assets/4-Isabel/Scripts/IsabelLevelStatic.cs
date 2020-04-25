@@ -39,3 +39,4 @@ public class IsabelLevelStatic : IsabelLevel{
         Debug.Log("In this level your objective is to return an object to the correct spirit.");
     } 
 }
+

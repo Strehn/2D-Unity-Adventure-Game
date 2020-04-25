@@ -10,6 +10,7 @@ using UnityEngine.SceneManagement;
 
 public class GiftEvent : MonoBehaviour{
     public GameObject Key;
+    public GameObject candle;
     private GameObject chalice; 
     private GameObject necklace;
     private GameObject vase; 
