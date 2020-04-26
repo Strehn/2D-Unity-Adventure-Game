@@ -11,7 +11,7 @@ public class PlayerMovement : MonoBehaviour{
 	/// <summary>
 	/// Player movement speed
 	/// </summary>
-	private float movementSpeed = 200.0f;
+	private float movementSpeed = 150.0f;
 
 	/// <summary>
 	/// Animation state machine local reference
