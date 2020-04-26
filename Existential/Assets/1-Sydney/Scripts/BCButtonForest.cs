@@ -6,10 +6,10 @@ using UnityEngine;
 using System;
 using UnityEngine.SceneManagement;
 
-public class BCForest : MonoBehaviour{
+public class BCButtonForest : MonoBehaviour{
 
         //moves player to end and spawns four orbs needed to end level.
-        public void forestBCMode(){
+        public void EndGame(){
 
         GameObject mainChar = GameObject.Find("MainCharacter");
         Vector2 EndLocation = new Vector2(23, 15);
@@ -27,7 +27,7 @@ public class BCForest : MonoBehaviour{
          SpiritOrb2.transform.position = OrbLocation;
          SpiritOrb3.transform.position = OrbLocation;
          SpiritOrb4.transform.position = OrbLocation;
-    }
+        }
 }
          
 
