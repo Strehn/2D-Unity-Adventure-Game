@@ -10,19 +10,21 @@ public class iceMove : MonoBehaviour {
     public bool activeButton = false; //boolean to set if the player is on ice
     public bool timer = false;
 
+    //OBSERVER PATTERN -- This boundary observers the subject "player" and updates
     //If the player enters the ice area
     private void OnTriggerEnter2D(Collider2D collision) {
         if (collision.tag == "Player") {
             activeButton = true;
             timer = false; // set timer to unavailable
             StartCoroutine(Countdown()); // call a timer to execute to allow player on ice without calling exit
+            collision.GetComponent<PlayerControllerRigidBody>().enabled = false;
         }
     }
 
     //If the player exits the ice area
     private void OnTriggerExit2D(Collider2D collision) {
         if (timer == true) { //if player has been on the ice and moving onto ground
-
+            collision.GetComponent<PlayerControllerRigidBody>().enabled = true;
             activeButton = false;
             timer = false;
         }  
