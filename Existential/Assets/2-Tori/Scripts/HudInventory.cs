@@ -8,7 +8,7 @@ display on the game screen
  * HUDINV PREFAB DOCUMENTATION
    Many games have a need for an inventory feature that is interactive and follows the player and camera.
 * Purpose 
-  In many Unity projects, an interactive inventory feature is needed. This provides a quick and easy way to get started.
+  In many Unity projects, an interactive UI inventory feature is needed. This provides a quick and easy way to get started.
 * Features 
 - Easily add items to the inventory by mousing over them 
 - Easily remove items by dragging and dropping them
@@ -23,11 +23,14 @@ display on the game screen
 - Import prefab into Assets/ under Prefabs/ folder
 - Prefab can be found in this project under Assets/2-Tori/Assets/Resources/Prefabs/ 
 * Remember 
+- Also include Inventory Manager prefab and flower item prefabs in scene
+- - - Prefab can be found in this project under Assets/2-Tori/Assets/Resources/Prefabs/ 
 - Drag HUDINV.prefab in each scene 
-- Make sure to set camera and main character
+- Drag InventoryManager.prefab in each scene
+- Drag flower prefabs into scene
+- Make sure to set camera and main character to the scripts
  * 
  */
-
 
 using System.Collections;
 using System.Collections.Generic;

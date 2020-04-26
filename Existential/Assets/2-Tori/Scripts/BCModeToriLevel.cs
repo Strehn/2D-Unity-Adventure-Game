@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/***********************
+Implemented by Victoria Gehring
+When BC Mode button is clicked spawn a bunch of flowers, 
+arrows, and popup text to lead player to success
+***********************/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;

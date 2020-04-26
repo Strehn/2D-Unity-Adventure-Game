@@ -19,6 +19,7 @@ public class InventoryDisplay : MonoBehaviour
         cam = GetComponent<Camera>();
     }
 
+    // if raycast hits an inventory item get a reference of the item and tell the inventory to add it
     public void Update(){
         RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
         // [DEPRECATED] RaycastHit2D hit = Physics2D.Raycast(cam.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
