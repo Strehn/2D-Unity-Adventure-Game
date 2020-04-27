@@ -1,9 +1,24 @@
+/**********************
+ * Ronnie Keating - Instantiate dragon
+ * This script instantiates one and only one dragon.
+ * You could try to instantiate more than one dragon,
+ * However, there is a Singleton pattern on the dragon
+ * to check for mutliple instances of the dragon.
+ * If so, it destroys the newest dragon instance.
+ *
+ * Instruction:
+ * -Add this script to anything in the hierarchy that
+ * is immediately called (like the grid).
+ * -Drag the dragon prefab (5-Ronnie) into the 
+ * public gameobject of Dragon on the script
+ *********************/
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 public class dragonInstantiate : MonoBehaviour
 {
-    private GameObject Dragon1;
+    public static GameObject Dragon1;
     private GameObject Dragon2;
     public GameObject Dragon;
     // Start is called before the first frame update
