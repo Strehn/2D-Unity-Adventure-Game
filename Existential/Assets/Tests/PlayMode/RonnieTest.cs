@@ -132,7 +132,7 @@ namespace Tests
         public IEnumerator BoundaryTest2()
 		{
             GameObject Snow;
-            MonoBehaviour.Instantiate(Resources.Load<GameObject>("Prefabs/Grid"));
+            MonoBehaviour.Instantiate(Resources.Load<GameObject>("Prefabs/RonnieGrid"));
             GameObject Character = MonoBehaviour.Instantiate(Resources.Load<GameObject>("Prefabs/Character")); ;
             Vector2 spawn;
             //SetupScene();
@@ -159,7 +159,7 @@ namespace Tests
 
         void SetupScene()
         {
-            MonoBehaviour.Instantiate(Resources.Load<GameObject>("Prefabs/Grid"));
+            MonoBehaviour.Instantiate(Resources.Load<GameObject>("Prefabs/RonnieGrid"));
             MonoBehaviour.Instantiate(Resources.Load<GameObject>("Prefabs/Character"));
         }
     }
