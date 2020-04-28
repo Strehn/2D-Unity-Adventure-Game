@@ -18,6 +18,7 @@ public class iceMove : MonoBehaviour {
             timer = false; // set timer to unavailable
             StartCoroutine(Countdown()); // call a timer to execute to allow player on ice without calling exit
             collision.GetComponent<PlayerControllerRigidBody>().enabled = false;
+             collision.GetComponent<PlayerControllerRigidBody2>().enabled = true;
         }
     }
 
@@ -25,6 +26,7 @@ public class iceMove : MonoBehaviour {
     private void OnTriggerExit2D(Collider2D collision) {
         if (timer == true) { //if player has been on the ice and moving onto ground
             collision.GetComponent<PlayerControllerRigidBody>().enabled = true;
+             collision.GetComponent<PlayerControllerRigidBody2>().enabled = false;
             activeButton = false;
             timer = false;
         }  

@@ -12,27 +12,25 @@ public class BCScript: MonoBehaviour {
     public bool enabledArrows;
     GameObject[] allArrows;
 
-    //Start function, called once at the start
-    public void Start() {
-        enabledArrows = false; // initialize the boolean as false
-        allArrows = GameObject.FindGameObjectsWithTag("bcArrow");
-    }
-
-
     //function is called when the BC Button is clicked. Enables and disables the BC Arrow Game Objects
-    public void ShowMeTheWay2() {   
+    public void ShowMeTheWay2() {
+        
+        allArrows = GameObject.FindGameObjectsWithTag("bcArrow");
         if (enabledArrows == false) {
-
+            Debug.Log("enabling BC MODE");
             foreach (GameObject arrow in allArrows) {
-                arrow.SetActive(true);
-                enabledArrows = true;
+                arrow.GetComponent<SpriteRenderer>().enabled = true;
+                //Debug.Log(arrow + "Active");
             }
+            enabledArrows = true;
         }
         else {
+            Debug.Log("disabling BC MODE");
             foreach (GameObject arrow in allArrows) {
-                arrow.SetActive(false);
-                enabledArrows = false;
+                arrow.GetComponent<SpriteRenderer>().enabled = false;
+                //Debug.Log(arrow + "Disabled");
             }
+            enabledArrows = false;
         }  
      }
  }

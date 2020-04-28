@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/1-Sydney/Scenes/SydneyForestScene.unity
-  isLoaded: 1
-  isActive: 1
+- path: Assets/6-Taegan/Scenes/TaeganScene.unity
+  isLoaded: 0
+  isActive: 0
   isSubScene: 0

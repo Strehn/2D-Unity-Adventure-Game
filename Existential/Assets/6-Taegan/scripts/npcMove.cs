@@ -11,12 +11,12 @@ public class npcMove : MonoBehaviour {
     public float range;  // Variable for speed movement (should be about 2)
     private Rigidbody2D rb;  // Rigidbody2D for 2D character movement
     public bool timer = false; // timer for movment of player
-    GameObject Snow; // stores the snow
     GameObject MainPlayer; // Game Object for the main player, used to stop for dialouge
     private Vector2[] moveDirections; //an array of Vector2 directions
     Sound s1; // static instantiation of the Sound Class
     bool collision; // used to detect collisions with boundaries
-
+    Vector2 startPosition;
+    int currentMoveDirection;
 
     // Start is called before the first frame update
     void Start() {
@@ -25,7 +25,9 @@ public class npcMove : MonoBehaviour {
         moveDirections = new Vector2[] { Vector2.right, Vector2.left, Vector2.up, Vector2.down, Vector2.zero, Vector2.zero };
         s1 = new Sound();
         AudioClip returnedFromScript = s1.WalkSound(); //grab Audio from Sound Script
+        //Debug.Log(returnedFromScript);
         GetComponent<AudioSource>().clip = s1.WalkSound(); //set the clip on this component
+        startPosition = rb.position;
     }
 
     // Update is called once per frame
@@ -44,14 +46,15 @@ public class npcMove : MonoBehaviour {
         timer = true; //Set the Countdown as active
 
         //Choose a random movement direction
-        int currentMoveDirection = Mathf.FloorToInt(Random.Range(0, moveDirections.Length));
+        currentMoveDirection = Mathf.FloorToInt(Random.Range(0, moveDirections.Length));
 
         //Start the Audio
         GetComponent<AudioSource>().Play();
-
+       
         //If the player is not moving stop the audio
         if (moveDirections[currentMoveDirection] == Vector2.zero) {
             GetComponent<AudioSource>().Stop();
+
         }
 
         //time variables and loop
@@ -73,12 +76,14 @@ public class npcMove : MonoBehaviour {
         timer = false;    
     }
 
-    //if the player colides with a wall, allow for movement
-    void OnCollisionEnter2D(Collision2D coll)
+    void OnCollisionStay2D(Collision2D coll)
     {
         collision = true;
-        Debug.Log("Collision");
-        rb.velocity = new Vector2(0, 0);
+        if (!(coll.gameObject.CompareTag("Player")))
+        {
+            rb.MovePosition(rb.position += moveDirections[currentMoveDirection] * Time.deltaTime * -range);
+        }
+        //Debug.Log("Collision with player");
         GetComponent<AudioSource>().Stop();
     }
 }

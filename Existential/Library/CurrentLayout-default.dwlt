@@ -14,121 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 0
-    y: 45
-    width: 947
-    height: 800
+    x: 252
+    y: 268
+    width: 1280
+    height: 691
   m_ShowMode: 4
   m_Title: 
-  m_RootView: {fileID: 6}
-  m_MinSize: {x: 875, y: 300}
+  m_RootView: {fileID: 2}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 0
 --- !u!114 &2
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 9}
-  - {fileID: 3}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 30
-    width: 947
-    height: 750
-  m_MinSize: {x: 679, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
-  vertical: 0
-  controlID: 35
---- !u!114 &3
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 671
-    y: 0
-    width: 276
-    height: 750
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 14}
-  m_Panes:
-  - {fileID: 14}
-  m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &4
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 201
-    height: 479
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 15}
-  m_Panes:
-  - {fileID: 15}
-  m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &5
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 479
-    width: 671
-    height: 271
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 13}
-  m_Panes:
-  - {fileID: 13}
-  - {fileID: 18}
-  m_Selected: 0
-  m_LastSelected: 1
---- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -141,18 +37,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 7}
-  - {fileID: 2}
-  - {fileID: 8}
+  - {fileID: 3}
+  - {fileID: 5}
+  - {fileID: 4}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 947
-    height: 800
+    width: 1280
+    height: 691
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
---- !u!114 &7
+--- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -169,12 +65,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 947
+    width: 1280
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
   m_LastLoadedLayoutName: 
---- !u!114 &8
+--- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -190,12 +86,12 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 780
-    width: 947
+    y: 671
+    width: 1280
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
---- !u!114 &9
+--- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -208,44 +104,95 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 10}
-  - {fileID: 5}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 671
-    height: 750
-  m_MinSize: {x: 403, y: 492}
-  m_MaxSize: {x: 10001, y: 14042}
-  vertical: 1
-  controlID: 36
---- !u!114 &10
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 4}
+  - {fileID: 6}
   - {fileID: 11}
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 0
-    width: 671
-    height: 479
-  m_MinSize: {x: 403, y: 221}
-  m_MaxSize: {x: 8003, y: 4021}
+    y: 30
+    width: 1280
+    height: 641
+  m_MinSize: {x: 678, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 37
---- !u!114 &11
+  controlID: 52232
+--- !u!114 &6
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 7}
+  - {fileID: 10}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 966
+    height: 641
+  m_MinSize: {x: 402, y: 492}
+  m_MaxSize: {x: 10001, y: 14042}
+  vertical: 1
+  controlID: 52233
+--- !u!114 &7
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 8}
+  - {fileID: 9}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 966
+    height: 370
+  m_MinSize: {x: 402, y: 221}
+  m_MaxSize: {x: 8002, y: 4021}
+  vertical: 0
+  controlID: 52234
+--- !u!114 &8
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: SceneHierarchyWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 264
+    height: 370
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 13}
+  m_Panes:
+  - {fileID: 13}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -260,20 +207,335 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 201
+    x: 264
     y: 0
-    width: 470
-    height: 479
+    width: 702
+    height: 370
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 16}
+  m_ActualView: {fileID: 12}
   m_Panes:
-  - {fileID: 16}
-  - {fileID: 17}
   - {fileID: 12}
+  - {fileID: 14}
+  - {fileID: 15}
+  - {fileID: 16}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &10
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: ProjectBrowser
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 370
+    width: 966
+    height: 271
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 17}
+  m_Panes:
+  - {fileID: 17}
+  - {fileID: 18}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &11
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: InspectorWindow
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 966
+    y: 0
+    width: 314
+    height: 641
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 19}
+  m_Panes:
+  - {fileID: 19}
+  - {fileID: 20}
+  - {fileID: 21}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Scene
+    m_Image: {fileID: -131512000283675692, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 516
+    y: 298
+    width: 700
+    height: 349
+  m_ViewDataDictionary: {fileID: 0}
+  m_ShowContextualTools: 0
+  m_WindowGUID: 813b1bbdf31ee5645ba010b0123feeb0
+  m_Gizmos: 1
+  m_SceneIsLit: 0
+  m_SceneLighting: 1
+  m_2DMode: 1
+  m_isRotationLocked: 0
+  m_PlayAudio: 0
+  m_AudioPlay: 0
+  m_Position:
+    m_Target: {x: 46.908585, y: -28.64386, z: -21.680998}
+    speed: 2
+    m_Value: {x: 46.908585, y: -28.64386, z: -21.680998}
+  m_RenderMode: 0
+  m_CameraMode:
+    drawMode: 0
+    name: Shaded
+    section: Shading Mode
+  m_ValidateTrueMetals: 0
+  m_DoValidateTrueMetals: 0
+  m_ExposureSliderValue: 0
+  m_ExposureSliderMax: 10
+  m_SceneViewState:
+    showFog: 1
+    showMaterialUpdate: 0
+    showSkybox: 0
+    showFlares: 1
+    showImageEffects: 1
+    showParticleSystems: 1
+  m_Grid:
+    xGrid:
+      m_Fade:
+        m_Target: 0
+        speed: 2
+        m_Value: 0
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 0, y: 0}
+    yGrid:
+      m_Fade:
+        m_Target: 0
+        speed: 2
+        m_Value: 1
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 1, y: 1}
+    zGrid:
+      m_Fade:
+        m_Target: 0
+        speed: 2
+        m_Value: 1
+      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
+      m_Pivot: {x: 0, y: 0, z: 0}
+      m_Size: {x: 1, y: 1}
+    m_ShowGrid: 0
+    m_GridAxis: 1
+    m_gridOpacity: 0.5
+  m_Rotation:
+    m_Target: {x: 0, y: 0, z: 0, w: 1}
+    speed: 2
+    m_Value: {x: 0, y: 0, z: 0, w: 1}
+  m_Size:
+    m_Target: 318.19797
+    speed: 2
+    m_Value: 318.19797
+  m_Ortho:
+    m_Target: 1
+    speed: 2
+    m_Value: 1
+  m_CameraSettings:
+    m_Speed: 1
+    m_SpeedNormalized: 0.5
+    m_SpeedMin: 0.01
+    m_SpeedMax: 2
+    m_EasingEnabled: 1
+    m_EasingDuration: 0.4
+    m_AccelerationEnabled: 1
+    m_FieldOfView: 90
+    m_NearClip: 0.03
+    m_FarClip: 10000
+    m_DynamicClip: 1
+    m_OcclusionCulling: 0
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewOrtho: 0
+  m_ReplacementShader: {fileID: 0}
+  m_ReplacementString: 
+  m_SceneVisActive: 1
+  m_LastLockedObject: {fileID: 0}
+  m_ViewIsLockedToObject: 0
+--- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Hierarchy
+    m_Image: {fileID: -9000905672528348964, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 252
+    y: 298
+    width: 263
+    height: 349
+  m_ViewDataDictionary: {fileID: 0}
+  m_SceneHierarchy:
+    m_TreeViewState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: a60ae5ffb20ae5ff4af305005ef30500
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: Knight3
+        m_OriginalName: Knight3
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 373040
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 0
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 8}
+      m_SearchString: 
+    m_ExpandedScenes: []
+    m_CurrenRootInstanceID: 0
+    m_LockTracker:
+      m_IsLocked: 0
+    m_CurrentSortingName: TransformSorting
+  m_WindowGUID: 12822379486e19b408ecf1060aa5d842
+--- !u!114 &14
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Game
+    m_Image: {fileID: 257045534191678443, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 264
+    y: 30
+    width: 700
+    height: 412
+  m_ViewDataDictionary: {fileID: 0}
+  m_SerializedViewsNames: []
+  m_SerializedViewsValues: []
+  m_PlayModeViewName: GameView
+  m_ShowGizmos: 0
+  m_TargetDisplay: 0
+  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+  m_TargetSize: {x: 1400, y: 782}
+  m_TextureFilterMode: 0
+  m_TextureHideFlags: 61
+  m_RenderIMGUI: 1
+  m_MaximizeOnPlay: 0
+  m_VSyncEnabled: 0
+  m_Gizmos: 0
+  m_Stats: 0
+  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_ZoomArea:
+    m_HRangeLocked: 0
+    m_VRangeLocked: 0
+    hZoomLockedByDefault: 0
+    vZoomLockedByDefault: 0
+    m_HBaseRangeMin: -350
+    m_HBaseRangeMax: 350
+    m_VBaseRangeMin: -195.5
+    m_VBaseRangeMax: 195.5
+    m_HAllowExceedBaseRangeMin: 1
+    m_HAllowExceedBaseRangeMax: 1
+    m_VAllowExceedBaseRangeMin: 1
+    m_VAllowExceedBaseRangeMax: 1
+    m_ScaleWithWindow: 0
+    m_HSlider: 0
+    m_VSlider: 0
+    m_IgnoreScrollWheelUntilClicked: 0
+    m_EnableMouseInput: 0
+    m_EnableSliderZoomHorizontal: 0
+    m_EnableSliderZoomVertical: 0
+    m_UniformScale: 1
+    m_UpDirection: 1
+    m_DrawArea:
+      serializedVersion: 2
+      x: 0
+      y: 21
+      width: 700
+      height: 391
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 350, y: 195.5}
+    m_MarginLeft: 0
+    m_MarginRight: 0
+    m_MarginTop: 0
+    m_MarginBottom: 0
+    m_LastShownAreaInsideMargins:
+      serializedVersion: 2
+      x: -350
+      y: -195.5
+      width: 700
+      height: 391
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 1400, y: 824}
+  m_ClearInEditMode: 1
+  m_NoCameraWarning: 1
+  m_LowResolutionForAspectRatios: 00000000000000000000
+  m_XRRenderMode: 0
+  m_RenderTexture: {fileID: 0}
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -294,12 +556,41 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 323
-    y: 75
-    width: 839
+    x: 468
+    y: 181
+    width: 973
+    height: 501
+  m_ViewDataDictionary: {fileID: 0}
+--- !u!114 &16
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 687acdc95675db149bf5de5771ecac18, type: 3}
+  m_Name: SpriteEditorWindow
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 360, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Sprite Editor
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 258
+    y: 30
+    width: 687
     height: 458
   m_ViewDataDictionary: {fileID: 0}
---- !u!114 &13
+  m_ResetOnNextRepaint: 0
+  m_SelectedAssetPath: 
+  m_SelectedSpriteRectGUID: 00000000000000000000000000000000
+  m_LastUsedModuleTypeName: 
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -321,8 +612,8 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 554
-    width: 670
+    y: 389
+    width: 965
     height: 250
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
@@ -338,20 +629,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/1-Sydney/Resources/Prefabs
+    - Assets
   m_ViewMode: 1
-  m_StartGridSize: 64
+  m_StartGridSize: 62
   m_LastFolders:
-  - Assets/1-Sydney/Resources/Prefabs
-  m_LastFoldersGridSize: -1
-  m_LastProjectPath: /Users/sydneypetrehn/Documents/GitHub/CS-383-Project/Existential
+  - Assets
+  m_LastFoldersGridSize: 62
+  m_LastProjectPath: /Users/taeganwilliams/Documents/GitHub/CS-383-Project/Existential
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 068e0000
-    m_LastClickedID: 36358
-    m_ExpandedIDs: 000000004a380000e03900000c3a0000e83d00004c3e0000c03f0000dc3f0000e63f0000044000005640000022440000e04700004c4c0000684c00009c560000365e00006c6100001e670000806700006e6b0000e27100002c7200004a740000068e00001e9200002e930000f29b0000dc9c00003e9d000088a7000078af0000aeaf0000deaf00006ab10000e8b1000046ba000048ba00004aba00004cba00004eba000050ba000052ba000054ba000056ba000058ba00005aba00005cba00005eba000060ba000062ba000064ba000000ca9a3b
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: 08380000
+    m_LastClickedID: 14344
+    m_ExpandedIDs: 00000000083800009e390000083e00007c3f0000983f0000a23f00001240000000420000de4300009e4700000a4c0000264c000078520000ec5d00001e610000cc660000186b00008871000098710000d2710000ee730000e67e0000268e00006e910000c6920000869b0000ce9c000018a7000008af00003eaf00006eaf0000f8b0000076b1000062ba000064ba000066ba000068ba00006aba00006cba00006eba000070ba000072ba000074ba000076ba000078ba00007aba00007cba00007eba000080ba000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -367,7 +658,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 5}
+      m_ClientGUIView: {fileID: 0}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -379,7 +670,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000004a380000e03900000c3a0000e83d00004c3e0000c03f0000dc3f0000e63f0000044000005640000022440000e04700004c4c0000684c00009c560000365e00006c6100001e670000806700006e6b0000e27100002c7200004a7400001e9200002e930000f29b0000dc9c00003e9d000088a7000078af0000aeaf0000deaf00006ab10000e8b1000046ba000048ba00004aba00004cba00004eba000050ba000052ba000054ba000056ba000058ba00005aba00005cba00005eba000060ba000062ba000064ba0000
+    m_ExpandedIDs: 00000000083800009e390000083e00007c3f0000a23f00001240000000420000de4300009e4700000a4c0000264c000078520000ec5d00001e610000cc660000186b00008871000098710000d2710000ee730000268e00006e910000c6920000869b0000ce9c000018a7000008af00003eaf00006eaf0000f8b0000076b1000062ba000064ba000066ba000068ba00006aba00006cba00006eba000070ba000072ba000074ba000076ba000078ba00007aba00007cba00007eba000080ba000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -407,7 +698,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000
+    m_ExpandedInstanceIDs: c6230000023e01008656000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -423,7 +714,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 10}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -431,307 +722,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 212.00195}
-    m_GridSize: 64
+    m_ScrollPosition: {x: 0, y: 0}
+    m_GridSize: 62
   m_SkipHiddenPackages: 0
-  m_DirectoriesAreaWidth: 283
---- !u!114 &14
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Inspector
-    m_Image: {fileID: 8356117983803934776, guid: 0000000000000000d000000000000000,
-      type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 671
-    y: 75
-    width: 275
-    height: 729
-  m_ViewDataDictionary: {fileID: 0}
-  m_OpenAddComponentMenu: 0
-  m_ObjectsLockedBeforeSerialization: []
-  m_InstanceIDsLockedBeforeSerialization: 
-  m_LockTracker:
-    m_IsLocked: 0
-  m_PreviewResizer:
-    m_CachedPref: 160
-    m_ControlHash: -371814159
-    m_PrefName: Preview_InspectorPreview
-  m_PreviewWindow: {fileID: 0}
-  m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
---- !u!114 &15
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Hierarchy
-    m_Image: {fileID: -9000905672528348964, guid: 0000000000000000d000000000000000,
-      type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 0
-    y: 75
-    width: 200
-    height: 458
-  m_ViewDataDictionary: {fileID: 0}
-  m_SceneHierarchy:
-    m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 3ef9ffff0efbffffacb60000bab60000
-      m_RenameOverlay:
-        m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
-        m_EditFieldRect:
-          serializedVersion: 2
-          x: 0
-          y: 0
-          width: 0
-          height: 0
-        m_UserData: 0
-        m_IsWaitingForDelay: 0
-        m_IsRenaming: 0
-        m_OriginalEventType: 11
-        m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 4}
-      m_SearchString: 
-    m_ExpandedScenes: []
-    m_CurrenRootInstanceID: 0
-    m_LockTracker:
-      m_IsLocked: 0
-    m_CurrentSortingName: TransformSorting
-  m_WindowGUID: b839b40d3e1574870aacc768cd2fce9c
---- !u!114 &16
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12013, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Scene
-    m_Image: {fileID: -131512000283675692, guid: 0000000000000000d000000000000000,
-      type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 201
-    y: 75
-    width: 468
-    height: 458
-  m_ViewDataDictionary: {fileID: 0}
-  m_ShowContextualTools: 0
-  m_WindowGUID: ab4b86ce0367f46c9968c18120cc0640
-  m_Gizmos: 1
-  m_SceneIsLit: 1
-  m_SceneLighting: 1
-  m_2DMode: 1
-  m_isRotationLocked: 0
-  m_PlayAudio: 0
-  m_AudioPlay: 0
-  m_Position:
-    m_Target: {x: 15.099941, y: 14.065986, z: -1.8327237}
-    speed: 2
-    m_Value: {x: 15.099941, y: 14.065986, z: -1.8327237}
-  m_RenderMode: 0
-  m_CameraMode:
-    drawMode: 0
-    name: Shaded
-    section: Shading Mode
-  m_ValidateTrueMetals: 0
-  m_DoValidateTrueMetals: 0
-  m_ExposureSliderValue: 0
-  m_ExposureSliderMax: 10
-  m_SceneViewState:
-    showFog: 1
-    showMaterialUpdate: 0
-    showSkybox: 1
-    showFlares: 1
-    showImageEffects: 1
-    showParticleSystems: 1
-  m_Grid:
-    xGrid:
-      m_Fade:
-        m_Target: 0
-        speed: 2
-        m_Value: 0
-      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
-      m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 0, y: 0}
-    yGrid:
-      m_Fade:
-        m_Target: 0
-        speed: 2
-        m_Value: 1
-      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
-      m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 1, y: 1}
-    zGrid:
-      m_Fade:
-        m_Target: 1
-        speed: 2
-        m_Value: 1
-      m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
-      m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 1, y: 1}
-    m_ShowGrid: 1
-    m_GridAxis: 1
-    m_gridOpacity: 0.5
-  m_Rotation:
-    m_Target: {x: 0, y: 0, z: 0, w: 1}
-    speed: 2
-    m_Value: {x: 0, y: 0, z: 0, w: 1}
-  m_Size:
-    m_Target: 22.16438
-    speed: 2
-    m_Value: 22.16438
-  m_Ortho:
-    m_Target: 1
-    speed: 2
-    m_Value: 1
-  m_CameraSettings:
-    m_Speed: 1
-    m_SpeedNormalized: 0.5
-    m_SpeedMin: 0.01
-    m_SpeedMax: 2
-    m_EasingEnabled: 1
-    m_EasingDuration: 0.4
-    m_AccelerationEnabled: 1
-    m_FieldOfView: 90
-    m_NearClip: 0.03
-    m_FarClip: 10000
-    m_DynamicClip: 1
-    m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
-  m_LastSceneViewOrtho: 0
-  m_ReplacementShader: {fileID: 0}
-  m_ReplacementString: 
-  m_SceneVisActive: 1
-  m_LastLockedObject: {fileID: 0}
-  m_ViewIsLockedToObject: 0
---- !u!114 &17
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Game
-    m_Image: {fileID: 257045534191678443, guid: 0000000000000000d000000000000000,
-      type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 201
-    y: 75
-    width: 468
-    height: 458
-  m_ViewDataDictionary: {fileID: 0}
-  m_SerializedViewsNames: []
-  m_SerializedViewsValues: []
-  m_PlayModeViewName: GameView
-  m_ShowGizmos: 0
-  m_TargetDisplay: 0
-  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 936, y: 874}
-  m_TextureFilterMode: 0
-  m_TextureHideFlags: 61
-  m_RenderIMGUI: 1
-  m_MaximizeOnPlay: 0
-  m_VSyncEnabled: 0
-  m_Gizmos: 0
-  m_Stats: 0
-  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
-  m_ZoomArea:
-    m_HRangeLocked: 0
-    m_VRangeLocked: 0
-    hZoomLockedByDefault: 0
-    vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -234
-    m_HBaseRangeMax: 234
-    m_VBaseRangeMin: -218.5
-    m_VBaseRangeMax: 218.5
-    m_HAllowExceedBaseRangeMin: 1
-    m_HAllowExceedBaseRangeMax: 1
-    m_VAllowExceedBaseRangeMin: 1
-    m_VAllowExceedBaseRangeMax: 1
-    m_ScaleWithWindow: 0
-    m_HSlider: 0
-    m_VSlider: 0
-    m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
-    m_EnableSliderZoomHorizontal: 0
-    m_EnableSliderZoomVertical: 0
-    m_UniformScale: 1
-    m_UpDirection: 1
-    m_DrawArea:
-      serializedVersion: 2
-      x: 0
-      y: 21
-      width: 468
-      height: 437
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 234, y: 218.5}
-    m_MarginLeft: 0
-    m_MarginRight: 0
-    m_MarginTop: 0
-    m_MarginBottom: 0
-    m_LastShownAreaInsideMargins:
-      serializedVersion: 2
-      x: -234
-      y: -218.5
-      width: 468
-      height: 437
-    m_MinimalGUI: 1
-  m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 936, y: 916}
-  m_ClearInEditMode: 1
-  m_NoCameraWarning: 1
-  m_LowResolutionForAspectRatios: 00000000000000000000
-  m_XRRenderMode: 0
-  m_RenderTexture: {fileID: 0}
+  m_DirectoriesAreaWidth: 264
 --- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -754,7 +748,3947 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 554
-    width: 670
-    height: 250
+    y: 463
+    width: 965
+    height: 296
   m_ViewDataDictionary: {fileID: 0}
+--- !u!114 &19
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Inspector
+    m_Image: {fileID: 8356117983803934776, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 1218
+    y: 298
+    width: 313
+    height: 620
+  m_ViewDataDictionary: {fileID: 0}
+  m_OpenAddComponentMenu: 0
+  m_ObjectsLockedBeforeSerialization: []
+  m_InstanceIDsLockedBeforeSerialization: 
+  m_LockTracker:
+    m_IsLocked: 0
+  m_PreviewResizer:
+    m_CachedPref: 160
+    m_ControlHash: -371814159
+    m_PrefName: Preview_InspectorPreview
+  m_PreviewWindow: {fileID: 0}
+  m_LastInspectedObjectInstanceID: -1
+  m_LastVerticalScrollValue: 0
+--- !u!114 &20
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f683d99f24875748a6656966ca9cea0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 240, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Tile Palette
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 966
+    y: 30
+    width: 313
+    height: 729
+  m_ViewDataDictionary: {fileID: 0}
+  m_PreviewResizer:
+    m_CachedPref: 50
+    m_ControlHash: 1964396721
+    m_PrefName: Preview_TilemapBrushInspector
+  m_Palette: {fileID: 7633305548790960446, guid: 2d42e3650944a0543a71b6b4106d5ed2,
+    type: 3}
+--- !u!114 &21
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13401, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Test Runner
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 966
+    y: 30
+    width: 313
+    height: 729
+  m_ViewDataDictionary: {fileID: 0}
+  m_Spl:
+    ID: 83296
+    splitterInitialOffset: 319
+    currentActiveSplitter: -1
+    realSizes: f90000009a010000
+    relativeSizes:
+    - 0.37784523
+    - 0.6221548
+    minSizes: 2000000020000000
+    maxSizes: 0000000000000000
+    lastTotalSize: 659
+    splitSize: 6
+    xOffset: 0
+  m_TestTypeToolbarIndex: 0
+  m_PlayModeTestListGUI:
+    m_Window: {fileID: 21}
+    newResultList:
+    - id: 1021
+      uniqueId: '[Existential][suite]'
+      name: Existential
+      fullName: Existential
+      resultStatus: 1
+      duration: 11.73145
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: 1047
+      uniqueId: '[/Users/taeganwilliams/Documents/GitHub/CS-383-Project/Existential/Library/ScriptAssemblies/PlayMode.dll][suite]'
+      name: PlayMode.dll
+      fullName: /Users/taeganwilliams/Documents/GitHub/CS-383-Project/Existential/Library/ScriptAssemblies/PlayMode.dll
+      resultStatus: 1
+      duration: 11.679273
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1021
+      parentUniqueId: '[Existential][suite]'
+    - id: 1048
+      uniqueId: PlayMode.dll/[Tests][suite]
+      name: Tests
+      fullName: Tests
+      resultStatus: 1
+      duration: 11.665766
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1047
+      parentUniqueId: '[/Users/taeganwilliams/Documents/GitHub/CS-383-Project/Existential/Library/ScriptAssemblies/PlayMode.dll][suite]'
+    - id: 1022
+      uniqueId: PlayMode.dll/Tests/[PlayMode][Tests.IsabelTests][suite]
+      name: IsabelTests
+      fullName: Tests.IsabelTests
+      resultStatus: 1
+      duration: 11.648346
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1048
+      parentUniqueId: PlayMode.dll/[Tests][suite]
+    - id: 1023
+      uniqueId: PlayMode.dll/Tests/IsabelTests/[PlayMode][Tests.IsabelTests.FindNonExistentObject]
+      name: FindNonExistentObject
+      fullName: Tests.IsabelTests.FindNonExistentObject
+      resultStatus: 1
+      duration: 0.1923461
+      messages: 
+      output: 'The referenced script (Unknown) on this Behaviour is missing!
+
+        The
+        referenced script on this Behaviour (Game Object ''Main Camera'') is missing!
+
+        The
+        referenced script (Unknown) on this Behaviour is missing!
+
+        The referenced
+        script on this Behaviour (Game Object ''Main Camera'') is missing!
+
+        The
+        referenced script on this Behaviour (Game Object ''Main Camera'') is missing!
+
+        Passed
+        - we did not find newObject in the scene.
+
+'
+      stacktrace: 'at Tests.IsabelTests+<FindNonExistentObject>d__0.MoveNext () [0x00057]
+        in /Users/taeganwilliams/Documents/GitHub/CS-383-Project/Existential/Assets/Tests/PlayMode/IsabelTests.cs:34
+
+        at
+        UnityEngine.TestTools.TestEnumerator+<Execute>d__5.MoveNext () [0x0004c]
+        in /Users/taeganwilliams/Documents/GitHub/CS-383-Project/Existential/Library/PackageCache/com.unity.test-framework@1.1.11/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:31
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1022
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.IsabelTests][suite]
+    - id: 1024
+      uniqueId: PlayMode.dll/Tests/IsabelTests/[PlayMode][Tests.IsabelTests.SpeedTest]
+      name: SpeedTest
+      fullName: Tests.IsabelTests.SpeedTest
+      resultStatus: 1
+      duration: 10.505135
+      messages: 
+      output: 'The referenced script (Unknown) on this Behaviour is missing!
+
+        The
+        referenced script on this Behaviour (Game Object ''Main Camera'') is missing!
+
+        The
+        referenced script on this Behaviour (Game Object ''Main Camera'') is missing!
+
+        Current
+        Speed: 100
+
+        Current Speed: 115
+
+        Current Speed: 130
+
+        Current
+        Speed: 145
+
+        Current Speed: 160
+
+        Current Speed: 175
+
+        Current
+        Speed: 190
+
+        Current Speed: 205
+
+        Final Speed: 220
+
+'
+      stacktrace: 'at Tests.IsabelTests+<SpeedTest>d__1.MoveNext () [0x0010d] in
+        /Users/taeganwilliams/Documents/GitHub/CS-383-Project/Existential/Assets/Tests/PlayMode/IsabelTests.cs:58
+
+        at
+        UnityEngine.TestTools.TestEnumerator+<Execute>d__5.MoveNext () [0x0004c]
+        in /Users/taeganwilliams/Documents/GitHub/CS-383-Project/Existential/Library/PackageCache/com.unity.test-framework@1.1.11/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:31
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1022
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.IsabelTests][suite]
+    - id: 1025
+      uniqueId: PlayMode.dll/Tests/IsabelTests/[PlayMode][Tests.IsabelTests.StressTest]
+      name: StressTest
+      fullName: Tests.IsabelTests.StressTest
+      resultStatus: 1
+      duration: 11.605918
+      messages: 
+      output: 'The referenced script (Unknown) on this Behaviour is missing!
+
+        The
+        referenced script on this Behaviour (Game Object ''Main Camera'') is missing!
+
+        The
+        referenced script on this Behaviour (Game Object ''Main Camera'') is missing!
+
+        count:
+        10
+
+        fps: 96.16515
+
+        count: 20
+
+        fps: 87.90313
+
+        count:
+        30
+
+        fps: 76.85159
+
+        count: 40
+
+        fps: 82.47538
+
+        count:
+        50
+
+        fps: 31.44988
+
+        count: 60
+
+        fps: 54.21316
+
+        count:
+        70
+
+        fps: 56.56306
+
+        count: 80
+
+        fps: 187.0252
+
+        count:
+        90
+
+        fps: 61.41975
+
+        count: 100
+
+        fps: 66.23323
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1022
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.IsabelTests][suite]
+    - id: 1026
+      uniqueId: PlayMode.dll/Tests/[PlayMode][Tests.RonnieTest][suite]
+      name: RonnieTest
+      fullName: Tests.RonnieTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1048
+      parentUniqueId: PlayMode.dll/[Tests][suite]
+    - id: 1028
+      uniqueId: PlayMode.dll/Tests/RonnieTest/[PlayMode][Tests.RonnieTest.BoundaryTest1]
+      name: BoundaryTest1
+      fullName: Tests.RonnieTest.BoundaryTest1
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1026
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.RonnieTest][suite]
+    - id: 1029
+      uniqueId: PlayMode.dll/Tests/RonnieTest/[PlayMode][Tests.RonnieTest.BoundaryTest2]
+      name: BoundaryTest2
+      fullName: Tests.RonnieTest.BoundaryTest2
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1026
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.RonnieTest][suite]
+    - id: 1027
+      uniqueId: PlayMode.dll/Tests/RonnieTest/[PlayMode][Tests.RonnieTest.StressTest]
+      name: StressTest
+      fullName: Tests.RonnieTest.StressTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1026
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.RonnieTest][suite]
+    - id: 1030
+      uniqueId: PlayMode.dll/Tests/[PlayMode][Tests.SamTest][suite]
+      name: SamTest
+      fullName: Tests.SamTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1048
+      parentUniqueId: PlayMode.dll/[Tests][suite]
+    - id: 1031
+      uniqueId: PlayMode.dll/Tests/SamTest/[PlayMode][Tests.SamTest.CheckForMyPrefabsInSceneTest]
+      name: CheckForMyPrefabsInSceneTest
+      fullName: Tests.SamTest.CheckForMyPrefabsInSceneTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1030
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.SamTest][suite]
+    - id: 1032
+      uniqueId: PlayMode.dll/Tests/SamTest/[PlayMode][Tests.SamTest.LevelSelectorTest]
+      name: LevelSelectorTest
+      fullName: Tests.SamTest.LevelSelectorTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1030
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.SamTest][suite]
+    - id: 1033
+      uniqueId: PlayMode.dll/Tests/SamTest/[PlayMode][Tests.SamTest.SpawnDialogueCanvasTest]
+      name: SpawnDialogueCanvasTest
+      fullName: Tests.SamTest.SpawnDialogueCanvasTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1030
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.SamTest][suite]
+    - id: 1034
+      uniqueId: PlayMode.dll/Tests/[PlayMode][Tests.SydneyTests][suite]
+      name: SydneyTests
+      fullName: Tests.SydneyTests
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1048
+      parentUniqueId: PlayMode.dll/[Tests][suite]
+    - id: 1036
+      uniqueId: PlayMode.dll/Tests/SydneyTests/[PlayMode][Tests.SydneyTests.Bunny_BoundsTest]
+      name: Bunny_BoundsTest
+      fullName: Tests.SydneyTests.Bunny_BoundsTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1034
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.SydneyTests][suite]
+    - id: 1035
+      uniqueId: PlayMode.dll/Tests/SydneyTests/[PlayMode][Tests.SydneyTests.Bunny_StressTest]
+      name: Bunny_StressTest
+      fullName: Tests.SydneyTests.Bunny_StressTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1034
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.SydneyTests][suite]
+    - id: 1037
+      uniqueId: PlayMode.dll/Tests/SydneyTests/[PlayMode][Tests.SydneyTests.treeMoving_BoundsTest]
+      name: treeMoving_BoundsTest
+      fullName: Tests.SydneyTests.treeMoving_BoundsTest
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1034
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.SydneyTests][suite]
+    - id: 1038
+      uniqueId: PlayMode.dll/Tests/[PlayMode][Tests.TaeganTest][suite]
+      name: TaeganTest
+      fullName: Tests.TaeganTest
+      resultStatus: 0
+      duration: 6.2590218
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1048
+      parentUniqueId: PlayMode.dll/[Tests][suite]
+    - id: 1039
+      uniqueId: PlayMode.dll/Tests/TaeganTest/[PlayMode][Tests.TaeganTest.Check_Speed_Of_PlayerTW]
+      name: Check_Speed_Of_PlayerTW
+      fullName: Tests.TaeganTest.Check_Speed_Of_PlayerTW
+      resultStatus: 0
+      duration: 17.084663
+      messages: 
+      output: 'Player
+
+        Object: Ice (UnityEngine.GameObject)
+
+        Object:
+        ObjectsInfrontPlayer (UnityEngine.GameObject)
+
+        Object: Ground (UnityEngine.GameObject)
+
+        Object:
+        AboveGround (UnityEngine.GameObject)
+
+        Object: ObjectsBehindPlayer
+        (UnityEngine.GameObject)
+
+        Object: TaeganGridNew(Clone) (UnityEngine.GameObject)
+
+        Object:
+        Main Camera (UnityEngine.GameObject)
+
+        Object: MainCharacter (UnityEngine.GameObject)
+
+        Object:
+        TaeganCanvasNew(Clone) (UnityEngine.GameObject)
+
+        Made it
+
+        x:
+        218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y:
+        -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x:
+        218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y:
+        -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x:
+        218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y:
+        -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x:
+        218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y:
+        -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x:
+        218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y:
+        -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x:
+        218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y:
+        -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x:
+        218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y:
+        -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x:
+        218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y:
+        -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x:
+        218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y:
+        -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x:
+        218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y:
+        -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x:
+        218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y:
+        -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x:
+        218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y:
+        -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x:
+        218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y:
+        -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x:
+        218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y:
+        -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x:
+        218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y:
+        -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x:
+        218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y:
+        -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x:
+        218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y:
+        -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x:
+        218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y:
+        -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x:
+        218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y:
+        -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x:
+        218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y:
+        -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x:
+        218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y:
+        -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x:
+        218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y:
+        -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x:
+        218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y:
+        -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x:
+        218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y:
+        -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x:
+        218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y:
+        -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x:
+        218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y:
+        -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x:
+        218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y:
+        -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x:
+        218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y:
+        -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x:
+        218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y:
+        -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x:
+        218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y:
+        -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x:
+        218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y:
+        -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x:
+        218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y:
+        -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x:
+        218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y:
+        -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x:
+        218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y:
+        -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x:
+        218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y:
+        -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x:
+        218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y:
+        -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x:
+        218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y:
+        -49.34387
+
+        x: 218.5086y: -49.34387
+
+        x: 218.5086y: -49.34387
+
+        Adding
+        Speed - Current Speed: 131
+
+        x: 221.1286y: -49.34387
+
+        x: 223.7486y:
+        -49.34387
+
+        x: 223.7486y: -49.34387
+
+        x: 226.3686y: -49.34387
+
+        x:
+        228.9886y: -49.34387
+
+        x: 228.9886y: -49.34387
+
+        x: 231.6086y:
+        -49.34387
+
+        x: 231.6086y: -49.34387
+
+        x: 234.2286y: -49.34387
+
+        x:
+        236.8486y: -49.34387
+
+        x: 236.7627y: -49.34387
+
+        x: 236.7627y:
+        -49.34387
+
+        x: 236.7402y: -49.34387
+
+        x: 236.7373y: -49.34387
+
+        x:
+        236.7355y: -49.34387
+
+        x: 236.7355y: -49.34387
+
+        x: 236.7343y:
+        -49.34387
+
+        x: 236.7335y: -49.34387
+
+        x: 236.733y: -49.34387
+
+        x:
+        236.7327y: -49.34387
+
+        x: 236.7324y: -49.34387
+
+        x: 236.7324y:
+        -49.34387
+
+        x: 236.7323y: -49.34387
+
+        x: 236.7323y: -49.34387
+
+        x:
+        236.7323y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y:
+        -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x:
+        236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y:
+        -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x:
+        236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y:
+        -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x:
+        236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y:
+        -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x:
+        236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y:
+        -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x:
+        236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y:
+        -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x:
+        236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y:
+        -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x:
+        236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y:
+        -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x:
+        236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y:
+        -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x:
+        236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y:
+        -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x:
+        236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y:
+        -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x:
+        236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y:
+        -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x:
+        236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y:
+        -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x:
+        236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y:
+        -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x:
+        236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y:
+        -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x:
+        236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y:
+        -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x:
+        236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y:
+        -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x:
+        236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y:
+        -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x:
+        236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y:
+        -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x:
+        236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y:
+        -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x:
+        236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y:
+        -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x:
+        236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y:
+        -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x:
+        236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y:
+        -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x:
+        236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y:
+        -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x:
+        236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y:
+        -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x:
+        236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y:
+        -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x:
+        236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y:
+        -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x:
+        236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y:
+        -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x:
+        236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y:
+        -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x:
+        236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y:
+        -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x:
+        236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y:
+        -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x:
+        236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y:
+        -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x:
+        236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y:
+        -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x:
+        236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y:
+        -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x:
+        236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y:
+        -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x:
+        236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y:
+        -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x:
+        236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y:
+        -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x:
+        236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y:
+        -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x:
+        236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y:
+        -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x:
+        236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y:
+        -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x:
+        236.7322y: -49.34387
+
+        x: 236.7322y: -49.34387
+
+        x: 236.7322y:
+        -49.34387
+
+        Adding Speed - Current Speed: 132
+
+        x: 208y: -54
+
+        x:
+        210.64y: -54
+
+        x: 210.64y: -54
+
+        x: 213.28y: -54
+
+        x:
+        215.92y: -54
+
+        x: 218.56y: -54
+
+        x: 221.2y: -54
+
+        x:
+        223.84y: -54
+
+        x: 226.48y: -54
+
+        x: 226.48y: -54
+
+        x:
+        229.12y: -54
+
+        x: 231.76y: -54
+
+        x: 234.4y: -54
+
+        x:
+        237.04y: -54
+
+        x: 237.04y: -54
+
+        x: 236.8129y: -54
+
+        x:
+        236.7533y: -54
+
+        x: 236.7377y: -54
+
+        x: 236.7357y: -54
+
+        x:
+        236.7357y: -54
+
+        x: 236.7357y: -54
+
+        x: 236.7345y: -54
+
+        x:
+        236.7336y: -54
+
+        x: 236.7331y: -54
+
+        x: 236.7328y: -54
+
+        x:
+        236.7328y: -54
+
+        x: 236.7326y: -54
+
+        x: 236.7324y: -54
+
+        x:
+        236.7324y: -54
+
+        x: 236.7323y: -54
+
+        x: 236.7323y: -54
+
+        x:
+        236.7323y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x:
+        236.7322y: -54
+
+        Adding Speed - Current Speed: 133
+
+        x: 210.66y:
+        -54
+
+        x: 213.32y: -54
+
+        x: 215.98y: -54
+
+        x: 218.64y:
+        -54
+
+        x: 218.64y: -54
+
+        x: 221.3y: -54
+
+        x: 223.96y:
+        -54
+
+        x: 223.96y: -54
+
+        x: 226.62y: -54
+
+        x: 226.62y:
+        -54
+
+        x: 229.28y: -54
+
+        x: 231.94y: -54
+
+        x: 234.6y:
+        -54
+
+        x: 236.8706y: -54
+
+        x: 236.7685y: -54
+
+        x: 236.7417y:
+        -54
+
+        x: 236.7383y: -54
+
+        x: 236.7361y: -54
+
+        x: 236.7347y:
+        -54
+
+        x: 236.7338y: -54
+
+        x: 236.7332y: -54
+
+        x: 236.7326y:
+        -54
+
+        x: 236.7324y: -54
+
+        x: 236.7323y: -54
+
+        x: 236.7323y:
+        -54
+
+        x: 236.7323y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y: -54
+
+        x: 236.7322y:
+        -54
+
+        x: 236.7322y: -54
+
+        Adding Speed - Current Speed: 134
+
+        x:
+        210.68y: -54
+
+        x: 213.36y: -54
+
+        x: 216.04y: -54
+
+        x:
+        218.72y: -54
+
+        x: 221.4y: -54
+
+        x: 221.4y: -54
+
+        x:
+        224.08y: -54
+
+        x: 226.7599y: -54
+
+        x: 229.4399y: -54
+
+        x:
+        232.1199y: -54
+
+        x: 234.7999y: -54
+
+        x: 234.7999y: -54
+
+        x:
+        237.4799y: -54
+
+        x: 237.4799y: -53.49539
+
+        x: 237.4799y: -53.52308
+
+        x:
+        237.4799y: -53.52308
+
+        x: 237.4799y: -53.52498
+
+        x: 237.4799y:
+        -53.52511
+
+        x: 237.4799y: -53.52511
+
+        x: 237.4799y: -53.52512
+
+        x:
+        237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y:
+        -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x:
+        237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y:
+        -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x:
+        237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y:
+        -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x:
+        237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y:
+        -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x:
+        237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y:
+        -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x:
+        237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y:
+        -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x:
+        237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y:
+        -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x:
+        237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y:
+        -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x:
+        237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y:
+        -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x:
+        237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y:
+        -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x:
+        237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y:
+        -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x:
+        237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y:
+        -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x:
+        237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y:
+        -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x:
+        237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y:
+        -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x:
+        237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y:
+        -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x:
+        237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y:
+        -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x:
+        237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y:
+        -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x:
+        237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y:
+        -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x:
+        237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y:
+        -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x:
+        237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y:
+        -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x:
+        237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y:
+        -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x:
+        237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y:
+        -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x:
+        237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y:
+        -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x:
+        237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y:
+        -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x:
+        237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y:
+        -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x:
+        237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y:
+        -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x:
+        237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y:
+        -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x:
+        237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y:
+        -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x:
+        237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y:
+        -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x:
+        237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y:
+        -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x:
+        237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y:
+        -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x:
+        237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y:
+        -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x:
+        237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y:
+        -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x:
+        237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y:
+        -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x:
+        237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y:
+        -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x:
+        237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y:
+        -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x:
+        237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y:
+        -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x:
+        237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y:
+        -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x:
+        237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y:
+        -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x:
+        237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y:
+        -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x:
+        237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y:
+        -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x: 237.4799y: -53.52512
+
+        x:
+        237.4799y: -53.52512
+
+        Asserting False - Final Speed: 134
+
+        x:
+        237.4799y: -53.52512
+
+'
+      stacktrace: 'at Tests.TaeganTest+<Check_Speed_Of_PlayerTW>d__0.MoveNext ()
+        [0x001c7] in /Users/taeganwilliams/Documents/GitHub/CS-383-Project/Existential/Assets/Tests/PlayMode/TaeganTestPlay.cs:52
+
+        at
+        UnityEngine.TestTools.TestEnumerator+<Execute>d__5.MoveNext () [0x0004c]
+        in /Users/taeganwilliams/Documents/GitHub/CS-383-Project/Existential/Library/PackageCache/com.unity.test-framework@1.1.11/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:31
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1038
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.TaeganTest][suite]
+    - id: 1040
+      uniqueId: PlayMode.dll/Tests/TaeganTest/[PlayMode][Tests.TaeganTest.Fog_Creation_FPS_TestTW]
+      name: Fog_Creation_FPS_TestTW
+      fullName: Tests.TaeganTest.Fog_Creation_FPS_TestTW
+      resultStatus: 0
+      duration: 6.2020454
+      messages: 
+      output: 'x: 47.30858y: -28.34387
+
+        x: 47.30858y: -28.34387
+
+        x:
+        47.30858y: -28.34387
+
+        x: 47.30858y: -28.34387
+
+        x: 47.30858y:
+        -28.34387
+
+        x: 47.30858y: -28.34387
+
+        x: 47.30858y: -28.34387
+
+        x:
+        47.30858y: -28.34387
+
+        x: 47.30858y: -28.34387
+
+        x: 47.30858y:
+        -28.34387
+
+        x: 47.30858y: -28.34387
+
+        x: 47.30858y: -28.34387
+
+        x:
+        47.30858y: -28.34387
+
+        x: 47.30858y: -28.34387
+
+        x: 47.30858y:
+        -28.34387
+
+        x: 47.30858y: -28.34387
+
+        x: 47.30858y: -28.34387
+
+        x:
+        47.30858y: -28.34387
+
+        x: 47.30858y: -28.34387
+
+        x: 47.30858y:
+        -28.34387
+
+        x: 47.30858y: -28.34387
+
+        x: 47.30858y: -28.34387
+
+        x:
+        47.30858y: -28.34387
+
+        x: 47.30858y: -28.34387
+
+        Frames: 24.3102960610206
+
+        x:
+        47.30858y: -28.34387
+
+        x: 47.30858y: -28.34387
+
+        x: 47.30858y:
+        -28.34387
+
+        x: 47.30858y: -28.34387
+
+        x: 47.30858y: -28.34387
+
+        Frames:
+        34.0700902690544
+
+        x: 47.30858y: -28.34387
+
+        x: 47.30858y:
+        -28.34387
+
+        x: 47.30858y: -28.34387
+
+        x: 47.30858y: -28.34387
+
+        x:
+        47.30858y: -28.34387
+
+        Frames: 38.279109434506
+
+        x: 47.30858y:
+        -28.34387
+
+        x: 47.30858y: -28.34387
+
+        x: 47.30858y: -28.34387
+
+        x:
+        47.30858y: -28.34387
+
+        x: 47.30858y: -28.34387
+
+        x: 47.30858y:
+        -28.34387
+
+        x: 47.30858y: -28.34387
+
+        Frames: 37.8742222861645
+
+        x:
+        47.30858y: -28.34387
+
+        x: 47.30858y: -28.34387
+
+        x: 47.30858y:
+        -28.34387
+
+        x: 47.30858y: -28.34387
+
+        x: 47.30858y: -28.34387
+
+        Frames:
+        33.4155750138554
+
+        x: 47.30858y: -28.34387
+
+        x: 47.30858y:
+        -28.34387
+
+        x: 47.30858y: -28.34387
+
+        x: 47.30858y: -28.34387
+
+        x:
+        47.30858y: -28.34387
+
+        Frames: 34.6544673352481
+
+        x: 47.30858y:
+        -28.34387
+
+        x: 47.30858y: -28.34387
+
+        x: 47.30858y: -28.34387
+
+        x:
+        47.30858y: -28.34387
+
+        x: 47.30858y: -28.34387
+
+        Frames: 32.1242593164341
+
+        x:
+        47.30858y: -28.34387
+
+        x: 47.30858y: -28.34387
+
+        x: 47.30858y:
+        -28.34387
+
+        x: 47.30858y: -28.34387
+
+        Frames: 27.1004987566524
+
+        x:
+        47.30858y: -28.34387
+
+        x: 47.30858y: -28.34387
+
+        x: 47.30858y:
+        -28.34387
+
+        x: 47.30858y: -28.34387
+
+        x: 47.30858y: -28.34387
+
+        Frames:
+        23.6685482201905
+
+        x: 47.30858y: -28.34387
+
+        x: 47.30858y:
+        -28.34387
+
+        x: 47.30858y: -28.34387
+
+        x: 47.30858y: -28.34387
+
+        Frames:
+        34.2663813040397
+
+        x: 47.30858y: -28.34387
+
+        x: 47.30858y:
+        -28.34387
+
+        x: 47.30858y: -28.34387
+
+        x: 47.30858y: -28.34387
+
+        Frames:
+        33.1578388187576
+
+        x: 47.30858y: -28.34387
+
+        x: 47.30858y:
+        -28.34387
+
+        x: 47.30858y: -28.34387
+
+        x: 47.30858y: -28.34387
+
+        Frames:
+        30.9624258078226
+
+        x: 47.30858y: -28.34387
+
+        x: 47.30858y:
+        -28.34387
+
+        x: 47.30858y: -28.34387
+
+        x: 47.30858y: -28.34387
+
+        x:
+        47.30858y: -28.34387
+
+        Frames: 41.6589857076275
+
+        x: 47.30858y:
+        -28.34387
+
+        x: 47.30858y: -28.34387
+
+        x: 47.30858y: -28.34387
+
+        x:
+        47.30858y: -28.34387
+
+        Frames: 31.442338532293
+
+        x: 47.30858y:
+        -28.34387
+
+        x: 47.30858y: -28.34387
+
+        x: 47.30858y: -28.34387
+
+        x:
+        47.30858y: -28.34387
+
+        Frames: 26.79165098663
+
+        x: 47.30858y:
+        -28.34387
+
+        x: 47.30858y: -28.34387
+
+        x: 47.30858y: -28.34387
+
+        x:
+        47.30858y: -28.34387
+
+        Frames: 31.4175778229868
+
+        x: 47.30858y:
+        -28.34387
+
+        x: 47.30858y: -28.34387
+
+        x: 47.30858y: -28.34387
+
+        Frames:
+        32.8598339540078
+
+        x: 47.30858y: -28.34387
+
+        x: 47.30858y:
+        -28.34387
+
+        x: 47.30858y: -28.34387
+
+        Frames: 31.5033148205656
+
+        x:
+        47.30858y: -28.34387
+
+        x: 47.30858y: -28.34387
+
+        x: 47.30858y:
+        -28.34387
+
+        x: 47.30858y: -28.34387
+
+        Frames: 26.1213670714053
+
+        x:
+        47.30858y: -28.34387
+
+        x: 47.30858y: -28.34387
+
+        x: 47.30858y:
+        -28.34387
+
+        Frames: 23.5849214611081
+
+        x: 47.30858y: -28.34387
+
+        x:
+        47.30858y: -28.34387
+
+        x: 47.30858y: -28.34387
+
+        Frames: 24.4555763151196
+
+        x:
+        47.30858y: -28.34387
+
+        x: 47.30858y: -28.34387
+
+        x: 47.30858y:
+        -28.34387
+
+        Frames: 23.1862118380429
+
+        x: 47.30858y: -28.34387
+
+        x:
+        47.30858y: -28.34387
+
+        x: 47.30858y: -28.34387
+
+        Frames: 17.0924518614363
+
+        x:
+        47.30858y: -28.34387
+
+        x: 47.30858y: -28.34387
+
+        x: 47.30858y:
+        -28.34387
+
+        Frames: 20.84547958796
+
+        x: 47.30858y: -28.34387
+
+        x:
+        47.30858y: -28.34387
+
+        x: 47.30858y: -28.34387
+
+        Frames: 15.8332139995187
+
+        x:
+        47.30858y: -28.34387
+
+        x: 47.30858y: -28.34387
+
+        x: 47.30858y:
+        -28.34387
+
+        Frames: 14.0542270528374
+
+        The creation of Fog
+        objects per seccond is now greater than the FPS!
+
+        Was able to create
+        27 fog objects before FPS < 15 in 1.04749583639205 seconds
+
+        x: 47.30858y:
+        -28.34387
+
+'
+      stacktrace: 'at Tests.TaeganTest+<Fog_Creation_FPS_TestTW>d__4.MoveNext ()
+        [0x001ea] in /Users/taeganwilliams/Documents/GitHub/CS-383-Project/Existential/Assets/Tests/PlayMode/TaeganTestPlay.cs:133
+
+        at
+        UnityEngine.TestTools.TestEnumerator+<Execute>d__5.MoveNext () [0x0004c]
+        in /Users/taeganwilliams/Documents/GitHub/CS-383-Project/Existential/Library/PackageCache/com.unity.test-framework@1.1.11/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:31
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1038
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.TaeganTest][suite]
+    - id: 1041
+      uniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ToriTests][suite]
+      name: ToriTests
+      fullName: Tests.ToriTests
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1048
+      parentUniqueId: PlayMode.dll/[Tests][suite]
+    - id: 1043
+      uniqueId: PlayMode.dll/Tests/ToriTests/[PlayMode][Tests.ToriTests.CheckHudExists]
+      name: CheckHudExists
+      fullName: Tests.ToriTests.CheckHudExists
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1041
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ToriTests][suite]
+    - id: 1044
+      uniqueId: PlayMode.dll/Tests/ToriTests/[PlayMode][Tests.ToriTests.CheckInvExists]
+      name: CheckInvExists
+      fullName: Tests.ToriTests.CheckInvExists
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1041
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ToriTests][suite]
+    - id: 1045
+      uniqueId: PlayMode.dll/Tests/ToriTests/[PlayMode][Tests.ToriTests.ToriTestsInventoryOverload]
+      name: ToriTestsInventoryOverload
+      fullName: Tests.ToriTests.ToriTestsInventoryOverload
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1041
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ToriTests][suite]
+    - id: 1046
+      uniqueId: PlayMode.dll/Tests/ToriTests/[PlayMode][Tests.ToriTests.ToriTestsItemSlots]
+      name: ToriTestsItemSlots
+      fullName: Tests.ToriTests.ToriTestsItemSlots
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1041
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ToriTests][suite]
+    - id: 1042
+      uniqueId: PlayMode.dll/Tests/ToriTests/[PlayMode][Tests.ToriTests.ToriTestsSimplePasses]
+      name: ToriTestsSimplePasses
+      fullName: Tests.ToriTests.ToriTestsSimplePasses
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1041
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ToriTests][suite]
+    m_ResultText: 'StressTest (11.606s)
+
+      ---
+
+      The referenced script (Unknown)
+      on this Behaviour is missing!
+
+      The referenced script on this Behaviour
+      (Game Object ''Main Camera'') is missing!
+
+      The referenced script on this
+      Behaviour (Game Object ''Main Camera'') is missing!
+
+      count: 10
+
+      fps:
+      96.16515
+
+      count: 20
+
+      fps: 87.90313
+
+      count: 30
+
+      fps:
+      76.85159
+
+      count: 40
+
+      fps: 82.47538
+
+      count: 50
+
+      fps:
+      31.44988
+
+      count: 60
+
+      fps: 54.21316
+
+      count: 70
+
+      fps:
+      56.56306
+
+      count: 80
+
+      fps: 187.0252
+
+      count: 90
+
+      fps:
+      61.41975
+
+      count: 100
+
+      fps: 66.23323'
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: f31fc870
+      m_LastClickedID: 1892163571
+      m_ExpandedIDs: 33fcf89c095273df7c95c7e36521a7fa411e8cfc45d21e3fc240ad6168e20b65a98bee76ffffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories:
+      - Uncategorized
+  m_EditModeTestListGUI:
+    m_Window: {fileID: 21}
+    newResultList:
+    - id: 1000
+      uniqueId: '[Existential][suite]'
+      name: Existential
+      fullName: Existential
+      resultStatus: 1
+      duration: 4.6290326
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: 1003
+      uniqueId: '[/Users/taeganwilliams/Documents/GitHub/CS-383-Project/Existential/Library/ScriptAssemblies/Tests.dll][suite]'
+      name: Tests.dll
+      fullName: /Users/taeganwilliams/Documents/GitHub/CS-383-Project/Existential/Library/ScriptAssemblies/Tests.dll
+      resultStatus: 1
+      duration: 4.517211
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: '[Existential][suite]'
+    - id: 1004
+      uniqueId: Tests.dll/[Tests][suite]
+      name: Tests
+      fullName: Tests
+      resultStatus: 1
+      duration: 4.5023804
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1003
+      parentUniqueId: '[/Users/taeganwilliams/Documents/GitHub/CS-383-Project/Existential/Library/ScriptAssemblies/Tests.dll][suite]'
+    - id: 1001
+      uniqueId: Tests.dll/Tests/[Tests][Tests.TaeganTestTW][suite]
+      name: TaeganTestTW
+      fullName: Tests.TaeganTestTW
+      resultStatus: 1
+      duration: 4.4934406
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1004
+      parentUniqueId: Tests.dll/[Tests][suite]
+    - id: 1002
+      uniqueId: Tests.dll/Tests/TaeganTestTW/[Tests][Tests.TaeganTestTW.Check_For_Ground_Tag]
+      name: Check_For_Ground_Tag
+      fullName: Tests.TaeganTestTW.Check_For_Ground_Tag
+      resultStatus: 1
+      duration: 4.461405
+      messages: 
+      output: 'No Ground tag set in scene: ForestDesignTesting
+
+        No Ground
+        tag set in scene: PauseMenu
+
+        No Ground tag set in scene: SydneyForestScene
+
+        No
+        Ground tag set in scene: SydneyNightForestScene
+
+        No Ground tag set
+        in scene: SydneyTestingScene
+
+        No Ground tag set in scene: Inventory
+        Menu
+
+        This object: MemorialGrid in scene: QueensMemorial has the
+        tag: rock
+
+        This object: ToriSceneGrid in scene: ToriScene has the
+        tag: wood
+
+        This object: Grid in scene: SamScene has the tag: rock
+
+        This
+        object: Ground in scene: Isabel Level has the tag: grass
+
+        This object:
+        levelTilemap in scene: Isabel Level has the tag: graveyard
+
+        This
+        object: Ground0 in scene: TaeganScene has the tag: rock
+
+        This object:
+        Ground in scene: BeginScene has the tag: grass
+
+'
+      stacktrace: 'at Tests.TaeganTestTW.Check_For_Ground_Tag () [0x001a0] in /Users/taeganwilliams/Documents/GitHub/CS-383-Project/Existential/Assets/Tests/EditMode/TaeganTestEdit.cs:49
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: Tests.dll/Tests/[Tests][Tests.TaeganTestTW][suite]
+    m_ResultText: 'Check_For_Ground_Tag (4.461s)
+
+      ---
+
+      at Tests.TaeganTestTW.Check_For_Ground_Tag
+      () [0x001a0] in /Users/taeganwilliams/Documents/GitHub/CS-383-Project/Existential/Assets/Tests/EditMode/TaeganTestEdit.cs:49
+
+      ---
+
+      No
+      Ground tag set in scene: ForestDesignTesting
+
+      No Ground tag set in scene:
+      PauseMenu
+
+      No Ground tag set in scene: SydneyForestScene
+
+      No Ground
+      tag set in scene: SydneyNightForestScene
+
+      No Ground tag set in scene:
+      SydneyTestingScene
+
+      No Ground tag set in scene: Inventory Menu
+
+      This
+      object: MemorialGrid in scene: QueensMemorial has the tag: rock
+
+      This
+      object: ToriSceneGrid in scene: ToriScene has the tag: wood
+
+      This object:
+      Grid in scene: SamScene has the tag: rock
+
+      This object: Ground in scene:
+      Isabel Level has the tag: grass
+
+      This object: levelTilemap in scene:
+      Isabel Level has the tag: graveyard
+
+      This object: Ground0 in scene: TaeganScene
+      has the tag: rock
+
+      This object: Ground in scene: BeginScene has the tag:
+      grass'
+    m_ResultStacktrace: 'at Tests.TaeganTestTW.Check_For_Ground_Tag () [0x001a0]
+      in /Users/taeganwilliams/Documents/GitHub/CS-383-Project/Existential/Assets/Tests/EditMode/TaeganTestEdit.cs:49
+
+'
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 22f1c6ca
+      m_LastClickedID: -892931806
+      m_ExpandedIDs: 7c95c7e360aa9f0a8359db414546a972ffffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories:
+      - Uncategorized
