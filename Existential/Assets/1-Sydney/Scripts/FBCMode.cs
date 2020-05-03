@@ -1,5 +1,6 @@
 ﻿/* Created by Sam Spalding, edited by Sydney Petrehn for level
  * Script to display canvas of "BC Mode" if the B key is pressed
+ * Allows for turning off the minimap
  */
 
 using System.Collections;
