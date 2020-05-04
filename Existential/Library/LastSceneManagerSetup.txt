@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/2-Tori/Scenes/QueensMemorial.unity
+=======
+- path: Assets/1-Sydney/Scenes/SydneyNightForestScene.unity
+>>>>>>> 59da518602042d643929ac335795e3d3f5bc9929
   isLoaded: 1
   isActive: 1
   isSubScene: 0

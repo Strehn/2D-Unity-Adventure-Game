@@ -24,7 +24,8 @@ public class CatInstantiate : MonoBehaviour
     void Start()
     {
         Cat1 = Instantiate(Cat, new Vector2(8, 4), transform.rotation);
-        
+        //Cat2 = Instantiate(Cat, new Vector2(8, 4), transform.rotation); //Check for singleton pattern
+
     }
 
     // Update is called once per frame

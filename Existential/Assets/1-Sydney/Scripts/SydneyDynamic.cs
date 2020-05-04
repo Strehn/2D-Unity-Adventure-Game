@@ -34,7 +34,7 @@ public class Bunny : MonoBehaviour
     //just set to spawn bunny
     public virtual void spawnBun(GameObject obj)
     {
-        Vector2 SpawnLocation = new Vector2(8, 4);
+        Vector2 SpawnLocation = new Vector2(6, 10);
         GameObject bunny = MonoBehaviour.Instantiate(Resources.Load<GameObject>("Prefabs/SpawnedBunny"));
         bunny.transform.position = SpawnLocation;
     }
@@ -49,7 +49,7 @@ public class Cat : Bunny
     //override the Spawn function
     public override void spawnBun(GameObject obj)
     {
-        Vector2 SpawnLocation = new Vector2(8, 4);
+        Vector2 SpawnLocation = new Vector2(6, 10);
         GameObject cat = MonoBehaviour.Instantiate(Resources.Load<GameObject>("Prefabs/SpawnedCat"));
         cat.transform.position = SpawnLocation;
     }

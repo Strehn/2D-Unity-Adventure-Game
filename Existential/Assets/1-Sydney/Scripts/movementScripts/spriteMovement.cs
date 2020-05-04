@@ -11,8 +11,8 @@ public class spriteMovement : MonoBehaviour{
     // check for movement and apply it to player object
     public float speed;                //Floating point variable to store the sprite's movement speed.
 
-    private Vector2 minWalkPoint;
-    private Vector2 maxWalkPoint;
+    private Vector2 minWalkPoint = new Vector2(2, 7);
+    private Vector2 maxWalkPoint = new Vector2(5, 13);
     private Rigidbody2D rb2d;        //Store a reference to the Rigidbody2D component required to use 2D Physics.
     public bool isWalking;
     public float walkTime;
@@ -20,8 +20,6 @@ public class spriteMovement : MonoBehaviour{
     private float walkCounter;
     private float waitCounter;
     private int WalkDirection;
-    public Collider2D walkZone;
-    private bool hasWalkZone;
 
     // used in random spawning
     public GameObject prefab;
@@ -38,12 +36,6 @@ public class spriteMovement : MonoBehaviour{
         //Randomly choose direction
         ChooseDirection();
 
-        if (walkZone != null){
-            //Set area to wander
-            minWalkPoint = walkZone.bounds.min;
-            maxWalkPoint = walkZone.bounds.max;
-            hasWalkZone = true;
-        }
     }
 
     // update is called once per frame
@@ -57,7 +49,7 @@ public class spriteMovement : MonoBehaviour{
                 case 0:
                     //move upward
                     rb2d.velocity = new Vector2(0, speed);
-                    if(hasWalkZone && transform.position.y > maxWalkPoint.y){
+                    if(transform.position.y > maxWalkPoint.y){
                         isWalking = false;
                         waitCounter = waitTime;
                     }
@@ -66,7 +58,7 @@ public class spriteMovement : MonoBehaviour{
                 case 1:
                     // move right
                     rb2d.velocity = new Vector2(speed, 0);
-                    if (hasWalkZone && transform.position.x > maxWalkPoint.x){
+                    if (transform.position.x > maxWalkPoint.x){
                         isWalking = false;
                         waitCounter = waitTime;
                     }
@@ -75,7 +67,7 @@ public class spriteMovement : MonoBehaviour{
                 case 2:
                     // move down
                     rb2d.velocity = new Vector2(0, -speed);
-                    if (hasWalkZone && transform.position.y < minWalkPoint.y){
+                    if (transform.position.y < minWalkPoint.y){
                         isWalking = false;
                         waitCounter = waitTime;
                     }
@@ -83,7 +75,7 @@ public class spriteMovement : MonoBehaviour{
                 case 3:
                     // move left
                     rb2d.velocity = new Vector2(-speed, 0);
-                    if (hasWalkZone && transform.position.x < minWalkPoint.x){
+                    if (transform.position.x < minWalkPoint.x){
                         isWalking = false;
                         waitCounter = waitTime;
                     }

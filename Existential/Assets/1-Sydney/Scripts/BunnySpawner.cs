@@ -44,8 +44,8 @@ public class BunnySpawner : MonoBehaviour
         if (c1.isSpawn(numOfObjects, spawnSpeed))
         {
             //rand is a random value on the x-axis to make the particle fall more natural
-            randx = Random.Range(Camera.main.ScreenToWorldPoint(new Vector2(0, 0)).x, Camera.main.ScreenToWorldPoint(new Vector2(Screen.width, 0)).x);
-            randy = Random.Range(Camera.main.ScreenToWorldPoint(new Vector2(0, 0)).x, Camera.main.ScreenToWorldPoint(new Vector2(Screen.width, 0)).x);
+            randx = Random.Range(0, 16);
+            randy = Random.Range(0, 16);
 
             //instantiate whatever object we are at in the iterator
             objs[i] = Instantiate(obj, new Vector2(randx,randy ), transform.rotation);

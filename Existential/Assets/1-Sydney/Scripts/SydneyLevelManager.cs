@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/**********************
+ * Sydney - Static and Dynamic binding
+ *
+ * This is used to change levels and should be attatched to the level changer
+ * It looks at the inventory and sees how many items the player has
+ *********************/using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
