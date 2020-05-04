@@ -52,7 +52,7 @@ public sealed class HudInventory : MonoBehaviour{
     }
     // Start is called before the first frame update
     void Start(){
-
+        // subscibing to events from the inventory
         Inventory.ItemAdded += Inventory_ItemAdded;
         Inventory.ItemRemoved += Inventory_ItemRemoved;
     }

@@ -75,6 +75,8 @@ public class BCModeToriLevel : MonoBehaviour{
     IEnumerator ShowPathPopup(GameObject gameobj){
         gameobj.GetComponent<Text>().enabled = true;
         yield return new WaitForSeconds(delay);
+        GameObject bcbutton = GameObject.Find("BCMode");
+        bcbutton.SetActive(false);
         gameobj.GetComponent<Text>().enabled = false;
     }
    

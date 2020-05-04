@@ -14,17 +14,43 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 252
-    y: 268
-    width: 1280
-    height: 691
+    x: 8
+    y: 51
+    width: 1569
+    height: 1293
   m_ShowMode: 4
   m_Title: 
-  m_RootView: {fileID: 2}
+  m_RootView: {fileID: 3}
   m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 0
 --- !u!114 &2
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: GameView
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 402
+    y: 0
+    width: 892
+    height: 926
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 15}
+  m_Panes:
+  - {fileID: 15}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -37,18 +63,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 3}
-  - {fileID: 5}
   - {fileID: 4}
+  - {fileID: 6}
+  - {fileID: 5}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1280
-    height: 691
+    width: 1569
+    height: 1293
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
---- !u!114 &3
+--- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -65,12 +91,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1280
+    width: 1569
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
   m_LastLoadedLayoutName: 
---- !u!114 &4
+--- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -86,36 +112,11 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 671
-    width: 1280
+    y: 1273
+    width: 1569
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
---- !u!114 &5
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 6}
-  - {fileID: 11}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 30
-    width: 1280
-    height: 641
-  m_MinSize: {x: 678, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
-  vertical: 0
-  controlID: 52232
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -130,17 +131,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Children:
   - {fileID: 7}
-  - {fileID: 10}
+  - {fileID: 12}
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 0
-    width: 966
-    height: 641
-  m_MinSize: {x: 402, y: 492}
-  m_MaxSize: {x: 10001, y: 14042}
-  vertical: 1
-  controlID: 52233
+    y: 30
+    width: 1569
+    height: 1243
+  m_MinSize: {x: 877, y: 492}
+  m_MaxSize: {x: 16002, y: 14042}
+  vertical: 0
+  controlID: 27
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -155,18 +156,44 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Children:
   - {fileID: 8}
-  - {fileID: 9}
+  - {fileID: 11}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 966
-    height: 370
-  m_MinSize: {x: 402, y: 221}
-  m_MaxSize: {x: 8002, y: 4021}
-  vertical: 0
-  controlID: 52234
+    width: 1294
+    height: 1243
+  m_MinSize: {x: 602, y: 492}
+  m_MaxSize: {x: 12002, y: 14042}
+  vertical: 1
+  controlID: 28
 --- !u!114 &8
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 9}
+  - {fileID: 10}
+  - {fileID: 2}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1294
+    height: 926
+  m_MinSize: {x: 602, y: 221}
+  m_MaxSize: {x: 12002, y: 4021}
+  vertical: 0
+  controlID: 29
+--- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -183,16 +210,16 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 264
-    height: 370
+    width: 200
+    height: 926
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 13}
+  m_ActualView: {fileID: 14}
   m_Panes:
-  - {fileID: 13}
+  - {fileID: 14}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &9
+--- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -207,21 +234,20 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 264
+    x: 200
     y: 0
-    width: 702
-    height: 370
+    width: 202
+    height: 926
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 12}
+  m_ActualView: {fileID: 13}
   m_Panes:
-  - {fileID: 12}
-  - {fileID: 14}
-  - {fileID: 15}
+  - {fileID: 13}
   - {fileID: 16}
+  - {fileID: 17}
   m_Selected: 0
-  m_LastSelected: 1
---- !u!114 &10
+  m_LastSelected: 2
+--- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -237,18 +263,18 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 370
-    width: 966
-    height: 271
+    y: 926
+    width: 1294
+    height: 317
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 17}
+  m_ActualView: {fileID: 18}
   m_Panes:
-  - {fileID: 17}
   - {fileID: 18}
+  - {fileID: 19}
   m_Selected: 0
   m_LastSelected: 1
---- !u!114 &11
+--- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -263,20 +289,20 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 966
+    x: 1294
     y: 0
-    width: 314
-    height: 641
+    width: 275
+    height: 1243
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 19}
+  m_ActualView: {fileID: 20}
   m_Panes:
-  - {fileID: 19}
   - {fileID: 20}
   - {fileID: 21}
+  - {fileID: 22}
   m_Selected: 0
-  m_LastSelected: 1
---- !u!114 &12
+  m_LastSelected: 2
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -292,29 +318,29 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Scene
-    m_Image: {fileID: -131512000283675692, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: 2318424515335265636, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 516
-    y: 298
-    width: 700
-    height: 349
+    x: 208
+    y: 81
+    width: 200
+    height: 905
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: 813b1bbdf31ee5645ba010b0123feeb0
   m_Gizmos: 1
-  m_SceneIsLit: 0
+  m_SceneIsLit: 1
   m_SceneLighting: 1
   m_2DMode: 1
   m_isRotationLocked: 0
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 46.908585, y: -28.64386, z: -21.680998}
+    m_Target: {x: 2.839124, y: 0.17563364, z: -17.698357}
     speed: 2
-    m_Value: {x: 46.908585, y: -28.64386, z: -21.680998}
+    m_Value: {x: 2.839124, y: 0.17563364, z: -17.698357}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -327,7 +353,7 @@ MonoBehaviour:
   m_SceneViewState:
     showFog: 1
     showMaterialUpdate: 0
-    showSkybox: 0
+    showSkybox: 1
     showFlares: 1
     showImageEffects: 1
     showParticleSystems: 1
@@ -364,9 +390,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 318.19797
+    m_Target: 14.458316
     speed: 2
-    m_Value: 318.19797
+    m_Value: 14.458316
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -391,7 +417,7 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &13
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -407,38 +433,38 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Hierarchy
-    m_Image: {fileID: -9000905672528348964, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -590624980919486359, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 252
-    y: 298
-    width: 263
-    height: 349
+    x: 8
+    y: 81
+    width: 199
+    height: 905
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: c4580000
       m_LastClickedID: 0
-      m_ExpandedIDs: a60ae5ffb20ae5ff4af305005ef30500
+      m_ExpandedIDs: 66dfffff60e4ffff0ae8ffff8ae8ffff6ce9ffff94ebffff5eecffff26edffff5eeeffff7ef0ffff62f3ffff88f4ffffcef4ffff56f7ffff6afbffff8ebd000006c000008cc80000b8c80000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Knight3
-        m_OriginalName: Knight3
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 373040
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 8}
+        m_ClientGUIView: {fileID: 9}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -446,7 +472,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 12822379486e19b408ecf1060aa5d842
---- !u!114 &14
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -462,15 +488,15 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Game
-    m_Image: {fileID: 257045534191678443, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -2087823869225018852, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 264
-    y: 30
-    width: 700
-    height: 412
+    x: 410
+    y: 81
+    width: 890
+    height: 905
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewsNames: []
   m_SerializedViewsValues: []
@@ -478,7 +504,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1400, y: 782}
+  m_TargetSize: {x: 890, y: 884}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -492,10 +518,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -350
-    m_HBaseRangeMax: 350
-    m_VBaseRangeMin: -195.5
-    m_VBaseRangeMax: 195.5
+    m_HBaseRangeMin: -445
+    m_HBaseRangeMax: 445
+    m_VBaseRangeMin: -442
+    m_VBaseRangeMax: 442
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -504,7 +530,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -513,29 +539,29 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 700
-      height: 391
+      width: 890
+      height: 884
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 350, y: 195.5}
+    m_Translation: {x: 445, y: 442}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -350
-      y: -195.5
-      width: 700
-      height: 391
+      x: -445
+      y: -442
+      width: 890
+      height: 884
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1400, y: 824}
+  m_LastWindowPixelSize: {x: 890, y: 905}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 00000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &15
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -551,7 +577,7 @@ MonoBehaviour:
   m_MaxSize: {x: 2048, y: 2048}
   m_TitleContent:
     m_Text: Asset Store
-    m_Image: {fileID: -4391848389275900105, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: 357073275683767465, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
@@ -561,7 +587,7 @@ MonoBehaviour:
     width: 973
     height: 501
   m_ViewDataDictionary: {fileID: 0}
---- !u!114 &16
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -581,16 +607,16 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 258
-    y: 30
-    width: 687
-    height: 458
+    x: 431
+    y: 73
+    width: 888
+    height: 734
   m_ViewDataDictionary: {fileID: 0}
   m_ResetOnNextRepaint: 0
-  m_SelectedAssetPath: 
-  m_SelectedSpriteRectGUID: 00000000000000000000000000000000
+  m_SelectedAssetPath: Assets/2-Tori/Assets/npc1.png
+  m_SelectedSpriteRectGUID: 4baf9e05285f12270800000000000000
   m_LastUsedModuleTypeName: 
---- !u!114 &17
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -606,15 +632,15 @@ MonoBehaviour:
   m_MaxSize: {x: 10000, y: 10000}
   m_TitleContent:
     m_Text: Project
-    m_Image: {fileID: -2032128904892744680, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -7501376956915960154, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 389
-    width: 965
-    height: 250
+    x: 8
+    y: 1007
+    width: 1293
+    height: 296
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -629,20 +655,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/2-Tori/Scripts
   m_ViewMode: 1
   m_StartGridSize: 62
   m_LastFolders:
-  - Assets
+  - Assets/2-Tori/Scripts
   m_LastFoldersGridSize: 62
-  m_LastProjectPath: /Users/taeganwilliams/Documents/GitHub/CS-383-Project/Existential
+  m_LastProjectPath: C:\Users\victo\cs383\V3\CS-383-Project\Existential
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 08380000
-    m_LastClickedID: 14344
-    m_ExpandedIDs: 00000000083800009e390000083e00007c3f0000983f0000a23f00001240000000420000de4300009e4700000a4c0000264c000078520000ec5d00001e610000cc660000186b00008871000098710000d2710000ee730000e67e0000268e00006e910000c6920000869b0000ce9c000018a7000008af00003eaf00006eaf0000f8b0000076b1000062ba000064ba000066ba000068ba00006aba00006cba00006eba000070ba000072ba000074ba000076ba000078ba00007aba00007cba00007eba000080ba000000ca9a3b
+    scrollPos: {x: 0, y: 64}
+    m_SelectedIDs: c4580000
+    m_LastClickedID: 22724
+    m_ExpandedIDs: 00000000fc37000076380000dc3c0000503e0000763e0000e63e0000ca400000a64200006646000090490000aa490000f04f0000665b00009a5e00003864000080680000f46e0000046f00003e6f00005a7100004a8a00008e8d0000e08e0000a4970000e698000028a3000018ab00004eab00007cab000004ad000080ad000092b6000094b6000096b6000098b600009ab600009cb600009eb60000a0b60000a2b60000a4b60000a6b60000a8b60000aab60000acb60000aeb60000b0b6000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -670,7 +696,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000083800009e390000083e00007c3f0000a23f00001240000000420000de4300009e4700000a4c0000264c000078520000ec5d00001e610000cc660000186b00008871000098710000d2710000ee730000268e00006e910000c6920000869b0000ce9c000018a7000008af00003eaf00006eaf0000f8b0000076b1000062ba000064ba000066ba000068ba00006aba00006cba00006eba000070ba000072ba000074ba000076ba000078ba00007aba00007cba00007eba000080ba000000ca9a3b
+    m_ExpandedIDs: 00000000fc37000076380000dc3c0000503e0000763e0000e63e0000ca4000006646000090490000aa490000f04f0000665b00009a5e00003864000080680000f46e0000046f00003e6f00005a7100004a8a00008e8d0000e08e0000a4970000e698000028a3000018ab00007cab000080ad000092b6000094b6000096b6000098b600009ab600009cb600009eb60000a0b60000a2b60000a4b60000a6b60000a8b60000aab60000acb60000aeb60000b0b60000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -698,7 +724,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000023e01008656000000000000
+    m_ExpandedInstanceIDs: c6230000023e01008656000000000000ccb60000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -714,7 +740,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 10}
+      m_ClientGUIView: {fileID: 11}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -726,7 +752,7 @@ MonoBehaviour:
     m_GridSize: 62
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 264
---- !u!114 &18
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -742,17 +768,17 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Console
-    m_Image: {fileID: -3303252850963283158, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: 111653112392082826, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 463
-    width: 965
-    height: 296
+    x: 8
+    y: 697
+    width: 1029
+    height: 430
   m_ViewDataDictionary: {fileID: 0}
---- !u!114 &19
+--- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -768,15 +794,15 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Inspector
-    m_Image: {fileID: 8356117983803934776, guid: 0000000000000000d000000000000000,
+    m_Image: {fileID: -6905738622615590433, guid: 0000000000000000d000000000000000,
       type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1218
-    y: 298
-    width: 313
-    height: 620
+    x: 1302
+    y: 81
+    width: 274
+    height: 1222
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
   m_ObjectsLockedBeforeSerialization: []
@@ -790,7 +816,7 @@ MonoBehaviour:
   m_PreviewWindow: {fileID: 0}
   m_LastInspectedObjectInstanceID: -1
   m_LastVerticalScrollValue: 0
---- !u!114 &20
+--- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -821,7 +847,7 @@ MonoBehaviour:
     m_PrefName: Preview_TilemapBrushInspector
   m_Palette: {fileID: 7633305548790960446, guid: 2d42e3650944a0543a71b6b4106d5ed2,
     type: 3}
---- !u!114 &21
+--- !u!114 &22
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -841,34 +867,34 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 966
-    y: 30
-    width: 313
-    height: 729
+    x: 2232
+    y: 73
+    width: 327
+    height: 1286
   m_ViewDataDictionary: {fileID: 0}
   m_Spl:
-    ID: 83296
+    ID: 17007
     splitterInitialOffset: 319
     currentActiveSplitter: -1
-    realSizes: f90000009a010000
+    realSizes: cb010000f5020000
     relativeSizes:
     - 0.37784523
     - 0.6221548
     minSizes: 2000000020000000
     maxSizes: 0000000000000000
-    lastTotalSize: 659
+    lastTotalSize: 1216
     splitSize: 6
     xOffset: 0
   m_TestTypeToolbarIndex: 0
   m_PlayModeTestListGUI:
-    m_Window: {fileID: 21}
+    m_Window: {fileID: 22}
     newResultList:
     - id: 1021
       uniqueId: '[Existential][suite]'
       name: Existential
       fullName: Existential
       resultStatus: 1
-      duration: 11.73145
+      duration: 2.1931615
       messages: 
       output: 
       stacktrace: 
@@ -879,12 +905,12 @@ MonoBehaviour:
       categories: []
       parentId: 
       parentUniqueId: 
-    - id: 1047
-      uniqueId: '[/Users/taeganwilliams/Documents/GitHub/CS-383-Project/Existential/Library/ScriptAssemblies/PlayMode.dll][suite]'
+    - id: 1028
+      uniqueId: '[C:/Users/victo/cs383/V3/CS-383-Project/Existential/Library/ScriptAssemblies/PlayMode.dll][suite]'
       name: PlayMode.dll
-      fullName: /Users/taeganwilliams/Documents/GitHub/CS-383-Project/Existential/Library/ScriptAssemblies/PlayMode.dll
+      fullName: C:/Users/victo/cs383/V3/CS-383-Project/Existential/Library/ScriptAssemblies/PlayMode.dll
       resultStatus: 1
-      duration: 11.679273
+      duration: 2.1516354
       messages: 
       output: 
       stacktrace: 
@@ -893,14 +919,14 @@ MonoBehaviour:
       description: 
       isSuite: 1
       categories: []
-      parentId: 1021
+      parentId: 1000
       parentUniqueId: '[Existential][suite]'
     - id: 1048
       uniqueId: PlayMode.dll/[Tests][suite]
       name: Tests
       fullName: Tests
       resultStatus: 1
-      duration: 11.665766
+      duration: 2.1190772
       messages: 
       output: 
       stacktrace: 
@@ -4306,8 +4332,8 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ToriTests][suite]
       name: ToriTests
       fullName: Tests.ToriTests
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 2.1050787
       messages: 
       output: 
       stacktrace: 
@@ -4322,10 +4348,29 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Tests/ToriTests/[PlayMode][Tests.ToriTests.CheckHudExists]
       name: CheckHudExists
       fullName: Tests.ToriTests.CheckHudExists
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.1252468
       messages: 
-      output: 
+      output: 'The referenced script (Unknown) on this Behaviour is missing!
+
+        The
+        referenced script on this Behaviour (Game Object ''FadePanel'') is missing!
+
+        The
+        referenced script (Unknown) on this Behaviour is missing!
+
+        The referenced
+        script on this Behaviour (Game Object ''FadePanel'') is missing!
+
+        The
+        referenced script on this Behaviour (Game Object ''FadePanel'') is missing!
+
+        You
+        are trying to create a MonoBehaviour using the ''new'' keyword.  This is
+        not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively,
+        your script can inherit from ScriptableObject or no base class at all
+
+'
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
@@ -4339,10 +4384,18 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/Tests/ToriTests/[PlayMode][Tests.ToriTests.CheckInvExists]
       name: CheckInvExists
       fullName: Tests.ToriTests.CheckInvExists
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.0191992
       messages: 
-      output: 
+      output: 'The referenced script (Unknown) on this Behaviour is missing!
+
+        The
+        referenced script on this Behaviour (Game Object ''FadePanel'') is missing!
+
+        The
+        referenced script on this Behaviour (Game Object ''FadePanel'') is missing!
+
+'
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
@@ -4352,12 +4405,12 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1041
       parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ToriTests][suite]
-    - id: 1045
-      uniqueId: PlayMode.dll/Tests/ToriTests/[PlayMode][Tests.ToriTests.ToriTestsInventoryOverload]
-      name: ToriTestsInventoryOverload
-      fullName: Tests.ToriTests.ToriTestsInventoryOverload
-      resultStatus: 0
-      duration: 0
+    - id: 1025
+      uniqueId: PlayMode.dll/Tests/ToriTests/[PlayMode][Tests.ToriTests.CheckInvScriptExists]
+      name: CheckInvScriptExists
+      fullName: Tests.ToriTests.CheckInvScriptExists
+      resultStatus: 1
+      duration: 0.0020862
       messages: 
       output: 
       stacktrace: 
@@ -4367,14 +4420,38 @@ MonoBehaviour:
       isSuite: 0
       categories:
       - Uncategorized
-      parentId: 1041
+      parentId: 1020
       parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ToriTests][suite]
-    - id: 1046
-      uniqueId: PlayMode.dll/Tests/ToriTests/[PlayMode][Tests.ToriTests.ToriTestsItemSlots]
-      name: ToriTestsItemSlots
-      fullName: Tests.ToriTests.ToriTestsItemSlots
-      resultStatus: 0
-      duration: 0
+    - id: 1024
+      uniqueId: PlayMode.dll/Tests/ToriTests/[PlayMode][Tests.ToriTests.CheckSlotsExists_Bounds]
+      name: CheckSlotsExists_Bounds
+      fullName: Tests.ToriTests.CheckSlotsExists_Bounds
+      resultStatus: 1
+      duration: 0.1154104
+      messages: 
+      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
+        This is not allowed.  MonoBehaviours can only be added using AddComponent().
+        Alternatively, your script can inherit from ScriptableObject or no base class
+        at all
+
+        Expected Slots: 8 Actual Slots: 8
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1020
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ToriTests][suite]
+    - id: 1027
+      uniqueId: PlayMode.dll/Tests/ToriTests/[PlayMode][Tests.ToriTests.TestMaxPickUp_Bounds]
+      name: TestMaxPickUp_Bounds
+      fullName: Tests.ToriTests.TestMaxPickUp_Bounds
+      resultStatus: 1
+      duration: 0.0028904
       messages: 
       output: 
       stacktrace: 
@@ -4384,16 +4461,75 @@ MonoBehaviour:
       isSuite: 0
       categories:
       - Uncategorized
-      parentId: 1041
+      parentId: 1020
+      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ToriTests][suite]
+    - id: 1026
+      uniqueId: PlayMode.dll/Tests/ToriTests/[PlayMode][Tests.ToriTests.ToriTestsInventoryOverload_Stress]
+      name: ToriTestsInventoryOverload_Stress
+      fullName: Tests.ToriTests.ToriTestsInventoryOverload_Stress
+      resultStatus: 1
+      duration: 2.0778189
+      messages: 
+      output: 'frames per second: 142.0818
+
+        frames per second: 174.0917
+
+        frames
+        per second: 174.8496
+
+        frames per second: 174.2009
+
+        frames
+        per second: 171.6178
+
+        frames per second: 169.4283
+
+        frames
+        per second: 167.1849
+
+        frames per second: 166.7195
+
+        frames
+        per second: 166.8279
+
+        frames per second: 152.3276
+
+        100 items
+        were spawned without impacting frame rate significantly
+
+'
+      stacktrace: 'at Tests.ToriTests+<ToriTestsInventoryOverload_Stress>d__5.MoveNext
+        () [0x00153] in C:\Users\victo\cs383\V3\CS-383-Project\Existential\Assets\Tests\PlayMode\ToriTests.cs:137
+
+        at
+        UnityEngine.TestTools.TestEnumerator+<Execute>d__5.MoveNext () [0x0004c]
+        in C:\Users\victo\cs383\V3\CS-383-Project\Existential\Library\PackageCache\com.unity.test-framework@1.1.11\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:31
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1020
       parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ToriTests][suite]
     - id: 1042
       uniqueId: PlayMode.dll/Tests/ToriTests/[PlayMode][Tests.ToriTests.ToriTestsSimplePasses]
       name: ToriTestsSimplePasses
       fullName: Tests.ToriTests.ToriTestsSimplePasses
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.0164025
       messages: 
-      output: 
+      output: 'The referenced script (Unknown) on this Behaviour is missing!
+
+        The
+        referenced script on this Behaviour (Game Object ''FadePanel'') is missing!
+
+        The
+        referenced script on this Behaviour (Game Object ''FadePanel'') is missing!
+
+'
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
@@ -4403,69 +4539,13 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1041
       parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ToriTests][suite]
-    m_ResultText: 'StressTest (11.606s)
-
-      ---
-
-      The referenced script (Unknown)
-      on this Behaviour is missing!
-
-      The referenced script on this Behaviour
-      (Game Object ''Main Camera'') is missing!
-
-      The referenced script on this
-      Behaviour (Game Object ''Main Camera'') is missing!
-
-      count: 10
-
-      fps:
-      96.16515
-
-      count: 20
-
-      fps: 87.90313
-
-      count: 30
-
-      fps:
-      76.85159
-
-      count: 40
-
-      fps: 82.47538
-
-      count: 50
-
-      fps:
-      31.44988
-
-      count: 60
-
-      fps: 54.21316
-
-      count: 70
-
-      fps:
-      56.56306
-
-      count: 80
-
-      fps: 187.0252
-
-      count: 90
-
-      fps:
-      61.41975
-
-      count: 100
-
-      fps: 66.23323'
+    m_ResultText: ToriTests (2.105s)
     m_ResultStacktrace: 
     m_TestListState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: f31fc870
-      m_LastClickedID: 1892163571
-      m_ExpandedIDs: 33fcf89c095273df7c95c7e36521a7fa411e8cfc45d21e3fc240ad6168e20b65a98bee76ffffff7f
+      scrollPos: {x: 0, y: 25}
+      m_SelectedIDs: a98bee76
+      m_LastClickedID: 1995344809
+      m_ExpandedIDs: 33fcf89c095273df7c95c7e36521a7fa411e8cfc3a45162f45d21e3fc240ad6168e20b65a98bee76ffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -4492,7 +4572,7 @@ MonoBehaviour:
       availableCategories:
       - Uncategorized
   m_EditModeTestListGUI:
-    m_Window: {fileID: 21}
+    m_Window: {fileID: 22}
     newResultList:
     - id: 1000
       uniqueId: '[Existential][suite]'
