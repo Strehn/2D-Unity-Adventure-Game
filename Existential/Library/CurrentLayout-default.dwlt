@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 989
+  controlID: 111
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -173,7 +173,7 @@ MonoBehaviour:
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
-  m_LastLoadedLayoutName: Default
+  m_LastLoadedLayoutName: 
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -219,7 +219,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 990
+  controlID: 112
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -244,7 +244,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 991
+  controlID: 113
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -338,34 +338,34 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/1-Sydney/Scripts
+    - Assets/1-Sydney/Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/1-Sydney/Scripts
+  - Assets/1-Sydney/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/sydneypetrehn/Documents/GitHub/CS-383-Project/Existential
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 126.00037}
-    m_SelectedIDs: 62ae0000
-    m_LastClickedID: 44642
-    m_ExpandedIDs: 000000008c700000047100002c7100005a750000ce760000f4760000427900001a7b0000d47e0000f681000050880000b4930000de960000689c0000aea00000f8a6000008a7000042a7000050a700005ea90000f6af000070c10000f6c1000030c500007ac6000028cb000036cf000076d00000a2da000090e20000c6e20000f4e2000076e40000f2e400005cee00005eee000060ee000062ee000064ee000066ee000068ee00006aee00006cee00006eee000070ee000072ee000074ee000076ee000078ee00007aee00007cee00007eee000000ca9a3b
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 1a750000
+    m_LastClickedID: 29978
+    m_ExpandedIDs: 000000009e700000187100004071000076750000ea76000010770000627900003a7b0000f67e00001e820000388200007e880000e69300001a970000a89c0000f0a0000048a7000058a7000092a70000aea90000ecc1000074c20000b4c5000004c70000c4cf000006d1000048db00003ae3000070e300009ee3000024e50000a0e5000072ef000074ef000076ef000078ef00007aef00007cef00007eef000080ef000082ef000084ef000086ef000088ef00008aef00008cef00008eef000090ef000092ef000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Resources
-      m_OriginalName: Resources
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 28972
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 5}
     m_SearchString: 
@@ -379,7 +379,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000008c700000047100002c7100005a750000ce760000f4760000427900001a7b0000d47e0000f681000050880000b4930000de960000689c0000aea00000f8a6000008a7000042a700005ea9000070c10000f6c1000030c500007ac6000036cf000076d00000a2da000090e20000c6e20000f4e2000076e40000f2e400005cee00005eee000060ee000062ee000064ee000066ee000068ee00006aee00006cee00006eee000070ee000072ee000074ee000076ee000078ee00007aee00007cee00007eee000000ca9a3b
+    m_ExpandedIDs: 000000009e700000187100004071000076750000ea76000010770000627900003a7b0000f67e00001e820000388200007e880000e69300001a970000a89c0000f0a0000048a7000058a7000092a70000aea90000ecc1000074c20000b4c5000004c70000c4cf000006d1000048db00003ae3000070e300009ee3000024e50000a0e5000072ef000074ef000076ef000078ef00007aef00007cef00007eef000080ef000082ef000084ef000086ef000088ef00008aef00008cef00008eef000090ef000092ef0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -472,7 +472,7 @@ MonoBehaviour:
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 248
+  m_LastVerticalScrollValue: 396.00586
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -501,24 +501,24 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 198.00171}
-      m_SelectedIDs: 7676ffff
-      m_LastClickedID: -35210
-      m_ExpandedIDs: 7476ffffa479ffffd2a4ffffdaa4ffff84a7ffffe6a8ffff20bdffff3abdfffffebdffffb2bfffff88c2ffff2ac8ffff0ccbffff10d3ffff80d3ffff8cd3ffffa4d4ffffb8d4ffffbad4ffff04d7ffff32dcffff74ecffff94ecffff12f4ffff30f4ffff36f4ffff82f5ffff08ef0000f80801003c0a0100480a01002a1401004424010008250100
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: aa190100
+      m_LastClickedID: 72106
+      m_ExpandedIDs: 1cd2ffff18dbffff36e0ffff80f2ffff50f3ffffb2f7ffff2ef0000034f000006e090100a60901003e0d0100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: ContinueButton (1)
-        m_OriginalName: ContinueButton (1)
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -35212
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -564,9 +564,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1165.0924, y: 29.387148, z: -81.97565}
+    m_Target: {x: 37.567554, y: 3.7187657, z: -327.92834}
     speed: 2
-    m_Value: {x: 1165.0924, y: 29.387148, z: -81.97565}
+    m_Value: {x: 37.567554, y: 3.7187657, z: -327.92834}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -602,13 +602,13 @@ MonoBehaviour:
       m_Size: {x: 1, y: 1}
     zGrid:
       m_Fade:
-        m_Target: 1
+        m_Target: 0
         speed: 2
         m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
-    m_ShowGrid: 1
+    m_ShowGrid: 0
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
@@ -616,9 +616,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 1831.7008
+    m_Target: 36.548836
     speed: 2
-    m_Value: 1831.7008
+    m_Value: 36.548836
   m_Ortho:
     m_Target: 1
     speed: 2
