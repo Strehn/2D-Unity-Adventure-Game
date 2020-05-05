@@ -14,25 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-<<<<<<< HEAD
     x: 8
     y: 51
-    width: 1569
-    height: 1293
+    width: 2544
+    height: 1341
   m_ShowMode: 4
   m_Title: 
-  m_RootView: {fileID: 3}
-  m_MinSize: {x: 875, y: 542}
-=======
-    x: 160
-    y: 155
-    width: 1280
-    height: 691
-  m_ShowMode: 4
-  m_Title: 
-  m_RootView: {fileID: 2}
+  m_RootView: {fileID: 7}
   m_MinSize: {x: 875, y: 300}
->>>>>>> 59da518602042d643929ac335795e3d3f5bc9929
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 0
 --- !u!114 &2
@@ -50,18 +39,122 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 402
+    x: 1327
     y: 0
-    width: 892
-    height: 926
+    width: 701
+    height: 972
   m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 18}
+  m_Panes:
+  - {fileID: 18}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &3
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children:
+  - {fileID: 10}
+  - {fileID: 4}
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 30
+    width: 2544
+    height: 1291
+  m_MinSize: {x: 878, y: 492}
+  m_MaxSize: {x: 16003, y: 14042}
+  vertical: 0
+  controlID: 61
+--- !u!114 &4
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 2028
+    y: 0
+    width: 516
+    height: 1291
+  m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &3
+--- !u!114 &5
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 201
+    height: 972
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 16}
+  m_Panes:
+  - {fileID: 16}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &6
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: ProjectBrowser
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 972
+    width: 2028
+    height: 319
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 14}
+  m_Panes:
+  - {fileID: 14}
+  - {fileID: 19}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -74,18 +167,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 4}
-  - {fileID: 6}
-  - {fileID: 5}
+  - {fileID: 8}
+  - {fileID: 3}
+  - {fileID: 9}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1569
-    height: 1293
+    width: 2544
+    height: 1341
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
---- !u!114 &4
+--- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -102,12 +195,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1569
+    width: 2544
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
   m_LastLoadedLayoutName: 
---- !u!114 &5
+--- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -123,12 +216,12 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 1273
-    width: 1569
+    y: 1321
+    width: 2544
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
---- !u!114 &6
+--- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -141,64 +234,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 7}
-  - {fileID: 12}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 30
-<<<<<<< HEAD
-    width: 1569
-    height: 1243
-  m_MinSize: {x: 877, y: 492}
-  m_MaxSize: {x: 16002, y: 14042}
-  vertical: 0
-  controlID: 27
---- !u!114 &7
-=======
-    width: 1280
-    height: 641
-  m_MinSize: {x: 679, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
-  vertical: 0
-  controlID: 75
---- !u!114 &6
->>>>>>> 59da518602042d643929ac335795e3d3f5bc9929
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 8}
   - {fileID: 11}
+  - {fileID: 6}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-    width: 1294
-    height: 1243
-  m_MinSize: {x: 602, y: 492}
-  m_MaxSize: {x: 12002, y: 14042}
+    width: 2028
+    height: 1291
+  m_MinSize: {x: 603, y: 492}
+  m_MaxSize: {x: 12003, y: 14042}
   vertical: 1
-  controlID: 28
---- !u!114 &8
-=======
-    width: 966
-    height: 641
-  m_MinSize: {x: 403, y: 492}
-  m_MaxSize: {x: 10001, y: 14042}
-  vertical: 1
-  controlID: 76
---- !u!114 &7
->>>>>>> 59da518602042d643929ac335795e3d3f5bc9929
+  controlID: 291
+--- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -211,56 +259,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 9}
-  - {fileID: 10}
+  - {fileID: 5}
+  - {fileID: 12}
   - {fileID: 2}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-<<<<<<< HEAD
-    width: 1294
-    height: 926
-  m_MinSize: {x: 602, y: 221}
-  m_MaxSize: {x: 12002, y: 4021}
+    width: 2028
+    height: 972
+  m_MinSize: {x: 603, y: 221}
+  m_MaxSize: {x: 12003, y: 4021}
   vertical: 0
-  controlID: 29
---- !u!114 &9
-=======
-    width: 966
-    height: 370
-  m_MinSize: {x: 403, y: 221}
-  m_MaxSize: {x: 8003, y: 4021}
-  vertical: 0
-  controlID: 77
---- !u!114 &8
->>>>>>> 59da518602042d643929ac335795e3d3f5bc9929
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: SceneHierarchyWindow
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 200
-    height: 926
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 14}
-  m_Panes:
-  - {fileID: 14}
-  m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &10
+  controlID: 292
+--- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -275,20 +287,19 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 200
+    x: 201
     y: 0
-    width: 202
-    height: 926
+    width: 1126
+    height: 972
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 13}
+  m_ActualView: {fileID: 17}
   m_Panes:
-  - {fileID: 13}
-  - {fileID: 16}
   - {fileID: 17}
+  - {fileID: 13}
   m_Selected: 0
-  m_LastSelected: 2
---- !u!114 &11
+  m_LastSelected: 0
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -297,25 +308,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Script: {fileID: 12111, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
   m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
+  m_MinSize: {x: 400, y: 100}
+  m_MaxSize: {x: 2048, y: 2048}
+  m_TitleContent:
+    m_Text: Asset Store
+    m_Image: {fileID: 357073275683767465, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 926
-    width: 1294
-    height: 317
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 18}
-  m_Panes:
-  - {fileID: 18}
-  - {fileID: 19}
-  m_Selected: 0
-  m_LastSelected: 1
---- !u!114 &12
+    x: 468
+    y: 181
+    width: 973
+    height: 501
+  m_ViewDataDictionary: {fileID: 0}
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -324,34 +334,227 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: InspectorWindow
+  m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
   m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_TitleContent:
+    m_Text: Project
+    m_Image: {fileID: -7501376956915960154, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
     serializedVersion: 2
-    x: 1294
-    y: 0
-<<<<<<< HEAD
-    width: 275
-    height: 1243
+    x: 8
+    y: 1053
+    width: 2027
+    height: 298
+  m_ViewDataDictionary: {fileID: 0}
+  m_SearchFilter:
+    m_NameFilter: 
+    m_ClassNames: []
+    m_AssetLabels: []
+    m_AssetBundleNames: []
+    m_VersionControlStates: []
+    m_SoftLockControlStates: []
+    m_ReferencingInstanceIDs: 
+    m_SceneHandles: 
+    m_ShowAllHits: 0
+    m_SkipHidden: 0
+    m_SearchArea: 1
+    m_Folders:
+    - Assets/3-Sam/Scenes
+  m_ViewMode: 1
+  m_StartGridSize: 64
+  m_LastFolders:
+  - Assets/3-Sam/Scenes
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: C:\Users\victo\cs383\V3\CS-383-Project\Existential
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 230}
+    m_SelectedIDs: 7e5e0000
+    m_LastClickedID: 24190
+    m_ExpandedIDs: 00000000003800007a380000d43c0000483e00006e3e0000c0400000984200005646000080490000de4f0000bc5300004a5b00007e5e00000c64000054680000ae6e0000be6e0000f86e000014710000dc8900001a8d00006a8e0000289700006a980000aea20000a0aa0000d6aa000004ab000088ac000004ad0000e8ae00003eb2000040b2000042b2000044b2000046b2000048b200004ab200004cb200004eb2000050b2000052b2000054b2000056b2000058b200005ab200005cb200005eb2000060b2000000ca9a3b
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_AssetTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 00000000003800007a380000d43c0000483e00006e3e0000c0400000984200005646000080490000de4f00004a5b00007e5e00000c64000054680000ae6e0000be6e0000f86e000014710000dc8900001a8d00006a8e0000289700006a980000aea20000a0aa0000d6aa000004ab000088ac000004ad00003eb2000040b2000042b2000044b2000046b2000048b200004ab200004cb200004eb2000050b2000052b2000054b2000056b2000058b200005ab200005cb200005eb2000060b20000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_ListAreaState:
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c623000000000000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 6}
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+    m_NewAssetIndexInList: -1
+    m_ScrollPosition: {x: 0, y: 0}
+    m_GridSize: 64
+  m_SkipHiddenPackages: 0
+  m_DirectoriesAreaWidth: 227
+--- !u!114 &15
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 20}
-=======
-    width: 314
-    height: 641
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 19}
->>>>>>> 59da518602042d643929ac335795e3d3f5bc9929
-  m_Panes:
-  - {fileID: 20}
-  - {fileID: 21}
-  - {fileID: 22}
-  m_Selected: 0
-  m_LastSelected: 2
---- !u!114 &13
+  m_TitleContent:
+    m_Text: Inspector
+    m_Image: {fileID: -6905738622615590433, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 2036
+    y: 81
+    width: 515
+    height: 1270
+  m_ViewDataDictionary: {fileID: 0}
+  m_OpenAddComponentMenu: 0
+  m_ObjectsLockedBeforeSerialization: []
+  m_InstanceIDsLockedBeforeSerialization: 
+  m_LockTracker:
+    m_IsLocked: 0
+  m_PreviewResizer:
+    m_CachedPref: 160
+    m_ControlHash: -371814159
+    m_PrefName: Preview_InspectorPreview
+  m_PreviewWindow: {fileID: 0}
+  m_LastInspectedObjectInstanceID: -1
+  m_LastVerticalScrollValue: 0
+--- !u!114 &16
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Hierarchy
+    m_Image: {fileID: -590624980919486359, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 8
+    y: 81
+    width: 200
+    height: 951
+  m_ViewDataDictionary: {fileID: 0}
+  m_SceneHierarchy:
+    m_TreeViewState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 3c77ffff
+      m_LastClickedID: -35012
+      m_ExpandedIDs: b477ffffd277ffff4e7cffff9288ffff5c8affff0c8cffffdc90ffff6896ffffd898ffff76daffffaadaffffb2daffff44deffffa8f1ffffb0f1ffff44f5ffff2afaffff3cfaffff44faffff6afbffff76ba00002cbe000074be0000fe0e01003e340100b2340100
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 5}
+      m_SearchString: 
+    m_ExpandedScenes: []
+    m_CurrenRootInstanceID: 0
+    m_LockTracker:
+      m_IsLocked: 0
+    m_CurrentSortingName: TransformSorting
+  m_WindowGUID: 0b9587b2e139d3947b7839f790bc26f5
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -372,20 +575,13 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-    x: 208
+    x: 209
     y: 81
-    width: 200
-    height: 905
-=======
-    x: 424
-    y: 185
-    width: 700
-    height: 349
->>>>>>> 59da518602042d643929ac335795e3d3f5bc9929
+    width: 1124
+    height: 951
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
-  m_WindowGUID: 813b1bbdf31ee5645ba010b0123feeb0
+  m_WindowGUID: 05e1ce439e24e3940a8f9db0ccf1ea68
   m_Gizmos: 1
   m_SceneIsLit: 1
   m_SceneLighting: 1
@@ -394,15 +590,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-<<<<<<< HEAD
-    m_Target: {x: 2.839124, y: 0.17563364, z: -17.698357}
+    m_Target: {x: -26.917957, y: -3.1908631, z: -7.046878}
     speed: 2
-    m_Value: {x: 2.839124, y: 0.17563364, z: -17.698357}
-=======
-    m_Target: {x: 15.492598, y: 9.019833, z: -0.34306714}
-    speed: 2
-    m_Value: {x: 15.492598, y: 9.019833, z: -0.34306714}
->>>>>>> 59da518602042d643929ac335795e3d3f5bc9929
+    m_Value: {x: -26.682215, y: -3.2773263, z: -7.0193043}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -438,13 +628,13 @@ MonoBehaviour:
       m_Size: {x: 1, y: 1}
     zGrid:
       m_Fade:
-        m_Target: 0
+        m_Target: 1
         speed: 2
         m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
-    m_ShowGrid: 0
+    m_ShowGrid: 1
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
@@ -452,15 +642,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-<<<<<<< HEAD
-    m_Target: 14.458316
+    m_Target: 7.313371
     speed: 2
-    m_Value: 14.458316
-=======
-    m_Target: 24.169958
-    speed: 2
-    m_Value: 24.169958
->>>>>>> 59da518602042d643929ac335795e3d3f5bc9929
+    m_Value: 7.6579804
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -485,75 +669,7 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &14
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Hierarchy
-    m_Image: {fileID: -590624980919486359, guid: 0000000000000000d000000000000000,
-      type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-<<<<<<< HEAD
-    x: 8
-    y: 81
-    width: 199
-    height: 905
-=======
-    x: 160
-    y: 185
-    width: 263
-    height: 349
->>>>>>> 59da518602042d643929ac335795e3d3f5bc9929
-  m_ViewDataDictionary: {fileID: 0}
-  m_SceneHierarchy:
-    m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-<<<<<<< HEAD
-      m_SelectedIDs: c4580000
-      m_LastClickedID: 0
-      m_ExpandedIDs: 66dfffff60e4ffff0ae8ffff8ae8ffff6ce9ffff94ebffff5eecffff26edffff5eeeffff7ef0ffff62f3ffff88f4ffffcef4ffff56f7ffff6afbffff8ebd000006c000008cc80000b8c80000
-=======
-      m_SelectedIDs: 7e190100
-      m_LastClickedID: 72062
-      m_ExpandedIDs: 44dcffff5af2ffffc8f3ffffb4f4ffff160801006a190100
->>>>>>> 59da518602042d643929ac335795e3d3f5bc9929
-      m_RenameOverlay:
-        m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
-        m_EditFieldRect:
-          serializedVersion: 2
-          x: 0
-          y: 0
-          width: 0
-          height: 0
-        m_UserData: 0
-        m_IsWaitingForDelay: 0
-        m_IsRenaming: 0
-        m_OriginalEventType: 11
-        m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 9}
-      m_SearchString: 
-    m_ExpandedScenes: []
-    m_CurrenRootInstanceID: 0
-    m_LockTracker:
-      m_IsLocked: 0
-    m_CurrentSortingName: TransformSorting
-  m_WindowGUID: 12822379486e19b408ecf1060aa5d842
---- !u!114 &15
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -574,17 +690,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-<<<<<<< HEAD
-    x: 410
+    x: 1335
     y: 81
-    width: 890
-    height: 905
-=======
-    x: 424
-    y: 185
-    width: 700
-    height: 349
->>>>>>> 59da518602042d643929ac335795e3d3f5bc9929
+    width: 699
+    height: 951
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewsNames: []
   m_SerializedViewsValues: []
@@ -592,11 +701,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-<<<<<<< HEAD
-  m_TargetSize: {x: 890, y: 884}
-=======
-  m_TargetSize: {x: 1400, y: 656}
->>>>>>> 59da518602042d643929ac335795e3d3f5bc9929
+  m_TargetSize: {x: 699, y: 930}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -610,17 +715,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-<<<<<<< HEAD
-    m_HBaseRangeMin: -445
-    m_HBaseRangeMax: 445
-    m_VBaseRangeMin: -442
-    m_VBaseRangeMax: 442
-=======
-    m_HBaseRangeMin: -350
-    m_HBaseRangeMax: 350
-    m_VBaseRangeMin: -164
-    m_VBaseRangeMax: 164
->>>>>>> 59da518602042d643929ac335795e3d3f5bc9929
+    m_HBaseRangeMin: -349.5
+    m_HBaseRangeMax: 349.5
+    m_VBaseRangeMin: -465
+    m_VBaseRangeMax: 465
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -638,264 +736,28 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-<<<<<<< HEAD
-      width: 890
-      height: 884
+      width: 699
+      height: 930
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 445, y: 442}
-=======
-      width: 700
-      height: 328
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 350, y: 164}
->>>>>>> 59da518602042d643929ac335795e3d3f5bc9929
+    m_Translation: {x: 349.5, y: 465}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-<<<<<<< HEAD
-      x: -445
-      y: -442
-      width: 890
-      height: 884
+      x: -349.5
+      y: -465
+      width: 699
+      height: 930
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 890, y: 905}
-=======
-      x: -350
-      y: -164
-      width: 700
-      height: 328
-    m_MinimalGUI: 1
-  m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1400, y: 698}
->>>>>>> 59da518602042d643929ac335795e3d3f5bc9929
+  m_LastWindowPixelSize: {x: 699, y: 951}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 00000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &16
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12111, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 400, y: 100}
-  m_MaxSize: {x: 2048, y: 2048}
-  m_TitleContent:
-    m_Text: Asset Store
-    m_Image: {fileID: 357073275683767465, guid: 0000000000000000d000000000000000,
-      type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 468
-    y: 181
-    width: 973
-    height: 501
-  m_ViewDataDictionary: {fileID: 0}
---- !u!114 &17
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 687acdc95675db149bf5de5771ecac18, type: 3}
-  m_Name: SpriteEditorWindow
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 360, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Sprite Editor
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 431
-    y: 73
-    width: 888
-    height: 734
-  m_ViewDataDictionary: {fileID: 0}
-  m_ResetOnNextRepaint: 0
-  m_SelectedAssetPath: Assets/2-Tori/Assets/npc1.png
-  m_SelectedSpriteRectGUID: 4baf9e05285f12270800000000000000
-  m_LastUsedModuleTypeName: 
---- !u!114 &18
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 230, y: 250}
-  m_MaxSize: {x: 10000, y: 10000}
-  m_TitleContent:
-    m_Text: Project
-    m_Image: {fileID: -7501376956915960154, guid: 0000000000000000d000000000000000,
-      type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-<<<<<<< HEAD
-    x: 8
-    y: 1007
-    width: 1293
-    height: 296
-=======
-    x: 160
-    y: 555
-    width: 965
-    height: 250
->>>>>>> 59da518602042d643929ac335795e3d3f5bc9929
-  m_ViewDataDictionary: {fileID: 0}
-  m_SearchFilter:
-    m_NameFilter: 
-    m_ClassNames: []
-    m_AssetLabels: []
-    m_AssetBundleNames: []
-    m_VersionControlStates: []
-    m_SoftLockControlStates: []
-    m_ReferencingInstanceIDs: 
-    m_SceneHandles: 
-    m_ShowAllHits: 0
-    m_SkipHidden: 0
-    m_SearchArea: 1
-    m_Folders:
-<<<<<<< HEAD
-    - Assets/2-Tori/Scripts
-  m_ViewMode: 1
-  m_StartGridSize: 62
-  m_LastFolders:
-  - Assets/2-Tori/Scripts
-  m_LastFoldersGridSize: 62
-  m_LastProjectPath: C:\Users\victo\cs383\V3\CS-383-Project\Existential
-  m_LockTracker:
-    m_IsLocked: 0
-  m_FolderTreeState:
-    scrollPos: {x: 0, y: 64}
-    m_SelectedIDs: c4580000
-    m_LastClickedID: 22724
-    m_ExpandedIDs: 00000000fc37000076380000dc3c0000503e0000763e0000e63e0000ca400000a64200006646000090490000aa490000f04f0000665b00009a5e00003864000080680000f46e0000046f00003e6f00005a7100004a8a00008e8d0000e08e0000a4970000e698000028a3000018ab00004eab00007cab000004ad000080ad000092b6000094b6000096b6000098b600009ab600009cb600009eb60000a0b60000a2b60000a4b60000a6b60000a8b60000aab60000acb60000aeb60000b0b6000000ca9a3b
-=======
-    - Assets/1-Sydney/Scenes
-  m_ViewMode: 1
-  m_StartGridSize: 62
-  m_LastFolders:
-  - Assets/1-Sydney/Scenes
-  m_LastFoldersGridSize: 62
-  m_LastProjectPath: /Users/sydneypetrehn/Documents/GitHub/CS-383-Project/Existential
-  m_LockTracker:
-    m_IsLocked: 0
-  m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: d68e0000
-    m_LastClickedID: 36566
-    m_ExpandedIDs: 000000007c6000003661000096870000668a0000e08a0000328f0000a6900000c2900000cc9000001c930000f4940000aa980000b89b000004a2000064ad000066b00000e6b500001cba00003cc000004cc0000086c000004adb000082de0000cadf000080e80000bee90000e8f30000dafb000010fc00003efc0000bafd000036fe00008a0701008c0701008e07010090070100920701009407010096070100980701009a0701009c0701009e070100a0070100a2070100a4070100a6070100a807010000ca9a3b
->>>>>>> 59da518602042d643929ac335795e3d3f5bc9929
-    m_RenameOverlay:
-      m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
-      m_EditFieldRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      m_UserData: 0
-      m_IsWaitingForDelay: 0
-      m_IsRenaming: 0
-      m_OriginalEventType: 11
-      m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
-    m_SearchString: 
-    m_CreateAssetUtility:
-      m_EndAction: {fileID: 0}
-      m_InstanceID: 0
-      m_Path: 
-      m_Icon: {fileID: 0}
-      m_ResourceFile: 
-  m_AssetTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-<<<<<<< HEAD
-    m_ExpandedIDs: 00000000fc37000076380000dc3c0000503e0000763e0000e63e0000ca4000006646000090490000aa490000f04f0000665b00009a5e00003864000080680000f46e0000046f00003e6f00005a7100004a8a00008e8d0000e08e0000a4970000e698000028a3000018ab00007cab000080ad000092b6000094b6000096b6000098b600009ab600009cb600009eb60000a0b60000a2b60000a4b60000a6b60000a8b60000aab60000acb60000aeb60000b0b60000
-=======
-    m_ExpandedIDs: 000000007c6000003661000096870000668a0000e08a0000328f0000a6900000c2900000cc9000001c930000f4940000aa980000b89b000004a2000064ad000066b00000e6b500001cba00003cc000004cc0000086c000004adb000082de0000cadf000080e80000bee90000e8f30000dafb000010fc00003efc0000bafd000036fe00008a0701008c0701008e07010090070100920701009407010096070100980701009a0701009c0701009e070100a0070100a2070100a4070100a6070100a8070100
->>>>>>> 59da518602042d643929ac335795e3d3f5bc9929
-    m_RenameOverlay:
-      m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
-      m_EditFieldRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      m_UserData: 0
-      m_IsWaitingForDelay: 0
-      m_IsRenaming: 0
-      m_OriginalEventType: 11
-      m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
-    m_SearchString: 
-    m_CreateAssetUtility:
-      m_EndAction: {fileID: 0}
-      m_InstanceID: 0
-      m_Path: 
-      m_Icon: {fileID: 0}
-      m_ResourceFile: 
-  m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000023e01008656000000000000ccb60000
-    m_RenameOverlay:
-      m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
-      m_EditFieldRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      m_UserData: 0
-      m_IsWaitingForDelay: 0
-      m_IsRenaming: 0
-      m_OriginalEventType: 11
-      m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 11}
-    m_CreateAssetUtility:
-      m_EndAction: {fileID: 0}
-      m_InstanceID: 0
-      m_Path: 
-      m_Icon: {fileID: 0}
-      m_ResourceFile: 
-    m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
-    m_GridSize: 62
-  m_SkipHiddenPackages: 0
-  m_DirectoriesAreaWidth: 264
 --- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -918,4008 +780,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 8
-    y: 697
-    width: 1029
-    height: 430
+    y: 1053
+    width: 2027
+    height: 298
   m_ViewDataDictionary: {fileID: 0}
---- !u!114 &20
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 1
-  m_Script: {fileID: 12019, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Inspector
-    m_Image: {fileID: -6905738622615590433, guid: 0000000000000000d000000000000000,
-      type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-<<<<<<< HEAD
-    x: 1302
-    y: 81
-    width: 274
-    height: 1222
-=======
-    x: 1126
-    y: 185
-    width: 313
-    height: 620
->>>>>>> 59da518602042d643929ac335795e3d3f5bc9929
-  m_ViewDataDictionary: {fileID: 0}
-  m_OpenAddComponentMenu: 0
-  m_ObjectsLockedBeforeSerialization: []
-  m_InstanceIDsLockedBeforeSerialization: 
-  m_LockTracker:
-    m_IsLocked: 0
-  m_PreviewResizer:
-    m_CachedPref: 160
-    m_ControlHash: -371814159
-    m_PrefName: Preview_InspectorPreview
-  m_PreviewWindow: {fileID: 0}
-  m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
---- !u!114 &21
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f683d99f24875748a6656966ca9cea0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 240, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Tile Palette
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 966
-    y: 30
-    width: 313
-    height: 729
-  m_ViewDataDictionary: {fileID: 0}
-  m_PreviewResizer:
-    m_CachedPref: 50
-    m_ControlHash: 1964396721
-    m_PrefName: Preview_TilemapBrushInspector
-  m_Palette: {fileID: 7633305548790960446, guid: 2d42e3650944a0543a71b6b4106d5ed2,
-    type: 3}
---- !u!114 &22
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 13401, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Test Runner
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 2232
-    y: 73
-    width: 327
-    height: 1286
-  m_ViewDataDictionary: {fileID: 0}
-  m_Spl:
-    ID: 17007
-    splitterInitialOffset: 319
-    currentActiveSplitter: -1
-    realSizes: cb010000f5020000
-    relativeSizes:
-    - 0.37784523
-    - 0.6221548
-    minSizes: 2000000020000000
-    maxSizes: 0000000000000000
-    lastTotalSize: 1216
-    splitSize: 6
-    xOffset: 0
-  m_TestTypeToolbarIndex: 0
-  m_PlayModeTestListGUI:
-    m_Window: {fileID: 22}
-    newResultList:
-    - id: 1021
-      uniqueId: '[Existential][suite]'
-      name: Existential
-      fullName: Existential
-      resultStatus: 1
-      duration: 2.1931615
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 
-      parentUniqueId: 
-    - id: 1028
-      uniqueId: '[C:/Users/victo/cs383/V3/CS-383-Project/Existential/Library/ScriptAssemblies/PlayMode.dll][suite]'
-      name: PlayMode.dll
-      fullName: C:/Users/victo/cs383/V3/CS-383-Project/Existential/Library/ScriptAssemblies/PlayMode.dll
-      resultStatus: 1
-      duration: 2.1516354
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1000
-      parentUniqueId: '[Existential][suite]'
-    - id: 1048
-      uniqueId: PlayMode.dll/[Tests][suite]
-      name: Tests
-      fullName: Tests
-      resultStatus: 1
-      duration: 2.1190772
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1047
-      parentUniqueId: '[/Users/taeganwilliams/Documents/GitHub/CS-383-Project/Existential/Library/ScriptAssemblies/PlayMode.dll][suite]'
-    - id: 1022
-      uniqueId: PlayMode.dll/Tests/[PlayMode][Tests.IsabelTests][suite]
-      name: IsabelTests
-      fullName: Tests.IsabelTests
-      resultStatus: 1
-      duration: 11.648346
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1048
-      parentUniqueId: PlayMode.dll/[Tests][suite]
-    - id: 1023
-      uniqueId: PlayMode.dll/Tests/IsabelTests/[PlayMode][Tests.IsabelTests.FindNonExistentObject]
-      name: FindNonExistentObject
-      fullName: Tests.IsabelTests.FindNonExistentObject
-      resultStatus: 1
-      duration: 0.1923461
-      messages: 
-      output: 'The referenced script (Unknown) on this Behaviour is missing!
-
-        The
-        referenced script on this Behaviour (Game Object ''Main Camera'') is missing!
-
-        The
-        referenced script (Unknown) on this Behaviour is missing!
-
-        The referenced
-        script on this Behaviour (Game Object ''Main Camera'') is missing!
-
-        The
-        referenced script on this Behaviour (Game Object ''Main Camera'') is missing!
-
-        Passed
-        - we did not find newObject in the scene.
-
-'
-      stacktrace: 'at Tests.IsabelTests+<FindNonExistentObject>d__0.MoveNext () [0x00057]
-        in /Users/taeganwilliams/Documents/GitHub/CS-383-Project/Existential/Assets/Tests/PlayMode/IsabelTests.cs:34
-
-        at
-        UnityEngine.TestTools.TestEnumerator+<Execute>d__5.MoveNext () [0x0004c]
-        in /Users/taeganwilliams/Documents/GitHub/CS-383-Project/Existential/Library/PackageCache/com.unity.test-framework@1.1.11/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:31
-
-'
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1022
-      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.IsabelTests][suite]
-    - id: 1024
-      uniqueId: PlayMode.dll/Tests/IsabelTests/[PlayMode][Tests.IsabelTests.SpeedTest]
-      name: SpeedTest
-      fullName: Tests.IsabelTests.SpeedTest
-      resultStatus: 1
-      duration: 10.505135
-      messages: 
-      output: 'The referenced script (Unknown) on this Behaviour is missing!
-
-        The
-        referenced script on this Behaviour (Game Object ''Main Camera'') is missing!
-
-        The
-        referenced script on this Behaviour (Game Object ''Main Camera'') is missing!
-
-        Current
-        Speed: 100
-
-        Current Speed: 115
-
-        Current Speed: 130
-
-        Current
-        Speed: 145
-
-        Current Speed: 160
-
-        Current Speed: 175
-
-        Current
-        Speed: 190
-
-        Current Speed: 205
-
-        Final Speed: 220
-
-'
-      stacktrace: 'at Tests.IsabelTests+<SpeedTest>d__1.MoveNext () [0x0010d] in
-        /Users/taeganwilliams/Documents/GitHub/CS-383-Project/Existential/Assets/Tests/PlayMode/IsabelTests.cs:58
-
-        at
-        UnityEngine.TestTools.TestEnumerator+<Execute>d__5.MoveNext () [0x0004c]
-        in /Users/taeganwilliams/Documents/GitHub/CS-383-Project/Existential/Library/PackageCache/com.unity.test-framework@1.1.11/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:31
-
-'
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1022
-      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.IsabelTests][suite]
-    - id: 1025
-      uniqueId: PlayMode.dll/Tests/IsabelTests/[PlayMode][Tests.IsabelTests.StressTest]
-      name: StressTest
-      fullName: Tests.IsabelTests.StressTest
-      resultStatus: 1
-      duration: 11.605918
-      messages: 
-      output: 'The referenced script (Unknown) on this Behaviour is missing!
-
-        The
-        referenced script on this Behaviour (Game Object ''Main Camera'') is missing!
-
-        The
-        referenced script on this Behaviour (Game Object ''Main Camera'') is missing!
-
-        count:
-        10
-
-        fps: 96.16515
-
-        count: 20
-
-        fps: 87.90313
-
-        count:
-        30
-
-        fps: 76.85159
-
-        count: 40
-
-        fps: 82.47538
-
-        count:
-        50
-
-        fps: 31.44988
-
-        count: 60
-
-        fps: 54.21316
-
-        count:
-        70
-
-        fps: 56.56306
-
-        count: 80
-
-        fps: 187.0252
-
-        count:
-        90
-
-        fps: 61.41975
-
-        count: 100
-
-        fps: 66.23323
-
-'
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1022
-      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.IsabelTests][suite]
-    - id: 1026
-      uniqueId: PlayMode.dll/Tests/[PlayMode][Tests.RonnieTest][suite]
-      name: RonnieTest
-      fullName: Tests.RonnieTest
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1048
-      parentUniqueId: PlayMode.dll/[Tests][suite]
-    - id: 1028
-      uniqueId: PlayMode.dll/Tests/RonnieTest/[PlayMode][Tests.RonnieTest.BoundaryTest1]
-      name: BoundaryTest1
-      fullName: Tests.RonnieTest.BoundaryTest1
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1026
-      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.RonnieTest][suite]
-    - id: 1029
-      uniqueId: PlayMode.dll/Tests/RonnieTest/[PlayMode][Tests.RonnieTest.BoundaryTest2]
-      name: BoundaryTest2
-      fullName: Tests.RonnieTest.BoundaryTest2
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1026
-      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.RonnieTest][suite]
-    - id: 1027
-      uniqueId: PlayMode.dll/Tests/RonnieTest/[PlayMode][Tests.RonnieTest.StressTest]
-      name: StressTest
-      fullName: Tests.RonnieTest.StressTest
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1026
-      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.RonnieTest][suite]
-    - id: 1030
-      uniqueId: PlayMode.dll/Tests/[PlayMode][Tests.SamTest][suite]
-      name: SamTest
-      fullName: Tests.SamTest
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1048
-      parentUniqueId: PlayMode.dll/[Tests][suite]
-    - id: 1031
-      uniqueId: PlayMode.dll/Tests/SamTest/[PlayMode][Tests.SamTest.CheckForMyPrefabsInSceneTest]
-      name: CheckForMyPrefabsInSceneTest
-      fullName: Tests.SamTest.CheckForMyPrefabsInSceneTest
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1030
-      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.SamTest][suite]
-    - id: 1032
-      uniqueId: PlayMode.dll/Tests/SamTest/[PlayMode][Tests.SamTest.LevelSelectorTest]
-      name: LevelSelectorTest
-      fullName: Tests.SamTest.LevelSelectorTest
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1030
-      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.SamTest][suite]
-    - id: 1033
-      uniqueId: PlayMode.dll/Tests/SamTest/[PlayMode][Tests.SamTest.SpawnDialogueCanvasTest]
-      name: SpawnDialogueCanvasTest
-      fullName: Tests.SamTest.SpawnDialogueCanvasTest
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1030
-      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.SamTest][suite]
-    - id: 1034
-      uniqueId: PlayMode.dll/Tests/[PlayMode][Tests.SydneyTests][suite]
-      name: SydneyTests
-      fullName: Tests.SydneyTests
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1048
-      parentUniqueId: PlayMode.dll/[Tests][suite]
-    - id: 1036
-      uniqueId: PlayMode.dll/Tests/SydneyTests/[PlayMode][Tests.SydneyTests.Bunny_BoundsTest]
-      name: Bunny_BoundsTest
-      fullName: Tests.SydneyTests.Bunny_BoundsTest
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1034
-      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.SydneyTests][suite]
-    - id: 1035
-      uniqueId: PlayMode.dll/Tests/SydneyTests/[PlayMode][Tests.SydneyTests.Bunny_StressTest]
-      name: Bunny_StressTest
-      fullName: Tests.SydneyTests.Bunny_StressTest
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1034
-      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.SydneyTests][suite]
-    - id: 1037
-      uniqueId: PlayMode.dll/Tests/SydneyTests/[PlayMode][Tests.SydneyTests.treeMoving_BoundsTest]
-      name: treeMoving_BoundsTest
-      fullName: Tests.SydneyTests.treeMoving_BoundsTest
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1034
-      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.SydneyTests][suite]
-    - id: 1038
-      uniqueId: PlayMode.dll/Tests/[PlayMode][Tests.TaeganTest][suite]
-      name: TaeganTest
-      fullName: Tests.TaeganTest
-      resultStatus: 0
-      duration: 6.2590218
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1048
-      parentUniqueId: PlayMode.dll/[Tests][suite]
-    - id: 1039
-      uniqueId: PlayMode.dll/Tests/TaeganTest/[PlayMode][Tests.TaeganTest.Check_Speed_Of_PlayerTW]
-      name: Check_Speed_Of_PlayerTW
-      fullName: Tests.TaeganTest.Check_Speed_Of_PlayerTW
-      resultStatus: 0
-      duration: 17.084663
-      messages: 
-      output: 'Player
-
-        Object: Ice (UnityEngine.GameObject)
-
-        Object:
-        ObjectsInfrontPlayer (UnityEngine.GameObject)
-
-        Object: Ground (UnityEngine.GameObject)
-
-        Object:
-        AboveGround (UnityEngine.GameObject)
-
-        Object: ObjectsBehindPlayer
-        (UnityEngine.GameObject)
-
-        Object: TaeganGridNew(Clone) (UnityEngine.GameObject)
-
-        Object:
-        Main Camera (UnityEngine.GameObject)
-
-        Object: MainCharacter (UnityEngine.GameObject)
-
-        Object:
-        TaeganCanvasNew(Clone) (UnityEngine.GameObject)
-
-        Made it
-
-        x:
-        218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y:
-        -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x:
-        218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y:
-        -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x:
-        218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y:
-        -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x:
-        218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y:
-        -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x:
-        218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y:
-        -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x:
-        218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y:
-        -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x:
-        218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y:
-        -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x:
-        218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y:
-        -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x:
-        218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y:
-        -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x:
-        218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y:
-        -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x:
-        218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y:
-        -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x:
-        218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y:
-        -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x:
-        218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y:
-        -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x:
-        218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y:
-        -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x:
-        218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y:
-        -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x:
-        218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y:
-        -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x:
-        218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y:
-        -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x:
-        218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y:
-        -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x:
-        218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y:
-        -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x:
-        218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y:
-        -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x:
-        218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y:
-        -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x:
-        218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y:
-        -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x:
-        218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y:
-        -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x:
-        218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y:
-        -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x:
-        218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y:
-        -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x:
-        218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y:
-        -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x:
-        218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y:
-        -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x:
-        218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y:
-        -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x:
-        218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y:
-        -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x:
-        218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y:
-        -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x:
-        218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y:
-        -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x:
-        218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y:
-        -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x:
-        218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y:
-        -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x:
-        218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y:
-        -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x:
-        218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y:
-        -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x:
-        218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y:
-        -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x:
-        218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y:
-        -49.34387
-
-        x: 218.5086y: -49.34387
-
-        x: 218.5086y: -49.34387
-
-        Adding
-        Speed - Current Speed: 131
-
-        x: 221.1286y: -49.34387
-
-        x: 223.7486y:
-        -49.34387
-
-        x: 223.7486y: -49.34387
-
-        x: 226.3686y: -49.34387
-
-        x:
-        228.9886y: -49.34387
-
-        x: 228.9886y: -49.34387
-
-        x: 231.6086y:
-        -49.34387
-
-        x: 231.6086y: -49.34387
-
-        x: 234.2286y: -49.34387
-
-        x:
-        236.8486y: -49.34387
-
-        x: 236.7627y: -49.34387
-
-        x: 236.7627y:
-        -49.34387
-
-        x: 236.7402y: -49.34387
-
-        x: 236.7373y: -49.34387
-
-        x:
-        236.7355y: -49.34387
-
-        x: 236.7355y: -49.34387
-
-        x: 236.7343y:
-        -49.34387
-
-        x: 236.7335y: -49.34387
-
-        x: 236.733y: -49.34387
-
-        x:
-        236.7327y: -49.34387
-
-        x: 236.7324y: -49.34387
-
-        x: 236.7324y:
-        -49.34387
-
-        x: 236.7323y: -49.34387
-
-        x: 236.7323y: -49.34387
-
-        x:
-        236.7323y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y:
-        -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x:
-        236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y:
-        -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x:
-        236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y:
-        -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x:
-        236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y:
-        -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x:
-        236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y:
-        -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x:
-        236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y:
-        -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x:
-        236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y:
-        -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x:
-        236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y:
-        -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x:
-        236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y:
-        -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x:
-        236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y:
-        -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x:
-        236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y:
-        -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x:
-        236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y:
-        -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x:
-        236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y:
-        -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x:
-        236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y:
-        -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x:
-        236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y:
-        -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x:
-        236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y:
-        -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x:
-        236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y:
-        -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x:
-        236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y:
-        -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x:
-        236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y:
-        -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x:
-        236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y:
-        -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x:
-        236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y:
-        -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x:
-        236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y:
-        -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x:
-        236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y:
-        -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x:
-        236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y:
-        -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x:
-        236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y:
-        -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x:
-        236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y:
-        -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x:
-        236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y:
-        -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x:
-        236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y:
-        -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x:
-        236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y:
-        -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x:
-        236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y:
-        -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x:
-        236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y:
-        -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x:
-        236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y:
-        -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x:
-        236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y:
-        -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x:
-        236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y:
-        -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x:
-        236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y:
-        -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x:
-        236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y:
-        -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x:
-        236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y:
-        -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x:
-        236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y:
-        -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x:
-        236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y:
-        -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x:
-        236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y:
-        -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x:
-        236.7322y: -49.34387
-
-        x: 236.7322y: -49.34387
-
-        x: 236.7322y:
-        -49.34387
-
-        Adding Speed - Current Speed: 132
-
-        x: 208y: -54
-
-        x:
-        210.64y: -54
-
-        x: 210.64y: -54
-
-        x: 213.28y: -54
-
-        x:
-        215.92y: -54
-
-        x: 218.56y: -54
-
-        x: 221.2y: -54
-
-        x:
-        223.84y: -54
-
-        x: 226.48y: -54
-
-        x: 226.48y: -54
-
-        x:
-        229.12y: -54
-
-        x: 231.76y: -54
-
-        x: 234.4y: -54
-
-        x:
-        237.04y: -54
-
-        x: 237.04y: -54
-
-        x: 236.8129y: -54
-
-        x:
-        236.7533y: -54
-
-        x: 236.7377y: -54
-
-        x: 236.7357y: -54
-
-        x:
-        236.7357y: -54
-
-        x: 236.7357y: -54
-
-        x: 236.7345y: -54
-
-        x:
-        236.7336y: -54
-
-        x: 236.7331y: -54
-
-        x: 236.7328y: -54
-
-        x:
-        236.7328y: -54
-
-        x: 236.7326y: -54
-
-        x: 236.7324y: -54
-
-        x:
-        236.7324y: -54
-
-        x: 236.7323y: -54
-
-        x: 236.7323y: -54
-
-        x:
-        236.7323y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x:
-        236.7322y: -54
-
-        Adding Speed - Current Speed: 133
-
-        x: 210.66y:
-        -54
-
-        x: 213.32y: -54
-
-        x: 215.98y: -54
-
-        x: 218.64y:
-        -54
-
-        x: 218.64y: -54
-
-        x: 221.3y: -54
-
-        x: 223.96y:
-        -54
-
-        x: 223.96y: -54
-
-        x: 226.62y: -54
-
-        x: 226.62y:
-        -54
-
-        x: 229.28y: -54
-
-        x: 231.94y: -54
-
-        x: 234.6y:
-        -54
-
-        x: 236.8706y: -54
-
-        x: 236.7685y: -54
-
-        x: 236.7417y:
-        -54
-
-        x: 236.7383y: -54
-
-        x: 236.7361y: -54
-
-        x: 236.7347y:
-        -54
-
-        x: 236.7338y: -54
-
-        x: 236.7332y: -54
-
-        x: 236.7326y:
-        -54
-
-        x: 236.7324y: -54
-
-        x: 236.7323y: -54
-
-        x: 236.7323y:
-        -54
-
-        x: 236.7323y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y: -54
-
-        x: 236.7322y:
-        -54
-
-        x: 236.7322y: -54
-
-        Adding Speed - Current Speed: 134
-
-        x:
-        210.68y: -54
-
-        x: 213.36y: -54
-
-        x: 216.04y: -54
-
-        x:
-        218.72y: -54
-
-        x: 221.4y: -54
-
-        x: 221.4y: -54
-
-        x:
-        224.08y: -54
-
-        x: 226.7599y: -54
-
-        x: 229.4399y: -54
-
-        x:
-        232.1199y: -54
-
-        x: 234.7999y: -54
-
-        x: 234.7999y: -54
-
-        x:
-        237.4799y: -54
-
-        x: 237.4799y: -53.49539
-
-        x: 237.4799y: -53.52308
-
-        x:
-        237.4799y: -53.52308
-
-        x: 237.4799y: -53.52498
-
-        x: 237.4799y:
-        -53.52511
-
-        x: 237.4799y: -53.52511
-
-        x: 237.4799y: -53.52512
-
-        x:
-        237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y:
-        -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x:
-        237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y:
-        -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x:
-        237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y:
-        -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x:
-        237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y:
-        -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x:
-        237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y:
-        -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x:
-        237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y:
-        -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x:
-        237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y:
-        -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x:
-        237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y:
-        -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x:
-        237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y:
-        -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x:
-        237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y:
-        -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x:
-        237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y:
-        -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x:
-        237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y:
-        -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x:
-        237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y:
-        -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x:
-        237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y:
-        -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x:
-        237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y:
-        -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x:
-        237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y:
-        -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x:
-        237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y:
-        -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x:
-        237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y:
-        -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x:
-        237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y:
-        -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x:
-        237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y:
-        -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x:
-        237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y:
-        -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x:
-        237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y:
-        -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x:
-        237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y:
-        -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x:
-        237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y:
-        -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x:
-        237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y:
-        -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x:
-        237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y:
-        -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x:
-        237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y:
-        -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x:
-        237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y:
-        -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x:
-        237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y:
-        -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x:
-        237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y:
-        -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x:
-        237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y:
-        -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x:
-        237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y:
-        -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x:
-        237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y:
-        -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x:
-        237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y:
-        -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x:
-        237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y:
-        -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x:
-        237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y:
-        -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x:
-        237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y:
-        -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x:
-        237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y:
-        -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x:
-        237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y:
-        -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x:
-        237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y:
-        -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x:
-        237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y:
-        -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x: 237.4799y: -53.52512
-
-        x:
-        237.4799y: -53.52512
-
-        Asserting False - Final Speed: 134
-
-        x:
-        237.4799y: -53.52512
-
-'
-      stacktrace: 'at Tests.TaeganTest+<Check_Speed_Of_PlayerTW>d__0.MoveNext ()
-        [0x001c7] in /Users/taeganwilliams/Documents/GitHub/CS-383-Project/Existential/Assets/Tests/PlayMode/TaeganTestPlay.cs:52
-
-        at
-        UnityEngine.TestTools.TestEnumerator+<Execute>d__5.MoveNext () [0x0004c]
-        in /Users/taeganwilliams/Documents/GitHub/CS-383-Project/Existential/Library/PackageCache/com.unity.test-framework@1.1.11/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:31
-
-'
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1038
-      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.TaeganTest][suite]
-    - id: 1040
-      uniqueId: PlayMode.dll/Tests/TaeganTest/[PlayMode][Tests.TaeganTest.Fog_Creation_FPS_TestTW]
-      name: Fog_Creation_FPS_TestTW
-      fullName: Tests.TaeganTest.Fog_Creation_FPS_TestTW
-      resultStatus: 0
-      duration: 6.2020454
-      messages: 
-      output: 'x: 47.30858y: -28.34387
-
-        x: 47.30858y: -28.34387
-
-        x:
-        47.30858y: -28.34387
-
-        x: 47.30858y: -28.34387
-
-        x: 47.30858y:
-        -28.34387
-
-        x: 47.30858y: -28.34387
-
-        x: 47.30858y: -28.34387
-
-        x:
-        47.30858y: -28.34387
-
-        x: 47.30858y: -28.34387
-
-        x: 47.30858y:
-        -28.34387
-
-        x: 47.30858y: -28.34387
-
-        x: 47.30858y: -28.34387
-
-        x:
-        47.30858y: -28.34387
-
-        x: 47.30858y: -28.34387
-
-        x: 47.30858y:
-        -28.34387
-
-        x: 47.30858y: -28.34387
-
-        x: 47.30858y: -28.34387
-
-        x:
-        47.30858y: -28.34387
-
-        x: 47.30858y: -28.34387
-
-        x: 47.30858y:
-        -28.34387
-
-        x: 47.30858y: -28.34387
-
-        x: 47.30858y: -28.34387
-
-        x:
-        47.30858y: -28.34387
-
-        x: 47.30858y: -28.34387
-
-        Frames: 24.3102960610206
-
-        x:
-        47.30858y: -28.34387
-
-        x: 47.30858y: -28.34387
-
-        x: 47.30858y:
-        -28.34387
-
-        x: 47.30858y: -28.34387
-
-        x: 47.30858y: -28.34387
-
-        Frames:
-        34.0700902690544
-
-        x: 47.30858y: -28.34387
-
-        x: 47.30858y:
-        -28.34387
-
-        x: 47.30858y: -28.34387
-
-        x: 47.30858y: -28.34387
-
-        x:
-        47.30858y: -28.34387
-
-        Frames: 38.279109434506
-
-        x: 47.30858y:
-        -28.34387
-
-        x: 47.30858y: -28.34387
-
-        x: 47.30858y: -28.34387
-
-        x:
-        47.30858y: -28.34387
-
-        x: 47.30858y: -28.34387
-
-        x: 47.30858y:
-        -28.34387
-
-        x: 47.30858y: -28.34387
-
-        Frames: 37.8742222861645
-
-        x:
-        47.30858y: -28.34387
-
-        x: 47.30858y: -28.34387
-
-        x: 47.30858y:
-        -28.34387
-
-        x: 47.30858y: -28.34387
-
-        x: 47.30858y: -28.34387
-
-        Frames:
-        33.4155750138554
-
-        x: 47.30858y: -28.34387
-
-        x: 47.30858y:
-        -28.34387
-
-        x: 47.30858y: -28.34387
-
-        x: 47.30858y: -28.34387
-
-        x:
-        47.30858y: -28.34387
-
-        Frames: 34.6544673352481
-
-        x: 47.30858y:
-        -28.34387
-
-        x: 47.30858y: -28.34387
-
-        x: 47.30858y: -28.34387
-
-        x:
-        47.30858y: -28.34387
-
-        x: 47.30858y: -28.34387
-
-        Frames: 32.1242593164341
-
-        x:
-        47.30858y: -28.34387
-
-        x: 47.30858y: -28.34387
-
-        x: 47.30858y:
-        -28.34387
-
-        x: 47.30858y: -28.34387
-
-        Frames: 27.1004987566524
-
-        x:
-        47.30858y: -28.34387
-
-        x: 47.30858y: -28.34387
-
-        x: 47.30858y:
-        -28.34387
-
-        x: 47.30858y: -28.34387
-
-        x: 47.30858y: -28.34387
-
-        Frames:
-        23.6685482201905
-
-        x: 47.30858y: -28.34387
-
-        x: 47.30858y:
-        -28.34387
-
-        x: 47.30858y: -28.34387
-
-        x: 47.30858y: -28.34387
-
-        Frames:
-        34.2663813040397
-
-        x: 47.30858y: -28.34387
-
-        x: 47.30858y:
-        -28.34387
-
-        x: 47.30858y: -28.34387
-
-        x: 47.30858y: -28.34387
-
-        Frames:
-        33.1578388187576
-
-        x: 47.30858y: -28.34387
-
-        x: 47.30858y:
-        -28.34387
-
-        x: 47.30858y: -28.34387
-
-        x: 47.30858y: -28.34387
-
-        Frames:
-        30.9624258078226
-
-        x: 47.30858y: -28.34387
-
-        x: 47.30858y:
-        -28.34387
-
-        x: 47.30858y: -28.34387
-
-        x: 47.30858y: -28.34387
-
-        x:
-        47.30858y: -28.34387
-
-        Frames: 41.6589857076275
-
-        x: 47.30858y:
-        -28.34387
-
-        x: 47.30858y: -28.34387
-
-        x: 47.30858y: -28.34387
-
-        x:
-        47.30858y: -28.34387
-
-        Frames: 31.442338532293
-
-        x: 47.30858y:
-        -28.34387
-
-        x: 47.30858y: -28.34387
-
-        x: 47.30858y: -28.34387
-
-        x:
-        47.30858y: -28.34387
-
-        Frames: 26.79165098663
-
-        x: 47.30858y:
-        -28.34387
-
-        x: 47.30858y: -28.34387
-
-        x: 47.30858y: -28.34387
-
-        x:
-        47.30858y: -28.34387
-
-        Frames: 31.4175778229868
-
-        x: 47.30858y:
-        -28.34387
-
-        x: 47.30858y: -28.34387
-
-        x: 47.30858y: -28.34387
-
-        Frames:
-        32.8598339540078
-
-        x: 47.30858y: -28.34387
-
-        x: 47.30858y:
-        -28.34387
-
-        x: 47.30858y: -28.34387
-
-        Frames: 31.5033148205656
-
-        x:
-        47.30858y: -28.34387
-
-        x: 47.30858y: -28.34387
-
-        x: 47.30858y:
-        -28.34387
-
-        x: 47.30858y: -28.34387
-
-        Frames: 26.1213670714053
-
-        x:
-        47.30858y: -28.34387
-
-        x: 47.30858y: -28.34387
-
-        x: 47.30858y:
-        -28.34387
-
-        Frames: 23.5849214611081
-
-        x: 47.30858y: -28.34387
-
-        x:
-        47.30858y: -28.34387
-
-        x: 47.30858y: -28.34387
-
-        Frames: 24.4555763151196
-
-        x:
-        47.30858y: -28.34387
-
-        x: 47.30858y: -28.34387
-
-        x: 47.30858y:
-        -28.34387
-
-        Frames: 23.1862118380429
-
-        x: 47.30858y: -28.34387
-
-        x:
-        47.30858y: -28.34387
-
-        x: 47.30858y: -28.34387
-
-        Frames: 17.0924518614363
-
-        x:
-        47.30858y: -28.34387
-
-        x: 47.30858y: -28.34387
-
-        x: 47.30858y:
-        -28.34387
-
-        Frames: 20.84547958796
-
-        x: 47.30858y: -28.34387
-
-        x:
-        47.30858y: -28.34387
-
-        x: 47.30858y: -28.34387
-
-        Frames: 15.8332139995187
-
-        x:
-        47.30858y: -28.34387
-
-        x: 47.30858y: -28.34387
-
-        x: 47.30858y:
-        -28.34387
-
-        Frames: 14.0542270528374
-
-        The creation of Fog
-        objects per seccond is now greater than the FPS!
-
-        Was able to create
-        27 fog objects before FPS < 15 in 1.04749583639205 seconds
-
-        x: 47.30858y:
-        -28.34387
-
-'
-      stacktrace: 'at Tests.TaeganTest+<Fog_Creation_FPS_TestTW>d__4.MoveNext ()
-        [0x001ea] in /Users/taeganwilliams/Documents/GitHub/CS-383-Project/Existential/Assets/Tests/PlayMode/TaeganTestPlay.cs:133
-
-        at
-        UnityEngine.TestTools.TestEnumerator+<Execute>d__5.MoveNext () [0x0004c]
-        in /Users/taeganwilliams/Documents/GitHub/CS-383-Project/Existential/Library/PackageCache/com.unity.test-framework@1.1.11/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:31
-
-'
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1038
-      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.TaeganTest][suite]
-    - id: 1041
-      uniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ToriTests][suite]
-      name: ToriTests
-      fullName: Tests.ToriTests
-      resultStatus: 1
-      duration: 2.1050787
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1048
-      parentUniqueId: PlayMode.dll/[Tests][suite]
-    - id: 1043
-      uniqueId: PlayMode.dll/Tests/ToriTests/[PlayMode][Tests.ToriTests.CheckHudExists]
-      name: CheckHudExists
-      fullName: Tests.ToriTests.CheckHudExists
-      resultStatus: 1
-      duration: 0.1252468
-      messages: 
-      output: 'The referenced script (Unknown) on this Behaviour is missing!
-
-        The
-        referenced script on this Behaviour (Game Object ''FadePanel'') is missing!
-
-        The
-        referenced script (Unknown) on this Behaviour is missing!
-
-        The referenced
-        script on this Behaviour (Game Object ''FadePanel'') is missing!
-
-        The
-        referenced script on this Behaviour (Game Object ''FadePanel'') is missing!
-
-        You
-        are trying to create a MonoBehaviour using the ''new'' keyword.  This is
-        not allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively,
-        your script can inherit from ScriptableObject or no base class at all
-
-'
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1041
-      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ToriTests][suite]
-    - id: 1044
-      uniqueId: PlayMode.dll/Tests/ToriTests/[PlayMode][Tests.ToriTests.CheckInvExists]
-      name: CheckInvExists
-      fullName: Tests.ToriTests.CheckInvExists
-      resultStatus: 1
-      duration: 0.0191992
-      messages: 
-      output: 'The referenced script (Unknown) on this Behaviour is missing!
-
-        The
-        referenced script on this Behaviour (Game Object ''FadePanel'') is missing!
-
-        The
-        referenced script on this Behaviour (Game Object ''FadePanel'') is missing!
-
-'
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1041
-      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ToriTests][suite]
-    - id: 1025
-      uniqueId: PlayMode.dll/Tests/ToriTests/[PlayMode][Tests.ToriTests.CheckInvScriptExists]
-      name: CheckInvScriptExists
-      fullName: Tests.ToriTests.CheckInvScriptExists
-      resultStatus: 1
-      duration: 0.0020862
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1020
-      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ToriTests][suite]
-    - id: 1024
-      uniqueId: PlayMode.dll/Tests/ToriTests/[PlayMode][Tests.ToriTests.CheckSlotsExists_Bounds]
-      name: CheckSlotsExists_Bounds
-      fullName: Tests.ToriTests.CheckSlotsExists_Bounds
-      resultStatus: 1
-      duration: 0.1154104
-      messages: 
-      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
-        This is not allowed.  MonoBehaviours can only be added using AddComponent().
-        Alternatively, your script can inherit from ScriptableObject or no base class
-        at all
-
-        Expected Slots: 8 Actual Slots: 8
-
-'
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1020
-      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ToriTests][suite]
-    - id: 1027
-      uniqueId: PlayMode.dll/Tests/ToriTests/[PlayMode][Tests.ToriTests.TestMaxPickUp_Bounds]
-      name: TestMaxPickUp_Bounds
-      fullName: Tests.ToriTests.TestMaxPickUp_Bounds
-      resultStatus: 1
-      duration: 0.0028904
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1020
-      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ToriTests][suite]
-    - id: 1026
-      uniqueId: PlayMode.dll/Tests/ToriTests/[PlayMode][Tests.ToriTests.ToriTestsInventoryOverload_Stress]
-      name: ToriTestsInventoryOverload_Stress
-      fullName: Tests.ToriTests.ToriTestsInventoryOverload_Stress
-      resultStatus: 1
-      duration: 2.0778189
-      messages: 
-      output: 'frames per second: 142.0818
-
-        frames per second: 174.0917
-
-        frames
-        per second: 174.8496
-
-        frames per second: 174.2009
-
-        frames
-        per second: 171.6178
-
-        frames per second: 169.4283
-
-        frames
-        per second: 167.1849
-
-        frames per second: 166.7195
-
-        frames
-        per second: 166.8279
-
-        frames per second: 152.3276
-
-        100 items
-        were spawned without impacting frame rate significantly
-
-'
-      stacktrace: 'at Tests.ToriTests+<ToriTestsInventoryOverload_Stress>d__5.MoveNext
-        () [0x00153] in C:\Users\victo\cs383\V3\CS-383-Project\Existential\Assets\Tests\PlayMode\ToriTests.cs:137
-
-        at
-        UnityEngine.TestTools.TestEnumerator+<Execute>d__5.MoveNext () [0x0004c]
-        in C:\Users\victo\cs383\V3\CS-383-Project\Existential\Library\PackageCache\com.unity.test-framework@1.1.11\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:31
-
-'
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1020
-      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ToriTests][suite]
-    - id: 1042
-      uniqueId: PlayMode.dll/Tests/ToriTests/[PlayMode][Tests.ToriTests.ToriTestsSimplePasses]
-      name: ToriTestsSimplePasses
-      fullName: Tests.ToriTests.ToriTestsSimplePasses
-      resultStatus: 1
-      duration: 0.0164025
-      messages: 
-      output: 'The referenced script (Unknown) on this Behaviour is missing!
-
-        The
-        referenced script on this Behaviour (Game Object ''FadePanel'') is missing!
-
-        The
-        referenced script on this Behaviour (Game Object ''FadePanel'') is missing!
-
-'
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1041
-      parentUniqueId: PlayMode.dll/Tests/[PlayMode][Tests.ToriTests][suite]
-    m_ResultText: ToriTests (2.105s)
-    m_ResultStacktrace: 
-    m_TestListState:
-      scrollPos: {x: 0, y: 25}
-      m_SelectedIDs: a98bee76
-      m_LastClickedID: 1995344809
-      m_ExpandedIDs: 33fcf89c095273df7c95c7e36521a7fa411e8cfc3a45162f45d21e3fc240ad6168e20b65a98bee76ffffff7f
-      m_RenameOverlay:
-        m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
-        m_EditFieldRect:
-          serializedVersion: 2
-          x: 0
-          y: 0
-          width: 0
-          height: 0
-        m_UserData: 0
-        m_IsWaitingForDelay: 0
-        m_IsRenaming: 0
-        m_OriginalEventType: 11
-        m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
-      m_SearchString: 
-    m_TestRunnerUIFilter:
-      PassedHidden: 0
-      FailedHidden: 0
-      NotRunHidden: 0
-      m_SearchString: 
-      selectedCategoryMask: 0
-      availableCategories:
-      - Uncategorized
-  m_EditModeTestListGUI:
-    m_Window: {fileID: 22}
-    newResultList:
-    - id: 1000
-      uniqueId: '[Existential][suite]'
-      name: Existential
-      fullName: Existential
-      resultStatus: 1
-      duration: 4.6290326
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 
-      parentUniqueId: 
-    - id: 1003
-      uniqueId: '[/Users/taeganwilliams/Documents/GitHub/CS-383-Project/Existential/Library/ScriptAssemblies/Tests.dll][suite]'
-      name: Tests.dll
-      fullName: /Users/taeganwilliams/Documents/GitHub/CS-383-Project/Existential/Library/ScriptAssemblies/Tests.dll
-      resultStatus: 1
-      duration: 4.517211
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1000
-      parentUniqueId: '[Existential][suite]'
-    - id: 1004
-      uniqueId: Tests.dll/[Tests][suite]
-      name: Tests
-      fullName: Tests
-      resultStatus: 1
-      duration: 4.5023804
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1003
-      parentUniqueId: '[/Users/taeganwilliams/Documents/GitHub/CS-383-Project/Existential/Library/ScriptAssemblies/Tests.dll][suite]'
-    - id: 1001
-      uniqueId: Tests.dll/Tests/[Tests][Tests.TaeganTestTW][suite]
-      name: TaeganTestTW
-      fullName: Tests.TaeganTestTW
-      resultStatus: 1
-      duration: 4.4934406
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1004
-      parentUniqueId: Tests.dll/[Tests][suite]
-    - id: 1002
-      uniqueId: Tests.dll/Tests/TaeganTestTW/[Tests][Tests.TaeganTestTW.Check_For_Ground_Tag]
-      name: Check_For_Ground_Tag
-      fullName: Tests.TaeganTestTW.Check_For_Ground_Tag
-      resultStatus: 1
-      duration: 4.461405
-      messages: 
-      output: 'No Ground tag set in scene: ForestDesignTesting
-
-        No Ground
-        tag set in scene: PauseMenu
-
-        No Ground tag set in scene: SydneyForestScene
-
-        No
-        Ground tag set in scene: SydneyNightForestScene
-
-        No Ground tag set
-        in scene: SydneyTestingScene
-
-        No Ground tag set in scene: Inventory
-        Menu
-
-        This object: MemorialGrid in scene: QueensMemorial has the
-        tag: rock
-
-        This object: ToriSceneGrid in scene: ToriScene has the
-        tag: wood
-
-        This object: Grid in scene: SamScene has the tag: rock
-
-        This
-        object: Ground in scene: Isabel Level has the tag: grass
-
-        This object:
-        levelTilemap in scene: Isabel Level has the tag: graveyard
-
-        This
-        object: Ground0 in scene: TaeganScene has the tag: rock
-
-        This object:
-        Ground in scene: BeginScene has the tag: grass
-
-'
-      stacktrace: 'at Tests.TaeganTestTW.Check_For_Ground_Tag () [0x001a0] in /Users/taeganwilliams/Documents/GitHub/CS-383-Project/Existential/Assets/Tests/EditMode/TaeganTestEdit.cs:49
-
-'
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: Tests.dll/Tests/[Tests][Tests.TaeganTestTW][suite]
-    m_ResultText: 'Check_For_Ground_Tag (4.461s)
-
-      ---
-
-      at Tests.TaeganTestTW.Check_For_Ground_Tag
-      () [0x001a0] in /Users/taeganwilliams/Documents/GitHub/CS-383-Project/Existential/Assets/Tests/EditMode/TaeganTestEdit.cs:49
-
-      ---
-
-      No
-      Ground tag set in scene: ForestDesignTesting
-
-      No Ground tag set in scene:
-      PauseMenu
-
-      No Ground tag set in scene: SydneyForestScene
-
-      No Ground
-      tag set in scene: SydneyNightForestScene
-
-      No Ground tag set in scene:
-      SydneyTestingScene
-
-      No Ground tag set in scene: Inventory Menu
-
-      This
-      object: MemorialGrid in scene: QueensMemorial has the tag: rock
-
-      This
-      object: ToriSceneGrid in scene: ToriScene has the tag: wood
-
-      This object:
-      Grid in scene: SamScene has the tag: rock
-
-      This object: Ground in scene:
-      Isabel Level has the tag: grass
-
-      This object: levelTilemap in scene:
-      Isabel Level has the tag: graveyard
-
-      This object: Ground0 in scene: TaeganScene
-      has the tag: rock
-
-      This object: Ground in scene: BeginScene has the tag:
-      grass'
-    m_ResultStacktrace: 'at Tests.TaeganTestTW.Check_For_Ground_Tag () [0x001a0]
-      in /Users/taeganwilliams/Documents/GitHub/CS-383-Project/Existential/Assets/Tests/EditMode/TaeganTestEdit.cs:49
-
-'
-    m_TestListState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 22f1c6ca
-      m_LastClickedID: -892931806
-      m_ExpandedIDs: 7c95c7e360aa9f0a8359db414546a972ffffff7f
-      m_RenameOverlay:
-        m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
-        m_EditFieldRect:
-          serializedVersion: 2
-          x: 0
-          y: 0
-          width: 0
-          height: 0
-        m_UserData: 0
-        m_IsWaitingForDelay: 0
-        m_IsRenaming: 0
-        m_OriginalEventType: 11
-        m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
-      m_SearchString: 
-    m_TestRunnerUIFilter:
-      PassedHidden: 0
-      FailedHidden: 0
-      NotRunHidden: 0
-      m_SearchString: 
-      selectedCategoryMask: 0
-      availableCategories:
-      - Uncategorized
