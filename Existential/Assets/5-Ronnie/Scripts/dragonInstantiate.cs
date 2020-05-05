@@ -25,7 +25,7 @@ public class dragonInstantiate : MonoBehaviour
     void Start()
     {
         Dragon1 = Instantiate(Dragon, new Vector2(5.5f, 2), transform.rotation);
-        //Dragon2 = Instantiate(Dragon, new Vector2(4.5f, -3), transform.rotation); //check for singleton implementation
+        Dragon2 = Instantiate(Dragon, new Vector2(4.5f, -3), transform.rotation); //check for singleton implementation
     }
 
     // Update is called once per frame

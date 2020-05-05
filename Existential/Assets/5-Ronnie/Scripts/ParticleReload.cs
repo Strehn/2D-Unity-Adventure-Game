@@ -1,10 +1,16 @@
 ﻿/*********************
- * Ronnie Keating - Snsow Particle
+ * Ronnie Keating - Snow Particle
  * This is the script that goes on to the particle prefab.
  * It relocates and creates the speed of the particle based on the camera.
 
  * Documentation for Particle Prefab
  * A simple, yet very nice looking particle falling effect for any of your game's needs.
+ *
+ * Included with:
+ *  -Particle Prefab (generic white square that has a rigidbody and script)
+ *  -Particle.cs (place this on something that boots with a new scene)
+ *  -ParticleReload.cs (attached to the particle prefab)
+ *  -RonnieDynamic.cs (family of classes to randomize spawn times and colors)
  *
  * This prefab will come loaded with:
  * -A simple particle prefab
@@ -36,14 +42,14 @@ using UnityEngine;
 
 public class ParticleReload : MonoBehaviour {
     private GameObject obj; //this is the actual snow/confetti prefab
-    private Rigidbody2D rigidbody; //to change the speed of the particle
+    private Rigidbody2D rb; //to change the speed of the particle
     public float speed; //actual value of speed, set by user in the editor
     // Start is called before the first frame update
     void Start() {
         obj = this.gameObject; //initialize what object we are talking about
         //since it is applied to a particle prefab, this object is it
-        rigidbody = GetComponent<Rigidbody2D>(); //get rigidbody component to apply velocity
-        rigidbody.velocity = new Vector2(0, speed); //set speed
+        rb = GetComponent<Rigidbody2D>(); //get rigidbody component to apply velocity
+        rb.velocity = new Vector2(0, speed); //set speed
     }
 
     // Update is called once per frame

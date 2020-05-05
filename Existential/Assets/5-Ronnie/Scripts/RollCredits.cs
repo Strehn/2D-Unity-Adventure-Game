@@ -54,7 +54,7 @@ public class RollCredits : MonoBehaviour {
         //Timer before returning to menu
         if(time < Time.time && returnToMenu == true) {
             Debug.Log("End of game");
-            SceneManager.LoadScene("MainMenu");
+            SceneManager.LoadScene("Credits");
         }
     }
 

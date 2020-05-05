@@ -2,6 +2,9 @@
  * Ronnie Keating - Static and Dynamic binding
  *
  * There are two classes: snow and the child of snow confetti
+ *
+ * Dynamic binding - Method overriding
+ * Static binding - linking an object during compile time
  *********************/
 
 using System.Collections;
@@ -13,8 +16,9 @@ public class Snow : MonoBehaviour {
     //all child classes will contain isSpawn since it is virtual
     //function creates random value between 1 and spawnspeed, 
     //if value is under 2f, and we are not out of objects (based on iterators isDone),
-    //spawn the object
-    virtual public bool isSpawn(int numOfObjects, float spawnSpeed) {
+    //spawn the object 
+    //public static bool isSpawn(int numOfObjects, float spawnSpeed) { //in the case I need a static type here (change Particles.cs line 42 to comment line 41)
+    public virtual bool isSpawn(int numOfObjects, float spawnSpeed) {
         float poss;
         poss = Random.Range(1f, spawnSpeed);
         if(poss <= 2f && !RonnieIterate.isDone(numOfObjects)) {

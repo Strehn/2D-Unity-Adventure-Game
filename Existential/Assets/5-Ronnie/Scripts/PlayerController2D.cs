@@ -5,7 +5,7 @@
  *
  * This is my example of reuse.
  * I found the coding instructions on this
- * video: https://www.youtube.com/watch?v=44djqUTg2S
+ * video: https://youtu.be/44djqUTg2Sg
  * The legal implications I believe are nonexistent
  * since the reuse came from a tutorial video
  * Tilemap reuse: https://rpg.hamsterrepublic.com/ohrrpgce/Free_Tilemaps
