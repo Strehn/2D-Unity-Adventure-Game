@@ -40,7 +40,7 @@ public class SydneyLevelManager : MonoBehaviour
             position = transform.position;
             if (position.x >= 13 && position.y <= 6.9)
             {
-                SceneManager.LoadScene(5);
+                SceneManager.LoadScene(4);  // changed by Isabel
             }
         }
 
