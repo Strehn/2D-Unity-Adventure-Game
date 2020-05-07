@@ -28,7 +28,7 @@ public class SydneyLevelManager : MonoBehaviour
         scene = SceneManager.GetActiveScene();
         if (scene.buildIndex == 3)
         {
-            if ((position.x <= 19) && (position.y >= 16.5) && (inventoryList == 4))
+            if ((position.x <= 19) && (position.y >= 16.4) && (inventoryList == 4))
             {
                 SceneManager.LoadScene(8);
             }
