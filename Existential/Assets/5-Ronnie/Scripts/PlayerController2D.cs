@@ -26,6 +26,9 @@ public class PlayerController2D : MonoBehaviour {
     //the player is touching the ground
     [SerializeField] Transform groundCheck;
 
+    //Added By Taegan
+    public Animator animator;
+
     // Start is called before the first frame update
     void Start() {
         rb = GetComponent<Rigidbody2D>(); //initialize rigidbody
@@ -34,6 +37,24 @@ public class PlayerController2D : MonoBehaviour {
 
     //Fixed update gets called every frame, more than once per frame, or zero times per frame. Depends
     private void FixedUpdate() {
+
+
+        //Added By Taegan
+        float horizontalMove = Input.GetAxisRaw("Horizontal") * speed;
+        float verticalMove = Input.GetAxisRaw("Vertical") * speed;
+        animator.SetFloat("horizontal", horizontalMove);
+        if (horizontalMove > 0)
+        {
+            animator.SetFloat("speed", Mathf.Abs(horizontalMove));
+        }
+        else
+        {
+            animator.SetFloat("speed", Mathf.Abs(verticalMove));
+        }
+
+
+        animator.SetFloat("vertical", verticalMove);
+
         //This is the check to see if the groundCheck object is touching the ground.
         //Had to give boundaries in the grid a layer name of "Ground"
         if (Physics2D.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("Ground"))) {

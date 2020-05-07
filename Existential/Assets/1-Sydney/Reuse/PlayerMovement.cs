@@ -7,6 +7,8 @@ using System.Collections;
 
 */
 public class PlayerMovement : MonoBehaviour{
+     //Added By Taegan
+    public Animator animator;
 	#region Member Variables
 	/// <summary>
 	/// Player movement speed
@@ -16,7 +18,7 @@ public class PlayerMovement : MonoBehaviour{
 	/// <summary>
 	/// Animation state machine local reference
 	/// </summary>
-	private Animator animator;
+	//private Animator animator;
 
 	/// <summary>
 	/// The last position of the player in previous frame
@@ -46,8 +48,23 @@ public class PlayerMovement : MonoBehaviour{
 	
 	// Update is called once per frame
 	void Update () {
+
+
+		//Added By Taegan
+		float horizontalMove = Input.GetAxisRaw("Horizontal") * movementSpeed;
+		float verticalMove = Input.GetAxisRaw("Vertical") * movementSpeed;
+		animator.SetFloat("horizontal", horizontalMove);
+		if (horizontalMove > 0)
+		{
+			animator.SetFloat("speed", Mathf.Abs(horizontalMove));
+		}
+		else
+		{
+			animator.SetFloat("speed", Mathf.Abs(verticalMove));
+		}
+
 		// check for player exiting the game
-		if(Input.GetKeyDown(KeyCode.Escape))
+		if (Input.GetKeyDown(KeyCode.Escape))
 		{
 			Application.Quit();
 		}

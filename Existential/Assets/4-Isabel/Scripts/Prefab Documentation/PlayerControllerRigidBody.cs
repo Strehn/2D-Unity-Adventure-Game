@@ -43,15 +43,38 @@ public class PlayerControllerRigidBody : MonoBehaviour {
 
     public bool canMove; // Sam - Boolean to dictate whether player can move the main character or not
 
+
+
+
+    //Added By Taegan
+    public Animator animator;
+
+
     void Start() {
 
         rb = GetComponent<Rigidbody2D>();  // Get the Rigidbody2D from the character components 
 
-        canMove = true; // Sam - Set so that player can move to start
+        canMove = true; // Sam - Set so that player can move to start 
     }
 
     // Update is called once per frame
     void Update(){
+
+        //Added By Taegan
+        float horizontalMove = Input.GetAxisRaw("Horizontal") * speed;
+        float verticalMove = Input.GetAxisRaw("Vertical") * speed;
+        animator.SetFloat("horizontal",horizontalMove);
+        if (horizontalMove > 0)
+        {
+            animator.SetFloat("speed", Mathf.Abs(horizontalMove));
+        }
+        else
+        {
+            animator.SetFloat("speed", Mathf.Abs(verticalMove));
+        }
+        
+        
+        animator.SetFloat("vertical", verticalMove);
 
         // Sam - if, in another script, canMove has been set to false, then player may not move (Used in DialogueManager script to keep player from moving while tlaking with an NPC)
         if (!canMove) {
